@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-03-17T23:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-03-18T23:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>yfxjtB7V+wnBlghxPGFi7nr40pS9i3cCALsjs9mxFAw=</ns2:DigestValue>
+      <ns2:DigestValue>7UM+h6rpPpLcEznyJ3Gwtxczl8h5DTDhIvjYo3nZV78=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-otoqx6K6ulCB7GAOJIW3DtYonUzzZPx60YK5rxGfVUC+XNILbMTfZbDilAaTdB8KRSvEkYr8PL9n
-0Z9NZWa+fYOKXiCCxHjB2TWKOBZLRY10veUflOIpx1a6H4Rt1ZIPEZKwjgynZ/CfI1uTRpcZ0iVP
-TIFqsPbLfEPU6dw3SBJ+pl96bYW3Hq180K8bv+CJYFgOUaIL/Wu0Nnn+mdVp67Rx2xQmXWWIywYt
-nFO4yRsEN5kWESwZ3shWqbKP9QOiMFMQEo91v1aLdCxBl5jiW2OH1pDZ64lgtod2EB4jTcpUnI8u
-qw879qcmf5zD8qAPEaDjD47jSTUB+d4kIm/g1A==
+47xTEbODka5MXwvGSWPNOL8MhJzWKDnzlF9KxK5pGXFrY/tSexilpCq+6F3laOd9BvCj1yjNjpSD
++gHrvEILOqeGSbNnPsBxxIMKqoPTFH5yE4kGn6kQ5CulSVn8/ncAOLhGbLhWNv6l6UcqScQAMkjf
+10XWUo4IDdzk9nzBFJEI+V47VSiwmlQnwb4syD1yD0voGTSoIvlyWw96kXdVAOvlZlYIZ+AE8Qiy
+BYM6afF0iYSp+lFRiJ5AYhJyv2A0FHMrSoL1wKduncXRkTTVab5fimqzqqsi2c1f6IMw5qwM99NJ
+YwS0xEecQjZVxrd+4lUpZxg0rz0Z3dw/JEFW3w==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -156,9 +156,9 @@ xDF332t8sZ0yvjOOmIVyk2NtktyqGSqA7pRQRUZvzMHw15kyMzEM</ns2:X509Certificate>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://aleph.svkhk.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://aleph.svkhk.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://aleph.svkhk.cz:8443/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://aleph.svkhk.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://aleph.svkhk.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://aleph.svkhk.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -481,9 +481,9 @@ EbaMoBlj7UOn8jZmV80=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://aleph.knihovna-pardubice.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://aleph.knihovna-pardubice.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://aleph.knihovna-pardubice.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://aleph.knihovna-pardubice.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://aleph.knihovna-pardubice.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -815,10 +815,10 @@ JOUuqNMefH+XEyPJWcsh5e3VSAdUTi/dkV7Q</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.cuni.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.cuni.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.cuni.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.cuni.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.cuni.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -1420,9 +1420,9 @@ V7ARTg==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.irsm.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.irsm.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://eduid.irsm.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eduid.irsm.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.irsm.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -1604,8 +1604,8 @@ LUUNkw==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.jamu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.jamu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://eduid.jamu.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.jamu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://eduid.jamu.cz/idp/profile/Shibboleth/SSO" />
@@ -1809,10 +1809,10 @@ Kdi9CEjd3g==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.prigo.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.prigo.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://eduid.prigo.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://eduid.prigo.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.prigo.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -2024,9 +2024,9 @@ ISgwSHEfK3zgCJn0s4ip8KcPAmTTP6LaobpDUc8VahCIByQ=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.ujak.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.ujak.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://eduid.ujak.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eduid.ujak.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.ujak.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -2470,8 +2470,8 @@ DkjTcA==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.vspj.cz/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.vspj.cz/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://eduid.vspj.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eduid.vspj.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.vspj.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -2915,9 +2915,9 @@ dEJo3NfnYEq1mm7NJTrrweoGWle3If4szwZarBlxhkd2iItON4XVPqlxosEk8iWQ
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://gryf.mlp.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://gryf.mlp.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://gryf.mlp.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gryf.mlp.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://gryf.mlp.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -3303,9 +3303,9 @@ WhPVPIpOC+JHh4fEXlXJ</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://id.nm.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://id.nm.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://id.nm.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.nm.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://id.nm.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -3492,9 +3492,9 @@ IMkPzQ==</ns2:X509Certificate>
           </ns2:X509Data>
         </ns2:KeyInfo>
       </ns0:KeyDescriptor>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://id.vse.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.vse.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://id.vse.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -3620,10 +3620,10 @@ cLDQpWR2pyhtxC/jL0f5CuQPpvI9Tzw=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp-cro.slu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp-cro.slu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp-cro.slu.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-cro.slu.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp-cro.slu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -3805,9 +3805,9 @@ fdhXgEofT/meV4ZRI9oyjEfD8TejcLfJFZX6j+oOFK6GCYodPdWtA51gG7ii7mLL
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.amu.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.amu.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.amu.cz/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.amu.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.amu.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.amu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -3994,9 +3994,9 @@ mTSk1oHgaFixkX8fIPMNfya3uXXgw6RBBKHLQKQnDJxQbWadlUyQCcXsSg==</ns2:X509Certificat
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.arub.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.arub.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.arub.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.arub.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.arub.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -4187,9 +4187,9 @@ vHD/qphGgiRHAh1iwq2vSM5yrliddJCMg43+EnY2Chv90Wai89O2HFvSbg==</ns2:X509Certificat
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.arup.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.arup.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.arup.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.arup.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.arup.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -4380,9 +4380,9 @@ r3BRmmFRmxg+R7PZGxGHttd2Ts+29J48SgDnfWZ24JQNS572gNy00J9zZep3hWkd
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.bc.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.bc.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.bc.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.bc.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.bc.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -4573,9 +4573,9 @@ erIz6HhtxYQUR4MKqhPoMaTfrNsPg5e7ZCjEp1FVE3TDFMQ=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.cs.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.cs.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.cs.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.cs.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.cs.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -4781,9 +4781,9 @@ fcqtGFEEQlnnGq7Wpq0WlcE/3g==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.czechglobe.cz/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.czechglobe.cz/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.czechglobe.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.czechglobe.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.czechglobe.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -4899,9 +4899,9 @@ M+32+GY8rEvwT7rQiDTnAftdfZcmNZLBj0VvTAgpNap0oJc8</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.eu.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.eu.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.eu.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.eu.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.eu.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -5092,9 +5092,9 @@ CgvW5//vdCdli9qvioyiHXRHUNRx4LGDMEQNDwMcoXdyhPqEIwdTD4BxBtcx+yDh
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.flu.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.flu.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.flu.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.flu.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.flu.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -5303,9 +5303,9 @@ GoqLa3uQzPlq3UK8nlkpTnZitotpY2ArtPz+f9DRIv05Z2YF5RfvjEyJSIpDr8No
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.gli.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.gli.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.gli.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.gli.cas.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.gli.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -5514,9 +5514,9 @@ sJjrL4Vuoh7bCXVgDfpIQJsgZm5vedeCDGwmAcbIJPKWMxdaDMe4Sw==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.hiu.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.hiu.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.hiu.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.hiu.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.hiu.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -5707,9 +5707,9 @@ NOzxnRL7kbozeox6Fz2PtQkPrePHwHCcDMdtpfY9EzUjNfhgExPnVH9vqL0=</ns2:X509Certificat
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.iapg.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.iapg.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.iapg.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.iapg.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.iapg.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -5900,9 +5900,9 @@ WPNnYFzG47dGMJycoWMA8PbLQUq+enBdXUnYkg/rO1VF55vuui2XMsPO7g==</ns2:X509Certificat
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ibot.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ibot.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ibot.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ibot.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ibot.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -6093,9 +6093,9 @@ uvYmacltULCXW0C8CJP/7noCbd379V0ZsVAsXvuO1XJZFR8w1MwNGfIp3bnx2JKd
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ibp.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ibp.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ibp.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ibp.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ibp.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -6304,9 +6304,9 @@ YG7NCWIZ3UaOXGs=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.icpf.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.icpf.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.icpf.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.icpf.cas.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.icpf.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -6515,9 +6515,9 @@ fJt4zNYTWwMgxeTPxJ5cHhrg4a4A5T7+E1cyY2AMZ+6CfFf2</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ig.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ig.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ig.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ig.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ig.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -6708,9 +6708,9 @@ N7vEbmwQg5L95rRgP1Sdygm8FQOhrI7F+NH6EM6NWsCCIU5LAgow5g==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.iic.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.iic.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.iic.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.iic.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.iic.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -6919,9 +6919,9 @@ pSXsKqHo8eykkG8=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ilaw.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ilaw.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ilaw.cas.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ilaw.cas.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ilaw.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -7130,9 +7130,9 @@ TFFQyAyQRQ8Du8Ml7hCZdVWmSqOTanTQakch3/mRvyALnKkzJAvOLA==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ipp.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ipp.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ipp.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ipp.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ipp.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -7326,9 +7326,9 @@ KXYoktKc7Rg=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.isibrno.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.isibrno.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.isibrno.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.isibrno.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.isibrno.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -7522,9 +7522,9 @@ FNxNpfIz9AgLB5P8BHlFGmHiF29sDbWkzpINTaFLh9LlW45tsJ8AsD9iVjc=</ns2:X509Certificat
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.itam.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.itam.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.itam.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.itam.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.itam.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -7996,9 +7996,9 @@ F11YVpxSs4xF2g3FevRd2pBLky9g8bZjTvTRVV5NYkdkr8EtaR8YXvisYG/9xsBq
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.math.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.math.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.math.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.math.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.math.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -8172,8 +8172,8 @@ eBFJcQNHXyofYwsQlK2LyCnlOlpQUtbXe5/BcXKA9pp+RnjZAB9dVpY/KJ6hy6BQ
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.mendelu.cz:443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.mendelu.cz:443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.mendelu.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.mendelu.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.mendelu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -8428,8 +8428,8 @@ wYjWCrbCbOnu5aXqxBTNgpZEzhQQOU0Fr8xyrHcDFQsOHhY=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.npu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.npu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.npu.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.npu.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.npu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -8748,9 +8748,9 @@ tIQiavthGA2SJgidAFEtV/h8foZv/A8OmyZCNkLzPtzbA+HHwNMh9g==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.psu.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.psu.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.psu.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.psu.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.psu.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -9273,9 +9273,9 @@ ScOT6DAOZ8IHFePyPdlp4RZT2Mn3awVK4QcpJFmoe/q75ZImTFCS</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.slu.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.slu.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.slu.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.slu.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.slu.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -9466,9 +9466,9 @@ zHM8Cs1KgVSYCIZoRb9tgnLX/Tqz68eDlIBL0m5s52erOK28qHMoEw==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.soc.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.soc.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.soc.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.soc.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.soc.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -9662,10 +9662,10 @@ Xv3M/2eX67h4EZHblw1NqkB8DRJe6t3ksKXjB255G2g=</ns2:X509Certificate>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.svkpk.cz/idp/profile/SAML2/Redirect/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.svkpk.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.svkpk.cz:8443/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.svkpk.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.svkpk.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.svkpk.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -9857,9 +9857,9 @@ OtI50JbZSbIDA56RsdDxzQv/3WGdMd9eN7xKt3FN7oFQyCejzyOR</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.udu.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.udu.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.udu.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.udu.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.udu.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -10068,9 +10068,9 @@ ZzIu1CfJ2A==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ueb.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ueb.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ueb.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ueb.cas.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ueb.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -10279,9 +10279,9 @@ krvOxAii4eQD6f+DG++1tY8V7b/3YmMe4Vs6wAEID8Lvg5tkQ61b6g==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ugn.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ugn.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ugn.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ugn.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ugn.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -10474,9 +10474,9 @@ b0+BzjM4ewdDIAGfUS8LKLs=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.uhk.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.uhk.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.uhk.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.uhk.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.uhk.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -10693,9 +10693,9 @@ sVEb4eyuMA==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ujc.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ujc.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ujc.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ujc.cas.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ujc.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -10910,9 +10910,9 @@ SbZ12F+snMAFc+5AsDrCqg/IufGla3/9M6UqC/C4AO4K2A==</ns2:X509Certificate>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ujep.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ujep.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ujep.cz:8443/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ujep.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ujep.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ujep.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -11112,9 +11112,9 @@ VWvF7Mq9vHA0BY9AoDSxPGXc8xANw7Pa7aMX1WOJYlgs7g05KBJ9</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ujf.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ujf.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ujf.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ujf.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ujf.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -11312,9 +11312,9 @@ n4ezmSLf1ywyRr5R38W6p0elfLJAFY9Zf0TNyQ==</ns2:X509Certificate>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.unob.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.unob.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.unob.cz:8443/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.unob.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.unob.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.unob.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -11491,10 +11491,10 @@ hzHIunASCgKTW+jR7YdcmPqIDwTn</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.upce.cz/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.upce.cz/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.upce.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.upce.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.upce.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -11663,9 +11663,9 @@ lfWVvE3d2d7lrombyhUZShnWGISHqlmFjb0Gd2Q1PMy7oSrphiihtm1pfg==</ns2:X509Certificat
           </ns2:X509Data>
         </ns2:KeyInfo>
       </ns0:KeyDescriptor>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.upol.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.upol.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.upol.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
@@ -11803,9 +11803,9 @@ icKFzLK/pg==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.usd.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.usd.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.usd.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.usd.cas.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.usd.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -12014,9 +12014,9 @@ lqQHq52pl/KJ7xAPmTW2b9npeB7PCzyN9ii/Gp8ert6wBKtFmEqOK+jMsZu2g0EG</ns2:X509Certif
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp2.utia.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.utia.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp2.utia.cas.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp2.utia.cas.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp2.utia.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -12212,8 +12212,8 @@ QzbFdRvuJ9SzN5kZ8Cv2hZUdLhp8/GsBO7mWqv5AlYT92fk3aSxXI86nzbAYkPNX
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.vfu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.vfu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.vfu.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.vfu.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.vfu.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
@@ -12420,10 +12420,10 @@ JYH5NKeeBBdGOunN7KfPzfd86tveJ6kn</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://ipd.vsb.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.vsb.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.vsb.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.vsb.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.vsb.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -12584,9 +12584,9 @@ xo7SMEnUJU/EBynk6luMA4V47kgYFdAlYdMDzesc0gdr3aaKswB6R7ZrwWo+DfQ=</ns2:X509Certif
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp2.civ.cvut.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.civ.cvut.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp2.civ.cvut.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp2.civ.cvut.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp2.civ.cvut.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -12694,9 +12694,9 @@ xo7SMEnUJU/EBynk6luMA4V47kgYFdAlYdMDzesc0gdr3aaKswB6R7ZrwWo+DfQ=</ns2:X509Certif
       </ns0:KeyDescriptor>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://id.muni.cz/simplesaml/saml2/idp/SingleLogoutService.php" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.muni.cz/simplesaml/saml2/idp/SingleLogoutService.php" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://id.muni.cz/simplesaml/saml2/idp/SSOService.php" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://id.muni.cz/simplesaml/saml2/idp/SSOService.php" />
     </ns0:IDPSSODescriptor>
@@ -12824,8 +12824,8 @@ TuuVsF2DVJG4JvKVKoHU86VvGUyWE3oVJgQrqLU=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://spock.osu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spock.osu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://spock.osu.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spock.osu.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://spock.osu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -13314,9 +13314,9 @@ iZxetNC82lCt7vGHOz5cXzYN2MEuqqCvAM2dTLO7rRhrSctONV0qrHlg1vZ4Vbw=</ns2:X509Certif
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://katalog.svkos.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://katalog.svkos.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://katalog.svkos.cz:8443/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://katalog.svkos.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://katalog.svkos.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://katalog.svkos.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -16686,9 +16686,9 @@ E7CdvjS4vXIcL+O2rA/y+ATtX1Kqj5agbq1QRd2AbPW5q+KU733P</ns2:X509Certificate>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib.medvik.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib.medvik.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shib.medvik.cz/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shib.medvik.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib.medvik.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib.medvik.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -16895,10 +16895,10 @@ ttoBlccr2E1zGuP9v2S0Ei7VFn5zuiJAc9k7KBsiDcox3jI+s6RoXJKRlQ==</ns2:X509Certificat
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib.zcu.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib.zcu.cz/idp/profile/SAML2/Redirect/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib.zcu.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib.zcu.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib.zcu.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib.zcu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
@@ -17068,10 +17068,10 @@ nH0Q6NVuH5v93Y3fOM0wIgosOcrB90QrXq5BpWu+XL1VxhyPnSxTf/teOIy3hw==</ns2:X509Certif
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibbo.tul.cz/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibbo.tul.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -17458,9 +17458,9 @@ mYyU0qeHcluLxU/GrWy+OGqcqQ==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth.techlib.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth.techlib.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibboleth.techlib.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth.techlib.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibboleth.techlib.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -17593,9 +17593,9 @@ GDTEfLmIwXnO89kLfhY0Zytz+2KbCkzDwCaRrhM=</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth.utb.cz/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth.utb.cz/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibboleth.utb.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth.utb.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibboleth.utb.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -17776,9 +17776,9 @@ Z2irYJ1Ang==</ns2:X509Certificate>
       </ns0:KeyDescriptor>
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth.vsup.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth.vsup.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibboleth.vsup.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth.vsup.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibboleth.vsup.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -17981,9 +17981,9 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ns2:X509Certificate>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibo.vkol.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibo.vkol.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibo.vkol.cz:8443/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibo.vkol.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibo.vkol.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibo.vkol.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -18494,9 +18494,9 @@ YtC9LV7mRLkdALnlFN7jo52lhwSc34G8Wkdado0qrbu/OfAtLF2eo7KWULBToYX9
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wsso.vscht.cz/idp/profile/SAML2/POST/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://wsso.vscht.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://wsso.vscht.cz:8443/idp/profile/SAML2/SOAP/SLO" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://wsso.vscht.cz/idp/profile/Shibboleth/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://wsso.vscht.cz/idp/profile/SAML2/POST/SSO" />
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://wsso.vscht.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
@@ -18642,8 +18642,8 @@ YtC9LV7mRLkdALnlFN7jo52lhwSc34G8Wkdado0qrbu/OfAtLF2eo7KWULBToYX9
         </ns2:KeyInfo>
       </ns0:KeyDescriptor>
     <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.vutbr.cz/saml2/idp/BUTSingleLogoutService.php" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
     <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.vutbr.cz/saml2/idp/SSOService.php" />
     </ns0:IDPSSODescriptor>
   <ns0:Organization>
