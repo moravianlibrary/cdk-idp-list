@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-03-30T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-04-03T11:16:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>15DjHYdYkSjo37oDry5/E0jrnWrK4fUbPCJqqcV2vAU=</ns2:DigestValue>
+      <ns2:DigestValue>BIBDAh5Y+e0hLukIGcW6PwGEUIXtMOiUkoVCvpL0RIU=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-RdtHffmaqNpz9s5B0jLy4khYdD8Q+YRQYs4PutbFU2DB/q38ojuSBpvH6/jHv9PWU2Wwrs4Jsoj0
-SOa2X4aWZxEEtUqc4o7mv1Q9ObRRgQmPQxK5rvhh9qZRE6pDUaIe3D0WPTFprtuZzh+i6tfpGYbi
-91i9Xs1hqtRUP0g28uxn25yyRfIHpdg9xd9hFsaXxu8IangO2+G25RZPNjjuuz0jadIB7pKzUXlJ
-Hjgq1YCf0180nnCbqxwzEc+A60gk+1ndbORZAGvO7vx9vazM8+Ji+APd/4FVciU0rCBiNS1OvId5
-kR2ZQVVnuPSX3N8AMW04FyQ+6DPbBw2v5fa7sw==
+vQfgaHp6jeMsqIShHKKizDvmH+xY1gVOUgb+NzSWiFAiJgjYNfDsWFQ+AqIIcP5zKdkzBuEdZeKy
+Q1W+g0FEWDu1p/erR3K+gjxghB/rOlO6vYzhxK137tThEpSN3M8kn1dl5ntW+gG/vPVkI12nkjSI
+daf3iDtwzcB4YtwOk/8K2uUQuwVb0sJaRuqB34FBUmC++bkuDruJwi3KlydWqYR+8p6GZO3GhDrW
+5LhFQmEA9A8nvJJmx+tApTz7gg9Nv901G7OoPgnnA8NuujvDoCLpEacP0g7H8oP16QMfaNjT/4OY
+w7AMDZfiF0qec/MVhC6dafXMAmPaoGECcm8hPg==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -7622,7 +7622,11 @@ FNxNpfIz9AgLB5P8BHlFGmHiF29sDbWkzpINTaFLh9LlW45tsJ8AsD9iVjc=</ns2:X509Certificat
 <ns0:EntityDescriptor entityID="https://idp.knihovna-uo.cz/saml2/idp/metadata.php">
     <ns0:Extensions>
       <ns4:EntityAttributes>
-        <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <ns5:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</ns5:AttributeValue>
+        </ns5:Attribute>
+      <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <ns5:AttributeValue>http://eduid.cz/uri/idp-group/library</ns5:AttributeValue>
         </ns5:Attribute>
       </ns4:EntityAttributes>
@@ -7635,42 +7639,45 @@ FNxNpfIz9AgLB5P8BHlFGmHiF29sDbWkzpINTaFLh9LlW45tsJ8AsD9iVjc=</ns2:X509Certificat
         <ns7:DisplayName xml:lang="cs">Městská knihovna Ústí nad Orlicí</ns7:DisplayName>
         <ns7:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Ústí nad Orlicí</ns7:Description>
         <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Ústí nad Orlicí</ns7:Description>
-        <ns7:InformationURL xml:lang="en">http://knihovna-uo.cz/eng/uvod/</ns7:InformationURL>
-        <ns7:InformationURL xml:lang="cs">http://knihovna-uo.cz/</ns7:InformationURL>
-        <ns7:Logo height="100" width="100">https://knihovna-uo.cz/logo.png</ns7:Logo>
-        <ns7:Logo height="100" width="542">https://knihovna-uo.cz/logo_c.png</ns7:Logo>
+        <ns7:InformationURL xml:lang="en">https://www.knihovna-uo.cz</ns7:InformationURL>
+        <ns7:InformationURL xml:lang="cs">https://www.knihovna-uo.cz</ns7:InformationURL>
+        <ns7:Logo height="40" width="217">https://uo.idp.rbit.cz/logo.png</ns7:Logo>
         </ns7:UIInfo>
       </ns0:Extensions>
     <ns0:KeyDescriptor use="signing">
         <ns2:KeyInfo>
           <ns2:X509Data>
-            <ns2:X509Certificate>MIIDnDCCAoSgAwIBAgIJAJ911T36cQNjMA0GCSqGSIb3DQEBCwUAMGMxCzAJBgNVBAYTAkNaMRgwFgYDVQQIDA9QYXJkdWJpY2t5IEtyYWoxFzAVBgNVBAcMDlVzdGkgbmFkIE9ybGljMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMTgxMDE3MTMwMjQ1WhcNMjgxMDE2MTMwMjQ1WjBjMQswCQYDVQQGEwJDWjEYMBYGA1UECAwPUGFyZHViaWNreSBLcmFqMRcwFQYDVQQHDA5Vc3RpIG5hZCBPcmxpYzEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtUeUHfX0Grn51d9vMsLxcx5VtCOvwnqRUBiOayWzXRxHQz8XiC9wGxEh6F6VMyba/z6QkxCPykwVC583ZBTuojgvJbM6/ihCPCz/eNGjgs45EV5HXA+ogI3mE7jQxicDBs85okC5yPGetQMsbD0UbdWK3e9iaK5GMUioju8e3C3Y5FVAsQLq01jp9nqk/mhjO68F12wnKrYlxIm1oLfIu6LZ34WZPSouFC1aPY/RW5AgTHbdxPOmnp6UfBgSEjkFQKe/HDFvt2zKavj3ZN3cCFiMci81E3Qnq7Z2aJ/+KjhFRl7zUnocw0BP50vr9n5MpKe2QdOCGa9MMWK4NzL6lwIDAQABo1MwUTAdBgNVHQ4EFgQUQckIf5eVG16wIol4Qe+V3DWZFtswHwYDVR0jBBgwFoAUQckIf5eVG16wIol4Qe+V3DWZFtswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAS2a1jTAhLDN6l7x15VBlYQFCbTXqN7jomiT4k3LDV4o/5108ZZl1J9+Y6zvwWvCsvxBJEOLDspC7Pu/3aHTqUs8J0/VMkDfDrM+8AN+sZ3A+yTGnjEyIlQVD7VGQz9N4rakbrAVCG+fYU1cGNkfHcvci3lXbEmN1fG7uxUjy8qDF6IcHATZLgwu4qchKWAY4kWrffrSOCpdFhJiGnCJSpTcQwaJkbbX4PhaX/m27dqCTmc1hfcSJc7E9xxrfn918dSv8NLLGfEhWzjjN6FSVjg8zVYbaOFrt4HUi1YqPIJ7TLsobQ2lPWOYkabeP3QYo6TRGmH1k204HNg+HhU6XVw==</ns2:X509Certificate>
+            <ns2:X509Certificate>MIID7zCCAtegAwIBAgIUDPas132nmAMKQd3F7+3XYYZaWIkwDQYJKoZIhvcNAQELBQAwgYYxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEXMBUGA1UEAwwOdW8uaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMzAzMDIxMTU1NDFaFw0zMzAzMDIxMTU1NDFaMIGGMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxFzAVBgNVBAMMDnVvLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCfz9E1iqoemXYGHwrdWmCK0ANcVOcK1ilr7zqY3l4llwZfg5bZUojQivOkGkcIMr5UyE1MApndUTOL2nFNWc0PczijWIB74arMi/QVs9a4UbXW1IXEq+gvZjzJ4j2+1ZM3FIj+n88YY8tZQxXPC6Gv6ADSqa5hqe63+pvIx/gKNmirihfE6Z7WMliW5zr14CgfbWBaUgaIGoM6ffBxVHNYU5Xhr1B+A4aiHvhE7kvDc1fz++la0ZMs2MtDIut003ntll21EdZGBucotjnBf01lPDNZD7i+VNr/uDGNIrCaOyDTbexi6YLA3C23INuKkujrds3msLVp9G8BGVzMmnjFAgMBAAGjUzBRMB0GA1UdDgQWBBTqp0/Bl2Zm6oMr3OUn2XURNtZqTjAfBgNVHSMEGDAWgBTqp0/Bl2Zm6oMr3OUn2XURNtZqTjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBnG92VPhjCI1LO7bWjT6a/JmgANDfJGFbTzSL7VHaikT4lQcCboQ9+ZTjPfy7iu4TErgO8AlSFAEP54Udb/sFm+k0jaEIGA7lqnCrCegv+ZOCAwUbKZCWFfMSIXDGaThXo/POmOEvMIkWnlwho4jmvLyTM28rWOiGbh/0eQSQEc9F7TqMFz3m4YRTUva+k9GCWTa5/msQ39L75R8IMVlWpcjcsban64Zth6kpz5LIjsfpbLcgpo7odiV0fh2qx7E/ciz/ImQC9ayEbGtbz8PttpxQSCh4NunM85GnBlQbUMad9jsACcGzuHFIwo+OD9nVffsM8tnHg7DDZnUjsvGn7</ns2:X509Certificate>
           </ns2:X509Data>
         </ns2:KeyInfo>
       </ns0:KeyDescriptor>
     <ns0:KeyDescriptor use="encryption">
         <ns2:KeyInfo>
           <ns2:X509Data>
-            <ns2:X509Certificate>MIIDnDCCAoSgAwIBAgIJAJ911T36cQNjMA0GCSqGSIb3DQEBCwUAMGMxCzAJBgNVBAYTAkNaMRgwFgYDVQQIDA9QYXJkdWJpY2t5IEtyYWoxFzAVBgNVBAcMDlVzdGkgbmFkIE9ybGljMSEwHwYDVQQKDBhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQwHhcNMTgxMDE3MTMwMjQ1WhcNMjgxMDE2MTMwMjQ1WjBjMQswCQYDVQQGEwJDWjEYMBYGA1UECAwPUGFyZHViaWNreSBLcmFqMRcwFQYDVQQHDA5Vc3RpIG5hZCBPcmxpYzEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtUeUHfX0Grn51d9vMsLxcx5VtCOvwnqRUBiOayWzXRxHQz8XiC9wGxEh6F6VMyba/z6QkxCPykwVC583ZBTuojgvJbM6/ihCPCz/eNGjgs45EV5HXA+ogI3mE7jQxicDBs85okC5yPGetQMsbD0UbdWK3e9iaK5GMUioju8e3C3Y5FVAsQLq01jp9nqk/mhjO68F12wnKrYlxIm1oLfIu6LZ34WZPSouFC1aPY/RW5AgTHbdxPOmnp6UfBgSEjkFQKe/HDFvt2zKavj3ZN3cCFiMci81E3Qnq7Z2aJ/+KjhFRl7zUnocw0BP50vr9n5MpKe2QdOCGa9MMWK4NzL6lwIDAQABo1MwUTAdBgNVHQ4EFgQUQckIf5eVG16wIol4Qe+V3DWZFtswHwYDVR0jBBgwFoAUQckIf5eVG16wIol4Qe+V3DWZFtswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAS2a1jTAhLDN6l7x15VBlYQFCbTXqN7jomiT4k3LDV4o/5108ZZl1J9+Y6zvwWvCsvxBJEOLDspC7Pu/3aHTqUs8J0/VMkDfDrM+8AN+sZ3A+yTGnjEyIlQVD7VGQz9N4rakbrAVCG+fYU1cGNkfHcvci3lXbEmN1fG7uxUjy8qDF6IcHATZLgwu4qchKWAY4kWrffrSOCpdFhJiGnCJSpTcQwaJkbbX4PhaX/m27dqCTmc1hfcSJc7E9xxrfn918dSv8NLLGfEhWzjjN6FSVjg8zVYbaOFrt4HUi1YqPIJ7TLsobQ2lPWOYkabeP3QYo6TRGmH1k204HNg+HhU6XVw==</ns2:X509Certificate>
+            <ns2:X509Certificate>MIID7zCCAtegAwIBAgIUDPas132nmAMKQd3F7+3XYYZaWIkwDQYJKoZIhvcNAQELBQAwgYYxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEXMBUGA1UEAwwOdW8uaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMzAzMDIxMTU1NDFaFw0zMzAzMDIxMTU1NDFaMIGGMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxFzAVBgNVBAMMDnVvLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCfz9E1iqoemXYGHwrdWmCK0ANcVOcK1ilr7zqY3l4llwZfg5bZUojQivOkGkcIMr5UyE1MApndUTOL2nFNWc0PczijWIB74arMi/QVs9a4UbXW1IXEq+gvZjzJ4j2+1ZM3FIj+n88YY8tZQxXPC6Gv6ADSqa5hqe63+pvIx/gKNmirihfE6Z7WMliW5zr14CgfbWBaUgaIGoM6ffBxVHNYU5Xhr1B+A4aiHvhE7kvDc1fz++la0ZMs2MtDIut003ntll21EdZGBucotjnBf01lPDNZD7i+VNr/uDGNIrCaOyDTbexi6YLA3C23INuKkujrds3msLVp9G8BGVzMmnjFAgMBAAGjUzBRMB0GA1UdDgQWBBTqp0/Bl2Zm6oMr3OUn2XURNtZqTjAfBgNVHSMEGDAWgBTqp0/Bl2Zm6oMr3OUn2XURNtZqTjAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBnG92VPhjCI1LO7bWjT6a/JmgANDfJGFbTzSL7VHaikT4lQcCboQ9+ZTjPfy7iu4TErgO8AlSFAEP54Udb/sFm+k0jaEIGA7lqnCrCegv+ZOCAwUbKZCWFfMSIXDGaThXo/POmOEvMIkWnlwho4jmvLyTM28rWOiGbh/0eQSQEc9F7TqMFz3m4YRTUva+k9GCWTa5/msQ39L75R8IMVlWpcjcsban64Zth6kpz5LIjsfpbLcgpo7odiV0fh2qx7E/ciz/ImQC9ayEbGtbz8PttpxQSCh4NunM85GnBlQbUMad9jsACcGzuHFIwo+OD9nVffsM8tnHg7DDZnUjsvGn7</ns2:X509Certificate>
           </ns2:X509Data>
         </ns2:KeyInfo>
       </ns0:KeyDescriptor>
-    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.knihovna-uo.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://uo.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://uo.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
     <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.knihovna-uo.cz/saml2/idp/SSOService.php" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://uo.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://uo.idp.rbit.cz/saml2/idp/SSOService.php" />
     </ns0:IDPSSODescriptor>
   <ns0:Organization>
       <ns0:OrganizationName xml:lang="en">Municipal Library Ústí nad Orlicí</ns0:OrganizationName>
     <ns0:OrganizationName xml:lang="cs">Městská knihovna Ústí nad Orlicí</ns0:OrganizationName>
     <ns0:OrganizationDisplayName xml:lang="en">Municipal Library Ústí nad Orlicí</ns0:OrganizationDisplayName>
     <ns0:OrganizationDisplayName xml:lang="cs">Městská knihovna Ústí nad Orlicí</ns0:OrganizationDisplayName>
-    <ns0:OrganizationURL xml:lang="en">http://knihovna-uo.cz/eng/uvod/</ns0:OrganizationURL>
-    <ns0:OrganizationURL xml:lang="cs">http://knihovna-uo.cz/</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="en">https://www.knihovna-uo.cz</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="cs">https://www.knihovna-uo.cz</ns0:OrganizationURL>
     </ns0:Organization>
   <ns0:ContactPerson contactType="technical">
-      <ns0:GivenName>Josef</ns0:GivenName>
-    <ns0:SurName>Moravec</ns0:SurName>
-    <ns0:EmailAddress>mailto:josef.moravec@knihovna-uo.cz</ns0:EmailAddress>
+      <ns0:GivenName>Radek</ns0:GivenName>
+    <ns0:SurName>Šiman</ns0:SurName>
+    <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://idp.lib.cas.cz/idp/shibboleth">
