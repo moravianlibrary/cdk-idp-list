@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-05-27T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-05-30T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>twwXPJIc7nfS241cL0WTlyl6TCfTPVX6qUpUvGVut2A=</ns2:DigestValue>
+      <ns2:DigestValue>SbwNWoN0f/fQuQ0TDDeCC6/ebgO2RVrncdbIMffbrqg=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-QeYKmczhoYSFnDn3f6+mpFm4MGoXEx2jVkec2oMY5LPYXyDARhOv9dwf8JYUNi3wsQE2n2Y/uzIW
-mDylHpV0L2yr66c+oo9p14PQYzdsiTDoJDrlusSaaEcc4dMPy7mwxLGNl26BfIM+1+5Was3TDRpD
-EoLWFDsXWF5svudwPWyX+gHA3r+jYS97wvtkx+Mxqh7ZikZs+gFStM8Jx/NKGSOjzt4NSHdoQL0Y
-I2KTXaQSoyNEzHSsk0gNtLTXN6RBNpqb3a3gPktKfBxjZ9zlAgr2wJUUi4do0PaPliSxcpNeZdT+
-kio2xLElSa4mHB9/+rJAOB726UweUdy1ofUS5A==
+51Yn57Jd9GvHRDmJkpyKKJa403xVG3Bf3IPeIc9hMbKdGR+uAzGp/e34+QJUfMJHZY8GjJQagCR8
+J99hSF1z1IaDX5kgx05ggBtJEFlB250fum+ZDNWsu+qeoo8Lb0MUXAF0r4E1h0yCi8V7WWajM4qn
+mrytehKCI/eqixOs2HdddtZVBNt6kTSz8aTOJ5ziEQU7u2vlw1nlLHqFlpZXxNWOmlOCZtsnj+L0
+BAPRK8jNtPMZR7AaRDRSXu5bikCVAmc8FW2ooJ509HltDOFucjgg4riUsVwYAadhRbUFJ3KPr1Iu
+iAzscC3pBeXpOPsdmuLlt4vHwgHsELffNEM4ZA==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -14631,6 +14631,70 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ns2:X509Certificat
     <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   </ns0:EntityDescriptor>
+<ns0:EntityDescriptor entityID="https://knihovna-vratimov.cz/idp/shibboleth">
+    <ns0:Extensions>
+      <ns4:EntityAttributes>
+        <ns5:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</ns5:AttributeValue>
+        </ns5:Attribute>
+      <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue>http://eduid.cz/uri/idp-group/library</ns5:AttributeValue>
+        </ns5:Attribute>
+      </ns4:EntityAttributes>
+    <ns3:RepublishRequest>
+        <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
+      </ns3:RepublishRequest>
+    </ns0:Extensions>
+  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <ns0:Extensions>
+        <ns6:Scope regexp="false">knihovna-vratimov.cz</ns6:Scope>
+      <ns7:UIInfo>
+          <ns7:DisplayName xml:lang="en">Municipal Library Vratimov</ns7:DisplayName>
+        <ns7:DisplayName xml:lang="cs">Městská knihovna Vratimov</ns7:DisplayName>
+        <ns7:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Vratimov</ns7:Description>
+        <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Vratimov</ns7:Description>
+        <ns7:InformationURL xml:lang="en">https://www.knihovna-vratimov.cz</ns7:InformationURL>
+        <ns7:InformationURL xml:lang="cs">https://www.knihovna-vratimov.cz</ns7:InformationURL>
+        <ns7:Logo height="40" width="40">https://vratimov.idp.rbit.cz/logo.png</ns7:Logo>
+        </ns7:UIInfo>
+      </ns0:Extensions>
+    <ns0:KeyDescriptor use="signing">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID+zCCAuOgAwIBAgIUFHurbHrbj17V0xv/zxjk4HRSj1QwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUdnJhdGltb3YuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMzAxMDkwODM4MzFaFw0zMzAxMDkwODM4MzFaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFHZyYXRpbW92LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPBwa3YhuQTNEoPWqVvLRq7fk1e0CqKfNf3X5bQKexkaVmjrB6NAc/A5j8m/vDsK2LgTHFiboqoW7ZBsjvKgt1H3PsHpx4FeFqqL/ghjM0D0BE1pNkUhWt9y+lYYhHavC4+3nuvCP5I6ROCERYkupEolzzY+s5sT3Sy/QdmMlKti0qcj2cl1OjhwTbShn5l43W+ZCC2qWtZ/gc29HvVCBHP3OJSXHTlBon3UVorjrojYWIkwgdOhDqUZRzq8vBRwGMQY1Xw0HakV96rdzHA2j1lCq652/ShOGuiuO+Zt2oY0SwbCDN76RF3Lbo3YqT6rqsPT9HGDU4RflbMzJhlL37AgMBAAGjUzBRMB0GA1UdDgQWBBQfAhuyYjG5ugRA+bdjbQ7BOjbLYTAfBgNVHSMEGDAWgBQfAhuyYjG5ugRA+bdjbQ7BOjbLYTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA1fYUEZ8Nj6hQEWghNZ3fdmpgHhKNLg3rLfMK2+eZPS/vpxkjuf9lGqT3HVKLteHRPuOsLpoGpDxVbCIfPKWp47QPN2G8OYYLuutAEmG+Rt6MiXY3P9zPS5PKXsgNnt2P0yEY0dwcXyPl2yYxwO9KqnhBJ6rEI1zk5WJ0Dk3Pm+Wyq5LX+88OF2oMM9mIa73fkZ/it0d39GD7bTY5FFFORayrG7+pg7xRQfUQ9+SQ0g5ESpN8aILEY8dhXJgcLxcVjy7VnYFF4XciDuycKim+YmRnK8ImO8hdGsXx9Gea7WnZr5TUdPFStE5ewHtIt8rNufZQeCXV3xI9+9Wc4B2pB</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:KeyDescriptor use="encryption">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID+zCCAuOgAwIBAgIUFHurbHrbj17V0xv/zxjk4HRSj1QwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUdnJhdGltb3YuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMzAxMDkwODM4MzFaFw0zMzAxMDkwODM4MzFaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFHZyYXRpbW92LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDPBwa3YhuQTNEoPWqVvLRq7fk1e0CqKfNf3X5bQKexkaVmjrB6NAc/A5j8m/vDsK2LgTHFiboqoW7ZBsjvKgt1H3PsHpx4FeFqqL/ghjM0D0BE1pNkUhWt9y+lYYhHavC4+3nuvCP5I6ROCERYkupEolzzY+s5sT3Sy/QdmMlKti0qcj2cl1OjhwTbShn5l43W+ZCC2qWtZ/gc29HvVCBHP3OJSXHTlBon3UVorjrojYWIkwgdOhDqUZRzq8vBRwGMQY1Xw0HakV96rdzHA2j1lCq652/ShOGuiuO+Zt2oY0SwbCDN76RF3Lbo3YqT6rqsPT9HGDU4RflbMzJhlL37AgMBAAGjUzBRMB0GA1UdDgQWBBQfAhuyYjG5ugRA+bdjbQ7BOjbLYTAfBgNVHSMEGDAWgBQfAhuyYjG5ugRA+bdjbQ7BOjbLYTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA1fYUEZ8Nj6hQEWghNZ3fdmpgHhKNLg3rLfMK2+eZPS/vpxkjuf9lGqT3HVKLteHRPuOsLpoGpDxVbCIfPKWp47QPN2G8OYYLuutAEmG+Rt6MiXY3P9zPS5PKXsgNnt2P0yEY0dwcXyPl2yYxwO9KqnhBJ6rEI1zk5WJ0Dk3Pm+Wyq5LX+88OF2oMM9mIa73fkZ/it0d39GD7bTY5FFFORayrG7+pg7xRQfUQ9+SQ0g5ESpN8aILEY8dhXJgcLxcVjy7VnYFF4XciDuycKim+YmRnK8ImO8hdGsXx9Gea7WnZr5TUdPFStE5ewHtIt8rNufZQeCXV3xI9+9Wc4B2pB</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vratimov.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vratimov.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vratimov.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vratimov.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </ns0:IDPSSODescriptor>
+  <ns0:Organization>
+      <ns0:OrganizationName xml:lang="en">Municipal Library Vratimov</ns0:OrganizationName>
+    <ns0:OrganizationName xml:lang="cs">Městská knihovna Vratimov</ns0:OrganizationName>
+    <ns0:OrganizationDisplayName xml:lang="en">Municipal Library Vratimov</ns0:OrganizationDisplayName>
+    <ns0:OrganizationDisplayName xml:lang="cs">Městská knihovna Vratimov</ns0:OrganizationDisplayName>
+    <ns0:OrganizationURL xml:lang="en">https://www.knihovna-vratimov.cz</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="cs">https://www.knihovna-vratimov.cz</ns0:OrganizationURL>
+    </ns0:Organization>
+  <ns0:ContactPerson contactType="technical">
+      <ns0:GivenName>Radek</ns0:GivenName>
+    <ns0:SurName>Šiman</ns0:SurName>
+    <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
+    </ns0:ContactPerson>
+  </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://knihovna.brandysnl.cz/idp/shibboleth">
     <ns0:Extensions>
       <ns4:EntityAttributes>
@@ -15144,6 +15208,70 @@ and readers of the Huss' Library Ricany</ns7:Description>
     <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   </ns0:EntityDescriptor>
+<ns0:EntityDescriptor entityID="https://knihovnafrenstat.cz/idp/shibboleth">
+    <ns0:Extensions>
+      <ns4:EntityAttributes>
+        <ns5:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</ns5:AttributeValue>
+        </ns5:Attribute>
+      <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue>http://eduid.cz/uri/idp-group/library</ns5:AttributeValue>
+        </ns5:Attribute>
+      </ns4:EntityAttributes>
+    <ns3:RepublishRequest>
+        <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
+      </ns3:RepublishRequest>
+    </ns0:Extensions>
+  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <ns0:Extensions>
+        <ns6:Scope regexp="false">knihovnafrenstat.cz</ns6:Scope>
+      <ns7:UIInfo>
+          <ns7:DisplayName xml:lang="en">Municipal Library Frenštát pod Radhoštěm</ns7:DisplayName>
+        <ns7:DisplayName xml:lang="cs">Městská knihovna Frenštát pod Radhoštěm</ns7:DisplayName>
+        <ns7:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Frenštát pod Radhoštěm</ns7:Description>
+        <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Frenštát pod Radhoštěm</ns7:Description>
+        <ns7:InformationURL xml:lang="en">https://www.knihovnafrenstat.cz</ns7:InformationURL>
+        <ns7:InformationURL xml:lang="cs">https://www.knihovnafrenstat.cz</ns7:InformationURL>
+        <ns7:Logo height="40" width="40">https://frenstat.idp.rbit.cz/logo.png</ns7:Logo>
+        </ns7:UIInfo>
+      </ns0:Extensions>
+    <ns0:KeyDescriptor use="signing">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID+zCCAuOgAwIBAgIUcq+5S1+guKHt8kZS7ZWi0+p+bIwwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUZnJlbnN0YXQuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMTA2MDMwODQ3MzZaFw0zMTA2MDQwODQ3MzZaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFGZyZW5zdGF0LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCY2z6oxtc5FgWiawmFm8VEluHCFsO5vbmJff8idf4M7Nifc+T6m0jkI2rQfJRTKWxRHkzTDeMsnDa7kjy+zoO2Pq1bJUCcmgrELem/Rg41eTajYikxYwfGuMMaS6L7wOl1B6QeHiT37MsRh1sPNsMmJVF9sm9hYo+XJWKRIxjTDKYy2rrGU5xefMu+Cu6mywHeLVPEzMV1OlFyHonVpYOmIt80Sxtz1KFGDpPiu60m8kpxJZniBWzmT3lexhYHrH9lxJQNUEAuJfQoBAprfXXcGCWsb5ux+xeSqw0kaO3Esn+Uy1OSVCBMnmcuzpy+YKAMgPWSKKxN8HCs7NmKyR9lAgMBAAGjUzBRMB0GA1UdDgQWBBTYv1XrBafOxdQQoO3eSKE39rWeljAfBgNVHSMEGDAWgBTYv1XrBafOxdQQoO3eSKE39rWeljAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA+IRAZcyD4ndQ7dMbdJ2fHmEcoe8kLTreLwbeoA0ykpAPNXrOq42ZW8Vpke7LbaGSUEuVfPHMbDbaeamyiD+4GqZlS/MWDe8vEg7s2rrEVLK7Jq43eJ331OtMlMmvlQCVi35iNAlaxyYop2BJ8CWCKPtFXio6YCrTod71EsVvoEpgB5oiYLt/nOTMsa89G+hOse0heDdv8HJH6VmktK0GO1UgwHth5fTBDYVegRqL7iVdFDoVkLCE6pSdZzGa1x8Ax0a0FBvLHtBqJEIzRNKtrSGuXVag2XBjlIO2HtMSU+mfSfMAzGHWI7lS1K+B765DKd2stdf4nZsem2k2DHnby</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:KeyDescriptor use="encryption">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID+zCCAuOgAwIBAgIUcq+5S1+guKHt8kZS7ZWi0+p+bIwwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUZnJlbnN0YXQuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMTA2MDMwODQ3MzZaFw0zMTA2MDQwODQ3MzZaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFGZyZW5zdGF0LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCY2z6oxtc5FgWiawmFm8VEluHCFsO5vbmJff8idf4M7Nifc+T6m0jkI2rQfJRTKWxRHkzTDeMsnDa7kjy+zoO2Pq1bJUCcmgrELem/Rg41eTajYikxYwfGuMMaS6L7wOl1B6QeHiT37MsRh1sPNsMmJVF9sm9hYo+XJWKRIxjTDKYy2rrGU5xefMu+Cu6mywHeLVPEzMV1OlFyHonVpYOmIt80Sxtz1KFGDpPiu60m8kpxJZniBWzmT3lexhYHrH9lxJQNUEAuJfQoBAprfXXcGCWsb5ux+xeSqw0kaO3Esn+Uy1OSVCBMnmcuzpy+YKAMgPWSKKxN8HCs7NmKyR9lAgMBAAGjUzBRMB0GA1UdDgQWBBTYv1XrBafOxdQQoO3eSKE39rWeljAfBgNVHSMEGDAWgBTYv1XrBafOxdQQoO3eSKE39rWeljAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA+IRAZcyD4ndQ7dMbdJ2fHmEcoe8kLTreLwbeoA0ykpAPNXrOq42ZW8Vpke7LbaGSUEuVfPHMbDbaeamyiD+4GqZlS/MWDe8vEg7s2rrEVLK7Jq43eJ331OtMlMmvlQCVi35iNAlaxyYop2BJ8CWCKPtFXio6YCrTod71EsVvoEpgB5oiYLt/nOTMsa89G+hOse0heDdv8HJH6VmktK0GO1UgwHth5fTBDYVegRqL7iVdFDoVkLCE6pSdZzGa1x8Ax0a0FBvLHtBqJEIzRNKtrSGuXVag2XBjlIO2HtMSU+mfSfMAzGHWI7lS1K+B765DKd2stdf4nZsem2k2DHnby</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://frenstat.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://frenstat.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://frenstat.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://frenstat.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </ns0:IDPSSODescriptor>
+  <ns0:Organization>
+      <ns0:OrganizationName xml:lang="en">Municipal Library Frenštát pod Radhoštěm</ns0:OrganizationName>
+    <ns0:OrganizationName xml:lang="cs">Městská knihovna Frenštát pod Radhoštěm</ns0:OrganizationName>
+    <ns0:OrganizationDisplayName xml:lang="en">Municipal Library Frenštát pod Radhoštěm</ns0:OrganizationDisplayName>
+    <ns0:OrganizationDisplayName xml:lang="cs">Městská knihovna Frenštát pod Radhoštěm</ns0:OrganizationDisplayName>
+    <ns0:OrganizationURL xml:lang="en">https://www.knihovnafrenstat.cz</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="cs">https://www.knihovnafrenstat.cz</ns0:OrganizationURL>
+    </ns0:Organization>
+  <ns0:ContactPerson contactType="technical">
+      <ns0:GivenName>Radek</ns0:GivenName>
+    <ns0:SurName>Šiman</ns0:SurName>
+    <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
+    </ns0:ContactPerson>
+  </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://knihovnahk.cz/idp/shibboleth">
     <ns0:Extensions>
       <ns4:EntityAttributes>
@@ -15592,6 +15720,70 @@ and readers of the Huss' Library Ricany</ns7:Description>
       <ns0:GivenName>Petr</ns0:GivenName>
     <ns0:SurName>Žabička</ns0:SurName>
     <ns0:EmailAddress>mailto:zabak@mzk.cz</ns0:EmailAddress>
+    </ns0:ContactPerson>
+  </ns0:EntityDescriptor>
+<ns0:EntityDescriptor entityID="https://knihovnaneratovice.cz/idp/shibboleth">
+    <ns0:Extensions>
+      <ns4:EntityAttributes>
+        <ns5:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</ns5:AttributeValue>
+        </ns5:Attribute>
+      <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue>http://eduid.cz/uri/idp-group/library</ns5:AttributeValue>
+        </ns5:Attribute>
+      </ns4:EntityAttributes>
+    <ns3:RepublishRequest>
+        <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
+      </ns3:RepublishRequest>
+    </ns0:Extensions>
+  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <ns0:Extensions>
+        <ns6:Scope regexp="false">knihovnaneratovice.cz</ns6:Scope>
+      <ns7:UIInfo>
+          <ns7:DisplayName xml:lang="en">Municipal Library Neratovice</ns7:DisplayName>
+        <ns7:DisplayName xml:lang="cs">Městská knihovna Neratovice</ns7:DisplayName>
+        <ns7:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Neratovice</ns7:Description>
+        <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Neratovice</ns7:Description>
+        <ns7:InformationURL xml:lang="en">https://www.knihovnaneratovice.cz</ns7:InformationURL>
+        <ns7:InformationURL xml:lang="cs">https://www.knihovnaneratovice.cz</ns7:InformationURL>
+        <ns7:Logo height="40" width="40">https://neratovice.idp.rbit.cz/logo.png</ns7:Logo>
+        </ns7:UIInfo>
+      </ns0:Extensions>
+    <ns0:KeyDescriptor use="signing">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID/zCCAuegAwIBAgIUevFdxm5iNhq1RcFf1+4tHdYoLP8wDQYJKoZIhvcNAQELBQAwgY4xCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEfMB0GA1UEAwwWbmVyYXRvdmljZS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MB4XDTIyMDMyNTEzMTQyM1oXDTMyMDMyNTEzMTQyM1owgY4xCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEfMB0GA1UEAwwWbmVyYXRvdmljZS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxA67t5MXTPrxTHEkktoqO/3bzjqW2y8/UJkmw6ezsK/ztQytDszxGMpafE6Tm35h2SCx66HRzDx+nIdY8NvX2hZSqlP5wba7SG5tTDkHre86iDhXEW44QRfz/IBODE2C/591ZkRGheVYC5BQp4OMJGAxxGNtcwOTicjZpLU1ne/HIo3FGUK56vxQN0yIZGgCYQtAszN87R2qzBiNX7qxCs2yPCEmAlXbd8Hqn/9g1eH4SXAzFkxXc4j1Jgjrmp3cWByWtvARO4WhakM7G/zcAUTvwWzXAktW6PcJQ/pLj7hLuiA+xAraL+ZYmLnGqhqisr/bC7vT4yjCgR8kiNiQMwIDAQABo1MwUTAdBgNVHQ4EFgQU0p3nVOVB2HAvyiAsGoOubhcnB2EwHwYDVR0jBBgwFoAU0p3nVOVB2HAvyiAsGoOubhcnB2EwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEWpN47OGVLR293n/pMTVoP+JbbDrHw3YNq6Xgs3v5RFh8a0PpVVf6WYJ6x7dvvjJC8Y6n+ukInKFxIOKLonme1e1GNxZJ2kHg7MTh1T3YlSFmfdCVfnhssUouhuu1oSwCu46zAp8TsTScI3VFGK8uAUKX0cpLFl4F+Ok5iNG/NFx5YQnsDHKnlM/CnNWUV2LhbBC4BCndoz/pPXOWsM8Rt/spSD2vV14FdwrCzCUD8A2iWEjBNKh4OWYqq8CE6kF7lWcZPigqUHGbiZUJIrDqAWqrtGie8MFQ+DBUyaoXjiAsBlhpTtx0eQ+/1a6o78eoGfnmSDB6AFHqb50cvDJYg==</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:KeyDescriptor use="encryption">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID/zCCAuegAwIBAgIUevFdxm5iNhq1RcFf1+4tHdYoLP8wDQYJKoZIhvcNAQELBQAwgY4xCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEfMB0GA1UEAwwWbmVyYXRvdmljZS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MB4XDTIyMDMyNTEzMTQyM1oXDTMyMDMyNTEzMTQyM1owgY4xCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEfMB0GA1UEAwwWbmVyYXRvdmljZS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxA67t5MXTPrxTHEkktoqO/3bzjqW2y8/UJkmw6ezsK/ztQytDszxGMpafE6Tm35h2SCx66HRzDx+nIdY8NvX2hZSqlP5wba7SG5tTDkHre86iDhXEW44QRfz/IBODE2C/591ZkRGheVYC5BQp4OMJGAxxGNtcwOTicjZpLU1ne/HIo3FGUK56vxQN0yIZGgCYQtAszN87R2qzBiNX7qxCs2yPCEmAlXbd8Hqn/9g1eH4SXAzFkxXc4j1Jgjrmp3cWByWtvARO4WhakM7G/zcAUTvwWzXAktW6PcJQ/pLj7hLuiA+xAraL+ZYmLnGqhqisr/bC7vT4yjCgR8kiNiQMwIDAQABo1MwUTAdBgNVHQ4EFgQU0p3nVOVB2HAvyiAsGoOubhcnB2EwHwYDVR0jBBgwFoAU0p3nVOVB2HAvyiAsGoOubhcnB2EwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAEWpN47OGVLR293n/pMTVoP+JbbDrHw3YNq6Xgs3v5RFh8a0PpVVf6WYJ6x7dvvjJC8Y6n+ukInKFxIOKLonme1e1GNxZJ2kHg7MTh1T3YlSFmfdCVfnhssUouhuu1oSwCu46zAp8TsTScI3VFGK8uAUKX0cpLFl4F+Ok5iNG/NFx5YQnsDHKnlM/CnNWUV2LhbBC4BCndoz/pPXOWsM8Rt/spSD2vV14FdwrCzCUD8A2iWEjBNKh4OWYqq8CE6kF7lWcZPigqUHGbiZUJIrDqAWqrtGie8MFQ+DBUyaoXjiAsBlhpTtx0eQ+/1a6o78eoGfnmSDB6AFHqb50cvDJYg==</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://neratovice.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://neratovice.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://neratovice.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://neratovice.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </ns0:IDPSSODescriptor>
+  <ns0:Organization>
+      <ns0:OrganizationName xml:lang="en">Municipal Library Neratovice</ns0:OrganizationName>
+    <ns0:OrganizationName xml:lang="cs">Městská knihovna Neratovice</ns0:OrganizationName>
+    <ns0:OrganizationDisplayName xml:lang="en">Municipal Library Neratovice</ns0:OrganizationDisplayName>
+    <ns0:OrganizationDisplayName xml:lang="cs">Městská knihovna Neratovice</ns0:OrganizationDisplayName>
+    <ns0:OrganizationURL xml:lang="en">https://www.knihovnaneratovice.cz</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="cs">https://www.knihovnaneratovice.cz</ns0:OrganizationURL>
+    </ns0:Organization>
+  <ns0:ContactPerson contactType="technical">
+      <ns0:GivenName>Radek</ns0:GivenName>
+    <ns0:SurName>Šiman</ns0:SurName>
+    <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://knihovnaprerov.cz/idp/shibboleth">

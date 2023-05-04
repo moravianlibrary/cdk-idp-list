@@ -145,3 +145,6 @@ https://knihovna-nbk.cz/idp/shibboleth
 https://mktrutnov.cz/idp/shibboleth
 https://knihovna-ji.cz/idp/shibboleth
 https://archivndknihovna.cz/idp/shibboleth
+https://knihovnaneratovice.cz/idp/shibboleth
+https://knihovna-vratimov.cz/idp/shibboleth
+https://knihovnafrenstat.cz/idp/shibboleth
