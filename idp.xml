@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-07-12T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-07-15T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>tP3bpEcK33XPetYTMJ8xVArACjwU62xQUBiCZlL9Ux4=</ns2:DigestValue>
+      <ns2:DigestValue>ZxoqWy+d6BRRlyma1gu8C5GXHVjCNfOaVUtdJS2dQ7Y=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-SkGtDjNYp6vAdFynvaNpMiSkrLUtZjDkMtSE9Gaw9zBfrdiaX+TsV/7u/5R6tZSa8RQpzAot2F5Z
-vAznSzbzMDkj/BVjlgvy+uuG2kycRoe0CTb1ZWVOr5KoMr7wKjZYybZcdA5n+OXI1i0uRfjoOsyz
-JIrmknOSZ+yOgUksz2nz9PvMb7pD9r7G99KsPxNLCt6a115Vx/2lmJVLscYwAz+wMCx8EBLeQU6v
-xbiDER3qMzv1DaXXB/Elmn1Ok+XL5zGMCAndwHcVC1T5V11A4omkXMj1Ex4oV6FVHwG5FqGgAvRC
-t9aZsLU9n1MW8IWC/19q/1ZnV9fuXuWDbH94HA==
+j8xPomT38krkmT5Zjc0nevlPPRFP5EE4PmPUHAC2lK+diDMwA4z3kGLcHMNnVPOBqgaOXmLOuxiP
+XnvgxhfDFInsXE0qVZKXh6rB0yZdNJIbEXZt2lJfqmINe6+auDMQG0Q+q1fX4WhRtR6UwI8DFTi6
+9uZUzZlCqxxhdGw4o9Ms5m2VNYFQjper+gdAPq/5CpO3qGp+p7mwicORwp8B6pzlnlZlhBBTvMY+
+//21Nvv0CpSEpC7BDtRP6xVQyFtLlQ0vrhfPI1/s9wS+0fIVG+GXMbFV+sElvf4iJ9WtRSBLhJe2
+C19nJhYaWYNKCzesbeENZ7wToaYhm+1WFr0FVQ==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -17323,9 +17323,9 @@ nH0Q6NVuH5v93Y3fOM0wIgosOcrB90QrXq5BpWu+XL1VxhyPnSxTf/teOIy3hw==</ns2:X509Certif
     <ns0:OrganizationURL xml:lang="cs">https://www.tul.cz/</ns0:OrganizationURL>
     </ns0:Organization>
   <ns0:ContactPerson contactType="technical">
-      <ns0:GivenName>Petr</ns0:GivenName>
-    <ns0:SurName>Adamec</ns0:SurName>
-    <ns0:EmailAddress>mailto:Petr.Adamec@tul.cz</ns0:EmailAddress>
+      <ns0:GivenName>Radek</ns0:GivenName>
+    <ns0:SurName>Melzer</ns0:SurName>
+    <ns0:EmailAddress>mailto:radek.melzer@tul.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   <ns0:ContactPerson contactType="technical">
       <ns0:GivenName>David</ns0:GivenName>
