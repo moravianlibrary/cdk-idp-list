@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-08-17T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-08-21T10:15:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>KFeRovGsfVozkmXS+rSTMyT0JJSgDF6XXhrFJXYwAtQ=</ns2:DigestValue>
+      <ns2:DigestValue>4o9SoXfY1afbotlLZBjknerg+GwN8WhlWg157/qS1Vg=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-Mwi0tjosZIFU8vJ1xzjfXtgptGhEmsUULvwopYnSTxzT3YB0sO5DZxo0DrltJgDjAGdPhUYcgkRo
-hfQRziE7ToXtv2sQd+bgmf+VDArgiJfdhOZgt+hAaEy1XYmrhRzqFq4MBQ9bD5owwX+SPnUdtJOH
-1IFP7i1yLz07ErcKtHvySbwVRwqQ4bEHSMUBbjAtnGq+j0NrcVQIOTFkBzpeZo/KZpCnuWCQWgAd
-yV2jbA7e+vXCTrvDzrJKGxcZAU5Ydhids4+zxlK8vkjZKZWIuEJWol1rrsRtb4lxfWHBH6BGSpoc
-ihySfmsGPH//I44AlE4JNLlhi4E21rgb/IKwGQ==
+nHl6n0lOi24KNO8NWlUO2x4D+lo6WltnMYo93YFaW3511zQKkMmiwGDwOeLrQDTpUjCLLL8N/Tkq
+JquhMI3bUIM0p3nR7Kdqy8lBEKVVFwm+MtujoBprf6ztewhXgJO/vwQOv7ZgOra+vq0mZwHgCqJZ
+WN6RMN/1xBh4QazrVxIwnSBwJtD1A+1aUbeY2JQoTqNbFiE/XOohYcHfUk0xOLl57nk4asrgedTb
+mhuYcU0ylImlG+EPhyIqeAAYTluTTRNR2kQyLC6iu45Zy0c0ZYXBmZr2BgwLQs+ViUIm4M5LC7/m
+zwtnNX0EoKEp0G8n4j0OmcOMUaeLYTe6p318cg==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -16975,6 +16975,70 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ns2:X509Certificat
       <ns0:GivenName>Petr</ns0:GivenName>
     <ns0:SurName>Žabička</ns0:SurName>
     <ns0:EmailAddress>mailto:zabak@mzk.cz</ns0:EmailAddress>
+    </ns0:ContactPerson>
+  </ns0:EntityDescriptor>
+<ns0:EntityDescriptor entityID="https://nipos.cz/idp/shibboleth">
+    <ns0:Extensions>
+      <ns4:EntityAttributes>
+        <ns5:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</ns5:AttributeValue>
+        </ns5:Attribute>
+      <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue>http://eduid.cz/uri/idp-group/library</ns5:AttributeValue>
+        </ns5:Attribute>
+      </ns4:EntityAttributes>
+    <ns3:RepublishRequest>
+        <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
+      </ns3:RepublishRequest>
+    </ns0:Extensions>
+  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <ns0:Extensions>
+        <ns6:Scope regexp="false">nipos.cz</ns6:Scope>
+      <ns7:UIInfo>
+          <ns7:DisplayName xml:lang="en">National Information and Consulting Centre for Culture</ns7:DisplayName>
+        <ns7:DisplayName xml:lang="cs">Národní informační a poradenské středisko pro kulturu</ns7:DisplayName>
+        <ns7:Description xml:lang="en">Identity Provider for employees and readers of the National Information and Consulting Centre for Culture</ns7:Description>
+        <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Národního informačního a poradenského střediska pro kulturu</ns7:Description>
+        <ns7:InformationURL xml:lang="en">https://www.nipos.cz</ns7:InformationURL>
+        <ns7:InformationURL xml:lang="cs">https://www.nipos.cz</ns7:InformationURL>
+        <ns7:Logo height="40" width="40">https://nipos.idp.rbit.cz/logo.png</ns7:Logo>
+        </ns7:UIInfo>
+      </ns0:Extensions>
+    <ns0:KeyDescriptor use="signing">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID9TCCAt2gAwIBAgIUcZoqcItpAnptt5dq5ZkHZLAMzJwwDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEaMBgGA1UEAwwRbmlwb3MuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMzAxMTAyMTQxMTFaFw0zMzAxMTAyMTQxMTFaMIGJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxGjAYBgNVBAMMEW5pcG9zLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIz3Xp5xId6QrEV+CmsSqOxTt0DYkgZr+0NwOT1LPIUqBE+y1ji8b1OMC0NaBU2Zgw5y4UI5M4zPQVc4HkYsnTfwtI0lCBXSjYcKxry7wZ2BEgF7fZfpMFuzKUSF4JyA104m9d2MavsEcLYTPK4M5rkpeeWH6PHyPahYqdA6YfUc7p4z0dH5UlmRto2QgjS2tEo7c9vhZCo+9s0Z6rEUBtRf+RJV1eXZXrN/00DA/ySIu/xtVj1FkOqyOLcm/BHXAYmLgp3TOcPnBJK45Pw2Fk+eFjka45C9OuNoM9nUndPOtVnVhj6oXtDAhVUJtWvlMnh4Pm7jCF6MP6Lsnz03PXAgMBAAGjUzBRMB0GA1UdDgQWBBRIM2RLLMYB6J7MwL6sItfWgcmBwzAfBgNVHSMEGDAWgBRIM2RLLMYB6J7MwL6sItfWgcmBwzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA8rOleUL7TBrcZCzk15xhBAHs5rclazdQie+1e8QRzXDdgiwt/jyKyM2J9LGcnrcaAmVVgqNaxBX0OqplZJQk8ljQDpL59xXrVlsYlhsFj0Qch4dv5ujDkqKkQeZR7FhenDvnfcK1l9XOBd9yltx3sM/EPtWaBwST6eiaVLBQOeiwZF/ngiUMO0JYgcnYFkI9UnEZ7eykTOCCh+Vorc/QRr6FLvahULOdBctPLCNp34bnCFHLhRpH9eH2NdcVyT4BCe07xrD0HgZNtx9Zm3zZZs8ZnRESno/8H0dxNj4Wn0gtLscmRLNSHrdP1xkxlip2OyhQBITgJ+lqS0KSeRwB9</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:KeyDescriptor use="encryption">
+        <ns2:KeyInfo>
+          <ns2:X509Data>
+            <ns2:X509Certificate>MIID9TCCAt2gAwIBAgIUcZoqcItpAnptt5dq5ZkHZLAMzJwwDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEaMBgGA1UEAwwRbmlwb3MuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMzAxMTAyMTQxMTFaFw0zMzAxMTAyMTQxMTFaMIGJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxGjAYBgNVBAMMEW5pcG9zLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDIz3Xp5xId6QrEV+CmsSqOxTt0DYkgZr+0NwOT1LPIUqBE+y1ji8b1OMC0NaBU2Zgw5y4UI5M4zPQVc4HkYsnTfwtI0lCBXSjYcKxry7wZ2BEgF7fZfpMFuzKUSF4JyA104m9d2MavsEcLYTPK4M5rkpeeWH6PHyPahYqdA6YfUc7p4z0dH5UlmRto2QgjS2tEo7c9vhZCo+9s0Z6rEUBtRf+RJV1eXZXrN/00DA/ySIu/xtVj1FkOqyOLcm/BHXAYmLgp3TOcPnBJK45Pw2Fk+eFjka45C9OuNoM9nUndPOtVnVhj6oXtDAhVUJtWvlMnh4Pm7jCF6MP6Lsnz03PXAgMBAAGjUzBRMB0GA1UdDgQWBBRIM2RLLMYB6J7MwL6sItfWgcmBwzAfBgNVHSMEGDAWgBRIM2RLLMYB6J7MwL6sItfWgcmBwzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA8rOleUL7TBrcZCzk15xhBAHs5rclazdQie+1e8QRzXDdgiwt/jyKyM2J9LGcnrcaAmVVgqNaxBX0OqplZJQk8ljQDpL59xXrVlsYlhsFj0Qch4dv5ujDkqKkQeZR7FhenDvnfcK1l9XOBd9yltx3sM/EPtWaBwST6eiaVLBQOeiwZF/ngiUMO0JYgcnYFkI9UnEZ7eykTOCCh+Vorc/QRr6FLvahULOdBctPLCNp34bnCFHLhRpH9eH2NdcVyT4BCe07xrD0HgZNtx9Zm3zZZs8ZnRESno/8H0dxNj4Wn0gtLscmRLNSHrdP1xkxlip2OyhQBITgJ+lqS0KSeRwB9</ns2:X509Certificate>
+          </ns2:X509Data>
+        </ns2:KeyInfo>
+      </ns0:KeyDescriptor>
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nipos.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nipos.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://nipos.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://nipos.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </ns0:IDPSSODescriptor>
+  <ns0:Organization>
+      <ns0:OrganizationName xml:lang="en">National Information and Consulting Centre for Culture</ns0:OrganizationName>
+    <ns0:OrganizationName xml:lang="cs">Národní informační a poradenské středisko pro kulturu</ns0:OrganizationName>
+    <ns0:OrganizationDisplayName xml:lang="en">National Information and Consulting Centre for Culture</ns0:OrganizationDisplayName>
+    <ns0:OrganizationDisplayName xml:lang="cs">Národní informační a poradenské středisko pro kulturu</ns0:OrganizationDisplayName>
+    <ns0:OrganizationURL xml:lang="en">https://www.nipos.cz</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="cs">https://www.nipos.cz</ns0:OrganizationURL>
+    </ns0:Organization>
+  <ns0:ContactPerson contactType="technical">
+      <ns0:GivenName>Radek</ns0:GivenName>
+    <ns0:SurName>Šiman</ns0:SurName>
+    <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://shib.medvik.cz/idp/shibboleth">
