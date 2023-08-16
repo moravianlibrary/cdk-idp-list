@@ -32,7 +32,6 @@ https://idp.slu.cas.cz/idp/shibboleth
 https://idp.soc.cas.cz/idp/shibboleth
 https://shibbo.tul.cz/idp/shibboleth
 https://idp.uhk.cz/idp/shibboleth
-https://eduid.ujak.cz/idp/shibboleth
 https://idp.ujep.cz/idp/shibboleth
 https://cas.cuni.cz/idp/shibboleth
 https://idp.unob.cz/idp/shibboleth

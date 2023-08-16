@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-09-08T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-09-12T09:41:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>s++TzQzR5Z4tIgTb9FXjvHPx3pBawFNEmmhJ2Ag6A6I=</ns2:DigestValue>
+      <ns2:DigestValue>+OlH1SbkPJqcXUE2FXr8JOeap3jdgWO3nAIwqYvAXD8=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-+0GtYTO4xTKEv1aN2qsxJzVPxAd/0VsBaIEWoIIk33KFTPkBo5bNLq4NAzIc+UEh8AiH6OJLG8iF
-HBmmCOT84p7rD1gkns3nVG10ik2na9bsKj5dCsbXowYz62AkmWTrL5gM4W7t5rNroOLhpWsAqdIK
-bxcywx62qQI6QtSB53HOZ2G22KreSNcB5zcDT7gno0ikhonjpr9idQl/wPEg1hMDst2WfuvIuQZR
-B9SiAqYpbh+ZqKAT3X2Wn6oYiIaAVPtZ0CtTnCNnYsUG47dXLTAoFiG4rI/yzPUbUSK0Ok++KvJ5
-IYS4YyBAO5HVWau6Rr4Lws1grskRV4LZp4Z5sQ==
+tYCgb4diWvu4EHmTkDK2rxq5ETB4I6Kvi+CUYKUqeNSIKRzzxdLO2UFsF+NtufaQ6tSyRuJP9JqT
+OmXzgxFHmmO7qYqHJ6/GFfTDIBozLp0CPlxPcI0HzJfcSQsUHR4gA5ikrpPZIBcXyZZPZ/Hiw24V
+dxxL+jxf6p5FvsNFGA3kdC+qgW/i4ZYh2W5FdpJ3Izzo1HFsKfSBFtmSsNCn4Dd5EqTuTQ97/Tmg
+lfOWa2TZPmL9Rs7YuKUoMh8PtdCWcEHfQBzJUvcnfM5NglN+fHMNmgKe55S1tV/nCjcd5jUMVZG4
+4bFYF27pP6jn40/S8BFjgg0IAF2fDSt+UtlFZQ==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -1930,195 +1930,6 @@ Kdi9CEjd3g==</ns2:X509Certificate>
   <ns0:ContactPerson contactType="other" ns9:contactType="http://refeds.org/metadata/contactType/security">
       <ns0:GivenName>PRIGO SECURE TEAM</ns0:GivenName>
     <ns0:EmailAddress>mailto:abuse@prigo.cz</ns0:EmailAddress>
-    </ns0:ContactPerson>
-  </ns0:EntityDescriptor>
-<ns0:EntityDescriptor entityID="https://eduid.ujak.cz/idp/shibboleth">
-    <ns0:Extensions>
-      <ns4:EntityAttributes>
-        <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-          <ns5:AttributeValue>http://eduid.cz/uri/idp-group/university</ns5:AttributeValue>
-        </ns5:Attribute>
-      </ns4:EntityAttributes>
-    </ns0:Extensions>
-  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
-      <ns0:Extensions>
-        <ns6:Scope regexp="false">ujak.cz</ns6:Scope>
-      <ns7:UIInfo>
-          <ns7:DisplayName xml:lang="en">Jan Amos Komensky University Prague</ns7:DisplayName>
-        <ns7:DisplayName xml:lang="cs">Univerzita Jana Amose Komenského Praha</ns7:DisplayName>
-        <ns7:Description xml:lang="en">Identity Provider for UJAK employees.</ns7:Description>
-        <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance UJAK.</ns7:Description>
-        <ns7:InformationURL xml:lang="en">http://www.ujak.cz/english/</ns7:InformationURL>
-        <ns7:InformationURL xml:lang="cs">http://www.ujak.cz/</ns7:InformationURL>
-        <ns7:Logo height="200" width="200">https://cps.ujak.cz/logo/shib.jpg</ns7:Logo>
-        </ns7:UIInfo>
-      </ns0:Extensions>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAIy33BG5IS1FmNYVg5RE0+ps0t1aMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWVkdWlkLnVqYWsuY3owHhcNMTUwNzIyMTcxNTUwWhcN
-MzUwNzIyMTcxNTUwWjAYMRYwFAYDVQQDDA1lZHVpZC51amFrLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUGLidJImEc8qHflyK/wEHfYxD+SopXz
-wMIDUIbbd+WjyDmzB2Hr4/8AVNitlaao92i6wUvLCpk9TRWCoVN5TtmVPizhizP2
-+qB+NF9ufb4plm+PH57D8JiQzCaQhteklxZdWAzEGrc0L39PLoJoHLoYihQy1fo1
-41vG6E3yRKJ4vQiEDigGo7MaZfHGRqTzBVi7Zo4EWN70pYx4NUkM1xTZSImGE3jO
-EZwzbsKHExDm+u9QIOAiboUx39M0g4S6mI22k4qzYamy/as1o7QEcUBj7ScUAFRY
-jdoCn4z1I+Z7SFOc8AFNjh9SZG9IpkWsoPruKn6HDAomLN8eum9o0QIDAQABo2Ew
-XzAdBgNVHQ4EFgQUL4UDNsuBOG5ecYaHCvjdhY0K3NIwPgYDVR0RBDcwNYINZWR1
-aWQudWphay5jeoYkaHR0cHM6Ly9lZHVpZC51amFrLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQCHI4wwOdd4+2bU5xXEGHcDy4EyPRYcVEW+D0SQ
-69+iH1PS26XP8n/gl96k3xbOXYoYK6sBSYERFSQpvnbcsINzphz4aBuQoh3znn5s
-EVlhLk7MEQGfjKvY01WvpanEo3vhduw/MIKKwmBXjN7xKFHdBXKSBQ86Jqv7X+GQ
-Kc2JlhisQCjcZlAygrlx9+OypC1a1Qoje5WAHGVqWwa+ggixU5X4wsQfBuK+CKQA
-kHV2kdWdPY8V+tDBsCh0Do226dctSndC8jNEAgDh9oNrTDWIw2z7eZYLqkN1Z08l
-ENCM0rDeOJGI2oOXDCsV/QoC/41zn1QTX1DUwEJ3LWPagNF7</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAIzM3XXpcqkwNfwWK+me1pC/fJqiMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWVkdWlkLnVqYWsuY3owHhcNMTUwNzIyMTcxNTQ5WhcN
-MzUwNzIyMTcxNTQ5WjAYMRYwFAYDVQQDDA1lZHVpZC51amFrLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtcw+rF/ZdjlRuHRAVMwPr25pgkuFe7Oq
-2pPot5dacCxbmzl8tskePhiBd5HjbnRKfxTOquf0DHMsLbWZ37DwG6AZR6asBXRA
-OON71ptV7i624nel3Yp1B0sTl4RajwAO+7b4YQ31Lq+SVlDPK1wDED77s8Sf128Z
-IoAW9JN0XVwhZO+d3fqOTeR7woqpCcuEcYQzCJOqcVarDFB1IsKeMHgRxnLAeqOq
-WnQCYVHs7/e0zjNQeESPALrqoQsZaQTvVxwTUCZeaZ8PEjwIelqJZ3D7WWkedbHF
-drz+V18Git/2Fnp2TF1ncnemYBrZGZwnZ4GYcLQEBQU9xF3jyiN/5wIDAQABo2Ew
-XzAdBgNVHQ4EFgQUUCYllD4I/bhqlEstgElLprwLCh4wPgYDVR0RBDcwNYINZWR1
-aWQudWphay5jeoYkaHR0cHM6Ly9lZHVpZC51amFrLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQBGuIP4XvqHrr4z7XIifsA1DJTzP7UF+Syqp/Mn
-W6kAtdPrVhfAeVA/XUymKiGeG3HGSXCNbwffQNHDi/W0xyH59ISzpIyvp6Ply5Rv
-2cDPq+SaYsKRK3nvjYzwevBoE/RzAgsgQ4l+8CPA88J49Itws8ivz9NSRtKksKRL
-onLd+poQBJtj2Uq1QZsyjiHR4JNrR7/Pml3a6+dzzEVMmxKt3uPngarVQfN7INq/
-ycvhYOVHqkAHAXtsAic1/pjmAEa4Bq3SPWVWmL9R2DvlPBDINAE9RvH9+XtJDgWf
-RGie1gel10r0Ax65VC5NeVvilH13MZUN1Kx2frZu2U3+LquI</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="encryption">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDHzCCAgegAwIBAgIUTimfu+focCdp3qHktn4jtx2rV4UwDQYJKoZIhvcNAQEL
-BQAwGDEWMBQGA1UEAwwNZWR1aWQudWphay5jejAeFw0xNTA3MjIxNzE1NDlaFw0z
-NTA3MjIxNzE1NDlaMBgxFjAUBgNVBAMMDWVkdWlkLnVqYWsuY3owggEiMA0GCSqG
-SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCryR+KxpiLKm5uannaVoVWDpjWSFQsK9sN
-7Tq/CA++kqIN8UNh7HQj1tGMmoRVJ8aY9SqmK6XjYEZYD2byDOdAHxvy6uHdniJ7
-eJMMEJC+bjRKsatf0THPAiujZTAkKI642mw1Wm1NBS9NgTIlCnyuzBbH4xQjgic2
-OMNarXzPoEg1X5n2Rk9PwNVV+1X9evDb9/DDFWF8PKdauGOINzVrTWZNTz5Y3Xyi
-SwRUv6LuhLWHLLw3X+czr1DcMoMbKyaMoobWIpvQqR/FJbMYNnHq7FiiywRmRWP7
-SaFXLSVlUC9VeM0kW0rcHNSbd1pqoIXuT4Dkt90zEFbKPWKxzOWFAgMBAAGjYTBf
-MB0GA1UdDgQWBBSxBJQQ4yy30oClmCyzJ96HWZFaNTA+BgNVHREENzA1gg1lZHVp
-ZC51amFrLmN6hiRodHRwczovL2VkdWlkLnVqYWsuY3ovaWRwL3NoaWJib2xldGgw
-DQYJKoZIhvcNAQELBQADggEBAArxGw7gv8wF2wVYMWNubhxb0DEWUD7+mj96CRgl
-/XQu94JlXZEpAJ3AKUKZrxxgN38wdWrob7o70lFa8Jq3V8hZEgrhQDNsvNivVw0r
-12yTVWXcqWREy0I7LxRQ/ZKdL18ATZan9iATJaoXwZBtGMkOhNNXxG5X8YZAYDXH
-rT5xZIGPDV9eCCMRGPzNyBfOjZoKFF1U3Xo6nxAbZaBRxm83qzpOz2U+tpncUEXO
-T4CEWrQ/RSBisQ5LB3KBzdGx0kIpJsZrzQ14cgtsXv8jvj+AMdK4nwn1Gb4J9XS5
-ISgwSHEfK3zgCJn0s4ip8KcPAmTTP6LaobpDUc8VahCIByQ=</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.ujak.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
-    <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.ujak.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
-    <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://eduid.ujak.cz/idp/profile/Shibboleth/SSO" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eduid.ujak.cz/idp/profile/SAML2/POST/SSO" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.ujak.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://eduid.ujak.cz/idp/profile/SAML2/Redirect/SSO" />
-    </ns0:IDPSSODescriptor>
-  <ns0:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
-      <ns0:Extensions>
-        <ns6:Scope regexp="false">ujak.cz</ns6:Scope>
-      </ns0:Extensions>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAIy33BG5IS1FmNYVg5RE0+ps0t1aMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWVkdWlkLnVqYWsuY3owHhcNMTUwNzIyMTcxNTUwWhcN
-MzUwNzIyMTcxNTUwWjAYMRYwFAYDVQQDDA1lZHVpZC51amFrLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlUGLidJImEc8qHflyK/wEHfYxD+SopXz
-wMIDUIbbd+WjyDmzB2Hr4/8AVNitlaao92i6wUvLCpk9TRWCoVN5TtmVPizhizP2
-+qB+NF9ufb4plm+PH57D8JiQzCaQhteklxZdWAzEGrc0L39PLoJoHLoYihQy1fo1
-41vG6E3yRKJ4vQiEDigGo7MaZfHGRqTzBVi7Zo4EWN70pYx4NUkM1xTZSImGE3jO
-EZwzbsKHExDm+u9QIOAiboUx39M0g4S6mI22k4qzYamy/as1o7QEcUBj7ScUAFRY
-jdoCn4z1I+Z7SFOc8AFNjh9SZG9IpkWsoPruKn6HDAomLN8eum9o0QIDAQABo2Ew
-XzAdBgNVHQ4EFgQUL4UDNsuBOG5ecYaHCvjdhY0K3NIwPgYDVR0RBDcwNYINZWR1
-aWQudWphay5jeoYkaHR0cHM6Ly9lZHVpZC51amFrLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQCHI4wwOdd4+2bU5xXEGHcDy4EyPRYcVEW+D0SQ
-69+iH1PS26XP8n/gl96k3xbOXYoYK6sBSYERFSQpvnbcsINzphz4aBuQoh3znn5s
-EVlhLk7MEQGfjKvY01WvpanEo3vhduw/MIKKwmBXjN7xKFHdBXKSBQ86Jqv7X+GQ
-Kc2JlhisQCjcZlAygrlx9+OypC1a1Qoje5WAHGVqWwa+ggixU5X4wsQfBuK+CKQA
-kHV2kdWdPY8V+tDBsCh0Do226dctSndC8jNEAgDh9oNrTDWIw2z7eZYLqkN1Z08l
-ENCM0rDeOJGI2oOXDCsV/QoC/41zn1QTX1DUwEJ3LWPagNF7</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAIzM3XXpcqkwNfwWK+me1pC/fJqiMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWVkdWlkLnVqYWsuY3owHhcNMTUwNzIyMTcxNTQ5WhcN
-MzUwNzIyMTcxNTQ5WjAYMRYwFAYDVQQDDA1lZHVpZC51amFrLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtcw+rF/ZdjlRuHRAVMwPr25pgkuFe7Oq
-2pPot5dacCxbmzl8tskePhiBd5HjbnRKfxTOquf0DHMsLbWZ37DwG6AZR6asBXRA
-OON71ptV7i624nel3Yp1B0sTl4RajwAO+7b4YQ31Lq+SVlDPK1wDED77s8Sf128Z
-IoAW9JN0XVwhZO+d3fqOTeR7woqpCcuEcYQzCJOqcVarDFB1IsKeMHgRxnLAeqOq
-WnQCYVHs7/e0zjNQeESPALrqoQsZaQTvVxwTUCZeaZ8PEjwIelqJZ3D7WWkedbHF
-drz+V18Git/2Fnp2TF1ncnemYBrZGZwnZ4GYcLQEBQU9xF3jyiN/5wIDAQABo2Ew
-XzAdBgNVHQ4EFgQUUCYllD4I/bhqlEstgElLprwLCh4wPgYDVR0RBDcwNYINZWR1
-aWQudWphay5jeoYkaHR0cHM6Ly9lZHVpZC51amFrLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQBGuIP4XvqHrr4z7XIifsA1DJTzP7UF+Syqp/Mn
-W6kAtdPrVhfAeVA/XUymKiGeG3HGSXCNbwffQNHDi/W0xyH59ISzpIyvp6Ply5Rv
-2cDPq+SaYsKRK3nvjYzwevBoE/RzAgsgQ4l+8CPA88J49Itws8ivz9NSRtKksKRL
-onLd+poQBJtj2Uq1QZsyjiHR4JNrR7/Pml3a6+dzzEVMmxKt3uPngarVQfN7INq/
-ycvhYOVHqkAHAXtsAic1/pjmAEa4Bq3SPWVWmL9R2DvlPBDINAE9RvH9+XtJDgWf
-RGie1gel10r0Ax65VC5NeVvilH13MZUN1Kx2frZu2U3+LquI</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="encryption">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDHzCCAgegAwIBAgIUTimfu+focCdp3qHktn4jtx2rV4UwDQYJKoZIhvcNAQEL
-BQAwGDEWMBQGA1UEAwwNZWR1aWQudWphay5jejAeFw0xNTA3MjIxNzE1NDlaFw0z
-NTA3MjIxNzE1NDlaMBgxFjAUBgNVBAMMDWVkdWlkLnVqYWsuY3owggEiMA0GCSqG
-SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCryR+KxpiLKm5uannaVoVWDpjWSFQsK9sN
-7Tq/CA++kqIN8UNh7HQj1tGMmoRVJ8aY9SqmK6XjYEZYD2byDOdAHxvy6uHdniJ7
-eJMMEJC+bjRKsatf0THPAiujZTAkKI642mw1Wm1NBS9NgTIlCnyuzBbH4xQjgic2
-OMNarXzPoEg1X5n2Rk9PwNVV+1X9evDb9/DDFWF8PKdauGOINzVrTWZNTz5Y3Xyi
-SwRUv6LuhLWHLLw3X+czr1DcMoMbKyaMoobWIpvQqR/FJbMYNnHq7FiiywRmRWP7
-SaFXLSVlUC9VeM0kW0rcHNSbd1pqoIXuT4Dkt90zEFbKPWKxzOWFAgMBAAGjYTBf
-MB0GA1UdDgQWBBSxBJQQ4yy30oClmCyzJ96HWZFaNTA+BgNVHREENzA1gg1lZHVp
-ZC51amFrLmN6hiRodHRwczovL2VkdWlkLnVqYWsuY3ovaWRwL3NoaWJib2xldGgw
-DQYJKoZIhvcNAQELBQADggEBAArxGw7gv8wF2wVYMWNubhxb0DEWUD7+mj96CRgl
-/XQu94JlXZEpAJ3AKUKZrxxgN38wdWrob7o70lFa8Jq3V8hZEgrhQDNsvNivVw0r
-12yTVWXcqWREy0I7LxRQ/ZKdL18ATZan9iATJaoXwZBtGMkOhNNXxG5X8YZAYDXH
-rT5xZIGPDV9eCCMRGPzNyBfOjZoKFF1U3Xo6nxAbZaBRxm83qzpOz2U+tpncUEXO
-T4CEWrQ/RSBisQ5LB3KBzdGx0kIpJsZrzQ14cgtsXv8jvj+AMdK4nwn1Gb4J9XS5
-ISgwSHEfK3zgCJn0s4ip8KcPAmTTP6LaobpDUc8VahCIByQ=</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.ujak.cz:8443/idp/profile/SAML1/SOAP/AttributeQuery" />
-    </ns0:AttributeAuthorityDescriptor>
-  <ns0:Organization>
-      <ns0:OrganizationName xml:lang="en">Jan Amos Komensky University Prague</ns0:OrganizationName>
-    <ns0:OrganizationName xml:lang="cs">Univerzita Jana Amose Komenského Praha</ns0:OrganizationName>
-    <ns0:OrganizationDisplayName xml:lang="en">Jan Amos Komensky University Prague</ns0:OrganizationDisplayName>
-    <ns0:OrganizationDisplayName xml:lang="cs">Univerzita Jana Amose Komenského Praha</ns0:OrganizationDisplayName>
-    <ns0:OrganizationURL xml:lang="en">http://www.ujak.cz/english/</ns0:OrganizationURL>
-    <ns0:OrganizationURL xml:lang="cs">http://www.ujak.cz/</ns0:OrganizationURL>
-    </ns0:Organization>
-  <ns0:ContactPerson contactType="technical">
-      <ns0:GivenName>Michal</ns0:GivenName>
-    <ns0:SurName>Princ</ns0:SurName>
-    <ns0:EmailAddress>mailto:princ.michal@ujak.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://eduid.vsers.cz/idp/shibboleth">
@@ -17979,7 +17790,12 @@ mYyU0qeHcluLxU/GrWy+OGqcqQ==</ns2:X509Certificate>
         <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
       </ns3:RepublishRequest>
     <ns4:EntityAttributes>
-        <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <ns5:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue xsi:type="xs:string">https://refeds.org/category/anonymous</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">https://refeds.org/category/pseudonymous</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">https://refeds.org/category/personalized</ns5:AttributeValue>
+        </ns5:Attribute>
+      <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <ns5:AttributeValue>http://eduid.cz/uri/idp-group/university</ns5:AttributeValue>
         </ns5:Attribute>
       </ns4:EntityAttributes>
@@ -18117,8 +17933,8 @@ GDTEfLmIwXnO89kLfhY0Zytz+2KbCkzDwCaRrhM=</ns2:X509Certificate>
     <ns0:OrganizationName xml:lang="cs">Univerzita Tomáše Bati ve Zlíně</ns0:OrganizationName>
     <ns0:OrganizationDisplayName xml:lang="en">Tomas Bata University in Zlín</ns0:OrganizationDisplayName>
     <ns0:OrganizationDisplayName xml:lang="cs">Univerzita Tomáše Bati ve Zlíně</ns0:OrganizationDisplayName>
-    <ns0:OrganizationURL xml:lang="en">http://www.utb.cz/index.php?lang=2</ns0:OrganizationURL>
-    <ns0:OrganizationURL xml:lang="cs">http://www.utb.cz/index.php?lang=1</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="en">https://www.utb.cz/en/</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="cs">https://www.utb.cz/</ns0:OrganizationURL>
     </ns0:Organization>
   <ns0:ContactPerson contactType="technical">
       <ns0:GivenName>Ivan</ns0:GivenName>
