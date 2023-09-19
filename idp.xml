@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-10-12T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-10-16T08:40:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>0S3NcWLmsPu5igtvTpY43WaiYCqmWk1lM6CRjTXmhe4=</ns2:DigestValue>
+      <ns2:DigestValue>2URL8vNeFgKThxMjJ/3wVEuFrgILFttZVNUQeLvyEZk=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-cy4mznz6KCIb9CfiaJR65I8Vvk95w6/NzAvP1FchnAj44tuBCiDr2opqJ3lIt+PZZ1K7IWXaT8mT
-Lw4+UjKEB7g5gEmSNKYouRQNFKGOIrFvUS1dw6yuzcKXQB9GyOKG73ieJnnHU/Z+m8cVXuj+tZsX
-DRNkQ2wtU/L2AyMt3/SQQFmkhdkeecztkdXsJmdrGnap5n8uCuQmE1/NUz1KtFn9K3z65nIt7BaS
-/jIYXOcoSfTmUvEWV8Avv3I9BNEUPOqFY7USdSF87m4PjLDvqq9r6BbsS/PeurdAkesjENBlesxI
-JmYqrzjX8d+xfDfYTiA6kXuj87prS7WsMJpF2w==
+TFpKJDQNqnfo0NsIxXNi2199sWq/F5FaL3GS/6alFjxdJEpYHktveGIejQ5pB33/TRHoB5fyhVUh
+WILaS8HCiYAJNLdvixgFs6NPPv/ZQqQgiMh6toBkAvcVp+y5z9BthDRPIkUGHdzGVXTlNTtd3VNd
+dG34yeJoNoFba5RHlpnJoopVSohgxTIqZ/7ylK6Ia1kth84CrmPQtxqjFTyIbug/J7/MGyvmyygH
+wCoZKJj2XK7K2KHZgvNK99OdbGg16F419lKfpS2oOcjfBWOlZ+xdxioLZ2+od9Cp2qH/Ius77Quj
+EHdHAMnvnQ8yIFV0sykeaijQ2lXOhimDQAXuyg==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -6350,199 +6350,6 @@ YG7NCWIZ3UaOXGs=</ns2:X509Certificate>
     <ns0:OrganizationDisplayName xml:lang="cs">Ústav chemických procesů AV ČR</ns0:OrganizationDisplayName>
     <ns0:OrganizationURL xml:lang="en">http://www.icpf.cas.cz/</ns0:OrganizationURL>
     <ns0:OrganizationURL xml:lang="cs">http://www.icpf.cas.cz/</ns0:OrganizationURL>
-    </ns0:Organization>
-  <ns0:ContactPerson contactType="technical">
-      <ns0:GivenName>Petr</ns0:GivenName>
-    <ns0:SurName>Vaníček</ns0:SurName>
-    <ns0:EmailAddress>mailto:vanicekp@utia.cas.cz</ns0:EmailAddress>
-    </ns0:ContactPerson>
-  </ns0:EntityDescriptor>
-<ns0:EntityDescriptor entityID="https://idp.ig.cas.cz/idp/shibboleth">
-    <ns0:Extensions>
-      <ns3:RepublishRequest>
-        <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
-      </ns3:RepublishRequest>
-    <ns4:EntityAttributes>
-        <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-          <ns5:AttributeValue>http://eduid.cz/uri/idp-group/avcr</ns5:AttributeValue>
-        </ns5:Attribute>
-      </ns4:EntityAttributes>
-    </ns0:Extensions>
-  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
-      <ns0:Extensions>
-        <ns6:Scope regexp="false">ig.cas.cz</ns6:Scope>
-      <ns7:UIInfo>
-          <ns7:DisplayName xml:lang="en">Institute of Geophysics of the CAS, v.v.i.</ns7:DisplayName>
-        <ns7:DisplayName xml:lang="cs">Geofyzikální ústav AV ČR, v.v.i.</ns7:DisplayName>
-        <ns7:Description xml:lang="en">Identity Provider IG AV CR employees.</ns7:Description>
-        <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance GFÚ AV ČR</ns7:Description>
-        <ns7:InformationURL xml:lang="en">http://www.ig.cas.cz/en</ns7:InformationURL>
-        <ns7:InformationURL xml:lang="cs">http://www.ig.cas.cz</ns7:InformationURL>
-        <ns7:Logo height="44" width="30">https://gedeon.cas.cz/loga/logo-gfu-44.png</ns7:Logo>
-        <ns7:Logo height="146" width="100">https://gedeon.cas.cz/loga/logo-gfu-146.png</ns7:Logo>
-        </ns7:UIInfo>
-      </ns0:Extensions>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVANr1F5WWKu6MkZD2HYaqAH0Woc4kMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWlkcC5pZy5jYXMuY3owHhcNMTYxMDE0MTE0NjIzWhcN
-MzYxMDE0MTE0NjIzWjAYMRYwFAYDVQQDDA1pZHAuaWcuY2FzLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/fsO+2xCpjciHSB5eXYev0CGnBmlzW/
-F7RWjkxmKxHhQMFU5CFOkSM7bGoda9B3iZWJL7ZJ0PxYidyLMSM4icOf8qft1IqK
-PFFruedybX7ZD82fNou4kbg9C9yxcKJqTlExUnK7NnWjXtJ7VGOmg/dlx32bcVYl
-TsllGEmYc4KQrCCkacsDFoOCIZvVqDFbUspjpksTKcWWeGxx6HNJUgmT7zkkVEiI
-l9mjJLqVsincKjpx6BvrqyKknX2uu0kXDsAI2T006VxrXyQ9zPiGzAEI39EoOrQX
-ToVlTsdXNkeRY986XrIZLXUMrzXqBQf4ZttI+uZpNlB6L6aGk3VO4wIDAQABo2Ew
-XzAdBgNVHQ4EFgQUW2ZAy/BoCQBpUxeQdj2ZZaBRilcwPgYDVR0RBDcwNYINaWRw
-LmlnLmNhcy5jeoYkaHR0cHM6Ly9pZHAuaWcuY2FzLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQALN/lutN4DxjtoxJ+K3B3enanxnNgPVXPqCgY0
-66gKuG9VQkdRF1sm566u26FH6Mdekm6UwqU0mTrkhdouRL0x2jjJeeuC3Fc8lAjL
-JggEGEDWFvOM/xzg2thn1gCpatimmG8Peb+/aqNcfBxL6UBBfo2g+PIGHq7WE2ja
-9lcOFmSN/pfSYFDW8wuTWTqNxD/NQ9yQ4QfMKq6y0HyUoBUI5f1T6CExgjmK/jHv
-ApIGmhsBUD5VmosSC4p5LZEMS3mvdk2BRKE24ToZgob4acimFm5JnjiGoWZkDosk
-lRNRbZhfzdlzlBTtWOW+n7H0y3tpznxXsqxZHCfknIl6mg+N</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAN9CTQ1zDbyNoBLxlMrG/RK5Q9qYMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWlkcC5pZy5jYXMuY3owHhcNMTYxMDE0MTE0NjIzWhcN
-MzYxMDE0MTE0NjIzWjAYMRYwFAYDVQQDDA1pZHAuaWcuY2FzLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmMUrIpdKi8MAEyz4ypukSzeJA5oluETs
-DXE4odqEcqXepBP4aG+UW8ZfpmA5EVBBGyUsiNt02npeMyqFuiB7Q0OjLcfDN/1K
-ehg1UuqEelLsJD1JXgJNlzN0ygb8dwEdPDqnXqaFAydc7Gfgs7vhL7IokGLF/0pI
-q9e43NWYqxRM8srU3Rg86/gjaGF+D6N+IvbZ7XTJpFOpkLypOE/z21eeoygjzM30
-fc96lCRqyZhVUphMiStD89+89RdQl1Eo9W0+V6B5NJFYJ+vhFQD7pfoHBdaGh4vt
-BeDy6rihesMagAV+OwBuUfdT4cMyTjNKXgz24GN300QocIOu24Vg4wIDAQABo2Ew
-XzAdBgNVHQ4EFgQU53XFoHixvGwI1Ll0dR4MCQWR69kwPgYDVR0RBDcwNYINaWRw
-LmlnLmNhcy5jeoYkaHR0cHM6Ly9pZHAuaWcuY2FzLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQA3hJwIdzwx8dr+mKQG/DEcewkGaPms1KAAjdeF
-QJ/JzaUluVDtqTRUEHmPgRc482WjPjUcGOFxhood/zv1VIeAnTwQaR5mPxjXSPrq
-H/K2okf8bMkExzeIghFizK18trvVrHwQnzbuKvcOz4IYmxF1XwAlp7FaybFZ6gAh
-BN/eMQauuihDqiEFQjM6lnTN36whHqDEfJzSs/pkq8xANjwKHmsZcYTdjR/HZC4x
-p3ayZBHlLOxjyDHKzERBLjeMyRaUTVI3wjx+Uc7gjnYiMzFenUZqjx7O2IOOXm8Z
-9GmHkefb7FOxtV5y16NtlnJi95VySQzLteyEVm7zc2wgoDaX</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="encryption">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAJZkyt0MKDcZqHkS3a2i37IhmkodMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWlkcC5pZy5jYXMuY3owHhcNMTYxMDE0MTE0NjIzWhcN
-MzYxMDE0MTE0NjIzWjAYMRYwFAYDVQQDDA1pZHAuaWcuY2FzLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw031VGst65tCnSAvdfDclIIylzeJoAMf
-DO8F3GDo2GzoMjMYuKPWpOyuI2A5LBaze3bop4oJVIATYy9Xvkv42KWRShrpkM2F
-Ze6wO8wRrgkB2degEOxpmn4+8E93YE5OhC8IlFPDwRFyd+BFGjSnwUqIZEnEKk0b
-tJEKkma1XVpZlhzcnOuagP0olMF8KdcWJ/0qXVI6CQnXjb6RGD57Qb5+YCkiYOat
-3bARKDgIZpI9g3aekJ1uBHoVNoum23Fdd/56EF+l+atheNyr+fQ4QIrfsI+bIsQ/
-4kfagyM32dqG3QClvb3kvmKHdN44SMIR9a34Ru6X5LNFT8ZRRTF9IwIDAQABo2Ew
-XzAdBgNVHQ4EFgQUuuOinOrqhJN1xpsCk8epj5KxaOAwPgYDVR0RBDcwNYINaWRw
-LmlnLmNhcy5jeoYkaHR0cHM6Ly9pZHAuaWcuY2FzLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQBQEb87SuEW96mgwx+CczMBZUUJOF934+46Ptkj
-65LdX/HLg+0HN4OKDwO05ptR2hUHe4EyrSARzeyRjFvvXwpXtTmanDl6NJdWW7Cj
-0Pux2/KU6G36BHmNb83uLNRhuqsczYO5rWm3w+ttr2FjIiihWna0aItZHm25CPgA
-uhCrQkI8TpJUPtFCHRfKuOHBNmbqPHF5laEbtMCsbx6ouOF53CPewMKj7Lr6Bj9M
-t9kzm9s4u1wfLVJFCvL0QG91oo0UAJ0xJRbE1J/zRHlnZ5M8hw6BJNMNnMky9x2d
-fJt4zNYTWwMgxeTPxJ5cHhrg4a4A5T7+E1cyY2AMZ+6CfFf2</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ig.cas.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
-    <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ig.cas.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</ns0:NameIDFormat>
-    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
-    <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.ig.cas.cz/idp/profile/Shibboleth/SSO" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ig.cas.cz/idp/profile/SAML2/POST/SSO" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ig.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ig.cas.cz/idp/profile/SAML2/Redirect/SSO" />
-    </ns0:IDPSSODescriptor>
-  <ns0:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
-      <ns0:Extensions>
-        <ns6:Scope regexp="false">ig.cas.cz</ns6:Scope>
-      </ns0:Extensions>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVANr1F5WWKu6MkZD2HYaqAH0Woc4kMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWlkcC5pZy5jYXMuY3owHhcNMTYxMDE0MTE0NjIzWhcN
-MzYxMDE0MTE0NjIzWjAYMRYwFAYDVQQDDA1pZHAuaWcuY2FzLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp/fsO+2xCpjciHSB5eXYev0CGnBmlzW/
-F7RWjkxmKxHhQMFU5CFOkSM7bGoda9B3iZWJL7ZJ0PxYidyLMSM4icOf8qft1IqK
-PFFruedybX7ZD82fNou4kbg9C9yxcKJqTlExUnK7NnWjXtJ7VGOmg/dlx32bcVYl
-TsllGEmYc4KQrCCkacsDFoOCIZvVqDFbUspjpksTKcWWeGxx6HNJUgmT7zkkVEiI
-l9mjJLqVsincKjpx6BvrqyKknX2uu0kXDsAI2T006VxrXyQ9zPiGzAEI39EoOrQX
-ToVlTsdXNkeRY986XrIZLXUMrzXqBQf4ZttI+uZpNlB6L6aGk3VO4wIDAQABo2Ew
-XzAdBgNVHQ4EFgQUW2ZAy/BoCQBpUxeQdj2ZZaBRilcwPgYDVR0RBDcwNYINaWRw
-LmlnLmNhcy5jeoYkaHR0cHM6Ly9pZHAuaWcuY2FzLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQALN/lutN4DxjtoxJ+K3B3enanxnNgPVXPqCgY0
-66gKuG9VQkdRF1sm566u26FH6Mdekm6UwqU0mTrkhdouRL0x2jjJeeuC3Fc8lAjL
-JggEGEDWFvOM/xzg2thn1gCpatimmG8Peb+/aqNcfBxL6UBBfo2g+PIGHq7WE2ja
-9lcOFmSN/pfSYFDW8wuTWTqNxD/NQ9yQ4QfMKq6y0HyUoBUI5f1T6CExgjmK/jHv
-ApIGmhsBUD5VmosSC4p5LZEMS3mvdk2BRKE24ToZgob4acimFm5JnjiGoWZkDosk
-lRNRbZhfzdlzlBTtWOW+n7H0y3tpznxXsqxZHCfknIl6mg+N</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAN9CTQ1zDbyNoBLxlMrG/RK5Q9qYMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWlkcC5pZy5jYXMuY3owHhcNMTYxMDE0MTE0NjIzWhcN
-MzYxMDE0MTE0NjIzWjAYMRYwFAYDVQQDDA1pZHAuaWcuY2FzLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmMUrIpdKi8MAEyz4ypukSzeJA5oluETs
-DXE4odqEcqXepBP4aG+UW8ZfpmA5EVBBGyUsiNt02npeMyqFuiB7Q0OjLcfDN/1K
-ehg1UuqEelLsJD1JXgJNlzN0ygb8dwEdPDqnXqaFAydc7Gfgs7vhL7IokGLF/0pI
-q9e43NWYqxRM8srU3Rg86/gjaGF+D6N+IvbZ7XTJpFOpkLypOE/z21eeoygjzM30
-fc96lCRqyZhVUphMiStD89+89RdQl1Eo9W0+V6B5NJFYJ+vhFQD7pfoHBdaGh4vt
-BeDy6rihesMagAV+OwBuUfdT4cMyTjNKXgz24GN300QocIOu24Vg4wIDAQABo2Ew
-XzAdBgNVHQ4EFgQU53XFoHixvGwI1Ll0dR4MCQWR69kwPgYDVR0RBDcwNYINaWRw
-LmlnLmNhcy5jeoYkaHR0cHM6Ly9pZHAuaWcuY2FzLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQA3hJwIdzwx8dr+mKQG/DEcewkGaPms1KAAjdeF
-QJ/JzaUluVDtqTRUEHmPgRc482WjPjUcGOFxhood/zv1VIeAnTwQaR5mPxjXSPrq
-H/K2okf8bMkExzeIghFizK18trvVrHwQnzbuKvcOz4IYmxF1XwAlp7FaybFZ6gAh
-BN/eMQauuihDqiEFQjM6lnTN36whHqDEfJzSs/pkq8xANjwKHmsZcYTdjR/HZC4x
-p3ayZBHlLOxjyDHKzERBLjeMyRaUTVI3wjx+Uc7gjnYiMzFenUZqjx7O2IOOXm8Z
-9GmHkefb7FOxtV5y16NtlnJi95VySQzLteyEVm7zc2wgoDaX</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="encryption">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIDIDCCAgigAwIBAgIVAJZkyt0MKDcZqHkS3a2i37IhmkodMA0GCSqGSIb3DQEB
-CwUAMBgxFjAUBgNVBAMMDWlkcC5pZy5jYXMuY3owHhcNMTYxMDE0MTE0NjIzWhcN
-MzYxMDE0MTE0NjIzWjAYMRYwFAYDVQQDDA1pZHAuaWcuY2FzLmN6MIIBIjANBgkq
-hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw031VGst65tCnSAvdfDclIIylzeJoAMf
-DO8F3GDo2GzoMjMYuKPWpOyuI2A5LBaze3bop4oJVIATYy9Xvkv42KWRShrpkM2F
-Ze6wO8wRrgkB2degEOxpmn4+8E93YE5OhC8IlFPDwRFyd+BFGjSnwUqIZEnEKk0b
-tJEKkma1XVpZlhzcnOuagP0olMF8KdcWJ/0qXVI6CQnXjb6RGD57Qb5+YCkiYOat
-3bARKDgIZpI9g3aekJ1uBHoVNoum23Fdd/56EF+l+atheNyr+fQ4QIrfsI+bIsQ/
-4kfagyM32dqG3QClvb3kvmKHdN44SMIR9a34Ru6X5LNFT8ZRRTF9IwIDAQABo2Ew
-XzAdBgNVHQ4EFgQUuuOinOrqhJN1xpsCk8epj5KxaOAwPgYDVR0RBDcwNYINaWRw
-LmlnLmNhcy5jeoYkaHR0cHM6Ly9pZHAuaWcuY2FzLmN6L2lkcC9zaGliYm9sZXRo
-MA0GCSqGSIb3DQEBCwUAA4IBAQBQEb87SuEW96mgwx+CczMBZUUJOF934+46Ptkj
-65LdX/HLg+0HN4OKDwO05ptR2hUHe4EyrSARzeyRjFvvXwpXtTmanDl6NJdWW7Cj
-0Pux2/KU6G36BHmNb83uLNRhuqsczYO5rWm3w+ttr2FjIiihWna0aItZHm25CPgA
-uhCrQkI8TpJUPtFCHRfKuOHBNmbqPHF5laEbtMCsbx6ouOF53CPewMKj7Lr6Bj9M
-t9kzm9s4u1wfLVJFCvL0QG91oo0UAJ0xJRbE1J/zRHlnZ5M8hw6BJNMNnMky9x2d
-fJt4zNYTWwMgxeTPxJ5cHhrg4a4A5T7+E1cyY2AMZ+6CfFf2</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.ig.cas.cz:8443/idp/profile/SAML1/SOAP/AttributeQuery" />
-    </ns0:AttributeAuthorityDescriptor>
-  <ns0:Organization>
-      <ns0:OrganizationName xml:lang="en">Institute of Geophysics of the CAS</ns0:OrganizationName>
-    <ns0:OrganizationName xml:lang="cs">Geofyzikální ústav AV ČR</ns0:OrganizationName>
-    <ns0:OrganizationDisplayName xml:lang="en">Institute of Geophysics of the CAS, v.v.i.</ns0:OrganizationDisplayName>
-    <ns0:OrganizationDisplayName xml:lang="cs">Geofyzikální ústav AV ČR, v.v.i.</ns0:OrganizationDisplayName>
-    <ns0:OrganizationURL xml:lang="en">http://www.ig.cas.cz/en</ns0:OrganizationURL>
-    <ns0:OrganizationURL xml:lang="cs">http://www.ig.cas.cz/</ns0:OrganizationURL>
     </ns0:Organization>
   <ns0:ContactPerson contactType="technical">
       <ns0:GivenName>Petr</ns0:GivenName>

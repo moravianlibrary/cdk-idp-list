@@ -9,7 +9,6 @@ https://idp2.civ.cvut.cz/idp/shibboleth
 https://whoami.cesnet.cz/idp/shibboleth
 https://idp.eu.cas.cz/idp/shibboleth
 https://idp.flu.cas.cz/idp/shibboleth
-https://idp.ig.cas.cz/idp/shibboleth
 https://idp.gli.cas.cz/idp/shibboleth
 https://idp.hiu.cas.cz/idp/shibboleth
 https://eduid.jamu.cz/idp/shibboleth
