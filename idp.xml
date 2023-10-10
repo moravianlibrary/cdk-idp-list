@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-11-02T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<ns0:EntitiesDescriptor xmlns:ns0="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://eduid.cz/schema/metadata/1.0" xmlns:ns4="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:ns5="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns6="urn:mace:shibboleth:metadata:1.0" xmlns:ns7="urn:oasis:names:tc:SAML:metadata:ui" xmlns:ns8="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:ns9="http://refeds.org/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-11-06T09:22:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ns2:Signature>
     <ns2:SignedInfo>
       <ns2:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ns2:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ns2:Transforms>
       <ns2:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ns2:DigestValue>vorEMXAAQpG3RGsESzdawPzSCC+v5OWqIOB5PYC8s9o=</ns2:DigestValue>
+      <ns2:DigestValue>hlbTfBUeo0WGFGidbVXbtD2sm6YkmNa+Ri0lFnkUUuI=</ns2:DigestValue>
       </ns2:Reference>
     </ns2:SignedInfo>
   <ns2:SignatureValue>
-nHnmnHladHKcoSWT7BVtnJrWq7fmy4AK+mHZ5cVw+pwmzLBCxm209Q58+k9kZM/ADf26agoYeQEM
-8PZHZIi9NZJbYvdPqaAzIYaVdJwpv5PILEyrjKj6Bk4XSX0o5aKOGkg6XfFYB6hd7gfSyIk9qpeZ
-BVvAE41rYvmy/FwL46yLWOtNDtKRqblRDEwfHyxdI/Tvv1GacyUOJ+yboKyT2fVLv+Y2hccYHN1w
-biUNUiDTxIIAHM4vxJx2zfPvZ2es41Em2J1qCE34qaeczhf9KXmXcbZfB2fF2JugvMU7s5OUCXeG
-Wz0CFVAaPp7Z+TH9GlHOczjVzha67CLGy9koNQ==
+SfFGM3EvClyb+Kpjf1cRuSg+B+iDvSnVnHolkrgfFOsqo4YoiTft7NM90zdgbKD5hw9DbkeZxrdQ
+AKMAWFBAtKujRTkuJ2o4uIJ1jyv7+gYKWNBDz0NptUyBdJcK6xNTWhlLrmd5wsZN6EGofUDqX48r
+y2R0oYPh/GOgxL5GAS9MrpvSoKpfx6bBVUigEfcwIm/T4Nk2pz5cAd32Iz4dV1oMeLk5100XoepK
+AbkAKTYatsng1fjBNHRms+LiBPDjXa89mEx/Tu4oxfIrCygQnQyqoIriAMcI0eSHqQQqRO1dhOvv
+bI7Jj34ih4lL17Q98pTheyuQkXfOuCxyCH686Q==
 </ns2:SignatureValue>
   <ns2:KeyInfo>
       <ns2:KeyValue>
@@ -8599,231 +8599,66 @@ tIQiavthGA2SJgidAFEtV/h8foZv/A8OmyZCNkLzPtzbA+HHwNMh9g==</ns2:X509Certificate>
   </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://idp.rkka.cz/idp/shibboleth">
     <ns0:Extensions>
-      <ns3:RepublishRequest>
-        <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
-      </ns3:RepublishRequest>
-    <ns4:EntityAttributes>
-        <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+      <ns4:EntityAttributes>
+        <ns5:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <ns5:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</ns5:AttributeValue>
+        <ns5:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</ns5:AttributeValue>
+        </ns5:Attribute>
+      <ns5:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <ns5:AttributeValue>http://eduid.cz/uri/idp-group/library</ns5:AttributeValue>
         </ns5:Attribute>
       </ns4:EntityAttributes>
+    <ns3:RepublishRequest>
+        <ns3:RepublishTarget>http://edugain.org/</ns3:RepublishTarget>
+      </ns3:RepublishRequest>
     </ns0:Extensions>
-  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+  <ns0:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <ns0:Extensions>
         <ns6:Scope regexp="false">rkka.cz</ns6:Scope>
       <ns7:UIInfo>
-          <ns7:DisplayName xml:lang="en">Regional Library Karvina</ns7:DisplayName>
-        <ns7:DisplayName xml:lang="cs">Regionální knihovna Karviná</ns7:DisplayName>
-        <ns7:Description xml:lang="en">Regional Library Karvina</ns7:Description>
-        <ns7:Description xml:lang="cs">Regionální knihovna Karviná</ns7:Description>
-        <ns7:InformationURL xml:lang="en">http://www.rkka.cz/</ns7:InformationURL>
-        <ns7:InformationURL xml:lang="cs">http://www.rkka.cz/</ns7:InformationURL>
-        <ns7:Logo height="1181" width="1182">https://www.rkka.cz/wp-content/uploads/2019/01/cropped-Logo_bez_textu.png</ns7:Logo>
+          <ns7:DisplayName xml:lang="en">Regionální knihovna Karviná</ns7:DisplayName>
+        <ns7:DisplayName xml:lang="cs">Regional Library Karviná</ns7:DisplayName>
+        <ns7:Description xml:lang="en">Identity Provider for employees and readers of the Regional Library Karviná</ns7:Description>
+        <ns7:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Regionální knihovny Karviná</ns7:Description>
+        <ns7:InformationURL xml:lang="en">https://www.rkka.cz</ns7:InformationURL>
+        <ns7:InformationURL xml:lang="cs">https://www.rkka.cz</ns7:InformationURL>
+        <ns7:Logo height="40" width="113">https://karvina.idp.rbit.cz/logo.png</ns7:Logo>
         </ns7:UIInfo>
       </ns0:Extensions>
     <ns0:KeyDescriptor use="signing">
         <ns2:KeyInfo>
           <ns2:X509Data>
-            <ns2:X509Certificate>MIIEDDCCAnSgAwIBAgIUT0UVC+eFP3OnbRyYwz81JLqfpxgwDQYJKoZIhvcNAQEL
-BQAwFjEUMBIGA1UEAwwLaWRwLnJra2EuY3owHhcNMTkwNjA2MTM0MjQ2WhcNMzkw
-NjA2MTM0MjQ2WjAWMRQwEgYDVQQDDAtpZHAucmtrYS5jejCCAaIwDQYJKoZIhvcN
-AQEBBQADggGPADCCAYoCggGBAIrjm999v54ChW53leoXLMo/iGQZEDQrvl6foqJE
-9Uhm2xQt/ERexu7+1Ovp1SH5msveady7Isf/Z0Bzsowz37KCtXgFcXkLwTDAzPbQ
-j0nvKdD+4NdyTd0Z7+rhGXfalDxmFSDUFnF/ZrhPnf1t3cRKNgjw3WTFJbgxu0gZ
-Ks8/qtTRiQYrkIWTaPFuG1QX1rHPYgYZLHqkEPaEI1Xhi7ZVqkqsLjh2tlRG6/hz
-UhB1IqfKOsdlM9PHS/EWPnlbzqoza/a9rIvT29vzvlObz1tknsBkfU79iiqt0GHx
-OJr5zaByYgDMtLW7Tn7h2spMx3a3LbKagVFWHvvuVLL2K0WrlVZzTXWHoAG0eQNc
-MB+H5thgDnK4/40Hq7FC0ByVjsR7BVw0c59dwFWtzavNkCCGriGh7D6YNEFJe7jW
-XGMLIfeJ0WnM8OU+CxmET5N2UQ8iELrJ0vhLBTQpMlCE3s93JgoJtSZ08sq8H7RC
-ff3ACbkZFsc60iheqyV9QdaQ7QIDAQABo1IwUDAdBgNVHQ4EFgQUFXFReekTbTvz
-yGf0yUC18RDD/ucwLwYDVR0RBCgwJoILaWRwLnJra2EuY3qGF2h0dHBzOi8vaWRw
-LnJra2EuY3ovaWRwMA0GCSqGSIb3DQEBCwUAA4IBgQBjzhcY5p5tR82ICM+3i/6V
-CFMYGZ5YQvYVgaTolsgiTR/MKUnhD58M/NscyMdL8oYoegbTk3In1IyFA7kOxgMk
-566L/CKmQMw8AKmtU+jvchv1kpimneRG+pRjJVCEM+RZ3ST++e1wiMS4X9HT04F8
-Fmjd1gI7NMMBP+EvAQWbYNGM+vSDS6kVe5NTpktsSQJDfPOXiZnfe45blcIYD0RH
-LP4tDVsPEZ6UKQuVK3/GEWU+pRw0SKKsGR+IQJchhPPWf0e1LoR5Sj8PEnIAJJ7n
-kI+YwaxNdlhzukLGd4p/Fq/AFjOS1TEjrBQ7Qy0iTaA1imayfkdRHrKZZutufy5E
-zlRl0Klv5+Yen+17DWo01r7Db2JvvYGPcSniE23oIibuOYsP4mHrr/iIzRFSRsxs
-q6Zi9KD1wMB7mneyZ67mLwKzybASz9O1NNakcaC+lc+P2s82oSSag81L8lWV5FUg
-BmopUmpknWtYpdNXVOnPR3T1BMJ1AvjykWT7lca3txc=</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIEDTCCAnWgAwIBAgIVAMbxGez9/FJY8ZV8gh75Pa1pblf0MA0GCSqGSIb3DQEB
-CwUAMBYxFDASBgNVBAMMC2lkcC5ya2thLmN6MB4XDTE5MDYwNjEzNDI0NFoXDTM5
-MDYwNjEzNDI0NFowFjEUMBIGA1UEAwwLaWRwLnJra2EuY3owggGiMA0GCSqGSIb3
-DQEBAQUAA4IBjwAwggGKAoIBgQCTfJGTzNii/MWx8SFFMCcibMQlre5XbjYA1irH
-9PVxBJKvlbgw7UkglWr/kOhkYwmidAwkhCzTKzlw3MnufpoOU2uk3ueQB1LE3Qqc
-GOTZtrdmbfGOpcDt7XoOy2PzOSqykRqHpJFv9v7KEdXelwzynNNInptSJ+6PPt+u
-2qNp2L/ERB8P6BXGvq9mvgjpxKX4qQpBerCP5RU5QoX0RziuYrT7/ernrs+ImCQv
-bPt2iS2R8GZxbu4NvzVPoMIAcQ7UenVMppdivGY5D5yyRxAniFuSvzVtaI0utlpN
-JLkO6d2J95cr56e2ZfOhAT90pQ1NWzaqiiXZPLe45RxlliF/4y/1nrJlnTWw3fGB
-ycPHVUoPhCp+Zpth44AjGtKvIM/zPzO7IczGpXlmK4RR50CMGPJYG6zUKZprncG6
-is/fwqFJe06zL6oIDe3pomTHKQzJP48yf8IOK7W0dOxVX9KUAOuRFG/lsAqpll0c
-dvd6ENyIaCi4PiWXvH9dDoAF01UCAwEAAaNSMFAwHQYDVR0OBBYEFPXmicCINnSf
-QFCA8gPiwBMpKxoYMC8GA1UdEQQoMCaCC2lkcC5ya2thLmN6hhdodHRwczovL2lk
-cC5ya2thLmN6L2lkcDANBgkqhkiG9w0BAQsFAAOCAYEAMtitM9rjY5YNPUKEd3rY
-Ur7n4WVWUov8NYvaGyaKZQ8mEOcCGRV/qbHLFiNQdEVW8CW5Qwsp0nbj61jcZrWn
-VXNRvVjw14s/maoq5es2uTrx6/aKouuMyV4r5nTuIEgTosqJuL7U20O4aNslqAf6
-QbVMkJ9X3jqg09OfHgtipemaBei+QOJXyTTcXgwSN9HW9rejDRWmJgBsmspMjSIC
-KDPNfZxZ0kagJv2dANshZhs9sM4UqDQqtN5lbrqBjxslfGunb5sl1VYEkqcdZvm3
-4PSIbYZAi5WJ4hUcq0AldAz2z+PO7aGZn4hauhjLOCtX2yjnh0EE3ybh5jqMloqV
-BXxd8jySmsHMxMhzH4H/0kqgLzduRU11prwn/0luclnGq5e21lvRuM7tNas6uKtF
-KPZqAgo8roGU+ALXHuM5Svu94Ai+rclxhvapAR2Ub9peiTzlrSXdXB8a72ZklQSt
-VzmM4MWuyrepQ0EHMmD8SGFFRcR/3Lfaar7hyRxHYMc8</ns2:X509Certificate>
+            <ns2:X509Certificate>MIID+TCCAuGgAwIBAgIUcAtfAQENSexsmyY5Hra98EswY50wDQYJKoZIhvcNAQELBQAwgYsxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEcMBoGA1UEAwwTa2FydmluYS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MB4XDTIzMTAwMTIxMjAxNloXDTMzMTAwMTIxMjAxNlowgYsxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEcMBoGA1UEAwwTa2FydmluYS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvezwQ7UZFVRBT5/U0r9vi64sm9PIKo5Vn31945LDhv2eGdGLEc3VDzTIc81waoZsBPrr18lFwSeG0sJr5M5v3/336B/pMgx0DJtus8PtfkkXPMR3SIcXsUuo7wNjma+Qpx03sGXFjW46dfK5iSb9KhIdybqh8Ir6wJQPrgeR5xGSZYKBXAiGHe4EHS1l88pf/XKZ87CT0zMP2FJmBsEQn7cfzF5LANP+RdAzsZYS1NeDcXZJhlKUEEBc37MnjSQuP3TQZZcnO6ay4iwg3I2MaYEo100+I9BiE40uuQq+mH4invqlW/bXi7hk+DnXTvge4GD7yxh0F/Om/m6VFbkotwIDAQABo1MwUTAdBgNVHQ4EFgQUrCOiYfp76KyuW2BKFInWjeF+RbEwHwYDVR0jBBgwFoAUrCOiYfp76KyuW2BKFInWjeF+RbEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAdyfj4lcLuKYRsvDyL+pZEnyGIyL7Ic+GiAIdedHYMdJ8EMhbZeqg7p2b4/pQflhSYJZgUInfVEkq9viQ26N+u8Fpq5XBK5DX4oivScrz1A6OvHQdcNDVGSPCPT1c7eEM4VT/3jZldFKqf1RMC4vdMiGICF+CrW2n+AsHEuCIonwhIt/IlP+eDTPmArjLvkxJgo9VJAxBdraaEecPEgjaI7eYZicVl1EXoj7j9knHYW7lh4oLGpvx5ZY0KSFYugbLzltXSvyxX/dDGmj4brQPiiSGXo1VjgRgVv451hcmHLP59hSjMSkzU2pkdMeoIiOMUvcAaZ+kpzlmoeb5XeMisw==</ns2:X509Certificate>
           </ns2:X509Data>
         </ns2:KeyInfo>
       </ns0:KeyDescriptor>
     <ns0:KeyDescriptor use="encryption">
         <ns2:KeyInfo>
           <ns2:X509Data>
-            <ns2:X509Certificate>MIIEDDCCAnSgAwIBAgIUDdyHidG25CG7LPsogbxohyVIKkQwDQYJKoZIhvcNAQEL
-BQAwFjEUMBIGA1UEAwwLaWRwLnJra2EuY3owHhcNMTkwNjA2MTM0MjQ1WhcNMzkw
-NjA2MTM0MjQ1WjAWMRQwEgYDVQQDDAtpZHAucmtrYS5jejCCAaIwDQYJKoZIhvcN
-AQEBBQADggGPADCCAYoCggGBAIiP1QgNNKlH1sUrCjotvqCCdA7dX6AqPPydqYH3
-v1XmInpNQ5Dd+28OydEF9JczVxE+BTZMxMNR7bxvGTP3YHrfWcr8/TGEn5YSqxeo
-SgHLUngQ3fZayKRmk3006P2i2KnuvTjvJ0Y27PG0qLa0zOfxH9F+3Jz+3VTVfF3r
-v3S5NSuJuIJlYwScQzCcy15Yzlm5h8mgKCRsyUDT3fHM0tzToIPTLoujMpW9Nk4h
-cFJAb3LTmLCTw5SlAFsVRQRF0uT4KG1DUTQZxHn0Hbabtl60axKR/Iirqp1Nw6Cl
-HnpePePrxiK9v+0mozyuLT/AZSpMw63WDfpil05xcKYZIAV8u6yd39Vlo62puyQb
-huI33Q2Dzuf2vi1Rj6r0yuwUfQChR69jMjqluv+HI5Skj6WdetemJcz27Jdl5Mvs
-kaYllPf3B3qyJOLaZ3hmOvNQb9f+x39hKzGznCnO/KlQgaCmJNoruPIhI3Ze/ymn
-FqVmJYZNpPGLzHWhc5y8iWbDVQIDAQABo1IwUDAdBgNVHQ4EFgQUe2jAn18t3t67
-cJOLa7hJ/XE5q1owLwYDVR0RBCgwJoILaWRwLnJra2EuY3qGF2h0dHBzOi8vaWRw
-LnJra2EuY3ovaWRwMA0GCSqGSIb3DQEBCwUAA4IBgQAyecAsAQLhuDXPSKiwrr4o
-3UavYDO3LqGtLb5WJ+mphGS9M870V+vvg0lbdy0UGECoj6XggplO1bwc58D63YL9
-+pqDjK7una70Ow4WciyUKtIdOgyVxykcxUQPkGwn7y0SB3J+mt+G4OmB3kWAgp4w
-O6cM8jq54ONHZylUZHywCLSQoA3AEA6eiT2hSLd42ivJgmWWTFsGq7/JZcQHbd/6
-RAPE2xK3wMWy2f+3pb2F3nUWAjje4AKD4CjKyH7KuUm3eAjM/G/Y3tX9Xgq4WUZj
-NJtimcsLm5wY1UAJ6m6z3hrKHdKfVjNqSN4yXe7EeGohluvJzMwGTmlW79feqV+u
-BU4ZeWVbNBCDba0dWo2mewoYfPufXw6mN4a2B1vKMNfgHUPAyNasXm46L15jy6Py
-DWroKpSWVc9YZTUb0+4rfWHuFa46kBlgdJWw3jw8R7HSq7bONx7RFIVx3bAyqhK+
-rxoPe3UqN4OTGBtQI9bCiJ8u++0BF+6K8VFQKj+Zmfg=</ns2:X509Certificate>
+            <ns2:X509Certificate>MIID+TCCAuGgAwIBAgIUcAtfAQENSexsmyY5Hra98EswY50wDQYJKoZIhvcNAQELBQAwgYsxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEcMBoGA1UEAwwTa2FydmluYS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MB4XDTIzMTAwMTIxMjAxNloXDTMzMTAwMTIxMjAxNlowgYsxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEcMBoGA1UEAwwTa2FydmluYS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvezwQ7UZFVRBT5/U0r9vi64sm9PIKo5Vn31945LDhv2eGdGLEc3VDzTIc81waoZsBPrr18lFwSeG0sJr5M5v3/336B/pMgx0DJtus8PtfkkXPMR3SIcXsUuo7wNjma+Qpx03sGXFjW46dfK5iSb9KhIdybqh8Ir6wJQPrgeR5xGSZYKBXAiGHe4EHS1l88pf/XKZ87CT0zMP2FJmBsEQn7cfzF5LANP+RdAzsZYS1NeDcXZJhlKUEEBc37MnjSQuP3TQZZcnO6ay4iwg3I2MaYEo100+I9BiE40uuQq+mH4invqlW/bXi7hk+DnXTvge4GD7yxh0F/Om/m6VFbkotwIDAQABo1MwUTAdBgNVHQ4EFgQUrCOiYfp76KyuW2BKFInWjeF+RbEwHwYDVR0jBBgwFoAUrCOiYfp76KyuW2BKFInWjeF+RbEwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAdyfj4lcLuKYRsvDyL+pZEnyGIyL7Ic+GiAIdedHYMdJ8EMhbZeqg7p2b4/pQflhSYJZgUInfVEkq9viQ26N+u8Fpq5XBK5DX4oivScrz1A6OvHQdcNDVGSPCPT1c7eEM4VT/3jZldFKqf1RMC4vdMiGICF+CrW2n+AsHEuCIonwhIt/IlP+eDTPmArjLvkxJgo9VJAxBdraaEecPEgjaI7eYZicVl1EXoj7j9knHYW7lh4oLGpvx5ZY0KSFYugbLzltXSvyxX/dDGmj4brQPiiSGXo1VjgRgVv451hcmHLP59hSjMSkzU2pkdMeoIiOMUvcAaZ+kpzlmoeb5XeMisw==</ns2:X509Certificate>
           </ns2:X509Data>
         </ns2:KeyInfo>
       </ns0:KeyDescriptor>
-    <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.rkka.cz/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
-    <ns0:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.rkka.cz/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.rkka.cz/idp/profile/SAML2/Redirect/SLO" />
-    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.rkka.cz/idp/profile/SAML2/POST/SLO" />
-    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.rkka.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
-    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.rkka.cz/idp/profile/SAML2/SOAP/SLO" />
-    <ns0:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.rkka.cz/idp/profile/Shibboleth/SSO" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.rkka.cz/idp/profile/SAML2/POST/SSO" ns8:supportsRequestedAttributes="true" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.rkka.cz/idp/profile/SAML2/POST-SimpleSign/SSO" ns8:supportsRequestedAttributes="true" />
-    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.rkka.cz/idp/profile/SAML2/Redirect/SSO" ns8:supportsRequestedAttributes="true" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://karvina.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://karvina.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</ns0:NameIDFormat>
+    <ns0:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</ns0:NameIDFormat>
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://karvina.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <ns0:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://karvina.idp.rbit.cz/saml2/idp/SSOService.php" />
     </ns0:IDPSSODescriptor>
-  <ns0:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
-      <ns0:Extensions>
-        <ns6:Scope regexp="false">rkka.cz</ns6:Scope>
-      </ns0:Extensions>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIEDDCCAnSgAwIBAgIUT0UVC+eFP3OnbRyYwz81JLqfpxgwDQYJKoZIhvcNAQEL
-BQAwFjEUMBIGA1UEAwwLaWRwLnJra2EuY3owHhcNMTkwNjA2MTM0MjQ2WhcNMzkw
-NjA2MTM0MjQ2WjAWMRQwEgYDVQQDDAtpZHAucmtrYS5jejCCAaIwDQYJKoZIhvcN
-AQEBBQADggGPADCCAYoCggGBAIrjm999v54ChW53leoXLMo/iGQZEDQrvl6foqJE
-9Uhm2xQt/ERexu7+1Ovp1SH5msveady7Isf/Z0Bzsowz37KCtXgFcXkLwTDAzPbQ
-j0nvKdD+4NdyTd0Z7+rhGXfalDxmFSDUFnF/ZrhPnf1t3cRKNgjw3WTFJbgxu0gZ
-Ks8/qtTRiQYrkIWTaPFuG1QX1rHPYgYZLHqkEPaEI1Xhi7ZVqkqsLjh2tlRG6/hz
-UhB1IqfKOsdlM9PHS/EWPnlbzqoza/a9rIvT29vzvlObz1tknsBkfU79iiqt0GHx
-OJr5zaByYgDMtLW7Tn7h2spMx3a3LbKagVFWHvvuVLL2K0WrlVZzTXWHoAG0eQNc
-MB+H5thgDnK4/40Hq7FC0ByVjsR7BVw0c59dwFWtzavNkCCGriGh7D6YNEFJe7jW
-XGMLIfeJ0WnM8OU+CxmET5N2UQ8iELrJ0vhLBTQpMlCE3s93JgoJtSZ08sq8H7RC
-ff3ACbkZFsc60iheqyV9QdaQ7QIDAQABo1IwUDAdBgNVHQ4EFgQUFXFReekTbTvz
-yGf0yUC18RDD/ucwLwYDVR0RBCgwJoILaWRwLnJra2EuY3qGF2h0dHBzOi8vaWRw
-LnJra2EuY3ovaWRwMA0GCSqGSIb3DQEBCwUAA4IBgQBjzhcY5p5tR82ICM+3i/6V
-CFMYGZ5YQvYVgaTolsgiTR/MKUnhD58M/NscyMdL8oYoegbTk3In1IyFA7kOxgMk
-566L/CKmQMw8AKmtU+jvchv1kpimneRG+pRjJVCEM+RZ3ST++e1wiMS4X9HT04F8
-Fmjd1gI7NMMBP+EvAQWbYNGM+vSDS6kVe5NTpktsSQJDfPOXiZnfe45blcIYD0RH
-LP4tDVsPEZ6UKQuVK3/GEWU+pRw0SKKsGR+IQJchhPPWf0e1LoR5Sj8PEnIAJJ7n
-kI+YwaxNdlhzukLGd4p/Fq/AFjOS1TEjrBQ7Qy0iTaA1imayfkdRHrKZZutufy5E
-zlRl0Klv5+Yen+17DWo01r7Db2JvvYGPcSniE23oIibuOYsP4mHrr/iIzRFSRsxs
-q6Zi9KD1wMB7mneyZ67mLwKzybASz9O1NNakcaC+lc+P2s82oSSag81L8lWV5FUg
-BmopUmpknWtYpdNXVOnPR3T1BMJ1AvjykWT7lca3txc=</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="signing">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIEDTCCAnWgAwIBAgIVAMbxGez9/FJY8ZV8gh75Pa1pblf0MA0GCSqGSIb3DQEB
-CwUAMBYxFDASBgNVBAMMC2lkcC5ya2thLmN6MB4XDTE5MDYwNjEzNDI0NFoXDTM5
-MDYwNjEzNDI0NFowFjEUMBIGA1UEAwwLaWRwLnJra2EuY3owggGiMA0GCSqGSIb3
-DQEBAQUAA4IBjwAwggGKAoIBgQCTfJGTzNii/MWx8SFFMCcibMQlre5XbjYA1irH
-9PVxBJKvlbgw7UkglWr/kOhkYwmidAwkhCzTKzlw3MnufpoOU2uk3ueQB1LE3Qqc
-GOTZtrdmbfGOpcDt7XoOy2PzOSqykRqHpJFv9v7KEdXelwzynNNInptSJ+6PPt+u
-2qNp2L/ERB8P6BXGvq9mvgjpxKX4qQpBerCP5RU5QoX0RziuYrT7/ernrs+ImCQv
-bPt2iS2R8GZxbu4NvzVPoMIAcQ7UenVMppdivGY5D5yyRxAniFuSvzVtaI0utlpN
-JLkO6d2J95cr56e2ZfOhAT90pQ1NWzaqiiXZPLe45RxlliF/4y/1nrJlnTWw3fGB
-ycPHVUoPhCp+Zpth44AjGtKvIM/zPzO7IczGpXlmK4RR50CMGPJYG6zUKZprncG6
-is/fwqFJe06zL6oIDe3pomTHKQzJP48yf8IOK7W0dOxVX9KUAOuRFG/lsAqpll0c
-dvd6ENyIaCi4PiWXvH9dDoAF01UCAwEAAaNSMFAwHQYDVR0OBBYEFPXmicCINnSf
-QFCA8gPiwBMpKxoYMC8GA1UdEQQoMCaCC2lkcC5ya2thLmN6hhdodHRwczovL2lk
-cC5ya2thLmN6L2lkcDANBgkqhkiG9w0BAQsFAAOCAYEAMtitM9rjY5YNPUKEd3rY
-Ur7n4WVWUov8NYvaGyaKZQ8mEOcCGRV/qbHLFiNQdEVW8CW5Qwsp0nbj61jcZrWn
-VXNRvVjw14s/maoq5es2uTrx6/aKouuMyV4r5nTuIEgTosqJuL7U20O4aNslqAf6
-QbVMkJ9X3jqg09OfHgtipemaBei+QOJXyTTcXgwSN9HW9rejDRWmJgBsmspMjSIC
-KDPNfZxZ0kagJv2dANshZhs9sM4UqDQqtN5lbrqBjxslfGunb5sl1VYEkqcdZvm3
-4PSIbYZAi5WJ4hUcq0AldAz2z+PO7aGZn4hauhjLOCtX2yjnh0EE3ybh5jqMloqV
-BXxd8jySmsHMxMhzH4H/0kqgLzduRU11prwn/0luclnGq5e21lvRuM7tNas6uKtF
-KPZqAgo8roGU+ALXHuM5Svu94Ai+rclxhvapAR2Ub9peiTzlrSXdXB8a72ZklQSt
-VzmM4MWuyrepQ0EHMmD8SGFFRcR/3Lfaar7hyRxHYMc8</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:KeyDescriptor use="encryption">
-        <ns2:KeyInfo>
-          <ns2:X509Data>
-            <ns2:X509Certificate>MIIEDDCCAnSgAwIBAgIUDdyHidG25CG7LPsogbxohyVIKkQwDQYJKoZIhvcNAQEL
-BQAwFjEUMBIGA1UEAwwLaWRwLnJra2EuY3owHhcNMTkwNjA2MTM0MjQ1WhcNMzkw
-NjA2MTM0MjQ1WjAWMRQwEgYDVQQDDAtpZHAucmtrYS5jejCCAaIwDQYJKoZIhvcN
-AQEBBQADggGPADCCAYoCggGBAIiP1QgNNKlH1sUrCjotvqCCdA7dX6AqPPydqYH3
-v1XmInpNQ5Dd+28OydEF9JczVxE+BTZMxMNR7bxvGTP3YHrfWcr8/TGEn5YSqxeo
-SgHLUngQ3fZayKRmk3006P2i2KnuvTjvJ0Y27PG0qLa0zOfxH9F+3Jz+3VTVfF3r
-v3S5NSuJuIJlYwScQzCcy15Yzlm5h8mgKCRsyUDT3fHM0tzToIPTLoujMpW9Nk4h
-cFJAb3LTmLCTw5SlAFsVRQRF0uT4KG1DUTQZxHn0Hbabtl60axKR/Iirqp1Nw6Cl
-HnpePePrxiK9v+0mozyuLT/AZSpMw63WDfpil05xcKYZIAV8u6yd39Vlo62puyQb
-huI33Q2Dzuf2vi1Rj6r0yuwUfQChR69jMjqluv+HI5Skj6WdetemJcz27Jdl5Mvs
-kaYllPf3B3qyJOLaZ3hmOvNQb9f+x39hKzGznCnO/KlQgaCmJNoruPIhI3Ze/ymn
-FqVmJYZNpPGLzHWhc5y8iWbDVQIDAQABo1IwUDAdBgNVHQ4EFgQUe2jAn18t3t67
-cJOLa7hJ/XE5q1owLwYDVR0RBCgwJoILaWRwLnJra2EuY3qGF2h0dHBzOi8vaWRw
-LnJra2EuY3ovaWRwMA0GCSqGSIb3DQEBCwUAA4IBgQAyecAsAQLhuDXPSKiwrr4o
-3UavYDO3LqGtLb5WJ+mphGS9M870V+vvg0lbdy0UGECoj6XggplO1bwc58D63YL9
-+pqDjK7una70Ow4WciyUKtIdOgyVxykcxUQPkGwn7y0SB3J+mt+G4OmB3kWAgp4w
-O6cM8jq54ONHZylUZHywCLSQoA3AEA6eiT2hSLd42ivJgmWWTFsGq7/JZcQHbd/6
-RAPE2xK3wMWy2f+3pb2F3nUWAjje4AKD4CjKyH7KuUm3eAjM/G/Y3tX9Xgq4WUZj
-NJtimcsLm5wY1UAJ6m6z3hrKHdKfVjNqSN4yXe7EeGohluvJzMwGTmlW79feqV+u
-BU4ZeWVbNBCDba0dWo2mewoYfPufXw6mN4a2B1vKMNfgHUPAyNasXm46L15jy6Py
-DWroKpSWVc9YZTUb0+4rfWHuFa46kBlgdJWw3jw8R7HSq7bONx7RFIVx3bAyqhK+
-rxoPe3UqN4OTGBtQI9bCiJ8u++0BF+6K8VFQKj+Zmfg=</ns2:X509Certificate>
-          </ns2:X509Data>
-        </ns2:KeyInfo>
-      </ns0:KeyDescriptor>
-    <ns0:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.rkka.cz/idp/profile/SAML1/SOAP/AttributeQuery" />
-    <ns0:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.rkka.cz/idp/profile/SAML2/SOAP/AttributeQuery" />
-    </ns0:AttributeAuthorityDescriptor>
   <ns0:Organization>
-      <ns0:OrganizationName xml:lang="en">Regional Library Karvina</ns0:OrganizationName>
-    <ns0:OrganizationName xml:lang="cs">Regionální knihovna Karviná</ns0:OrganizationName>
-    <ns0:OrganizationDisplayName xml:lang="en">Regional Library Karvina (www.rkka.cz)</ns0:OrganizationDisplayName>
-    <ns0:OrganizationDisplayName xml:lang="cs">Regionální knihovna Karviná (www.rkka.cz)</ns0:OrganizationDisplayName>
-    <ns0:OrganizationURL xml:lang="en">http://www.rkka.cz/</ns0:OrganizationURL>
-    <ns0:OrganizationURL xml:lang="cs">http://www.rkka.cz/</ns0:OrganizationURL>
+      <ns0:OrganizationName xml:lang="en">Regionální knihovna Karviná</ns0:OrganizationName>
+    <ns0:OrganizationName xml:lang="cs">Regional Library Karviná</ns0:OrganizationName>
+    <ns0:OrganizationDisplayName xml:lang="en">Regionální knihovna Karviná</ns0:OrganizationDisplayName>
+    <ns0:OrganizationDisplayName xml:lang="cs">Regional Library Karviná</ns0:OrganizationDisplayName>
+    <ns0:OrganizationURL xml:lang="en">https://www.rkka.cz</ns0:OrganizationURL>
+    <ns0:OrganizationURL xml:lang="cs">https://www.rkka.cz</ns0:OrganizationURL>
     </ns0:Organization>
   <ns0:ContactPerson contactType="technical">
-      <ns0:GivenName>Jan</ns0:GivenName>
-    <ns0:SurName>Grman</ns0:SurName>
-    <ns0:EmailAddress>mailto:grman@svop.sk</ns0:EmailAddress>
-    </ns0:ContactPerson>
-  <ns0:ContactPerson contactType="administrative">
-      <ns0:GivenName>Markéta</ns0:GivenName>
-    <ns0:SurName>Kukrechtová</ns0:SurName>
-    <ns0:EmailAddress>mailto:marketa.kukrechtova@rkka.cz</ns0:EmailAddress>
+      <ns0:GivenName>Radek</ns0:GivenName>
+    <ns0:SurName>Šiman</ns0:SurName>
+    <ns0:EmailAddress>mailto:rbit@rbit.cz</ns0:EmailAddress>
     </ns0:ContactPerson>
   </ns0:EntityDescriptor>
 <ns0:EntityDescriptor entityID="https://idp.savs.cz/idp/shibboleth">
