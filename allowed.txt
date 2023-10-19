@@ -15,7 +15,6 @@ https://eduid.jamu.cz/idp/shibboleth
 https://helium.jcu.cz/idp/shibboleth
 https://idp.lib.cas.cz/idp/shibboleth
 https://idp2.ics.muni.cz/idp/shibboleth
-https://idp.mua.cas.cz/idp/shibboleth
 https://idp.math.cas.cz/idp/shibboleth
 https://idp.mendelu.cz/idp/shibboleth
 https://gryf.mlp.cz/idp/shibboleth
