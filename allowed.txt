@@ -148,3 +148,5 @@ https://knihovnafrenstat.cz/idp/shibboleth
 https://eduid.vstecb.cz/idp/shibboleth
 https://knihovna.mesto-klimkovice.cz/idp/shibboleth
 https://nipos.cz/idp/shibboleth
+https://knihovnatnv.cz/idp/shibboleth
+https://idp.fzu.cas.cz/idp/shibboleth
