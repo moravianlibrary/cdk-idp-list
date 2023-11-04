@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-11-27T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2023-11-30T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>KROiUi8awlHif+0/afF2sc2RrYhs1FycZiiYh5gbtVQ=</ds:DigestValue>
+      <ds:DigestValue>2WE8Jvk5gVQ3o6mpX1MhQ2vD/k/kH5EYSAM6djQHrIo=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-ifUdfY1lsMaDKl6q1VedXXNfXU0fUg6qjfiSj2jMVr9zdp7H5MWCS1OToW6n88xNoGw/QGi2cToB
-bqFqF2e/VBJRa/oR9ayGXsXsvMK1N2tND1VXDd0V3Z8S6v19nEUZz7bLSoF8DR6BYibz5xiKL4Q8
-gWml51vHQ5UvRp/O9pUUILXOEcqtXRAHu+Vvw9BD0lbOzey35PFGPP/yk4ozX2+amb0xS9EwZSUr
-bXgprXc9u+gKgrK2WuUVbdIRGigopJMryIdDKBN6THxCHRSeSSo5EAJeWvXAlPrTsQ/6e36uXd9Y
-g1oFdZMGkFv2C2zQZLectbVMhjuwUGzo/fX0oQ==
+mz+E3jkGjcuo2vUTHYh3CM4xTXPmvCGhG8b5AyHVfJm3tfZzt5NoKsInG5FrkAAfR/G9ZX3Hei1u
+H98jOV4cSraByRm+ivQzarWAy1hJpd+OyDMJLmhDKkygBhOe89GOP2C9yuRUax9SMB78fL5IUeAV
+MYC00iIhSLFRshCkRfo3FD5O8Yz3a6zKl9JxUW6YI9yE5JTOTHpA3btVi3gBfq6jI4v+PeJNsDtO
+3NrMrkgPnESKm6dGAXg/A1pqTadfZWRj5YZeZo5yWibmb4CczKtfSL6rDsQnOMtE1KyFXIPSRz8Y
+0wQWJVmaXiBqdUjE3N26WbEWoGt0gOTLkpuNfw==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -18399,9 +18399,9 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ds:X509Certificate>
         <ui:DisplayName xml:lang="cs">Knihovna Ústeckého kraje</ui:DisplayName>
         <ui:Description xml:lang="en">Identity Provider for employees and readers of the Ústí Regional Library</ui:Description>
         <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Knihovny Ústeckého kraje</ui:Description>
-        <ui:InformationURL xml:lang="en">https://www.svkul.cz/</ui:InformationURL>
-        <ui:InformationURL xml:lang="cs">https://www.svkul.cz/</ui:InformationURL>
-        <ui:Logo height="40" width="91">https://svkul.knihovny.cz/logo.png</ui:Logo>
+        <ui:InformationURL xml:lang="en">https://knihovnauk.cz/</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://knihovnauk.cz/</ui:InformationURL>
+        <ui:Logo height="40" width="221">https://svkul.knihovny.cz/logo.png</ui:Logo>
         </ui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
@@ -18431,8 +18431,8 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ds:X509Certificate>
     <md:OrganizationName xml:lang="cs">Knihovna Ústeckého kraje</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Ústí Regional Library</md:OrganizationDisplayName>
     <md:OrganizationDisplayName xml:lang="cs">Knihovna Ústeckého kraje</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="en">https://www.svkul.cz/</md:OrganizationURL>
-    <md:OrganizationURL xml:lang="cs">https://www.svkul.cz/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://knihovnauk.cz/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://knihovnauk.cz/</md:OrganizationURL>
     </md:Organization>
   <md:ContactPerson contactType="technical">
       <md:GivenName>Petr</md:GivenName>
