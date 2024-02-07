@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-03-01T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-03-05T11:22:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>pqw5hN3ffTPWJnIEqTiNp1ymoGAvRQdw9uSByKZBsUc=</ds:DigestValue>
+      <ds:DigestValue>nkV5v4Ah8PlBUscLga7i74SiedTFv/PkJnVxOQ2w5MU=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-MFnLUkVxOUmQT8+9+EiUwczSFN4/urRLg6dGu9O8RvC+g/3RmXUitSZMwB/pQXsZc2AjCZy2GzD3
-SOIyu7Ic2dykO+XhgfkBwc25LFD/ZRUmzxdpHaIMqaJW5VNH/7VaJ/AAjHpbchvv11w8SLVg0FYL
-xlcc+dq2/B4thpI8M/DiUdOJOXuIuqyPlbBs66M38CYycda5jccaS1PAjFSiXg03Xy9U3GZ2HETd
-9EHFPIAoft5joaIve8tVtyvn92hM30af0ygCGRZRN1gTZukzxGXsqFPI2DRXl1YCw/7hLmlDUfgM
-aH21WsSiU4boNC9Ou1fbFLKy61Z4tivAN17MFw==
++RBQWaQNz78TM0yPv9h97qZY0WyZrxcuCF5r+JOMOERMNlI1LfANi0idq4BwJltXljoZumwX3HpD
+AntJEFG5APiCrTJYoEhvjsJD8lVegqwDpfZiIFFOwbKfQjyKWRktU8TEkgkpR0ids4yD/cC0vse1
+7slI3Q3P7Iy3kN1Un1dhbETnKtr+dBbtpMwe8ciGqdPVUv/iM0nVEups/Ia0DRgQZ4zSvzBBuMKd
+vzqKjhejUkcd/t1I2BGbhYh3p/7RNR+OubUQTHFwQ14Sj0Aodt2+X8szf22AxS0Kio7UlzxGlQBC
+TGgmnS2hYuAX24pLXtyAPazp1w1H0l3DPd9uGg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -18551,7 +18551,15 @@ zFAqLcxs7apHvItdRCAPnA==</ds:X509Certificate>
     <mdattr:EntityAttributes>
         <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
-        <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://refeds.org/category/anonymous</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://refeds.org/category/personalized</saml:AttributeValue>
         </saml:Attribute>
       <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <saml:AttributeValue>http://eduid.cz/uri/idp-group/university</saml:AttributeValue>
