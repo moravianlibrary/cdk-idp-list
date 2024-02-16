@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-03-10T23:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-03-14T12:13:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>8ko+3nH/Os1nVcaoQTEL+9sXeVOyrZGYWq5Tp1Jzxmc=</ds:DigestValue>
+      <ds:DigestValue>xUJ8xmZfFkzexeDKbxyxem0XDyBRC3dBJRdVJkwAD8c=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-RZ9dcWVfaPjflZ0xwIECpIoFGxhfSMmoV2/5HcJEbhG8rookVuIZHJgFxRRFRDBaOX1wvlHvtipC
-6kFnPsyG2V98PRqjqmxOBBlwNehpFukYxaHdfugHHCGIxJj96OGyf31z2jFpa12onbj7ArOq3ATh
-BGFm8ByEpg8LK+6xNIbrhltDyJNuQt++e9m9pHQtP0fg+X+x7tdXETC6ydpk3rXPJt6xZwNWNSZn
-ZOPxbckAdaeBbBJfxgiuC5PYUiZ/3Oa3zBSXah3HFjZe19arAt961iW7cDvH7vfJ1db8IZVW6oKP
-d1SEMBNkGDvS72R1urONBAwP8ssQyu7MGa6wxw==
+sTASgNNe6YeCOtY013qfxudrF2Q0usK8+qH8aT5kJaRyOxmhGKM0wn5DUwrnG2V+iSSpA+PypGBp
+7+4JRbiywFvhlGHWAbE8Fx7007Uibl7yTGjbjsAffJuzRrU3sC2uOhmTYjqaBEuDEHl5r6XjZ+Sa
+VbKeF8J9h11+RzAasnNyXAsxw3+YblGUJX9InTkW6VoB67xdv17HzVBpqXkFPcNWxcf5+YkT0/ub
+HmceQVWGYVyKj69VpNBCdIRbPDGX0UC2FhqWxCe+6NXZoTySB3dycOU9JOQiUklfzA/xVCRusZvf
+qaQwrYi8d+r8ygzgJ7FJsiFT/jXNRCu67tW+3g==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -16944,7 +16944,14 @@ E7CdvjS4vXIcL+O2rA/y+ATtX1Kqj5agbq1QRd2AbPW5q+KU733P</ds:X509Certificate>
         <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
       </eduidmd:RepublishRequest>
     <mdattr:EntityAttributes>
-        <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="urn:oasis:names:tc:SAML:attribute:assurance-certification" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://refeds.org/sirtfi</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <saml:AttributeValue>http://eduid.cz/uri/idp-group/university</saml:AttributeValue>
         </saml:Attribute>
       </mdattr:EntityAttributes>
@@ -16952,7 +16959,6 @@ E7CdvjS4vXIcL+O2rA/y+ATtX1Kqj5agbq1QRd2AbPW5q+KU733P</ds:X509Certificate>
   <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
       <md:Extensions>
         <shibmd:Scope regexp="false">zcu.cz</shibmd:Scope>
-      <shibmd:Scope regexp="false">gapps.zcu.cz</shibmd:Scope>
       <ui:UIInfo>
           <ui:DisplayName xml:lang="en">University of West Bohemia</ui:DisplayName>
         <ui:DisplayName xml:lang="cs">Západočeská univerzita v Plzni</ui:DisplayName>
@@ -17059,10 +17065,7 @@ ttoBlccr2E1zGuP9v2S0Ei7VFn5zuiJAc9k7KBsiDcox3jI+s6RoXJKRlQ==</ds:X509Certificate
     <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shib.zcu.cz/idp/profile/Shibboleth/SSO" />
     </md:IDPSSODescriptor>
   <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
-      <md:Extensions>
-        <shibmd:Scope regexp="false">zcu.cz</shibmd:Scope>
-      </md:Extensions>
-    <md:KeyDescriptor use="signing">
+      <md:KeyDescriptor use="signing">
         <ds:KeyInfo>
           <ds:X509Data>
             <ds:X509Certificate>MIIEGDCCAoCgAwIBAgIVAOvUEYcOaRjKHXAPvdHsbdnoI6OsMA0GCSqGSIb3DQEB
@@ -17156,6 +17159,10 @@ ttoBlccr2E1zGuP9v2S0Ei7VFn5zuiJAc9k7KBsiDcox3jI+s6RoXJKRlQ==</ds:X509Certificate
       <md:GivenName>Pavel</md:GivenName>
     <md:SurName>Jindra</md:SurName>
     <md:EmailAddress>mailto:paja@civ.zcu.cz</md:EmailAddress>
+    </md:ContactPerson>
+  <md:ContactPerson contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
+      <md:GivenName>WEBnet-WIRT</md:GivenName>
+    <md:EmailAddress>mailto:abuse@zcu.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://shibbo.tul.cz/idp/shibboleth">
