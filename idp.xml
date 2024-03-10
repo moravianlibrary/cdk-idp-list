@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-04-03T10:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-04-05T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>0J4RfX1csV73XHKa0pvB9oTsNLty7DRD4wWUb7i+qTU=</ds:DigestValue>
+      <ds:DigestValue>t0Y2CESK33QRFQnhAlHA8QlRy88of2pHqjuwOQzwamI=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-bOf3mkgOUrsOTHzKPlsTg5L4LX1qx2e3v61dkrplY/APPLWT1XjsZESxGrR4Fc40Cy979dJq2R1n
-0El5GD4NP89UfzBxPvt3G3qUWQIuQ8qsZ/DiX1JaeuIIJNZmLTcYH27BgO6TanL343WiVzYIJ5SS
-0sAwyoYZuBKfb3pqNHzOnXEWmGacW2/GIOoQ0Sz3iPlRWh+HsMamVTEPLWNYIGeRRgjvZzfhnV2R
-1iSpxadg3MuFfIWE6OU+emncsTdyrtxnQJranbqUVIVmTqdvSE5n2OSsQVqVnyvn8sBwSV96VGXc
-llA+fPszoGpQxZHBVTy2Wg2P3t46/1F17ZuFxQ==
+ZMIHWneFglvVJxB7Yb37MQpeAqIet8OihXm9csHytEpmXq+phEZT8elfm3zn59lyDoVQluFiAy9J
+APV6Ssga1tjbQFXf80PdMchsB+KPs5PBCLVxnpe6nLbUzQHOuWrceejI3HB+gnisAKRIHk7ZKqME
+vRNE5N6y6nvG7BH/xo4cdXNNPi1lB0oo2EpEUECpEB1oeG+MD5pbiP+9GxWPbtmGKMnNDl11/ucp
+79Du0hBm5YPOWC8So1ldT3I33ugg1VwD9i9R1R4bzaVZCKtBfvDoP5C9Lr4OzZkFKcIMwtnGPoqQ
+YqJKyOGRmj//jfD/Z432hS/PlANnafnaeOY0KA==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -16421,6 +16421,60 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
     <md:EmailAddress>mailto:petr.stefan@kpsys.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://milevsko-eduid.koha-system.cz/saml2/idp/metadata.php">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">knihmil.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Municipal library in Milevsko</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Městská knihovna v Milevsku</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for Municipal library in Milevsko</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro Městskou knihovnu v Milevsku</ui:Description>
+        <ui:InformationURL xml:lang="en">https://www.knihmil.cz/</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.knihmil.cz/</ui:InformationURL>
+        <ui:Logo height="55" width="315">https://milevsko-katalog.koha-system.cz/vufind/themes/ereading/images/milevsko.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEczCCAtugAwIBAgIUbbkgekETRs0nlnXT5DsU2p/bApMwDQYJKoZIhvcNAQELBQAwSTELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ8wDQYDVQQHDAZQcmFndWUxEDAOBgNVBAoMB3RlYW1saWIwHhcNMjIxMTEwMjIxMzA0WhcNMzIxMTA5MjIxMzA0WjBJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDzANBgNVBAcMBlByYWd1ZTEQMA4GA1UECgwHdGVhbWxpYjCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKWAic6mTN4uLW6Ib5gU+7aOe7XEt5UAuZSDiIhurG4p+SEq5BrTQn/I15hGE+YAdKi5klnzjPezCsBWCPv6msIOPkr/FT5DW31ZzfdY+m/T23UoroIUr3z/UrCGQDKYKIXWQRzlnBzkvkp4GmM7PAzT/IyiCSsn0BgwlNlRbk0X/oWhbwS0hkJducaaDtvpu43SMaB/7StFyp2AvRBO6Vww7TO9hYVg682u5NANSeP0ULr73n4TX7M1ppHxzzXYKLomeY91oJDf3cz5r1WRYQL4ApdzQj7z94KLA/ac7Nr0qlo6pvsZkLumow+nnk+J/iiYMXanZdsIkGFhdjw7J2+8rKZl1+A1qHHGgUjsyIC9T92m4GQbCId0PKGQfq7rtqRHVxHzroK7l0RWx6iF/0k1234zbgq26OipslCD/eS7GISL/7TRCTepPZHKl9ERFTgdCfomTNW1xdqWWar1RiwjPFJ4TeU3D1qSv74GxO/7gjrutHPLl5XxMq0SMDRtJQIDAQABo1MwUTAdBgNVHQ4EFgQUgVlmi1lUjbjVNa6Rr3TFswsmhXowHwYDVR0jBBgwFoAUgVlmi1lUjbjVNa6Rr3TFswsmhXowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAYEAbP+ciniWC1ZZ2sLSzgxAIXX3zvs0yYgcJHv5HxHUBlCZuBgE9ranTWqEJdGLtYuJql3NEBoAQLLe0bYF5j9iFqrjP3lZ7IDTZNpfjYgv7tDDDpzwj45y85zkG+basMFtr7EzarwMFLXw2pZcgBQVyaYtm4U87MpWOM1FU+Ry1Fn5NrVc5J/ZxsZfuqj/QMAp6lWz1d0yjeO3ZXJjcVULLM9szWdbYUmsnwAmdmcWEM443my9tuPrXvT9hSZHBeIH6NChmAY9rpvE9jCORjERN8O13apOF7Uhz38WMi1w4g0aaRlfX1beBJcMeVTYEXSJywVdHZRaPj7d5SKpGSOIRVcO8zL15BTnbGPtHNffIMx5gFrupZGZ8ao1hhYUpmhgrEqc6BVrAIFUPYkQduRvHt+0DpXWi1B9gVymAfaQ7gM8zJlxLPwCMplilSquLcjXvHL3yjgIdKyjX7dfR47odwlJthzFf9VURVrn99MYLNCRhPJCFdLBuqMbSFrvBxRN</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEczCCAtugAwIBAgIUbbkgekETRs0nlnXT5DsU2p/bApMwDQYJKoZIhvcNAQELBQAwSTELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ8wDQYDVQQHDAZQcmFndWUxEDAOBgNVBAoMB3RlYW1saWIwHhcNMjIxMTEwMjIxMzA0WhcNMzIxMTA5MjIxMzA0WjBJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDzANBgNVBAcMBlByYWd1ZTEQMA4GA1UECgwHdGVhbWxpYjCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAKWAic6mTN4uLW6Ib5gU+7aOe7XEt5UAuZSDiIhurG4p+SEq5BrTQn/I15hGE+YAdKi5klnzjPezCsBWCPv6msIOPkr/FT5DW31ZzfdY+m/T23UoroIUr3z/UrCGQDKYKIXWQRzlnBzkvkp4GmM7PAzT/IyiCSsn0BgwlNlRbk0X/oWhbwS0hkJducaaDtvpu43SMaB/7StFyp2AvRBO6Vww7TO9hYVg682u5NANSeP0ULr73n4TX7M1ppHxzzXYKLomeY91oJDf3cz5r1WRYQL4ApdzQj7z94KLA/ac7Nr0qlo6pvsZkLumow+nnk+J/iiYMXanZdsIkGFhdjw7J2+8rKZl1+A1qHHGgUjsyIC9T92m4GQbCId0PKGQfq7rtqRHVxHzroK7l0RWx6iF/0k1234zbgq26OipslCD/eS7GISL/7TRCTepPZHKl9ERFTgdCfomTNW1xdqWWar1RiwjPFJ4TeU3D1qSv74GxO/7gjrutHPLl5XxMq0SMDRtJQIDAQABo1MwUTAdBgNVHQ4EFgQUgVlmi1lUjbjVNa6Rr3TFswsmhXowHwYDVR0jBBgwFoAUgVlmi1lUjbjVNa6Rr3TFswsmhXowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAYEAbP+ciniWC1ZZ2sLSzgxAIXX3zvs0yYgcJHv5HxHUBlCZuBgE9ranTWqEJdGLtYuJql3NEBoAQLLe0bYF5j9iFqrjP3lZ7IDTZNpfjYgv7tDDDpzwj45y85zkG+basMFtr7EzarwMFLXw2pZcgBQVyaYtm4U87MpWOM1FU+Ry1Fn5NrVc5J/ZxsZfuqj/QMAp6lWz1d0yjeO3ZXJjcVULLM9szWdbYUmsnwAmdmcWEM443my9tuPrXvT9hSZHBeIH6NChmAY9rpvE9jCORjERN8O13apOF7Uhz38WMi1w4g0aaRlfX1beBJcMeVTYEXSJywVdHZRaPj7d5SKpGSOIRVcO8zL15BTnbGPtHNffIMx5gFrupZGZ8ao1hhYUpmhgrEqc6BVrAIFUPYkQduRvHt+0DpXWi1B9gVymAfaQ7gM8zJlxLPwCMplilSquLcjXvHL3yjgIdKyjX7dfR47odwlJthzFf9VURVrn99MYLNCRhPJCFdLBuqMbSFrvBxRN</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://milevsko-eduid.koha-system.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://milevsko-eduid.koha-system.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://milevsko-eduid.koha-system.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal library in Milevsko</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna v Milevsku</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal library in Milevsko</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna v Milevsku</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.knihmil.cz/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.knihmil.cz/</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Jan</md:GivenName>
+    <md:SurName>Kolátor</md:SurName>
+    <md:EmailAddress>mailto:jan.kolator@teamlibrary.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://mkkl.cz/idp/shibboleth">
     <md:Extensions>
       <mdattr:EntityAttributes>
@@ -16936,6 +16990,59 @@ E7CdvjS4vXIcL+O2rA/y+ATtX1Kqj5agbq1QRd2AbPW5q+KU733P</ds:X509Certificate>
       <md:GivenName>Filip</md:GivenName>
     <md:SurName>Kriz</md:SurName>
     <md:EmailAddress>mailto:medvik@nlk.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://shib.psp.cz/simplesaml">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">psp.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Parliamentary Library of the Czech Republic</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Parlamentní knihovna ČR</ui:DisplayName>
+        <ui:Description xml:lang="en">Parliamentary Library of the Czech Republic</ui:Description>
+        <ui:Description xml:lang="cs">Parlamentní knihovna Poslanecké sněmovny České republiky</ui:Description>
+        <ui:InformationURL xml:lang="en">https://pspen.psp.cz</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.psp.cz</ui:InformationURL>
+        <ui:Logo height="123" width="168">https://shib.psp.cz/logo-parlamentni-knihovna.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIFEzCCAvugAwIBAgIUUxlISCZiRuZOCFVb8yytAb4xPCgwDQYJKoZIhvcNAQELBQAwFjEUMBIGA1UEAxMLc2hpYi5wc3AuY3owHhcNMjMwMjA2MTUyNzU5WhcNMzMwMjAzMTUyNzU5WjAWMRQwEgYDVQQDEwtzaGliLnBzcC5jejCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMo3t6mUOB9xrFrUja4FC68el0U+eM65rO8JUw1w02CAPjxtOrMDM+okNXf6YDES1JNN13bGg620Kf4Zv0EsR6obWZhvRqqXajtLzMgLpsa/7a2SRhfAz4WNXAOSTnbd9d/bETclkMwauK33AtbL1Etyjy1oHLRALsKzzTZ3/OCA0nDX9ue7NwIZbLB357IgkQXlxMMXG3PNrt+EIREkmwusfIEycJlt4KKpvqDmESTliSXiQTP0Xz+u4NJfkZoEgz3Atl7IGk6Wa95a+WDca5ngogdFODZzwwQM5xO1DXKF7zv3Sc2WpeQ1HPEAwnxOYqZUZo9dxcvGknw03KpM8tZIe9K5bfvYIBDmU9zZVIHaev6QqITGqg4bjBYI0c5Tffrp6U0fqzPtrh5vAoeyle0CIM6Blc6GKE3yXA5C1TqXZuHtbmkpFDrfnGhVHXdIPeRhi2egZmiih3x56InXIN2CKXhlGsvYkKf8dyV0t6fCJm37Rh1e7CzQSGGjo6epgXTSyheYlUJRQY68KWwCulmpZmhMJBh6f+gyv2PTi9WgS8lLwu1MOpc6B/mBkSZbjEsdbmQyjAr7EadMfpxpQN+Qkb4aKODofXUFhgErIlMPGltJvxwlG4g8tgL02q11C0CRlgxn3kKcspMGwB7tO9PVLPmto+7Hxn0gPHj6Nk1fAgMBAAGjWTBXMDYGA1UdEQQvMC2CC3NoaWIucHNwLmN6hh5odHRwczovL3NoaWIucHNwLmN6L3NpbXBsZXNhbWwwHQYDVR0OBBYEFMrj7d4dT/97uN65hmypAuYte98TMA0GCSqGSIb3DQEBCwUAA4ICAQBgoTZ6sK6amaN1FLxSMm7G3Gv8X/wwHXGIq7NwenEq8S1QmUYaA2Pz4cmhI+TV/rxdn2b1hXEnqWsKGtRDzKRKpbos8tkg1Ne350Hw0ldDCwKL35+rwCGxRHRYE1/ciQgy5nK0wT60NIPi8YDgQrcSLMZozRVdT9oEIFMpORizOlJXqUG12qit5rX9GBGU0eGDrUnNO2dQ4Uu2c6aLsD6Lvo1An1pmtBEAhtO/DumxM91G9dK0I1agR9nQSMO9OJ6lAbKfsxbW8D9fHKfKuu09YkaLKr6mqZ5PsnBUPRuLdYq5AbAo3il9O0TjSLyoWQZnzc09Pnx73M5uQos4+q5yRXzhsxhhHzdmLghU6zm0v6XCUWI7CURsPggOBfbitqiEV7Wiqig00BgPKBjgXigvE+AQEz8O8aqLJHhD5nQTeWODo8I42kaQmPx3T1qhiNLMeZnw//qgfoUxYbtdoCJkTDzKloBt0npA1/1Ih6ec1Qjg6rXmgBllRl4Hf670BosW0lf4kIBEL/9nrH6erOD/5GWIKRp8NJEXiNW+ZSphGNoNiVAzN+y7rC8opxSs3QWVRuETV2DxgY6hRwp2cT0ZmaPQIxmuSq3ZpVvCqbiB+Z7iHO4/B0Sq0acP+mTaYuK9IaQ/bd/RygeOkwB28vnvvXHXvCDkx7N0SaveD0c/QA==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIFEzCCAvugAwIBAgIUUxlISCZiRuZOCFVb8yytAb4xPCgwDQYJKoZIhvcNAQELBQAwFjEUMBIGA1UEAxMLc2hpYi5wc3AuY3owHhcNMjMwMjA2MTUyNzU5WhcNMzMwMjAzMTUyNzU5WjAWMRQwEgYDVQQDEwtzaGliLnBzcC5jejCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMo3t6mUOB9xrFrUja4FC68el0U+eM65rO8JUw1w02CAPjxtOrMDM+okNXf6YDES1JNN13bGg620Kf4Zv0EsR6obWZhvRqqXajtLzMgLpsa/7a2SRhfAz4WNXAOSTnbd9d/bETclkMwauK33AtbL1Etyjy1oHLRALsKzzTZ3/OCA0nDX9ue7NwIZbLB357IgkQXlxMMXG3PNrt+EIREkmwusfIEycJlt4KKpvqDmESTliSXiQTP0Xz+u4NJfkZoEgz3Atl7IGk6Wa95a+WDca5ngogdFODZzwwQM5xO1DXKF7zv3Sc2WpeQ1HPEAwnxOYqZUZo9dxcvGknw03KpM8tZIe9K5bfvYIBDmU9zZVIHaev6QqITGqg4bjBYI0c5Tffrp6U0fqzPtrh5vAoeyle0CIM6Blc6GKE3yXA5C1TqXZuHtbmkpFDrfnGhVHXdIPeRhi2egZmiih3x56InXIN2CKXhlGsvYkKf8dyV0t6fCJm37Rh1e7CzQSGGjo6epgXTSyheYlUJRQY68KWwCulmpZmhMJBh6f+gyv2PTi9WgS8lLwu1MOpc6B/mBkSZbjEsdbmQyjAr7EadMfpxpQN+Qkb4aKODofXUFhgErIlMPGltJvxwlG4g8tgL02q11C0CRlgxn3kKcspMGwB7tO9PVLPmto+7Hxn0gPHj6Nk1fAgMBAAGjWTBXMDYGA1UdEQQvMC2CC3NoaWIucHNwLmN6hh5odHRwczovL3NoaWIucHNwLmN6L3NpbXBsZXNhbWwwHQYDVR0OBBYEFMrj7d4dT/97uN65hmypAuYte98TMA0GCSqGSIb3DQEBCwUAA4ICAQBgoTZ6sK6amaN1FLxSMm7G3Gv8X/wwHXGIq7NwenEq8S1QmUYaA2Pz4cmhI+TV/rxdn2b1hXEnqWsKGtRDzKRKpbos8tkg1Ne350Hw0ldDCwKL35+rwCGxRHRYE1/ciQgy5nK0wT60NIPi8YDgQrcSLMZozRVdT9oEIFMpORizOlJXqUG12qit5rX9GBGU0eGDrUnNO2dQ4Uu2c6aLsD6Lvo1An1pmtBEAhtO/DumxM91G9dK0I1agR9nQSMO9OJ6lAbKfsxbW8D9fHKfKuu09YkaLKr6mqZ5PsnBUPRuLdYq5AbAo3il9O0TjSLyoWQZnzc09Pnx73M5uQos4+q5yRXzhsxhhHzdmLghU6zm0v6XCUWI7CURsPggOBfbitqiEV7Wiqig00BgPKBjgXigvE+AQEz8O8aqLJHhD5nQTeWODo8I42kaQmPx3T1qhiNLMeZnw//qgfoUxYbtdoCJkTDzKloBt0npA1/1Ih6ec1Qjg6rXmgBllRl4Hf670BosW0lf4kIBEL/9nrH6erOD/5GWIKRp8NJEXiNW+ZSphGNoNiVAzN+y7rC8opxSs3QWVRuETV2DxgY6hRwp2cT0ZmaPQIxmuSq3ZpVvCqbiB+Z7iHO4/B0Sq0acP+mTaYuK9IaQ/bd/RygeOkwB28vnvvXHXvCDkx7N0SaveD0c/QA==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib.psp.cz/simplesaml/module.php/saml/idp/singleLogout" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib.psp.cz/simplesaml/module.php/saml/idp/singleSignOnService" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Parliamentary Library of the Czech Republic</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Parlamentní knihovna Poslanecké sněmovny České republiky</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Parliamentary Library of the Czech Republic</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Parlamentní knihovna Poslanecké sněmovny České republiky</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://pspen.psp.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.psp.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Petr</md:GivenName>
+    <md:SurName>Holubec</md:SurName>
+    <md:EmailAddress>mailto:HolubecP@psp.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://shib.zcu.cz/idp/shibboleth">
