@@ -151,3 +151,6 @@ https://nipos.cz/idp/shibboleth
 https://knihovnatnv.cz/idp/shibboleth
 https://idp.fzu.cas.cz/idp/shibboleth
 https://shib.psp.cz/simplesaml
+https://knihovnaspk.cz/auth/saml2-idp
+https://idp.vsfs.cz/idp/shibboleth
+https://knihovnabbb.cz/idp/shibboleth
