@@ -154,3 +154,5 @@ https://shib.psp.cz/simplesaml
 https://knihovnaspk.cz/auth/saml2-idp
 https://idp.vsfs.cz/idp/shibboleth
 https://knihovnabbb.cz/idp/shibboleth
+https://knihkm.cz/idp/shibboleth
+https://knihovna-litvinov.cz/idp/shibboleth
