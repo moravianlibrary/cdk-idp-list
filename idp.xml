@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-08-23T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-08-25T12:02:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>FoX15EUlUnsHvmjlGFdqlfDvkJgVn9FZpHUrm5Uh7pA=</ds:DigestValue>
+      <ds:DigestValue>XZjIB69Jkm51XvA6DgmWOm8+49COdFL1jFNkUMLAMRM=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-wbeIRxTffvyZvWdZQgQRp+fXvu7ybAm7DPCTb2q3PB43b+J4DBGRc+E/Ix/wAdABYFNB2aRuziPk
-T5fvZWgJIrbB/WJvNubcWNBDfXijGVMPDXcehJpbDjVWeYdT8qca18Am6h2lhQSdITeCbIL5dDxG
-Ch0Wy20o3oMUdORdtWZscsFRPFXiJk0iIfwM1J03rINpPXC9befgF7+oO/69C6e64qIF58iNR/mL
-5Qd2EW05bMs3ZkE1FhipNWMwpv+NKrmPwotThRon2t5iF9rpcvgLH0PaHIkQp+0fHWrAtelTDjbe
-BbTAAZTPP1GmFhdIOU6+YuneHjtCJb6XQqKJ6A==
+kAS3zSZOx3GJKaC42M1bgXQ+Eap5/K5CF3FFkxKLt+K3c7yqGmzDLlDuSJs2ZGckqTiJXlB+kVjh
+c0pUEh6y5acrP04Nttm3XpqACRkELTtyjnFahbxxIlfv/ekF8m7CS+KDWkypV5rQeETdZdmnhqvQ
+jsr12221900j+OPQuHs0oHMp7d0MnTYe7UaTK09OWWFbWK8BbLmcexDi06mmYf6+ZFXL0MjkXz1/
+B37qFuOoyRs1321+pZPqeVR4e+aKBJwhu7BcBwX2An91yOOpbo6tTlUF8+Rq/qDamKh/5rzMNAGa
+8IaLpWAxHsZoRLE7N02GKUn+eZXbNqLJRUbPXQ==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -19265,51 +19265,52 @@ YtC9LV7mRLkdALnlFN7jo52lhwSc34G8Wkdado0qrbu/OfAtLF2eo7KWULBToYX9
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor WantAuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="true" errorURL="https://id.vut.cz/saml/module.php/core/error/ERRORURL_CODE?ts=ERRORURL_TS&amp;rp=ERRORURL_RP&amp;tid=ERRORURL_TID&amp;ctx=ERRORURL_CTX" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">vutbr.cz</shibmd:Scope>
+      <shibmd:Scope regexp="false">vut.cz</shibmd:Scope>
       <ui:UIInfo>
           <ui:DisplayName xml:lang="en">Brno University of Technology</ui:DisplayName>
         <ui:DisplayName xml:lang="cs">Vysoké učení technické v Brně</ui:DisplayName>
         <ui:Description xml:lang="en">Identity Provider for Brno University of Technology.</ui:Description>
         <ui:Description xml:lang="cs">Identity Provider pro vysoké učení technické v Brně.</ui:Description>
-        <ui:InformationURL xml:lang="en">https://www.vutbr.cz/en/</ui:InformationURL>
-        <ui:InformationURL xml:lang="cs">https://www.vutbr.cz/</ui:InformationURL>
-        <ui:Logo height="40" width="116">https://www.vutbr.cz/logo_idp.png</ui:Logo>
+        <ui:InformationURL xml:lang="en">https://www.vut.cz/en/</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.vut.cz/</ui:InformationURL>
+        <ui:Logo height="40" width="116">https://www.vut.cz/logo_idp.png</ui:Logo>
         </ui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIFATCCAumgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ0wCwYDVQQHDARCcm5vMSYwJAYDVQQKDB1Ccm5vIFVuaXZlcnNpdHkgb2YgVGVjaG5vbG9neTENMAsGA1UECwwEQ1ZJczEYMBYGA1UEAwwPY2EuaWRwLnZ1dGJyLmN6MB4XDTIwMDMyMzA4MDYwNFoXDTMwMDMyMTA4MDYwNFowgYMxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwEQnJubzEmMCQGA1UECgwdQnJubyBVbml2ZXJzaXR5IG9mIFRlY2hub2xvZ3kxDTALBgNVBAsMBENWSVMxFTATBgNVBAMMDGlkcC52dXRici5jejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALavl/X6XuSO/CQybNsdpY/ahxyzqaPvaLUOhjOIZMXmXoCfhio6NtDsYvHkKGEvti98aFeNq688vbVR5CvyYMlUBtGwDQXMc7KtVWU1Xuh850fDl+9Qoy3+9OIIjwy9IjGgeOOiPyIrkSNrQCDC4sgpRdp/sOSJgUMMaWe1wKQ5XMu9rQOeXIrH61MO7icdZPeVzya5XiDs6ofxmltZCUYz4e2LRUS4vL0LV15nfzJXDiA7XA0oOXOubnPCAqq1zVfhJxQJmECCXXPb2HcfgygaNepD5gdmxBxLEnApSED3W0h0yr3dMi/1nVpodOFkEABHsiUEsfx1qZWiae38ETECAwEAAaN7MHkwCQYDVR0TBAIwADAsBglghkgBhvhCAQ0EHxYdT3BlblNTTCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFPUr4LKrDhjvMYYhGYPG/EYge1u7MB8GA1UdIwQYMBaAFKFMnpchaQlKlzuBYK0ZCAaXnR1PMA0GCSqGSIb3DQEBCwUAA4ICAQB/SbhDEgs66DUQ06XP+eb5VEfaTy+o68XH7NLbZuvOMuy3E+6BjQ7CMKr8drlXkEme7XcUTE+843YVcDPQYwhjcqFbGy1pXdAhg6J5HC7GkfX+rqLkMoQbmqI3IsGLrkFBu15K7js2QGtgj8bIzADTPhdrvp+WK7441P215T3FjFfjfBQDfPDl3VI6cvnpn/z3Q9iQJXVbM58yQyk6UqcpT4mN24fhpzDe6zsrxfHerUqfT35UnJsNtlTqpl5C4GBnA0xn3qQDL+BTjCaVnnIatcU8oj/M4Pms0e5gKblmnazIi36z2RVJftvhST0sQU5ixfuJofI17fB3DvWMh3kv/lKw5Z02WdPspKgSHMiaids1jN/CwFoG6crPFCNjj7YX++yA/5LO9DF3LO9f5gtUmiclKuNqZmt/no0R2TVG2lwOZEl3WgzWLyX43dUhyVMt7UCeMGBkRKhF5EvzdFyqq9rJ4tIim2++8JQjPXb8ioGQ+1tbfhtElfrZKFSg4pm9nTWS1Sm7YTx0UekO2nThsGRkndek+EOJasNIYATd62INeHkfQVhIwiBLS/N3mzE9mUYiBgW75QeWAbBZQg/wJMsG1YOwdkPhB7g+b87JvUdiGwBQRRObbuoA10P8fg2dZdfnhhivbKtOA7VnzJARGSXYkRY20OdLhle4Wa+uSg==</ds:X509Certificate>
+            <ds:X509Certificate>MIIFgzCCA2sCAQEwDQYJKoZIhvcNAQELBQAwgYQxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwEQnJubzEmMCQGA1UECgwdQnJubyBVbml2ZXJzaXR5IG9mIFRlY2hub2xvZ3kxDTALBgNVBAsMBENWSVMxFjAUBgNVBAMMDUNBIElORlJBIFNBTUwwHhcNMjQwNTIxMDkzNzExWhcNMzQwMzMwMDkzNzExWjCBiTELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ0wCwYDVQQHDARCcm5vMSYwJAYDVQQKDB1Ccm5vIFVuaXZlcnNpdHkgb2YgVGVjaG5vbG9neTENMAsGA1UECwwEQ1ZJUzEbMBkGA1UEAwwSaWQudnV0LmN6L3NhbWwgSURQMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqxb+z28X1BIBGLad7dhALloJcGik4IOkOg9uQkkUCpIbksbGrfA9byUlGaRUF3Uxdi3C4gqxe7RswwSNz/dAG7errcoEcc5YHAMCWa6iOPfoziFD/Rh7EwDAMoKi2UwIWzEM85I07sIKZuXVk6NAFIEAgTqYtmDsW+JtP+NTN/KDnFb2T0izKMy8BIU7WPXe/LlM1WZbOeyVGSBJb+5PtrLmKgm/JoG/xKoV7lU+vO1f0HZSVI41k/aRhKFqS0nSpl3sJypYjUDBKbxq/tZMrqCRhH6+EE7Ly+VJpRwkCHfY71k13Q3QfiVtoOosz+zyfffCnaet9TqahCcDsDm2VcEZuZ7w55n0KwZPxbJnW8eVYB7Tsr61nVgWXxiiymlCAu6Q1mTCw/hEQFKmipkksr0dpV6p6rGOK7ge0WQ7zP/Kf6Q0U/YVSNLYwnJ9pdIMygrNehTOWBUytSo6kyJrFq4drmfOJZFuOfIgxMGqBBuujZZPuXdPu8+wJLda1GAADfRdJsq0aqTPouFds5ZePJj0PfQCzTshn2HU+nCoWpLtXQLOs+loFbtTCf6hbGZp8v+4vzQlti11oa0HXxMFDvpkOWAK/dGtp56gbD96dmq9+3kSjW4GW5tOmV3tmZM+r3JHRgvdu5LlkJpQjQsUIegg5WdhXCMJcC52ASoKieECAwEAATANBgkqhkiG9w0BAQsFAAOCAgEADI6JnynwGDl3s/3dqi+pa+mj8bgV/7HLW63I3m/KcGoBRtIEyJ54kW/ttcMCu0h4qJl1b6nTlk4b/yOquGbQbK3+bEn0QWycPbQKB5O3eoq0nrftNGmNTn1v9sl7d/CVpdUG52mHV+7SJy+qu85PP+2VgrrSIiqTG0P/AJAVVKPo4E0icl8KfXco9UpI1G9/URUUnF5rT1F0+ggFA9VhTnWlE9nrqVhWSS2r62deSO7ANiUQE+I+Nt+/SaojK/mj4aQqdHo8rW5EEKzs8nJhr7903BFxZfdg2lWUYWDjUTV+owP+N7bhBgXmQo3nxc0OX2clIhwoRZt/O7q7QC23n9n5E8TL1ArTYfHj4h0NTGBaGaFu6CsFuAQtgPHm7LstOqdlcO0Y8B3hIDPoSN0aXwGrEavQMRataSIQt7lhlal83Ukhfq0DG6dXlGm5qnoja7jsUAFszHKBf1PnZXOPUVDX8M4H20/mXqQyn2HcPSlgcQEh5cO61gmFzmmnT7oEEPENCDai2fcjKrwi6madu/u7I4koIfee62V0YttglQGdSXb6tzMPCZGfiw9WFlrCSoJmwG1flz45ZeDc4MLyUi/syjCVm29EXWCYDAVKIziZ8pBGJAWs5Y0T5dYHDZVJKK+TwMancB4+5APyCCYyc9LtSL+w0Qe4rUXCS7x6RuE=</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
     <md:KeyDescriptor use="encryption">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIFATCCAumgAwIBAgIBATANBgkqhkiG9w0BAQsFADCBhjELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ0wCwYDVQQHDARCcm5vMSYwJAYDVQQKDB1Ccm5vIFVuaXZlcnNpdHkgb2YgVGVjaG5vbG9neTENMAsGA1UECwwEQ1ZJczEYMBYGA1UEAwwPY2EuaWRwLnZ1dGJyLmN6MB4XDTIwMDMyMzA4MDYwNFoXDTMwMDMyMTA4MDYwNFowgYMxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwEQnJubzEmMCQGA1UECgwdQnJubyBVbml2ZXJzaXR5IG9mIFRlY2hub2xvZ3kxDTALBgNVBAsMBENWSVMxFTATBgNVBAMMDGlkcC52dXRici5jejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALavl/X6XuSO/CQybNsdpY/ahxyzqaPvaLUOhjOIZMXmXoCfhio6NtDsYvHkKGEvti98aFeNq688vbVR5CvyYMlUBtGwDQXMc7KtVWU1Xuh850fDl+9Qoy3+9OIIjwy9IjGgeOOiPyIrkSNrQCDC4sgpRdp/sOSJgUMMaWe1wKQ5XMu9rQOeXIrH61MO7icdZPeVzya5XiDs6ofxmltZCUYz4e2LRUS4vL0LV15nfzJXDiA7XA0oOXOubnPCAqq1zVfhJxQJmECCXXPb2HcfgygaNepD5gdmxBxLEnApSED3W0h0yr3dMi/1nVpodOFkEABHsiUEsfx1qZWiae38ETECAwEAAaN7MHkwCQYDVR0TBAIwADAsBglghkgBhvhCAQ0EHxYdT3BlblNTTCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFPUr4LKrDhjvMYYhGYPG/EYge1u7MB8GA1UdIwQYMBaAFKFMnpchaQlKlzuBYK0ZCAaXnR1PMA0GCSqGSIb3DQEBCwUAA4ICAQB/SbhDEgs66DUQ06XP+eb5VEfaTy+o68XH7NLbZuvOMuy3E+6BjQ7CMKr8drlXkEme7XcUTE+843YVcDPQYwhjcqFbGy1pXdAhg6J5HC7GkfX+rqLkMoQbmqI3IsGLrkFBu15K7js2QGtgj8bIzADTPhdrvp+WK7441P215T3FjFfjfBQDfPDl3VI6cvnpn/z3Q9iQJXVbM58yQyk6UqcpT4mN24fhpzDe6zsrxfHerUqfT35UnJsNtlTqpl5C4GBnA0xn3qQDL+BTjCaVnnIatcU8oj/M4Pms0e5gKblmnazIi36z2RVJftvhST0sQU5ixfuJofI17fB3DvWMh3kv/lKw5Z02WdPspKgSHMiaids1jN/CwFoG6crPFCNjj7YX++yA/5LO9DF3LO9f5gtUmiclKuNqZmt/no0R2TVG2lwOZEl3WgzWLyX43dUhyVMt7UCeMGBkRKhF5EvzdFyqq9rJ4tIim2++8JQjPXb8ioGQ+1tbfhtElfrZKFSg4pm9nTWS1Sm7YTx0UekO2nThsGRkndek+EOJasNIYATd62INeHkfQVhIwiBLS/N3mzE9mUYiBgW75QeWAbBZQg/wJMsG1YOwdkPhB7g+b87JvUdiGwBQRRObbuoA10P8fg2dZdfnhhivbKtOA7VnzJARGSXYkRY20OdLhle4Wa+uSg==</ds:X509Certificate>
+            <ds:X509Certificate>MIIFgzCCA2sCAQEwDQYJKoZIhvcNAQELBQAwgYQxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwEQnJubzEmMCQGA1UECgwdQnJubyBVbml2ZXJzaXR5IG9mIFRlY2hub2xvZ3kxDTALBgNVBAsMBENWSVMxFjAUBgNVBAMMDUNBIElORlJBIFNBTUwwHhcNMjQwNTIxMDkzNzExWhcNMzQwMzMwMDkzNzExWjCBiTELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ0wCwYDVQQHDARCcm5vMSYwJAYDVQQKDB1Ccm5vIFVuaXZlcnNpdHkgb2YgVGVjaG5vbG9neTENMAsGA1UECwwEQ1ZJUzEbMBkGA1UEAwwSaWQudnV0LmN6L3NhbWwgSURQMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAqxb+z28X1BIBGLad7dhALloJcGik4IOkOg9uQkkUCpIbksbGrfA9byUlGaRUF3Uxdi3C4gqxe7RswwSNz/dAG7errcoEcc5YHAMCWa6iOPfoziFD/Rh7EwDAMoKi2UwIWzEM85I07sIKZuXVk6NAFIEAgTqYtmDsW+JtP+NTN/KDnFb2T0izKMy8BIU7WPXe/LlM1WZbOeyVGSBJb+5PtrLmKgm/JoG/xKoV7lU+vO1f0HZSVI41k/aRhKFqS0nSpl3sJypYjUDBKbxq/tZMrqCRhH6+EE7Ly+VJpRwkCHfY71k13Q3QfiVtoOosz+zyfffCnaet9TqahCcDsDm2VcEZuZ7w55n0KwZPxbJnW8eVYB7Tsr61nVgWXxiiymlCAu6Q1mTCw/hEQFKmipkksr0dpV6p6rGOK7ge0WQ7zP/Kf6Q0U/YVSNLYwnJ9pdIMygrNehTOWBUytSo6kyJrFq4drmfOJZFuOfIgxMGqBBuujZZPuXdPu8+wJLda1GAADfRdJsq0aqTPouFds5ZePJj0PfQCzTshn2HU+nCoWpLtXQLOs+loFbtTCf6hbGZp8v+4vzQlti11oa0HXxMFDvpkOWAK/dGtp56gbD96dmq9+3kSjW4GW5tOmV3tmZM+r3JHRgvdu5LlkJpQjQsUIegg5WdhXCMJcC52ASoKieECAwEAATANBgkqhkiG9w0BAQsFAAOCAgEADI6JnynwGDl3s/3dqi+pa+mj8bgV/7HLW63I3m/KcGoBRtIEyJ54kW/ttcMCu0h4qJl1b6nTlk4b/yOquGbQbK3+bEn0QWycPbQKB5O3eoq0nrftNGmNTn1v9sl7d/CVpdUG52mHV+7SJy+qu85PP+2VgrrSIiqTG0P/AJAVVKPo4E0icl8KfXco9UpI1G9/URUUnF5rT1F0+ggFA9VhTnWlE9nrqVhWSS2r62deSO7ANiUQE+I+Nt+/SaojK/mj4aQqdHo8rW5EEKzs8nJhr7903BFxZfdg2lWUYWDjUTV+owP+N7bhBgXmQo3nxc0OX2clIhwoRZt/O7q7QC23n9n5E8TL1ArTYfHj4h0NTGBaGaFu6CsFuAQtgPHm7LstOqdlcO0Y8B3hIDPoSN0aXwGrEavQMRataSIQt7lhlal83Ukhfq0DG6dXlGm5qnoja7jsUAFszHKBf1PnZXOPUVDX8M4H20/mXqQyn2HcPSlgcQEh5cO61gmFzmmnT7oEEPENCDai2fcjKrwi6madu/u7I4koIfee62V0YttglQGdSXb6tzMPCZGfiw9WFlrCSoJmwG1flz45ZeDc4MLyUi/syjCVm29EXWCYDAVKIziZ8pBGJAWs5Y0T5dYHDZVJKK+TwMancB4+5APyCCYyc9LtSL+w0Qe4rUXCS7x6RuE=</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.vutbr.cz/saml2/idp/BUTSingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://id.vut.cz/saml/module.php/saml/idp/singleLogout" />
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.vutbr.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://id.vut.cz/saml/module.php/saml/idp/singleSignOnService" />
     </md:IDPSSODescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="en">Brno University of Technology</md:OrganizationName>
     <md:OrganizationName xml:lang="cs">Vysoké učení technické v Brně</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Brno University of Technology</md:OrganizationDisplayName>
     <md:OrganizationDisplayName xml:lang="cs">Vysoké učení technické v Brně</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="en">https://www.vutbr.cz/en</md:OrganizationURL>
-    <md:OrganizationURL xml:lang="cs">https://www.vutbr.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.vut.cz/en/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.vut.cz</md:OrganizationURL>
     </md:Organization>
   <md:ContactPerson contactType="technical">
       <md:Company>VUT</md:Company>
     <md:GivenName>CVIS</md:GivenName>
-    <md:SurName>Oddělení webu VUT V Brně</md:SurName>
-    <md:EmailAddress>mailto:portal@vutbr.cz</md:EmailAddress>
+    <md:SurName>Oddělení interních systemů</md:SurName>
+    <md:EmailAddress>mailto:portal@vut.cz</md:EmailAddress>
     </md:ContactPerson>
   <md:ContactPerson contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
       <md:Company>VUT</md:Company>
