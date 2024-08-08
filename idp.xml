@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-09-02T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-09-04T11:59:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>rG4KPmHcQ45aVOFlpAeQh8QjU0wp05NK9pGf0/Uh/kE=</ds:DigestValue>
+      <ds:DigestValue>ZcNA+4inihYqT4dAPVDHD3WcR6z7QBaCnl0+ibZlZoY=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-aD62+J+IKf2DjdIdMXEeozkMhN+OuCgAD+iEe4g3LTffKiMcF3+xbNVS7iLJwc6BYbMdnfEbMTU/
-p/RJgC3lb+ck8/QGEU3efuB5eZZ2McDY9Mutj3LMuJ3Bj5p3uG8EGN5AnjKLUPzuV3tmEAZCSahN
-7HpkQbYlV0VGw130oyYjc7RJrc0gIAsjsw/CqwPCPvzWXmumNF5RuurA63qlk8JPQxzSoefiRoDR
-dwjK0PrbCy9v5SzfVngYIE6ghA9jt5ymEEYM7tCFs4CjDPBQtL8EeKY9PDgOYOoEJ7cpptcuZ5KK
-+ZF9OlLpwVFBBPbCEr90rRLUEkF5//8irLsIUA==
+J1aD9QozHKacDLepgIoRmDYokG/InKPpEDsMUMIcJIrxe4oxQE8UcUi1LExsUIENeGNA5QFiVto7
+S25TuituI3/0RuHx0UKMZlaFrF3zNlMNCI+jorDWd2wGBzvA1OFnQdzC9sTizIRefn8FWYVzM+8O
+sfL3NjGcWr8e3h9SqkmRArhBMgrKfXAb7aWHelgZqfDH8sLYjffs8mX9JFq/1yXq4GQ9xjKzeRIt
+jD3BI5sWFYh7bMdyjtnaAWNmAsm3aPuEz2HnfLRqSvrCpLCTpprqNNfvB3+T5/s58mceCLeEFT7U
+NN5CM2VHcIQ+QjnJz9WdThwk6frhOP078gcmQA==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -8515,62 +8515,20 @@ wYjWCrbCbOnu5aXqxBTNgpZEzhQQOU0Fr8xyrHcDFQsOHhY=</ds:X509Certificate>
         <ui:Description xml:lang="cs">Poskytovatel identit pro zaměstnance Národního technického muzea.</ui:Description>
         <ui:InformationURL xml:lang="en">https://www.ntm.cz/en</ui:InformationURL>
         <ui:InformationURL xml:lang="cs">https://www.ntm.cz</ui:InformationURL>
-        <ui:Logo height="160" width="160">https://idp.ntm.cz/idp/images/idp.ntm.cz.jpg</ui:Logo>
+        <ui:Logo height="160" width="160">https://idp.ntm.cz/idp/images/idp.ntm.cz.png</ui:Logo>
         </ui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUeGXM1OqAiF/SD+azYj8nf7zltgwwDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLm50bS5jejAeFw0yMjAyMjgxODA0NThaFw0zMjAy
-MjgxODA0NThaMBUxEzARBgNVBAMMCmlkcC5udG0uY3owggGiMA0GCSqGSIb3DQEB
-AQUAA4IBjwAwggGKAoIBgQCJ8o0edkITCykVjBXWUFiqgpXEN3PJREqRewl9F+O8
-scj/RTWlqWilccVLEmwvwYMAMdG32PHv+sXfMjujVLWfglKRlapHjgi6NDAGjlnI
-DMmK9QJnOUCbSAhQopyGNnqRMpSKYH75twO1YUJM/lrUajwsMA4nNB7P3Eza8ZQw
-y86KAlpa6Zk7SbcLtq1N97x9pX/Z2FAR2LaejyuwTWBljmerhI5n6ciTy4q67lZ6
-GY7t6NsLqHLk0Ni3BUx3M/QLp9PxilBbt+GC9Tw70o1UNQIwYnfnDJ5IDVI6XCow
-Leopsgwdf8hIyDwK5DIzKaCLrr0YJqA/ppfYySygbgn/aeP9FCWMfOm2AT5YKpVq
-Aqyp0LfNrBLiFDUAukD82aCHhRYMNw7L5bKqzjO+6WNZKPjlOAoaxVyWm5XmFSYh
-fHQg0TYqFEq8OH2ud4myLhTpz9ktspFNwfdQI/w2L5yX4DD6Dr+EEnpmWtzhblgo
-Wj9HosMkGzMA2MgX+uHuf0MCAwEAAaNbMFkwHQYDVR0OBBYEFG1KcbA6/+WvP7l7
-HG2RgqEGcKvzMDgGA1UdEQQxMC+CCmlkcC5udG0uY3qGIWh0dHBzOi8vaWRwLm50
-bS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAeSjn3d846adn
-ZBR7i6roZlvBfMpwHHlTPl5pYial/vyX5B+dbxRIob+t2ebx5PUO6j9EPDIoxNQb
-E8/GMp+P5hz85vgurHazsdD+jp0y6bZjpGpnf1aXeLZx59Qyu0hmUO3fxJeT7ZD7
-qR4qjBRpZaBiKmRfwUbOqjUz/7z4V/PYKl8q81n1LNPQAPCjf94zm2gb4BaOJ9xO
-gtIs2TJmFxxgTWGQ5UVvur+7FVf2ij9dHhGkVSCv2PAPQM6hxTgl/tfgqAUqHnHd
-jGWeYTMb0CaVqNYrnmBUKykxKFk7QB/NYzMRi08X12oQGUaXigioUapT+VtJcmmk
-XzHCgzb1QS85ZsPiGAKDL9kZlkdSHE+/PrMko4RW45Q7t2QqeB5pF0BZRdVn35Go
-t91KunuaOX+qT/OGOg5/jpDIGH0ubagZnLDeCtrj0PXuAvBUQjdD46GQqiz90AWC
-Y/nF59UY39tIscAPWigxhJGOkz1wa1GqdrSMoEbrlKmYseczxtz2</ds:X509Certificate>
+            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUeGXM1OqAiF/SD+azYj8nf7zltgwwDQYJKoZIhvcNAQEL BQAwFTETMBEGA1UEAwwKaWRwLm50bS5jejAeFw0yMjAyMjgxODA0NThaFw0zMjAy MjgxODA0NThaMBUxEzARBgNVBAMMCmlkcC5udG0uY3owggGiMA0GCSqGSIb3DQEB AQUAA4IBjwAwggGKAoIBgQCJ8o0edkITCykVjBXWUFiqgpXEN3PJREqRewl9F+O8 scj/RTWlqWilccVLEmwvwYMAMdG32PHv+sXfMjujVLWfglKRlapHjgi6NDAGjlnI DMmK9QJnOUCbSAhQopyGNnqRMpSKYH75twO1YUJM/lrUajwsMA4nNB7P3Eza8ZQw y86KAlpa6Zk7SbcLtq1N97x9pX/Z2FAR2LaejyuwTWBljmerhI5n6ciTy4q67lZ6 GY7t6NsLqHLk0Ni3BUx3M/QLp9PxilBbt+GC9Tw70o1UNQIwYnfnDJ5IDVI6XCow Leopsgwdf8hIyDwK5DIzKaCLrr0YJqA/ppfYySygbgn/aeP9FCWMfOm2AT5YKpVq Aqyp0LfNrBLiFDUAukD82aCHhRYMNw7L5bKqzjO+6WNZKPjlOAoaxVyWm5XmFSYh fHQg0TYqFEq8OH2ud4myLhTpz9ktspFNwfdQI/w2L5yX4DD6Dr+EEnpmWtzhblgo Wj9HosMkGzMA2MgX+uHuf0MCAwEAAaNbMFkwHQYDVR0OBBYEFG1KcbA6/+WvP7l7 HG2RgqEGcKvzMDgGA1UdEQQxMC+CCmlkcC5udG0uY3qGIWh0dHBzOi8vaWRwLm50 bS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAeSjn3d846adn ZBR7i6roZlvBfMpwHHlTPl5pYial/vyX5B+dbxRIob+t2ebx5PUO6j9EPDIoxNQb E8/GMp+P5hz85vgurHazsdD+jp0y6bZjpGpnf1aXeLZx59Qyu0hmUO3fxJeT7ZD7 qR4qjBRpZaBiKmRfwUbOqjUz/7z4V/PYKl8q81n1LNPQAPCjf94zm2gb4BaOJ9xO gtIs2TJmFxxgTWGQ5UVvur+7FVf2ij9dHhGkVSCv2PAPQM6hxTgl/tfgqAUqHnHd jGWeYTMb0CaVqNYrnmBUKykxKFk7QB/NYzMRi08X12oQGUaXigioUapT+VtJcmmk XzHCgzb1QS85ZsPiGAKDL9kZlkdSHE+/PrMko4RW45Q7t2QqeB5pF0BZRdVn35Go t91KunuaOX+qT/OGOg5/jpDIGH0ubagZnLDeCtrj0PXuAvBUQjdD46GQqiz90AWC Y/nF59UY39tIscAPWigxhJGOkz1wa1GqdrSMoEbrlKmYseczxtz2</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
     <md:KeyDescriptor use="encryption">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIURAeqcsRhgCNBDa80KRIzYiRiAGswDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLm50bS5jejAeFw0yMjAyMjgxODA0NTZaFw0zMjAy
-MjgxODA0NTZaMBUxEzARBgNVBAMMCmlkcC5udG0uY3owggGiMA0GCSqGSIb3DQEB
-AQUAA4IBjwAwggGKAoIBgQC2vFgamH/PdokFtyeFDcV4DjzZ40HnOsIL0dkpApEu
-2P+NY1hXsIHNdNgc1TZRbH4CT0HV61maRZd7T9v7zLd/4cDmrSLFJ5MrXfNAkZyF
-99LKmOJrvXG+XtYoE7qSSHwks1X39uplnYYkxnCFUHvWBmRdvBIN0O9nCQ2HAZ52
-9CEyoUwHGJkbp/ULkViAl1VZO0zp9/1NGMLQoM5/nkdVsukORuwwn+n5bwxLuh5W
-nwBbLCw9KcwEro40OWZHPMDN/EzmO5XAnZ/NYfEU05cjz0VAAl41DXduwbW7tiyK
-NExlcLOhRejhTztSmZ2IPhxu+wAon3cTZs6MvTgAsdxvtPNtP+60Rv/+3EECl04Z
-9pqFTJIX6SaGNebt5AduLTZ4NoxfPhgoy1+m5DtIe8kwsDPPfudYQMmAea3O9Vdf
-D6vL6jonXvHzpJeBPqa/MKd6oH4Ey85Qx4sQ+0vTJk75YY7WvicdaNSpIsisatRj
-+Hg7csAnNJQPcN6WhXcrOYcCAwEAAaNbMFkwHQYDVR0OBBYEFEuc3FQPU7yQfe8l
-SsrHqbSiC93hMDgGA1UdEQQxMC+CCmlkcC5udG0uY3qGIWh0dHBzOi8vaWRwLm50
-bS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAR/zv9NNcXXKl
-exvESyOxpyoJW7J3DSCDwAU6It2htzYyNP2mFKUHYGwG+D9W3cVAM/f87fdKq+8x
-XUoMdhS9k0cT/Wchur43CqkwiTD1i24gkTopBO3CuGRHbzOHyNBvkjyYGW8XbWOP
-oxc1c36zAFzXMZ62UmelsnqP6iM3CVDrvo67wfwceSnIJovPreTK4vSObdZazTf7
-EDHTz1P3NwQprJWE/sjfrq4Sbhc2qkU+LfSujUkV6L9evtgN7njMB2DQjsjFwxvs
-ReS0tbkBLoQjEYZ4C8HEdQ/98zn9McYj7w1oLfUJMEcJK7upIjXZmvaj1LFc09Hb
-3z2xjvbcUpgW9592uHltVOHdPlUq/ErorNl33NSI77n6trvOOhlsJNnVsbUdeUfc
-QC4AbBqUYxwRwz4/bhwsil/+ZXi3iifzUeOt4kFuS45n75Yfd+dJBJtcLIlNLDhn
-HVpROgzJvBbbjgOuYtYvVpZYMh1Som28cWKathSq0gBfpfYDvVyj</ds:X509Certificate>
+            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIURAeqcsRhgCNBDa80KRIzYiRiAGswDQYJKoZIhvcNAQEL BQAwFTETMBEGA1UEAwwKaWRwLm50bS5jejAeFw0yMjAyMjgxODA0NTZaFw0zMjAy MjgxODA0NTZaMBUxEzARBgNVBAMMCmlkcC5udG0uY3owggGiMA0GCSqGSIb3DQEB AQUAA4IBjwAwggGKAoIBgQC2vFgamH/PdokFtyeFDcV4DjzZ40HnOsIL0dkpApEu 2P+NY1hXsIHNdNgc1TZRbH4CT0HV61maRZd7T9v7zLd/4cDmrSLFJ5MrXfNAkZyF 99LKmOJrvXG+XtYoE7qSSHwks1X39uplnYYkxnCFUHvWBmRdvBIN0O9nCQ2HAZ52 9CEyoUwHGJkbp/ULkViAl1VZO0zp9/1NGMLQoM5/nkdVsukORuwwn+n5bwxLuh5W nwBbLCw9KcwEro40OWZHPMDN/EzmO5XAnZ/NYfEU05cjz0VAAl41DXduwbW7tiyK NExlcLOhRejhTztSmZ2IPhxu+wAon3cTZs6MvTgAsdxvtPNtP+60Rv/+3EECl04Z 9pqFTJIX6SaGNebt5AduLTZ4NoxfPhgoy1+m5DtIe8kwsDPPfudYQMmAea3O9Vdf D6vL6jonXvHzpJeBPqa/MKd6oH4Ey85Qx4sQ+0vTJk75YY7WvicdaNSpIsisatRj +Hg7csAnNJQPcN6WhXcrOYcCAwEAAaNbMFkwHQYDVR0OBBYEFEuc3FQPU7yQfe8l SsrHqbSiC93hMDgGA1UdEQQxMC+CCmlkcC5udG0uY3qGIWh0dHBzOi8vaWRwLm50 bS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAR/zv9NNcXXKl exvESyOxpyoJW7J3DSCDwAU6It2htzYyNP2mFKUHYGwG+D9W3cVAM/f87fdKq+8x XUoMdhS9k0cT/Wchur43CqkwiTD1i24gkTopBO3CuGRHbzOHyNBvkjyYGW8XbWOP oxc1c36zAFzXMZ62UmelsnqP6iM3CVDrvo67wfwceSnIJovPreTK4vSObdZazTf7 EDHTz1P3NwQprJWE/sjfrq4Sbhc2qkU+LfSujUkV6L9evtgN7njMB2DQjsjFwxvs ReS0tbkBLoQjEYZ4C8HEdQ/98zn9McYj7w1oLfUJMEcJK7upIjXZmvaj1LFc09Hb 3z2xjvbcUpgW9592uHltVOHdPlUq/ErorNl33NSI77n6trvOOhlsJNnVsbUdeUfc QC4AbBqUYxwRwz4/bhwsil/+ZXi3iifzUeOt4kFuS45n75Yfd+dJBJtcLIlNLDhn HVpROgzJvBbbjgOuYtYvVpZYMh1Som28cWKathSq0gBfpfYDvVyj</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
@@ -8804,13 +8762,13 @@ tIQiavthGA2SJgidAFEtV/h8foZv/A8OmyZCNkLzPtzbA+HHwNMh9g==</ds:X509Certificate>
       <md:Extensions>
         <shibmd:Scope regexp="false">rkka.cz</shibmd:Scope>
       <ui:UIInfo>
-          <ui:DisplayName xml:lang="en">Regionální knihovna Karviná</ui:DisplayName>
-        <ui:DisplayName xml:lang="cs">Regional Library Karviná</ui:DisplayName>
+          <ui:DisplayName xml:lang="en">Regional Library Karviná</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Regionální knihovna Karviná</ui:DisplayName>
         <ui:Description xml:lang="en">Identity Provider for employees and readers of the Regional Library Karviná</ui:Description>
         <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Regionální knihovny Karviná</ui:Description>
         <ui:InformationURL xml:lang="en">https://www.rkka.cz</ui:InformationURL>
         <ui:InformationURL xml:lang="cs">https://www.rkka.cz</ui:InformationURL>
-        <ui:Logo height="40" width="113">https://karvina.idp.rbit.cz/logo.png</ui:Logo>
+        <ui:Logo height="40" width="91">https://karvina.idp.rbit.cz/logo.png</ui:Logo>
         </ui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
@@ -8836,10 +8794,10 @@ tIQiavthGA2SJgidAFEtV/h8foZv/A8OmyZCNkLzPtzbA+HHwNMh9g==</ds:X509Certificate>
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://karvina.idp.rbit.cz/saml2/idp/SSOService.php" />
     </md:IDPSSODescriptor>
   <md:Organization>
-      <md:OrganizationName xml:lang="en">Regionální knihovna Karviná</md:OrganizationName>
-    <md:OrganizationName xml:lang="cs">Regional Library Karviná</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="en">Regionální knihovna Karviná</md:OrganizationDisplayName>
-    <md:OrganizationDisplayName xml:lang="cs">Regional Library Karviná</md:OrganizationDisplayName>
+      <md:OrganizationName xml:lang="en">Regional Library Karviná</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Regionální knihovna Karviná</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Regional Library Karviná</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Regionální knihovna Karviná</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">https://www.rkka.cz</md:OrganizationURL>
     <md:OrganizationURL xml:lang="cs">https://www.rkka.cz</md:OrganizationURL>
     </md:Organization>
@@ -18944,7 +18902,7 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ds:X509Certificate>
         <ui:Description xml:lang="cs">Poskytovatel identity (IdP) pro zaměstnance CESNETu.</ui:Description>
         <ui:InformationURL xml:lang="en">https://www.ces.net/</ui:InformationURL>
         <ui:InformationURL xml:lang="cs">https://www.cesnet.cz/</ui:InformationURL>
-        <ui:Logo height="40" width="99">https://whoami.cesnet.cz/idp/images/cesnet-logo-40.png</ui:Logo>
+        <ui:Logo height="40" width="99">https://whoami.cesnet.cz/idp/images/whoami.cesnet.cz.png</ui:Logo>
         </ui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
