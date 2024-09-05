@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-09-30T23:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-10-02T09:00:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>f/I10KE9UjnPm+WvFqSrKNmN9oMxDiA8jqpZrpor+Zw=</ds:DigestValue>
+      <ds:DigestValue>5fJrUpfmYLwKLwTA1yX+COZXHo9EQcL2uK4ZdCddkfo=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-TJwlNksYwD821tYe8WnYjGnDwL81R2MpTSHlvRc+rJMeLpcMq94nw15Dhb2J6wbuFcasJfc2QgsE
-FXQZkEOXeK7CZeCBJi3/1RwD+isHcQDASUcQJ7lbS0ORReY7dyde6IrN/lUl6yHYCV6bwmEiSmKe
-s75nDpWgvS+YuqC8SlWJ4Xz+Sbl9rsPi/nnoFs+ai/TRz55JbbjIzNYQzTOa3GM8jr3gyEy0GCdE
-5FfI8uWhE6ZA6wlaxQWQEC3POE7AfJKOdaE+hDFDUnNJQ8SoNNeujCs89FdnTln8raLNYD4bKTk6
-dm/nmZ+OdGl7Rq5Q7GiI/+FN2faDIg/GyXd29g==
+x1aJEA+h42i01aZYTkRLHl/5DvHjEmlXt03EMAQyvwYTp4g1yPk20Cp5Zx3ghw/6tl+4F8lj/Ycs
+gQXVNyWZ/GJ9MEPlU2hHxVtSFls1WbC118ptMSzgBrwkbxouJdHV3rFUR2XxFSdBlKkz+3afzNWT
+Mf5lavO6i0QFSGsyBgbF8jC7nvUUvEUBa9a7VFedEQW/xXbSM87cAhV8vgOc1U9E1KJO3vQiyJbm
+xdr2R6zf6yyCkOKmMhyuowxLygkZxGZIfJQPnNLJw9L/a1pyncGGAp5mD98bGhI6BuuRcNQH809y
+7F3rwKnQCugypLhV71XLEoofY+vPGAJQpthWlA==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -18753,8 +18753,8 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ds:X509Certificate>
     <md:Extensions>
       <mdattr:EntityAttributes>
         <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
-          <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
-        <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
         </saml:Attribute>
       <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
@@ -18768,13 +18768,13 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ds:X509Certificate>
       <md:Extensions>
         <shibmd:Scope regexp="false">svkkl.cz</shibmd:Scope>
       <ui:UIInfo>
-          <ui:DisplayName xml:lang="en">Central Bohemian Research Library</ui:DisplayName>
-        <ui:DisplayName xml:lang="cs">Středočeská vědecká knihovna v Kladně</ui:DisplayName>
-        <ui:Description xml:lang="en">Identity Provider for employees and readers of the Central Bohemian Research Library</ui:Description>
-        <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Středočeské vědecké knihovny v Kladně</ui:Description>
+          <ui:DisplayName xml:lang="en">Central Bohemian Library in Kladno</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Středočeská knihovna v Kladně</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for employees and readers of the Central Research Library in Kladno</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Středočeské knihovny v Kladně</ui:Description>
         <ui:InformationURL xml:lang="en">https://www.svkkl.cz/en</ui:InformationURL>
         <ui:InformationURL xml:lang="cs">https://www.svkkl.cz/cs</ui:InformationURL>
-        <ui:Logo height="40" width="117">https://svkkl.knihovny.cz/logo.png</ui:Logo>
+        <ui:Logo height="40" width="95">https://svkkl.knihovny.cz/logo.png</ui:Logo>
         </ui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
@@ -18800,10 +18800,10 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ds:X509Certificate>
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://svkkl.knihovny.cz/saml2/idp/SSOService.php" />
     </md:IDPSSODescriptor>
   <md:Organization>
-      <md:OrganizationName xml:lang="en">Central Bohemian Research Library</md:OrganizationName>
-    <md:OrganizationName xml:lang="cs">Středočeská vědecká knihovna v Kladně</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="en">Central Bohemian Research Library</md:OrganizationDisplayName>
-    <md:OrganizationDisplayName xml:lang="cs">Středočeská vědecká knihovna v Kladně</md:OrganizationDisplayName>
+      <md:OrganizationName xml:lang="en">Central Bohemian Library in Kladno</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Středočeská knihovna v Kladně</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Central Bohemian Library in Kladno</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Středočeská knihovna v Kladně</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">https://www.svkkl.cz/en</md:OrganizationURL>
     <md:OrganizationURL xml:lang="cs">https://www.svkkl.cz/cs</md:OrganizationURL>
     </md:Organization>
