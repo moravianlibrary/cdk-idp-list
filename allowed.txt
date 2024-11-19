@@ -157,4 +157,11 @@ https://knihovnabbb.cz/idp/shibboleth
 https://knihkm.cz/idp/shibboleth
 https://knihovna-litvinov.cz/idp/shibboleth
 https://id.ndk.cz/auth/realms/User authorized_by_idp_keycloak=true
-https://mkjbc.cz/idp/shibboleth authorized_by_idp_keycloak=true
+https://mkjbc.cz/idp/shibboleth
+https://soaidp.soaplzen.cz/idp/shibboleth
+https://agkm.cz/idp/shibboleth
+https://knihovna-kyjov.cz/idp/shibboleth
+https://knihovnanpaka.cz/idp/shibboleth
+https://idp.hiu.cas.cz/idp/shibboleth
+https://idp.ambis.cz/idp/shibboleth
+https://rokyknih.cz/idp/shibboleth

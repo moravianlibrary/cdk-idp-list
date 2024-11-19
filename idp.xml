@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-12-14T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-12-15T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>Ggv0fdmRS0kWduAkRCBz/vTIUNQAvWysv9svlkHzZbc=</ds:DigestValue>
+      <ds:DigestValue>GcaG/kpWaY8Eor3S3LwYqB45fUhas9JfmlGWaYw/My4=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-sObQgzXCun74OOm69Ei1ljKZfF8+gtYlilndyiVQKaA9Z9qL2QIDfWHC4+s8tphc6OHAVF4zlSRC
-WN8K+/Ckspl9Br1Zd55cdeVhLwcckkPlInYdg8mhCQLpRqFeIqojQ7XyntIQhQTV/wOVoIwdxJH9
-6fRUrp+GWHauyCKSTF5ii7PNRbLM4Pr+m9iW4vWACdIJK9ZOyeV06ATHFod748sqNo2pyFfMp1Hd
-Tt1mhSEVqS+xiak4FkTrkUcfme11UXVyBdf+sIHWqioNZL0f4vYtNdNWDjeYZIiaEUJCPNTl0nzK
-XFUWftAphQKbJxKL+qbLoau1FhtLTgJOZ22CQA==
+/SYEO+QkIrdBDaTwB03dHCAYMH0XBDftyAUqoVweyb4mIIN4EvWnKgccS3Bh0lC30N4EORj1vF2k
+oIOoz9UKTDqSn7jzDxAHNlmlUpI0Kb3k1sPQzc0+ayw2f0PMMlxQY6eBN+NUPFH9acbbmzbqJxBL
+ycR2VhSZnin6mNY9ZazFnb27RNyozZmJm5TBBTmbLnXV7d0u4E6DhToS+FzOPWiU0KGpym0Ii+re
+Ay8jlFNAc7IctPUEQUPlRmHYzYI00CFuTFwUwdRgcK+urjh360d0OTokpiOF7yu7Djm21KvljsyU
++4MDFdFT1qmsfJLt1aNpbrwuFr+hj6PYLAhLdA==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -53,6 +53,70 @@ OAI/o7OXu4N9I7m2qrIxx8bdDlfNgWoN187daQLATcMTRpar7HFd4hKJWg==
       </ds:X509Data>
     </ds:KeyInfo>
   </ds:Signature>
+<md:EntityDescriptor entityID="https://agkm.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    <eduidmd:RepublishRequest>
+        <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
+      </eduidmd:RepublishRequest>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">agkm.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Archiepiscopal Gymnasium in Kromeriz - Library</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Arcibiskupské gymnázium v Kroměříži - Knihovna</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for employees and readers of the Archiepiscopal Gymnasium in Kromeriz - Library</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře knihovny Arcibiskupského gymnázia v Kroměříži</ui:Description>
+        <ui:InformationURL xml:lang="en">https://www.agkm.cz</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.agkm.cz</ui:InformationURL>
+        <ui:Logo height="40" width="40">https://agkm.idp.rbit.cz/logo.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID8zCCAtugAwIBAgIUAlUFCN6mX8v5mwfzRdFGjem86OcwDQYJKoZIhvcNAQELBQAwgYgxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEZMBcGA1UEAwwQYWdrbS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MB4XDTIxMTAwNjE5NDc0NloXDTMxMTAwNzE5NDc0NlowgYgxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEZMBcGA1UEAwwQYWdrbS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEC0V/aq1G1DIAxOqmeBZUkzG2i3Qqyz2/uOEUjD9WHnvNLfg96vNEHxFxxKkZXHd18FSJVRTjXldB9dJMbUK7BnCCfKUaieJ12cZYHY7w0wu3hHwAZI3EPv3tOtLh2nlfKJXu9b0g5EN/HimJ7QSVYww/1xjmVmr2cqMEl3KwPKAyF/DGFHmUCQZgdgfYImD9DPDD+MCC9pUGmu12XNU2vdWbMuzJfj44bpEeT/IUCI+BKYdC/SISRs+clxX1KGQdnjziGrtRo6URJ89jvyrkAKZlds7NwRweDjGKDgdMUqMGdARWb9StbVs1yTM9f+qbQypayAqxGfIKcEYtw79wIDAQABo1MwUTAdBgNVHQ4EFgQUzOoAvZgnqbdxUTQXX/mku4xc2vIwHwYDVR0jBBgwFoAUzOoAvZgnqbdxUTQXX/mku4xc2vIwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqzORHMOiZFwK5/z3R9pGvpsofK0Wg6cSO+KAQ4tV+M4/KcAHGEj4NwrqJm81pIdZLn240i3MkxrG0lVySEyEwBtvGQ0S2AMA5xlUUNLxqTOgXE8NMvSFUSjkT5tMypgN77u5BefPYI1lJMikBnx8Jt5gbcuYBtHF9CXFILrVEV6wGRvi2mEYGreH4Yae+8Q79UjqOwZFBvYkieopZxnZLqzgdedoR//TTcpcJUFjnwotWMMQPNWjKw7Gj88HA0r6CVH2We6BgpgGl4tTLujmBMys/6xwA5Ar5aAmjL7j7QYxUllHz4DUYSMlmeyY40ffj0p6lUkOJM8+JhvDavJGqg==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID8zCCAtugAwIBAgIUAlUFCN6mX8v5mwfzRdFGjem86OcwDQYJKoZIhvcNAQELBQAwgYgxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEZMBcGA1UEAwwQYWdrbS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MB4XDTIxMTAwNjE5NDc0NloXDTMxMTAwNzE5NDc0NlowgYgxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEZMBcGA1UEAwwQYWdrbS5pZHAucmJpdC5jejEbMBkGCSqGSIb3DQEJARYMcmJpdEByYml0LmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzEC0V/aq1G1DIAxOqmeBZUkzG2i3Qqyz2/uOEUjD9WHnvNLfg96vNEHxFxxKkZXHd18FSJVRTjXldB9dJMbUK7BnCCfKUaieJ12cZYHY7w0wu3hHwAZI3EPv3tOtLh2nlfKJXu9b0g5EN/HimJ7QSVYww/1xjmVmr2cqMEl3KwPKAyF/DGFHmUCQZgdgfYImD9DPDD+MCC9pUGmu12XNU2vdWbMuzJfj44bpEeT/IUCI+BKYdC/SISRs+clxX1KGQdnjziGrtRo6URJ89jvyrkAKZlds7NwRweDjGKDgdMUqMGdARWb9StbVs1yTM9f+qbQypayAqxGfIKcEYtw79wIDAQABo1MwUTAdBgNVHQ4EFgQUzOoAvZgnqbdxUTQXX/mku4xc2vIwHwYDVR0jBBgwFoAUzOoAvZgnqbdxUTQXX/mku4xc2vIwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAqzORHMOiZFwK5/z3R9pGvpsofK0Wg6cSO+KAQ4tV+M4/KcAHGEj4NwrqJm81pIdZLn240i3MkxrG0lVySEyEwBtvGQ0S2AMA5xlUUNLxqTOgXE8NMvSFUSjkT5tMypgN77u5BefPYI1lJMikBnx8Jt5gbcuYBtHF9CXFILrVEV6wGRvi2mEYGreH4Yae+8Q79UjqOwZFBvYkieopZxnZLqzgdedoR//TTcpcJUFjnwotWMMQPNWjKw7Gj88HA0r6CVH2We6BgpgGl4tTLujmBMys/6xwA5Ar5aAmjL7j7QYxUllHz4DUYSMlmeyY40ffj0p6lUkOJM8+JhvDavJGqg==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://agkm.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://agkm.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://agkm.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://agkm.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Archiepiscopal Gymnasium in Kromeriz - Library</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Arcibiskupské gymnázium v Kroměříži - Knihovna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Archiepiscopal Gymnasium in Kromeriz - Library</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Arcibiskupské gymnázium v Kroměříži - Knihovna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.agkm.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.agkm.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Radek</md:GivenName>
+    <md:SurName>Šiman</md:SurName>
+    <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://aleph.svkhk.cz/idp/shibboleth">
     <md:Extensions>
       <eduidmd:RepublishRequest>
@@ -3654,6 +3718,121 @@ cLDQpWR2pyhtxC/jL0f5CuQPpvI9Tzw=</ds:X509Certificate>
       <md:GivenName>Jakub</md:GivenName>
     <md:SurName>Jezisek</md:SurName>
     <md:EmailAddress>mailto:jezisek@opf.slu.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://idp.ambis.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/university</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">ambis.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">AMBIS University</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">AMBIS vysoká škola, a.s.</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider (IdP) for AMBIS University staff and students.</ui:Description>
+        <ui:Description xml:lang="cs">Poskytovatel identity (IdP) pro zaměstnance a studenty AMBIS vysoká škola.</ui:Description>
+        <ui:InformationURL xml:lang="en">https://www.ambisuniversity.com/eduid</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.ambis.cz/eduid</ui:InformationURL>
+        <ui:Logo height="585" width="586">https://www.ambis.cz/files/ambis-symbol-clr.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEHDCCAoSgAwIBAgIVANWu+dPQJL7uMdh62i6/yt20wlf5MA0GCSqGSIb3DQEBCwUAMBcxFTAT
+BgNVBAMMDGlkcC5hbWJpcy5jejAeFw0yNDA1MDUxNDIwMjhaFw00NDA1MDUxNDIwMjhaMBcxFTAT
+BgNVBAMMDGlkcC5hbWJpcy5jejCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMn02hPw
+ibHRRHIi8EnUo19mwTH0FpZSVsNxY9jI/mb8D1CVr13+ZnTbKrDpENYxqfs+nKlc5Xw7Aow39BN1
+bhS2O9ptyBQfWbaJlg+7KotV2mTN+niSas5AdrIx5MzcjF4WxeZonPH54N3dTb18LSW0bywqkCfV
+p9wbgaPxRD+A9v4xr/o0WigmM1cyWQiYg8h5zpbImxU2OGt336S18mMd73Lc2L3SVbsXuL+wn4a4
+XqzXkVcbE5Xshax2Ds9UYrVKJ8SjH2YGgV4hou/S/J2SRzvasyqbR6B13vaV2a5lwHVb1EFAb3dk
+MJud1Cxt14h50jGk2ghA5B6PYpq/bmsX8FfT4knepW9t8ioBu5g7TxkV17YhViR/HfHa9MJk1Da7
+9xZ/96uMfn8ekMn7VcD02pGowVIUZoOJhS+91lCdDFMQRnPCApGIWTSRKbKvTOuvSQlCqodMQatR
+xqLJOHhdaOk6LryXeQa+NocQakj1a86GyDEO31EqVgLxOadiuQIDAQABo18wXTAdBgNVHQ4EFgQU
+txjMXZ0FZYU1HoLu+MdFz6bzQAowPAYDVR0RBDUwM4IMaWRwLmFtYmlzLmN6hiNodHRwczovL2lk
+cC5hbWJpcy5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAj2MG6Yf8P5QMMMnR
+GQuUqkRqdmlFnW4W8w0M72jjiPyY2sTn0b56rZ9DA1ikbLWpVgc4hG8u/jMpV3I9ohJAnPNoKF5I
+2FT1BJgDZ+9+j33M6Amhvc9WaLQndylgWnFq/fm0f5GRoHkGfk9wxh5XFbKHxZgT/OjuFTdMZOv0
+kgPAln3SQ3lXlji9C/1Q2R3w5amYRqmabhzYmD6WvZECP/Y0fMD//CLGfxx+cPlOeAjv3FNUjdX3
+p18KbMmONIwk34QdX3xVqoBPSwhAc3dNr0Yx+cCd6khgKtk6n9t9eeJhE3Tuow45ntF82bTjatKk
+quTLM9G3G8G+QPygOMQTsCMCWilQ+CUd5lHdokSJ+gEtIL1aZkudytRBNb0E1fmwjSEJk2A5iBQh
+17j223qD95G+0ZtwfmIjtDh8Pd+HK/Asa1tMetQy8l37IeejbZRdu14HUA23Q91hvLZZUKp7eC/V
+qJkKPajiGIFiM5SepKBCE2zGKZbtNtyADD9ypbXg</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEHDCCAoSgAwIBAgIVAKxSQEAiB7ZKMb0bjqoER5nC81JkMA0GCSqGSIb3DQEBCwUAMBcxFTAT
+BgNVBAMMDGlkcC5hbWJpcy5jejAeFw0yNDA1MDUxNDIwMjZaFw00NDA1MDUxNDIwMjZaMBcxFTAT
+BgNVBAMMDGlkcC5hbWJpcy5jejCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBAMbUYBwh
+adNCXtU5Chs8EQptf6XmHFqMbXl2KnhdGnVsj3PRBGs2bJ0XAIi4hLhfqD7zadEW175Lx10NV33g
+lrA8KgVV4NGgttJpEuqF0FrhAX+7usPw5hYtxJthBrJKsLeMbi/o/4qnrrWK5B50tcq9y3LCFU3c
+gNgXA2fXZzq6zSZnZwlNYoV/WeIwxVe0aLDkS96cCGYlC9/CjIxQxwpv6YfQ2tKqDSFC8NDqEOX+
+l11slG6oOsGvl4Fl3kOGUXY15HHOaORKEyhkZc6k4gNxs0KNmGXWJ9UGNQGhf2KZnGjeN6O0GuYr
+XJzwESmC7ejjFCIJBW+0IeYXoe/gNlAkNmgH3icm3Wt+FPqVkNlEgPNYfgSTeImiacFmIjksCRyj
+DdGUHR/boz9MFeeUZUpfF6pxza5S/4mIazm9P8x96ZQ6z0rjKWSw3pOxDbk5SkxGR5HF/uin+Fg9
+yATjlxfzPcI/CdcurWdOs+Js3q1eAnLTZeXrxHF0ZYdtdhGaVwIDAQABo18wXTAdBgNVHQ4EFgQU
+hrgmcpz5UA0fEbzp9BlUuEt4gIgwPAYDVR0RBDUwM4IMaWRwLmFtYmlzLmN6hiNodHRwczovL2lk
+cC5hbWJpcy5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAb+tlgtXidygfBYD5
+eTz+o1iYIOMpquOSeHbnXdEXztdOwR5PyHzpBBjMCgN8DUr2Q7yI89B9yTXCws0AJPx7IPjBoGfC
+4/e/qfxkXAalYZZFajDYF3nF3dkBZ8yX1hJEuRnQhCkxDIhjNKZmAylBOuU5rBuh+gskoQcsBQ1q
+ohn198BlPJs50mBarJt41tTa2Eryc8wU14Aanmb3SdJ8w4caitVyr9UJwaaKSclCbvcagSohNSJ5
+AqouI6XEPYr5Rm7Kg5rWeej9n0FXmOXrvZ3HRIocN9AzfKYHJiCOj8jBC6PbQpSEjJUXVEh4l1i3
+7HYo8FHVGqlR/mn0GKJB2/CQHEgX28QYgvwx0YsUx8XXt4xk/iDT7yf4qI4fnOi/3z5QXSuQ8LLp
+cyh5e+jHV0GXQvVI/v9ORKQMFiERQ4GfhWKilt7ai7FfvK8n868uxPH+o49dyKnNCE8en4QI3bBg
+pzhESfuddUBVT9j0bN5kvpiVDBD6sjwrHRBfW08C</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEGzCCAoOgAwIBAgIUaCPMJaluJm6QzU3iSCPnM9RZn8QwDQYJKoZIhvcNAQELBQAwFzEVMBMG
+A1UEAwwMaWRwLmFtYmlzLmN6MB4XDTI0MDUwNTE0MjAyN1oXDTQ0MDUwNTE0MjAyN1owFzEVMBMG
+A1UEAwwMaWRwLmFtYmlzLmN6MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA9bHoXgVr
+ImjBMg9sPE4Vpiq41sRACozVVaLC9dpXRC6gPo/gvR81WarhZLT2c0wsCybGfSUGKe1YV66v+Qgl
+/YrZGJddzREgL+dwdn/CXCyqrsvT86LAknR82TPQBM0+Bds68+TJcFdwsDzBHBXdsBOsXdyqGHj9
+tAD1aRn+NSOTgf8Aqr1bjWi2l9C8ar06nfWLOqrKqX9wKnh8FeEDp38qZ76+3UXag/gio7lb3c1n
+Iq9aJrnOEuB5EJ4ouMR/VinrgiT9tYc4Eb2f2y6Z6Q8/weFcb4GmWP+8Tx8IwIhBCClluj4SzrNC
+PxCpbe5kxwpAxHGiBQNUXo323Z9tLykjDWgoi0cPQsRtVGhCSD93SZaFBAQLOSKDYmTqvJeSV7Nf
+pNtqObfppl75qIfGy0Z46TXcprUGBrLaF4fuid7y46kHsUPHyqmSBOFe4uS20kiga6krtRqgrFtm
+wrG3aHTprEfnHlwamaOVMOu/ukfSRkkqBu4sWbcpBdjEyoMdAgMBAAGjXzBdMB0GA1UdDgQWBBS6
+LlUdbA1g/v4wpaE71dvZGg7TMDA8BgNVHREENTAzggxpZHAuYW1iaXMuY3qGI2h0dHBzOi8vaWRw
+LmFtYmlzLmN6L2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQDLHDUyROABBuC9T+lh
+Ma3M2LTTw2cyojaIYwqKocmsnDh3SsmG/nWy5zZ6uAl9RtkijEzC4b5c2npxTLdnymo1HQYUD7cn
+yGVw/8zsw1nvDGfK+vwU0Q5kBMjLb2hfCZ+Ft5hjb+Zebg2strR8T11X6yitrUjhE+DDSJPUQtz1
+vYPLMQWal0Vjs3O7QUcK7I2vRlJO0961AUCSraXCE27JqjObIQ849GnE6vR/g9UKjQJU787znGOx
+bzZBUjYRVsFILru9V7p1giuPW8+9mGbnih4Ne8kxyaJ3r/SRAnmjj9wT9q4svVpMPF1c0XqU2PHF
+C5T6N82ARiQMQ6n6wA4ZLhS6cYchs/vHiVtAYbiY2RCeWLl90Vg1sOEac4UXM7RLMJw+IfMSh64f
+Don8jeonep1AB8rUtpxhsZqFHGHAwl9lIhlWm6Z/F7FxPTILGk4s9CXbDBArgMOyJ2BoRq4r71GV
+xXhns6nRQCmHfPWTerLdm01bquDJ4ocN5mCgp48=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.ambis.cz/idp/profile/SAML2/SOAP/ArtifactResolution" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ambis.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ambis.cz/idp/profile/SAML2/Redirect/SSO" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ambis.cz/idp/profile/SAML2/POST/SSO" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">AMBIS Univeristy</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">AMBIS vysoká škola, a.s.</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">AMBIS University</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">AMBIS vysoká škola</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.ambisuniversity.com/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.ambis.cz/</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Josef</md:GivenName>
+    <md:SurName>Jindra</md:SurName>
+    <md:EmailAddress>mailto:provoz@ambis.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://idp.amu.cz/idp/shibboleth">
@@ -14301,6 +14480,70 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
     <md:EmailAddress>mailto:zabak@mzk.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://knihovna-kyjov.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    <eduidmd:RepublishRequest>
+        <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
+      </eduidmd:RepublishRequest>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">knihovna-kyjov.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Municipal Library Kyjov</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Městská knihovna Kyjov</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Kyjov</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Kyjov</ui:Description>
+        <ui:InformationURL xml:lang="en">https://www.knihovna-kyjov.cz</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.knihovna-kyjov.cz</ui:InformationURL>
+        <ui:Logo height="40" width="94">https://kyjov.idp.rbit.cz/logo.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID9TCCAt2gAwIBAgIUTZ/rz31Xh/xLLmNf2oCtrf9aNNswDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEaMBgGA1UEAwwRa3lqb3YuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNDA4MDYwOTIxMjZaFw0zNDA4MDcwOTIxMjZaMIGJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxGjAYBgNVBAMMEWt5am92LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYVOewLtIJ3X+ckkp6NS6Nilkr9RJT4q4+mLy9+mcJBBlg4D9kUCal2+6rPcsAvLvBtw/CfbhyYoZslf8OOyifkIpLH+hfE787SZcTBQ7DwrObjV1owpX+CoCAeyXSvS5zTkkVDJYHAGsnDGSm+NRKlO6whep2I7YoanVQEvMw1PL/MZRXnUr9o7mFYbaauQBTi/K3dIJZnCCb+txmyo9lqzlQzEUOR6bVxgLxalhyb5/ARRUh81pS4OutGj7sz10+GAVgxN3TGdnKiMRjHt31ZuI6HKjZn2IY+DGxuwbW4FKXsToXlnuEy4nzfyuU57DTvzLoIEEAcvRY1a8eKAI5AgMBAAGjUzBRMB0GA1UdDgQWBBT6aimx5JZR9lNY3GGnSKv1q+ql9zAfBgNVHSMEGDAWgBT6aimx5JZR9lNY3GGnSKv1q+ql9zAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCsXkDBdc/TAjdVGiy44JLoVMsdo+UlbAydMauiTs5BOiv7drhZXopBvwKpSvYoohKBLFf3SL0jXcr6o9Z/rl3+Sr8uZXqdwJbF6QUwCb2BTGNFBP2C8k4H+qmj4zbA3knWE1c4njr9sYRfzsddxcEmZi2qAoeuLRnUDp/WJZup8N0wJO7P7c3tN+qFujLv78jHgPAHUWLUSyE/BQ7CDimVd1UyZkEczDtdEtIeEx2bXQ32FRErSpI1nEJi01uIV96z42Xm+ucAKMfjue6Mjbbnxn/tq7AxSIAWmXSeTNPYkFRXEiVHF8X+Rh187zdo0lEZUI0Nuq/hTgbHPfg/ox/R</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID9TCCAt2gAwIBAgIUTZ/rz31Xh/xLLmNf2oCtrf9aNNswDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEaMBgGA1UEAwwRa3lqb3YuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNDA4MDYwOTIxMjZaFw0zNDA4MDcwOTIxMjZaMIGJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxGjAYBgNVBAMMEWt5am92LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDYVOewLtIJ3X+ckkp6NS6Nilkr9RJT4q4+mLy9+mcJBBlg4D9kUCal2+6rPcsAvLvBtw/CfbhyYoZslf8OOyifkIpLH+hfE787SZcTBQ7DwrObjV1owpX+CoCAeyXSvS5zTkkVDJYHAGsnDGSm+NRKlO6whep2I7YoanVQEvMw1PL/MZRXnUr9o7mFYbaauQBTi/K3dIJZnCCb+txmyo9lqzlQzEUOR6bVxgLxalhyb5/ARRUh81pS4OutGj7sz10+GAVgxN3TGdnKiMRjHt31ZuI6HKjZn2IY+DGxuwbW4FKXsToXlnuEy4nzfyuU57DTvzLoIEEAcvRY1a8eKAI5AgMBAAGjUzBRMB0GA1UdDgQWBBT6aimx5JZR9lNY3GGnSKv1q+ql9zAfBgNVHSMEGDAWgBT6aimx5JZR9lNY3GGnSKv1q+ql9zAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCsXkDBdc/TAjdVGiy44JLoVMsdo+UlbAydMauiTs5BOiv7drhZXopBvwKpSvYoohKBLFf3SL0jXcr6o9Z/rl3+Sr8uZXqdwJbF6QUwCb2BTGNFBP2C8k4H+qmj4zbA3knWE1c4njr9sYRfzsddxcEmZi2qAoeuLRnUDp/WJZup8N0wJO7P7c3tN+qFujLv78jHgPAHUWLUSyE/BQ7CDimVd1UyZkEczDtdEtIeEx2bXQ32FRErSpI1nEJi01uIV96z42Xm+ucAKMfjue6Mjbbnxn/tq7AxSIAWmXSeTNPYkFRXEiVHF8X+Rh187zdo0lEZUI0Nuq/hTgbHPfg/ox/R</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://kyjov.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://kyjov.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://kyjov.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://kyjov.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal Library Kyjov</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna Kyjov</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal Library Kyjov</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Kyjov</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.knihovna-kyjov.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.knihovna-kyjov.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Radek</md:GivenName>
+    <md:SurName>Šiman</md:SurName>
+    <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://knihovna-litvinov.cz/idp/shibboleth">
     <md:Extensions>
       <mdattr:EntityAttributes>
@@ -15776,6 +16019,70 @@ and readers of the Huss' Library Ricany</ui:Description>
     <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://knihovnanpaka.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    <eduidmd:RepublishRequest>
+        <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
+      </eduidmd:RepublishRequest>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">knihovnanpaka.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Municipal Library Nová Paka</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Městská knihovna Nová Paka</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Nová Paka</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Nová Paka</ui:Description>
+        <ui:InformationURL xml:lang="en">https://knihovnanpaka.cz</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://knihovnanpaka.cz</ui:InformationURL>
+        <ui:Logo height="40" width="63">https://novapaka.idp.rbit.cz/logo.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUR0yEUO+Wf9a4hBJkQM8rUWgwKHAwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUbm92YXBha2EuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNDAyMjMxNzE3MTFaFw0zNDAyMjMxNzE3MTFaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFG5vdmFwYWthLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDwx5UoJiuqhPb3IzYtnAUU8Vsm/qQvnCNf27btNFR3qqpj9/RFyY+TytX+IoQFXAMiboW0on7GEXh7AiJZfnLD4wv8f4ziqdTpwZ2Ash7lV6TbJhSisU2TZrSikEJ4ArXcbDdm6sdZLRsGftIyuqgEf7YVP39Mwj4Jd5MgtBvdB+sMdsJ++9/Dec17hyxNN83VY8J5kNAIpv8ZBuBYuPhVF5zjdcTsC4tZKkYbY6gYAB31T1Y8ET0aRJovvpQBS6uGUpJ0vPQdlbQ3i0G/I2sZEHsafdozX2OY/7aujerGc2tSN+TCu8/5i3EovY3KGBhrE0xrFXtacYCpFBu3IWPvAgMBAAGjUzBRMB0GA1UdDgQWBBSn6W5dlruM7UITpThDK6S+9WJ4KDAfBgNVHSMEGDAWgBSn6W5dlruM7UITpThDK6S+9WJ4KDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC2n7HuVXhvla0Diu3Q61MQ04PAReSyWJy2BqsV9k5r8PMtCH5Ag/2cxtsZKtwzrasu71nwOimBBT170JBx20mWtr7N4XQkBZWe3SL+XB2LgIuIvwwTlMF7iF0Vqq0tN8HmtJTnDjoXapQ1Da3aO1UJP8fQVniFUulNxrFw4Mbk/lgYuZxYDVBm5UOlhOFdiYWZTmATfoHPV7iFs4IgsYyJotnB+IVPPYXkRLGZDRSc/zSb9BK6+2GA/Wp05YtutfmFa0WDKg7Fo/5fcyJ6uQOfhjoWQq9cHABhlxRhN5UXfT7R9RBywMGAi5Iri0NkeBSVNau+tMynvngWuT2i3D8y</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUR0yEUO+Wf9a4hBJkQM8rUWgwKHAwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUbm92YXBha2EuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNDAyMjMxNzE3MTFaFw0zNDAyMjMxNzE3MTFaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFG5vdmFwYWthLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDwx5UoJiuqhPb3IzYtnAUU8Vsm/qQvnCNf27btNFR3qqpj9/RFyY+TytX+IoQFXAMiboW0on7GEXh7AiJZfnLD4wv8f4ziqdTpwZ2Ash7lV6TbJhSisU2TZrSikEJ4ArXcbDdm6sdZLRsGftIyuqgEf7YVP39Mwj4Jd5MgtBvdB+sMdsJ++9/Dec17hyxNN83VY8J5kNAIpv8ZBuBYuPhVF5zjdcTsC4tZKkYbY6gYAB31T1Y8ET0aRJovvpQBS6uGUpJ0vPQdlbQ3i0G/I2sZEHsafdozX2OY/7aujerGc2tSN+TCu8/5i3EovY3KGBhrE0xrFXtacYCpFBu3IWPvAgMBAAGjUzBRMB0GA1UdDgQWBBSn6W5dlruM7UITpThDK6S+9WJ4KDAfBgNVHSMEGDAWgBSn6W5dlruM7UITpThDK6S+9WJ4KDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC2n7HuVXhvla0Diu3Q61MQ04PAReSyWJy2BqsV9k5r8PMtCH5Ag/2cxtsZKtwzrasu71nwOimBBT170JBx20mWtr7N4XQkBZWe3SL+XB2LgIuIvwwTlMF7iF0Vqq0tN8HmtJTnDjoXapQ1Da3aO1UJP8fQVniFUulNxrFw4Mbk/lgYuZxYDVBm5UOlhOFdiYWZTmATfoHPV7iFs4IgsYyJotnB+IVPPYXkRLGZDRSc/zSb9BK6+2GA/Wp05YtutfmFa0WDKg7Fo/5fcyJ6uQOfhjoWQq9cHABhlxRhN5UXfT7R9RBywMGAi5Iri0NkeBSVNau+tMynvngWuT2i3D8y</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://novapaka.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://novapaka.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://novapaka.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://novapaka.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal Library Nová Paka</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna Nová Paka</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal Library Nová Paka</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Nová Paka</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://knihovnanpaka.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://knihovnanpaka.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Radek</md:GivenName>
+    <md:SurName>Šiman</md:SurName>
+    <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://knihovnaprerov.cz/idp/shibboleth">
     <md:Extensions>
       <mdattr:EntityAttributes>
@@ -16723,6 +17030,70 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
     <md:EmailAddress>mailto:jan.kolator@teamlibrary.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://mkjbc.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    <eduidmd:RepublishRequest>
+        <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
+      </eduidmd:RepublishRequest>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">mkjbc.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Municipal Library Jablonec nad Nisou</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Městská knihovna Jablonec nad Nisou</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library of Jablonec nad Nisou</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Jablonec nad Nisou</ui:Description>
+        <ui:InformationURL xml:lang="en">https://knihovna.mestojablonec.cz</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://knihovna.mestojablonec.cz</ui:InformationURL>
+        <ui:Logo height="40" width="48">https://jablonec.idp.rbit.cz/logo.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUfpDuAqy5rqeDVWUEuF9WwynWjUcwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUamFibG9uZWMuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNDAyMjMxNzE3MTBaFw0zNDAyMjMxNzE3MTBaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFGphYmxvbmVjLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSEILm1l3YcmyD1SoN5DrYrM4Aesk/36pYqRxi/SOqWh98g5ZPLopvMZjo5qUPBVr3mhBZCppCjJWqGYyV8s+QUwMM65yZI52kJteL4dIO+Bij4Z/XJJ8sqlxOmcefh368672Ek29v40KCPgdhFBCVTO/Q0Dd9RScPpBxT/wYtVNXBnOfszonZ4spDbhnEk3wChjLIjjE22KzuXcVjoBztvjjjJLZTkA3Qnd06VpBapV0h5VMbL9ROpUavPbVffAOIaQl+G5u0ldYsVL80kI4FYM9p1//25QsBCkNkLr/JX9sOPUUTi5uRuxv0yjnLd7hunHcUoj240Pqt5viQyux9AgMBAAGjUzBRMB0GA1UdDgQWBBT7eOtCzHTP4UpV2faKw+nbLraS0DAfBgNVHSMEGDAWgBT7eOtCzHTP4UpV2faKw+nbLraS0DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAedEZ+F9eS2GQ+DKkXoka+t8PTPOZY3QobYFBeGEdDffo+kIxCsbLDeHYBtRXasldOaEkUDNR0tiE+qI21WFZnhgbxr5LGsR+qS16V0L+NmtaCHGFQzHXzMwHndjH2gbBO2p9btiGTCaN8OVVgQbokjKsqjAXlG8hudSCfST7CH6mbR+YvBNqVWb82JHCW/4JIxDNx3ceZblx4DmfUdRwJcNMscQv6TgFss4wJj1feEOHwiBAG6Mj87o/yEk8RNOOMltJHL99Srm0gGPQiA1SdDO+2ZdGnvrcLH30IqsZ/niy2V4eFS4BzGO5y4NLJrMGKf2JSMTIAYS5CYugiShXA</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUfpDuAqy5rqeDVWUEuF9WwynWjUcwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUamFibG9uZWMuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNDAyMjMxNzE3MTBaFw0zNDAyMjMxNzE3MTBaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFGphYmxvbmVjLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSEILm1l3YcmyD1SoN5DrYrM4Aesk/36pYqRxi/SOqWh98g5ZPLopvMZjo5qUPBVr3mhBZCppCjJWqGYyV8s+QUwMM65yZI52kJteL4dIO+Bij4Z/XJJ8sqlxOmcefh368672Ek29v40KCPgdhFBCVTO/Q0Dd9RScPpBxT/wYtVNXBnOfszonZ4spDbhnEk3wChjLIjjE22KzuXcVjoBztvjjjJLZTkA3Qnd06VpBapV0h5VMbL9ROpUavPbVffAOIaQl+G5u0ldYsVL80kI4FYM9p1//25QsBCkNkLr/JX9sOPUUTi5uRuxv0yjnLd7hunHcUoj240Pqt5viQyux9AgMBAAGjUzBRMB0GA1UdDgQWBBT7eOtCzHTP4UpV2faKw+nbLraS0DAfBgNVHSMEGDAWgBT7eOtCzHTP4UpV2faKw+nbLraS0DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAedEZ+F9eS2GQ+DKkXoka+t8PTPOZY3QobYFBeGEdDffo+kIxCsbLDeHYBtRXasldOaEkUDNR0tiE+qI21WFZnhgbxr5LGsR+qS16V0L+NmtaCHGFQzHXzMwHndjH2gbBO2p9btiGTCaN8OVVgQbokjKsqjAXlG8hudSCfST7CH6mbR+YvBNqVWb82JHCW/4JIxDNx3ceZblx4DmfUdRwJcNMscQv6TgFss4wJj1feEOHwiBAG6Mj87o/yEk8RNOOMltJHL99Srm0gGPQiA1SdDO+2ZdGnvrcLH30IqsZ/niy2V4eFS4BzGO5y4NLJrMGKf2JSMTIAYS5CYugiShXA</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://jablonec.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://jablonec.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://jablonec.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://jablonec.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal Library Jablonec nad Nisou</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna Jablonec nad Nisou</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal Library Jablonec nad Nisou</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Jablonec nad Nisou</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://knihovna.mestojablonec.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://knihovna.mestojablonec.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Radek</md:GivenName>
+    <md:SurName>Šiman</md:SurName>
+    <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://mkkl.cz/idp/shibboleth">
     <md:Extensions>
       <mdattr:EntityAttributes>
@@ -17036,6 +17407,70 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
     <md:OrganizationDisplayName xml:lang="cs">Národní informační a poradenské středisko pro kulturu</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">https://www.nipos.cz</md:OrganizationURL>
     <md:OrganizationURL xml:lang="cs">https://www.nipos.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Radek</md:GivenName>
+    <md:SurName>Šiman</md:SurName>
+    <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://rokyknih.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    <eduidmd:RepublishRequest>
+        <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
+      </eduidmd:RepublishRequest>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">rokyknih.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Municipal Library Rokycany</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Městská knihovna Rokycany</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Rokycany</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Rokycany</ui:Description>
+        <ui:InformationURL xml:lang="en">https://www.rokyknih.cz</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.rokyknih.cz</ui:InformationURL>
+        <ui:Logo height="40" width="40">https://rokycany.idp.rbit.cz/logo.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUGOQc5lnKLo9KcNNYYywC8yH4QLUwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUcm9reWNhbnkuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMjAzMjUxNDE2MDdaFw0zMjAzMjUxNDE2MDdaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFHJva3ljYW55LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSLYpuknhL0djsEMWpzY5KDM77QSK63ufTQzRD5l5eQe8PiSnTMW9u28HIG8VITwK/Ak0qlwKmAXmJZOL0ajNHJyddmSSWrzTZbBQpXLJKaVpXF1g5u9WrG/fi6xOIgsxDH/fB/PkSBaQInRO+C6RMYHZ6AK0S4GIMj2krZYZrUKFva0eMSN+PbAfm36jYodlFtYfrzJO4mUAk7Twh3i62AmpBB80wOR1kvx/tGqpnShsAYkAkJ6nym+3QRbnZxKjUJQeve4asnGf+bncVKbfR2NBc6zZNADRIZx+Cpa0EBwtVcWrca8uhHwWp30SD5Pv8j3UwQ6yY8kaZLPZFJRXZAgMBAAGjUzBRMB0GA1UdDgQWBBTu+4QFmuH6aMdysI7t18NvFHxCJDAfBgNVHSMEGDAWgBTu+4QFmuH6aMdysI7t18NvFHxCJDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCD6TSkTtzJglw8sHsXU21Oo62R+C6I3/+ZU6piNKR1VDHLW81ry8mqWGImcDDDlmn6PQDoRR3S87+/SN/oqQI4y0IYxpGJ+89gPMEqiaFmkL41eoXL9irZgRKhzFep+oU3CLa72ijYkMaY8dfDcHXzjnoY3VZNd/wrYlODEwjK4GyXViL3Cf89ZzrnX+eG6ggRKIBYbfu4gWaEhlUDDUo7ZpZZrfceNY7fia/n5M9osIDd1hoX+otPwiOQdTddPUbuWVXs3gPPhwJxsxYGFlyfoR8hL1tHminx8XcR+rIOTYES+wMDhLamizI8G3iEsmipmwsK6Kuh/1fkAqh+2J9U</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUGOQc5lnKLo9KcNNYYywC8yH4QLUwDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUcm9reWNhbnkuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yMjAzMjUxNDE2MDdaFw0zMjAzMjUxNDE2MDdaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFHJva3ljYW55LmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDSLYpuknhL0djsEMWpzY5KDM77QSK63ufTQzRD5l5eQe8PiSnTMW9u28HIG8VITwK/Ak0qlwKmAXmJZOL0ajNHJyddmSSWrzTZbBQpXLJKaVpXF1g5u9WrG/fi6xOIgsxDH/fB/PkSBaQInRO+C6RMYHZ6AK0S4GIMj2krZYZrUKFva0eMSN+PbAfm36jYodlFtYfrzJO4mUAk7Twh3i62AmpBB80wOR1kvx/tGqpnShsAYkAkJ6nym+3QRbnZxKjUJQeve4asnGf+bncVKbfR2NBc6zZNADRIZx+Cpa0EBwtVcWrca8uhHwWp30SD5Pv8j3UwQ6yY8kaZLPZFJRXZAgMBAAGjUzBRMB0GA1UdDgQWBBTu+4QFmuH6aMdysI7t18NvFHxCJDAfBgNVHSMEGDAWgBTu+4QFmuH6aMdysI7t18NvFHxCJDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCD6TSkTtzJglw8sHsXU21Oo62R+C6I3/+ZU6piNKR1VDHLW81ry8mqWGImcDDDlmn6PQDoRR3S87+/SN/oqQI4y0IYxpGJ+89gPMEqiaFmkL41eoXL9irZgRKhzFep+oU3CLa72ijYkMaY8dfDcHXzjnoY3VZNd/wrYlODEwjK4GyXViL3Cf89ZzrnX+eG6ggRKIBYbfu4gWaEhlUDDUo7ZpZZrfceNY7fia/n5M9osIDd1hoX+otPwiOQdTddPUbuWVXs3gPPhwJxsxYGFlyfoR8hL1tHminx8XcR+rIOTYES+wMDhLamizI8G3iEsmipmwsK6Kuh/1fkAqh+2J9U</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://rokycany.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://rokycany.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://rokycany.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://rokycany.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal Library Rokycany</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna Rokycany</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal Library Rokycany</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Rokycany</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.rokyknih.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.rokyknih.cz</md:OrganizationURL>
     </md:Organization>
   <md:ContactPerson contactType="technical">
       <md:GivenName>Radek</md:GivenName>
@@ -18662,6 +19097,228 @@ EFATVycEnZXPpoVMS/L8mnJxbKmTSRcsOn8gsOBYLVIV03Zw</ds:X509Certificate>
       <md:GivenName>Radek</md:GivenName>
     <md:SurName>Šiman</md:SurName>
     <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://soaidp.soaplzen.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/other</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">soaplzen.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">IdP - soaplzen.cz</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">IdP - soaplzen.cz</ui:DisplayName>
+        <ui:Description xml:lang="en">SOA IDP</ui:Description>
+        <ui:Description xml:lang="cs">SOA IDP</ui:Description>
+        <ui:InformationURL xml:lang="en">http://www.soaplzen.cz</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">http://www.soaplzen.cz</ui:InformationURL>
+        <ui:Logo height="70" width="70">https://elza.archivplzen.cz/static/soalogo_70x70.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEMzCCApugAwIBAgIUKEK3shKti0bQ3PigqcJkpVMZrkowDQYJKoZIhvcNAQEL
+BQAwHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6MB4XDTIwMDkwODA4MzYy
+MVoXDTQwMDkwODA4MzYyMVowHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAih+ApEo/QThwZFCaRyth
+shsj5LmzBu9M7EYDwJlQbbOZBCKcyh+h9LrFDiQNHfq++ht3B0G5tPd2Sedw1VRc
+9iF2lO/ySM0luBCkpqfo48EPcXpPwK1exQl51h+agzhHifO7VeY2b/lhRv0zk7N2
+gku5m2QFllTy0+D0VtTrh/CX+LgndU4Q0/CouSO/f1QLPRWwvpty9gt8eOMN4Y9L
+rK22DHSm2TgfOJVjZVxS/JaI6EgCH+0J+m/rBoKLkDtDtJtahv3PpkDPxIRYn4bU
+/a3GtRGvi+dsiBpUMs3f0gnqk7zdT340rsR/wCqB/T9HWOstTUIhz4DKNjct945h
+tk00ueNrBe7dJizxz9wyjezOv3iI4db7gkzXBfkQEjTnp/QcJw569tRCmRw/zl55
+9z07Pqr/Jbt09QI3i7sjQnETAPvLW2MHDTi1wo3DFR8y/ijHONnrqALzfeLGBNum
+EElmP08Vjs2nWkCiag2p9taL2a96LPvwINs9x51pY0YtAgMBAAGjazBpMB0GA1Ud
+DgQWBBRjFPI8LZaD/DhB0P2Gi93DXh90BTBIBgNVHREEQTA/ghJzb2FpZHAuc29h
+cGx6ZW4uY3qGKWh0dHBzOi8vc29haWRwLnNvYXBsemVuLmN6L2lkcC9zaGliYm9s
+ZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQBwvEC6JQQv7lDQVAlL43sKTtDP+RSLgoJF
+JlPU5rEu5B5ccFC2i/fghbovzCxl8X2QOyXk6sTLEQbANV4Nh9LVeGQ/1TABA/tL
+yhbvyBCbQ5aHNArkkgU+WSY9e3S2yx2HMz2FdVgOpoNPlW83dF5i3i+Yj+GTA3Yd
+9RqD9D6mgTevM75MpS4OhOFMX360KKB+OOMBNpY4ka8+GB9NH4tDL9chQeroZBi0
+RVH6G94SyM1fzJ1wP4oQ4nYH5ImMYj+nt+QiEpoIe2xQQJO8KQfl1yknlIjn6EsZ
+pslDAmlqCoZkY1rtlqPxrUsTSJJj9vL3EVn/EqsAWPBwiT0EcpvlhliJo6mckEa9
+OeNTN2Bl7RVJjNBOa+adRxUHe8cw74J6ebLTGt6iRgasToinorROnvMwvn82BPG8
+a+8vi5JqGt/yfDX2uMlmzYV3TH8xYynJVqRGWb66IjdlU8+qIWqq+9MkJplSm7v5
+gyuaZW3QHcQ8YIWk248k1lZSj/ipm04=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEMzCCApugAwIBAgIUfBznuyOc6reQTTQ++jSa91iqTcIwDQYJKoZIhvcNAQEL
+BQAwHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6MB4XDTIwMDkwODA4MzU1
+N1oXDTQwMDkwODA4MzU1N1owHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAjVZWfsOZKwLnei2VuK7I
+SiFcIoI5Jks6zbmgngRbs26pgkixfFKeUMh3uCFWE/GvcnMpCk6dhPGgr74Hp3NU
+NqD8tEDR2nItEDW9KkRTNLBdmfTOgIH2d4rEx7pED6Oz7T6wudAPgPktu23Ac8In
+aSDJS18i0pYoks6E8afZkW1yJozsUlloWyhm1h9WCp3ivmaolL208dh1tdxXTq+R
+aysmPVcg2EIMLpouarQkqa+tUWv1M/TvpQ1punuKpQhvLcmHfEqtNGGWOE0ndbq6
+fA1HGOTX2ADQpfy7LHhy7xby8XOyN5I50ROmfXdUhb0iyIa4Zved3SrMUw/deRxh
+PluBo0eqhDP4+TDkd71M2a7SZX+gFdW500toXYeKY48o0cGj0HZOAxZKKCW+Gw8V
+TD3NQ9fIrP5C+y5hpu73CZL2+0fbN0jgdtwiOHrdkgE2umM46tvn9rEUkuE+o336
+4KJgww6ENvZvBeiQUoJVzNQ8XVxyBIm6IjLAoqwgaAQPAgMBAAGjazBpMB0GA1Ud
+DgQWBBQsETRa2HCEfvRyTrYQLKUacTrTtzBIBgNVHREEQTA/ghJzb2FpZHAuc29h
+cGx6ZW4uY3qGKWh0dHBzOi8vc29haWRwLnNvYXBsemVuLmN6L2lkcC9zaGliYm9s
+ZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQAWDJ+YRNWz8OpzvlPy3SUW/yZF76M3coWm
+rLDGtY/0a0LHdstVCNFKD9FN2FzDJbde1fBdSzQU9Sa8Sh44DU0JsD0D0ByzknSq
+EfyMrUNxIvMWYUEDv9TF7h6yGUyXXeCWbe4CjnidlTOcCqdZ5QBIX7lTkgz4nSyh
++/F0nRX5JWDOizxPV1VJ2e7c33PgcjdzOy4wU1Jinh+sfK3SVOOrdn+qbDdfYlyW
+c9Wa0FI21lB/1JPNfSiphcQsJ9isxINUOc5Iu4+Zi3hOtBNBhuO+I42UiXUk0Nx9
+mjsPPlvmE2zxmCpkQK09BdwqyyyxMY+G8E5bpepDYEYqTooZlUAxLQlnD9gLo/h8
+pQJ23KIVupGWYP4p5BEu8f7RfOkL9+Hmqh/9R1SZkD6+gNrtHuCHUSc//BZUHBRj
+7l23xPcGH6DNKNQiJCXBF6RNI8AFNe5yAKok91GFwG6+cQNzPug+BEB0EeBTWp+I
+htlHHEKII4EelzkgEJLkwE4tf4UtTYs=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEMzCCApugAwIBAgIUeqUlXwS25w0oUV1BiNoINvEfR/0wDQYJKoZIhvcNAQEL
+BQAwHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6MB4XDTIwMDkwODA4MzU1
+N1oXDTQwMDkwODA4MzU1N1owHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAqn4+iQF7tESjc9MD003O
+jANOYlqQHmuW4j60sQZl74voJEY301pZzf7MCWzuXqLDBaOnzwqhTf34eOpzoTYO
+ypkLYE9VCPzwNzCoKwIE68eFA61B6U5PfHoYi04MYs1woIOgIVaYzQ874jws3XJ7
+XTg/9fcIdK1RxgfB3i6bj2Z7knwJDLhdvamVICh25AHjDsmpst4os7TYXRJZTXRH
+tCMY7Q+0h5fqpbmEsVNPbDrq/WZOLa5r3zLSz2B3Wh1isFn5Jb3j2rg/tTQuq0t0
+MpERAVuNTNZI3ntYTuRnWdqk4xCEsnQaoanG6gZvxuTW4GDc2FNbbRTgMuGgU8cr
+FQUn9UMusxIBz+b2OvVcWkLGeOjF9lipqOsNAf0jW1sSBaBUizlUtqdGfOp14LYg
+wn2Io1pvmUf0yPGke0Ly7MMK6SM1t/so8PT7fjNbcrzsHfQSWzYu3DGWFGxsS/1K
+YiWnAitRPO3djv6OEalgx2V/y4wZqQ/JU2tS/yaR78yzAgMBAAGjazBpMB0GA1Ud
+DgQWBBSloR0qMdNIAfzOK/oHC0ubNFAFaTBIBgNVHREEQTA/ghJzb2FpZHAuc29h
+cGx6ZW4uY3qGKWh0dHBzOi8vc29haWRwLnNvYXBsemVuLmN6L2lkcC9zaGliYm9s
+ZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQA2982BKnOBiWFQgfDSf7O8myJHAWIlAEyF
+Y+4hKyamKYt8k6cvQe4gT+GXrHSyCMce7T1pCpsHhAvigzp8eg3ngLXxf9TIUVzf
+2ksTzhh2ly3ePGYmwzE0oxSjfHPd70Qs6SEGKa8bHRhw8+50CB3qwGujIj+vFwfh
+C0IQQmWeJX8dtSEodFlmBV8hAnj4IHUd/Y05jw8PAHSlGKshJpdNFbnRhIrRxERi
+l5wjzP1pDSy6ubLOHOg8SGueTXLCAP9O3mSC4NC9Bq87QsbE+iw9ZXdQblm1gwW1
+lYAt53GONnJOWVsUUOJiC0GAFH1Sc1k5Fza3I2pXF3X4BWC4jQMXvAND5s80XMXi
+kQck3XntCe8+C+bDPSFKY9b2Sdfi7dN9wL4GsakJR2rFLU7t0ce8KiuY3D4OBFgs
+/PtE4jjXBcDBzLRKZo7md6D84nUD4tzI/1ewDNX/+zVe7RlB3s00YLRbey79jeRV
+JC9Iwm2AfgrhaYevQ3NR4T6xvrw0hLA=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://soaidp.soaplzen.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://soaidp.soaplzen.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://soaidp.soaplzen.cz/idp/profile/SAML2/POST-SimpleSign/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://soaidp.soaplzen.cz/idp/profile/SAML2/POST/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://soaidp.soaplzen.cz/idp/profile/Shibboleth/SSO" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://soaidp.soaplzen.cz/idp/profile/SAML2/Redirect/SSO" req-attr:supportsRequestedAttributes="true" />
+    </md:IDPSSODescriptor>
+  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">soaplzen.cz</shibmd:Scope>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEMzCCApugAwIBAgIUKEK3shKti0bQ3PigqcJkpVMZrkowDQYJKoZIhvcNAQEL
+BQAwHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6MB4XDTIwMDkwODA4MzYy
+MVoXDTQwMDkwODA4MzYyMVowHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAih+ApEo/QThwZFCaRyth
+shsj5LmzBu9M7EYDwJlQbbOZBCKcyh+h9LrFDiQNHfq++ht3B0G5tPd2Sedw1VRc
+9iF2lO/ySM0luBCkpqfo48EPcXpPwK1exQl51h+agzhHifO7VeY2b/lhRv0zk7N2
+gku5m2QFllTy0+D0VtTrh/CX+LgndU4Q0/CouSO/f1QLPRWwvpty9gt8eOMN4Y9L
+rK22DHSm2TgfOJVjZVxS/JaI6EgCH+0J+m/rBoKLkDtDtJtahv3PpkDPxIRYn4bU
+/a3GtRGvi+dsiBpUMs3f0gnqk7zdT340rsR/wCqB/T9HWOstTUIhz4DKNjct945h
+tk00ueNrBe7dJizxz9wyjezOv3iI4db7gkzXBfkQEjTnp/QcJw569tRCmRw/zl55
+9z07Pqr/Jbt09QI3i7sjQnETAPvLW2MHDTi1wo3DFR8y/ijHONnrqALzfeLGBNum
+EElmP08Vjs2nWkCiag2p9taL2a96LPvwINs9x51pY0YtAgMBAAGjazBpMB0GA1Ud
+DgQWBBRjFPI8LZaD/DhB0P2Gi93DXh90BTBIBgNVHREEQTA/ghJzb2FpZHAuc29h
+cGx6ZW4uY3qGKWh0dHBzOi8vc29haWRwLnNvYXBsemVuLmN6L2lkcC9zaGliYm9s
+ZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQBwvEC6JQQv7lDQVAlL43sKTtDP+RSLgoJF
+JlPU5rEu5B5ccFC2i/fghbovzCxl8X2QOyXk6sTLEQbANV4Nh9LVeGQ/1TABA/tL
+yhbvyBCbQ5aHNArkkgU+WSY9e3S2yx2HMz2FdVgOpoNPlW83dF5i3i+Yj+GTA3Yd
+9RqD9D6mgTevM75MpS4OhOFMX360KKB+OOMBNpY4ka8+GB9NH4tDL9chQeroZBi0
+RVH6G94SyM1fzJ1wP4oQ4nYH5ImMYj+nt+QiEpoIe2xQQJO8KQfl1yknlIjn6EsZ
+pslDAmlqCoZkY1rtlqPxrUsTSJJj9vL3EVn/EqsAWPBwiT0EcpvlhliJo6mckEa9
+OeNTN2Bl7RVJjNBOa+adRxUHe8cw74J6ebLTGt6iRgasToinorROnvMwvn82BPG8
+a+8vi5JqGt/yfDX2uMlmzYV3TH8xYynJVqRGWb66IjdlU8+qIWqq+9MkJplSm7v5
+gyuaZW3QHcQ8YIWk248k1lZSj/ipm04=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEMzCCApugAwIBAgIUfBznuyOc6reQTTQ++jSa91iqTcIwDQYJKoZIhvcNAQEL
+BQAwHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6MB4XDTIwMDkwODA4MzU1
+N1oXDTQwMDkwODA4MzU1N1owHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAjVZWfsOZKwLnei2VuK7I
+SiFcIoI5Jks6zbmgngRbs26pgkixfFKeUMh3uCFWE/GvcnMpCk6dhPGgr74Hp3NU
+NqD8tEDR2nItEDW9KkRTNLBdmfTOgIH2d4rEx7pED6Oz7T6wudAPgPktu23Ac8In
+aSDJS18i0pYoks6E8afZkW1yJozsUlloWyhm1h9WCp3ivmaolL208dh1tdxXTq+R
+aysmPVcg2EIMLpouarQkqa+tUWv1M/TvpQ1punuKpQhvLcmHfEqtNGGWOE0ndbq6
+fA1HGOTX2ADQpfy7LHhy7xby8XOyN5I50ROmfXdUhb0iyIa4Zved3SrMUw/deRxh
+PluBo0eqhDP4+TDkd71M2a7SZX+gFdW500toXYeKY48o0cGj0HZOAxZKKCW+Gw8V
+TD3NQ9fIrP5C+y5hpu73CZL2+0fbN0jgdtwiOHrdkgE2umM46tvn9rEUkuE+o336
+4KJgww6ENvZvBeiQUoJVzNQ8XVxyBIm6IjLAoqwgaAQPAgMBAAGjazBpMB0GA1Ud
+DgQWBBQsETRa2HCEfvRyTrYQLKUacTrTtzBIBgNVHREEQTA/ghJzb2FpZHAuc29h
+cGx6ZW4uY3qGKWh0dHBzOi8vc29haWRwLnNvYXBsemVuLmN6L2lkcC9zaGliYm9s
+ZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQAWDJ+YRNWz8OpzvlPy3SUW/yZF76M3coWm
+rLDGtY/0a0LHdstVCNFKD9FN2FzDJbde1fBdSzQU9Sa8Sh44DU0JsD0D0ByzknSq
+EfyMrUNxIvMWYUEDv9TF7h6yGUyXXeCWbe4CjnidlTOcCqdZ5QBIX7lTkgz4nSyh
++/F0nRX5JWDOizxPV1VJ2e7c33PgcjdzOy4wU1Jinh+sfK3SVOOrdn+qbDdfYlyW
+c9Wa0FI21lB/1JPNfSiphcQsJ9isxINUOc5Iu4+Zi3hOtBNBhuO+I42UiXUk0Nx9
+mjsPPlvmE2zxmCpkQK09BdwqyyyxMY+G8E5bpepDYEYqTooZlUAxLQlnD9gLo/h8
+pQJ23KIVupGWYP4p5BEu8f7RfOkL9+Hmqh/9R1SZkD6+gNrtHuCHUSc//BZUHBRj
+7l23xPcGH6DNKNQiJCXBF6RNI8AFNe5yAKok91GFwG6+cQNzPug+BEB0EeBTWp+I
+htlHHEKII4EelzkgEJLkwE4tf4UtTYs=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEMzCCApugAwIBAgIUeqUlXwS25w0oUV1BiNoINvEfR/0wDQYJKoZIhvcNAQEL
+BQAwHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6MB4XDTIwMDkwODA4MzU1
+N1oXDTQwMDkwODA4MzU1N1owHTEbMBkGA1UEAwwSc29haWRwLnNvYXBsemVuLmN6
+MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAqn4+iQF7tESjc9MD003O
+jANOYlqQHmuW4j60sQZl74voJEY301pZzf7MCWzuXqLDBaOnzwqhTf34eOpzoTYO
+ypkLYE9VCPzwNzCoKwIE68eFA61B6U5PfHoYi04MYs1woIOgIVaYzQ874jws3XJ7
+XTg/9fcIdK1RxgfB3i6bj2Z7knwJDLhdvamVICh25AHjDsmpst4os7TYXRJZTXRH
+tCMY7Q+0h5fqpbmEsVNPbDrq/WZOLa5r3zLSz2B3Wh1isFn5Jb3j2rg/tTQuq0t0
+MpERAVuNTNZI3ntYTuRnWdqk4xCEsnQaoanG6gZvxuTW4GDc2FNbbRTgMuGgU8cr
+FQUn9UMusxIBz+b2OvVcWkLGeOjF9lipqOsNAf0jW1sSBaBUizlUtqdGfOp14LYg
+wn2Io1pvmUf0yPGke0Ly7MMK6SM1t/so8PT7fjNbcrzsHfQSWzYu3DGWFGxsS/1K
+YiWnAitRPO3djv6OEalgx2V/y4wZqQ/JU2tS/yaR78yzAgMBAAGjazBpMB0GA1Ud
+DgQWBBSloR0qMdNIAfzOK/oHC0ubNFAFaTBIBgNVHREEQTA/ghJzb2FpZHAuc29h
+cGx6ZW4uY3qGKWh0dHBzOi8vc29haWRwLnNvYXBsemVuLmN6L2lkcC9zaGliYm9s
+ZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQA2982BKnOBiWFQgfDSf7O8myJHAWIlAEyF
+Y+4hKyamKYt8k6cvQe4gT+GXrHSyCMce7T1pCpsHhAvigzp8eg3ngLXxf9TIUVzf
+2ksTzhh2ly3ePGYmwzE0oxSjfHPd70Qs6SEGKa8bHRhw8+50CB3qwGujIj+vFwfh
+C0IQQmWeJX8dtSEodFlmBV8hAnj4IHUd/Y05jw8PAHSlGKshJpdNFbnRhIrRxERi
+l5wjzP1pDSy6ubLOHOg8SGueTXLCAP9O3mSC4NC9Bq87QsbE+iw9ZXdQblm1gwW1
+lYAt53GONnJOWVsUUOJiC0GAFH1Sc1k5Fza3I2pXF3X4BWC4jQMXvAND5s80XMXi
+kQck3XntCe8+C+bDPSFKY9b2Sdfi7dN9wL4GsakJR2rFLU7t0ce8KiuY3D4OBFgs
+/PtE4jjXBcDBzLRKZo7md6D84nUD4tzI/1ewDNX/+zVe7RlB3s00YLRbey79jeRV
+JC9Iwm2AfgrhaYevQ3NR4T6xvrw0hLA=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://soaidp.soaplzen.cz:8443/idp/profile/SAML1/SOAP/AttributeQuery" />
+    </md:AttributeAuthorityDescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">SOA</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">SOA</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">SOA</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">SOA</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.soaplzen.cz/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">http://www.soaplzen.cz/</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Jan</md:GivenName>
+    <md:SurName>Římovský</md:SurName>
+    <md:EmailAddress>mailto:rimovsky@soaplzen.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://svkkl.cz/idp/shibboleth">
