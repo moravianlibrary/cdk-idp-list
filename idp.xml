@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-12-25T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2024-12-27T10:12:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>tOx0YZMYqiIilfEl9j2E9ho8xbMMPPcaZWcO1P66mL4=</ds:DigestValue>
+      <ds:DigestValue>AoNYo7R+ZHTVXbEpuBQY1BlroGaBw7Iki3TfFDvM2q4=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-G8xqsUJoUDszxefvYOLWmz5C517QsxpNwBRF7jDhsNrtSuJAMFIZ20RIYyK7drfURuFdmwR7W5QZ
-iDT8ILW7viUndjnbC6JX5rbhqVfDAoPYBMzXiok5UEZ5ieuU0dE/VtoxD4o6yL2XcKivdaBql2qK
-J7dVHHiEMAmehWUAVo5oNCJmB+Nu5HT4qPOCdXv3/DU2p3WL7UIne0FGOq72H/p3XL1zvrCAJzOZ
-lFaWaQAckKTx4fL07ZOu4XZg4SDa4qLi9/jrOe60VjCF9gltRLa2L/EOpX6dU4F2d6qpro6A6oi4
-ftLCHuNtQ8+KUSgdfKFlu7E2wyt7Qi5APhGAbA==
+OZ+Njqw28/juw2qxxzyOODgA0JCFiiemn8Hv5IYAOylYbQbhi+B0xmBiDBqCmtglQDQNw1d0hV6/
+lpSLznmInQZrA9lGqQRNepL94XjOVochcrdumXmHVkA4IYnsB4UGlrBN7ZDrknGO/ozZOab66hpb
+VhsMcoqrfP6mTxzl1YSkAO7IsgZkH5haxW14DQ6xuGNo6jC6W1wbj5UQYz53isCXL4PLqbkm+4KW
+mdzWJrX5PO2aY8+1ojZfFIDViTanfK1PQlsna6z/IOUz7e16dUrTYLP5kmdkih9/D9EvD16jFCG7
+s3kvd2nNCToTgnuUJYKGBMxkZM5kPmiplkEbKg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -1370,10 +1370,15 @@ WCNEZVl5a6XE5fU+Y/PAGnWYgcTtt0iZsEneb63iWHgm8Gk++yyKDYYGQDw7H9pK</ds:X509Certifi
     <md:SurName>Richter</md:SurName>
     <md:EmailAddress>mailto:richterj@rektorat.czu.cz</md:EmailAddress>
     </md:ContactPerson>
-  <md:ContactPerson contactType="administrative">
+  <md:ContactPerson contactType="technical">
       <md:GivenName>Alena</md:GivenName>
     <md:SurName>Stránská</md:SurName>
     <md:EmailAddress>mailto:stranska@rektorat.czu.cz</md:EmailAddress>
+    </md:ContactPerson>
+  <md:ContactPerson contactType="administrative">
+      <md:GivenName>Richard</md:GivenName>
+    <md:SurName>Tůma</md:SurName>
+    <md:EmailAddress>mailto:tumarichard@rektorat.czu.cz</md:EmailAddress>
     </md:ContactPerson>
   <md:ContactPerson contactType="administrative">
       <md:GivenName>Admin</md:GivenName>
