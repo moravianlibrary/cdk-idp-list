@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-02-01T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-02-02T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>l3an+fju3908dY9mKiG7g8ql1SygtB5n9qwkKmPYBvU=</ds:DigestValue>
+      <ds:DigestValue>ktnmdqtbkeTfCcigVZCZLAfuBLPE7IMU8P7NguSdsc0=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-dxYo8BH9zh8GcrO+eBmgftJEa3dKEQAfpL9sTdu7TgBHYJlDJ4qJ0/1y7net3U+3W+IxlOsutyKO
-qIgrlwwtKRdzLDdM0H1afT6OOHcps32Nu4duoY2R2bj1E6XATMk19wE2h9XvATiBZXQi6w4kDkUq
-XX+KLOi2odO5dbZhWBeJkx5CI2V/+g13VtDhEkvFa06Qb9zhjxyUiFb7tXBA4/Me9eoX06qE3yzA
-MOSGs9f09n01bEqTYfJ7xVL3zrfHEzqSGGtUAR5uxOEYGMDk39nYC+gOtvATzDFR+uK4JUEfKaCJ
-rR+mqTFu5sYeEEa4T9yInOMyp1poLjOEnvAwmA==
+eP3Y02kV2dvqVLPODbkiQZze6B9rVGyZT0JoZU/jGx6PCyAANTz/4jBDxzb7BDcXSul5zTXTK3yE
+d2DfpE4goE1ikuOdd3d5s54qlTM/XqZIQDdSzMpyCemZ6McRRhNmBNHq9qDRttrVMQyRXO2PYN7T
+9rkT2enU0JoPfVaABObbloIJ7CsRE7XJFc/8O+cdIiAk8j4qUEMXbL0qYk1U89rCf4+iOwlB6W2e
+RujStX+m03ws62KRKfmjTcE0C3Mt5k70BUYuizYKTUxJpCFByTAVsKnq5JaEjSVJuwcwzCVFOvyE
++hgr6pObYpDjVjZJ3bS8ZahZIr8sXKQ7Oeof5A==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -13505,6 +13505,67 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
       <md:GivenName>Petr</md:GivenName>
     <md:SurName>Žabička</md:SurName>
     <md:EmailAddress>mailto:zabak@mzk.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://kkpce.tritius.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">kkpce.tritius.cz</shibmd:Scope>
+      <ui:UIInfo>
+          <ui:DisplayName xml:lang="en">Regional Library in Pardubice</ui:DisplayName>
+        <ui:DisplayName xml:lang="cs">Krajská knihovna v Pardubicích</ui:DisplayName>
+        <ui:Description xml:lang="en">Identity Provider for patrons and staff of the Regional Library in Pardubice</ui:Description>
+        <ui:Description xml:lang="cs">Identity Provider pro čtenáře a zaměstance Krajské knihovny v Pardubicích</ui:Description>
+        <ui:InformationURL xml:lang="en">https://www.kkpce.cz/en/</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://www.kkpce.cz/</ui:InformationURL>
+        <ui:Logo height="50" width="156">https://kkpce.idp.tritius.cz/logo.png</ui:Logo>
+        </ui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID9TCCAt2gAwIBAgIULj0yjtuvfEaDEoo0/NYf9ntjn4owDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwEQnJubzEQMA4GA1UECgwHVHJpdGl1czEdMBsGA1UEAwwUa2twY2UuaWRwLnRyaXRpdXMuY3oxITAfBgkqhkiG9w0BCQEWEmdhemFyZWtAdHJpdGl1cy5jejAeFw0yNDEyMTAxMjI5MjdaFw0zNDEyMTExMjI5MjdaMIGJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBEJybm8xEDAOBgNVBAoMB1RyaXRpdXMxHTAbBgNVBAMMFGtrcGNlLmlkcC50cml0aXVzLmN6MSEwHwYJKoZIhvcNAQkBFhJnYXphcmVrQHRyaXRpdXMuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAdnMgOcXXcmkCJdF4dxjpGjHrTds1I45ZWef+Abwr/9uzMvYxY628J6Wtb03OIKDOQyQC7LlMM++vu2b7FTMF4QWaPUURZvu2vhYaT2b4Lpa0fLmXTHbLMfTNIzHsDNNyhS+S9+dbIRNbpRiL+HvefCYEGksoYOppDJIE5FGQHDaphGFjNwczLY2fRnFaMfohkjuSLp5a2Hz7k0HoqULUpcz0H3nl6sUYVRuk593MQ5d50JT0ZiNPGXT9vztH/HOdIcO6SLqmNnZz5NzjlJa1Pd8IiqjWY4iiISsBvyoxmKElCp1sHYtimLTxLvr5U6U66EkPIDr143YP0UnpWkdtAgMBAAGjUzBRMB0GA1UdDgQWBBQtptbXOvEE5LgrM2kwCa3uuu3q8zAfBgNVHSMEGDAWgBQtptbXOvEE5LgrM2kwCa3uuu3q8zAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAKU0xObBC3Lsc6ihZT8J2ihYYncwy/ndcA57tnzZQKofM78x7Ij8fcoNzWZEBY17YhUi2DUJlJ5QIqNsWePyBlSnU1hOJN0e4UUKg3ibIbDE0vIdGhfjFKihbZ8W4Ofo3KTBcz3349goUTpMXPeaKIyonh8PzhpNm9J39VZ/mCVYtuTMBj/aal5ahGH9fuvGX9tXixsUovvGGqrWeQ3GkDbWgstu7U2+IeoqlUnaa+AKsYxMufAwAGLO0XHgY5TXtnvC6vNCJavBuqU7xWNqi29c4BsJtBO6AZDMlb1EEq1v+T5RULGv/Cj4ueQimQKc2EJnX7Q3IhM3Awf3qp7I/P</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID9TCCAt2gAwIBAgIULj0yjtuvfEaDEoo0/NYf9ntjn4owDQYJKoZIhvcNAQELBQAwgYkxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwEQnJubzEQMA4GA1UECgwHVHJpdGl1czEdMBsGA1UEAwwUa2twY2UuaWRwLnRyaXRpdXMuY3oxITAfBgkqhkiG9w0BCQEWEmdhemFyZWtAdHJpdGl1cy5jejAeFw0yNDEyMTAxMjI5MjdaFw0zNDEyMTExMjI5MjdaMIGJMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBEJybm8xEDAOBgNVBAoMB1RyaXRpdXMxHTAbBgNVBAMMFGtrcGNlLmlkcC50cml0aXVzLmN6MSEwHwYJKoZIhvcNAQkBFhJnYXphcmVrQHRyaXRpdXMuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAdnMgOcXXcmkCJdF4dxjpGjHrTds1I45ZWef+Abwr/9uzMvYxY628J6Wtb03OIKDOQyQC7LlMM++vu2b7FTMF4QWaPUURZvu2vhYaT2b4Lpa0fLmXTHbLMfTNIzHsDNNyhS+S9+dbIRNbpRiL+HvefCYEGksoYOppDJIE5FGQHDaphGFjNwczLY2fRnFaMfohkjuSLp5a2Hz7k0HoqULUpcz0H3nl6sUYVRuk593MQ5d50JT0ZiNPGXT9vztH/HOdIcO6SLqmNnZz5NzjlJa1Pd8IiqjWY4iiISsBvyoxmKElCp1sHYtimLTxLvr5U6U66EkPIDr143YP0UnpWkdtAgMBAAGjUzBRMB0GA1UdDgQWBBQtptbXOvEE5LgrM2kwCa3uuu3q8zAfBgNVHSMEGDAWgBQtptbXOvEE5LgrM2kwCa3uuu3q8zAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAKU0xObBC3Lsc6ihZT8J2ihYYncwy/ndcA57tnzZQKofM78x7Ij8fcoNzWZEBY17YhUi2DUJlJ5QIqNsWePyBlSnU1hOJN0e4UUKg3ibIbDE0vIdGhfjFKihbZ8W4Ofo3KTBcz3349goUTpMXPeaKIyonh8PzhpNm9J39VZ/mCVYtuTMBj/aal5ahGH9fuvGX9tXixsUovvGGqrWeQ3GkDbWgstu7U2+IeoqlUnaa+AKsYxMufAwAGLO0XHgY5TXtnvC6vNCJavBuqU7xWNqi29c4BsJtBO6AZDMlb1EEq1v+T5RULGv/Cj4ueQimQKc2EJnX7Q3IhM3Awf3qp7I/P</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://kkpce.idp.tritius.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://kkpce.idp.tritius.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://kkpce.idp.tritius.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://kkpce.idp.tritius.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Regional Library in Pardubice</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Krajská knihovna v Pardubicích</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Regional Library in Pardubice</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Krajská knihovna v Pardubicích</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.kkpce.cz/en/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.kkpce.cz/</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Jiří</md:GivenName>
+    <md:SurName>Gazárek</md:SurName>
+    <md:EmailAddress>mailto:gazarek@tritius.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://kkvysociny.cz/idp/shibboleth">
