@@ -165,3 +165,5 @@ https://knihovnanpaka.cz/idp/shibboleth
 https://idp.hiu.cas.cz/idp/shibboleth
 https://idp.ambis.cz/idp/shibboleth
 https://rokyknih.cz/idp/shibboleth
+https://knihovnapv.cz/idp/shibboleth
+https://shibbolethidp.nzm.cz/idp/shibboleth
