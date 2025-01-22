@@ -62,7 +62,6 @@ https://shib.zcu.cz/idp/shibboleth
 https://login.cesnet.cz/idp/
 https://idp.usd.cas.cz/idp/shibboleth
 https://katalog.svkos.cz/idp/shibboleth
-https://kkpce.tritius.cz/idp/shibboleth
 https://svkul.cz/idp/shibboleth
 https://kfbz.cz/idp/shibboleth
 https://aleph.svkhk.cz/idp/shibboleth
@@ -167,3 +166,4 @@ https://idp.ambis.cz/idp/shibboleth
 https://rokyknih.cz/idp/shibboleth
 https://knihovnapv.cz/idp/shibboleth
 https://shibbolethidp.nzm.cz/idp/shibboleth
+https://aleph20.knihovna-pardubice.cz/idp/shibboleth
