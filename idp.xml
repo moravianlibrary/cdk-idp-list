@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-04T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-05T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>PHxmSq9a3qFtkhYS7f7BSFrNPIZ6XjRckExG9+WuE/4=</ds:DigestValue>
+      <ds:DigestValue>Uav8NoLIHwdBaDXpgRR07x46juUKKH+KSKtdQSR0Tz8=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-vjamSbX70vmjv3rispDbifeIyBqbYSqP79Yc6q8uxzr2eErGqymT2heWyfT+Pz63cvEsdEBq1Hfc
-WMQqqPNcB2TXBBZbqo9qUqVx0fdEHOxsg4eU50haCc9HGTsrZT3dlDd/CS0TR9RP7Ze0N44Cj1Jm
-QXD7j8g/Cv/HPcRUWP4GNnvvhPnCX+TRwEyc3Ev6jrLENJCBsea9mwGv0TkDPknel4y+HO5FBQR0
-Cb80q3TQUHOLFA9UIN6rGzf1tRpFJjXhyozzcW9KfMjhZEWTT8Lytli9cfoJpHCAW5ScaC+mPaWN
-SD44tU4lpjrmCOtiMhYElVjaTZ2ojgpXJ//ztA==
+p88J5wxZUE4q18vypfemxHQrD8+bw4MCba4u/NSMlf4puKyDeCrI9vY9u4IbrosZz0nBofNgM8sm
+Flkimw6hLQHrWRzpB8jcmvXAqlPAnDoPOxYZ31WbbTCcYsn4gcPafwoS3R1WqdMvcgTTY48rl+D3
+zf5j0vfh2Blz4VYU58ohSII2w11VtXWd0DI0JuDGwxUEYn7dIu1sg65iZioZgHR0UrJGbu2ajv9k
+LGPl0U1JZJXMs3whmNV/Immy5rEv3DJb+3NvNulgVrkAlCfHnbKqDCljQA6GiR65UgG2KPs2HzYH
+9Ib16illvYEFGxdcfM07TrZh9ui9yHcyAbAjAg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -18176,10 +18176,6 @@ ugzT90Pl</ds:X509Certificate>
       </md:KeyDescriptor>
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibboleth.nkp.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth.nkp.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shibboleth.nkp.cz/idp/profile/SAML2/Redirect/SLO" />
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibboleth.nkp.cz/idp/profile/SAML2/POST/SLO" />
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibboleth.nkp.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibboleth.nkp.cz/idp/profile/SAML2/SOAP/SLO" />
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
     <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibboleth.nkp.cz/idp/profile/Shibboleth/SSO" />
