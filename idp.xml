@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-18T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-20T09:36:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>HIfjA/OYS2nxau9UH2Kdzk+X1o+2BBj/yQWIa+HeXyo=</ds:DigestValue>
+      <ds:DigestValue>hqruUO+024bT75C+bW6FHZvEXY22o8Ja4ZFj38xW4P0=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-yanSeHHF2m8jEHIuT4/riZ6QNZlPlE4sr9AfezBmOwIpOzaic03pW4sG4W5JgoEpmuIYxnwU3kgs
-f139Yj9EL++gi27O2uTrS+HvEIWPzsVw6GjZCzyl59T9hC+wG16zFllLIbrVZz4Jo78dZ3eEWhg1
-pxSg/dGqdOTLWDs+aoqzt34jJ16T3BKBKVL6MSQWZaa+xLKiFEjw1O4dlwV6h7zXXB7UeDW1hpK5
-gntuiT2jA92SSTo8XmE/4FxeOJ/oHlkjpA24W74Ax/QPnZOzxTtmPbsn2HRaK5UYG4Tmzc1HnTUK
-jpRD+7/eeO4Dpe/rmOlyNgFQdW9YdUdFZ4yfqw==
+O9KgOnXEh4/nGOCFa2VxWp0rPQoneUP+baMkkBSg4FjOYuFWA7U+h4iXp/GZHiJ4/ST0HhghTwuJ
+Cx/y+S8HrViq4wvPvLOdfIUlKslK+b9lw83XnCmqGp2SfezVK4++VxsdjJ32Sx2ZRx5pkQ8LAgd6
+8XsWAVMzs1dabxa9mVfhll8kLYGqPae9EyNPQuSG/337HGWk79XcRuJGqYORxATL30AunJKsNBpn
+fA/DdxHMdQqmZZBmyb1zzwfaXV3e0nWuRvWOaKAKGOhwxn/aCzhcAejCvcHybqzQW55II0cJI0/t
+PMDl0v3injfAwS1g7sCnh5kKgVy/XANJ4AfDqQ==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -19810,6 +19810,91 @@ YtC9LV7mRLkdALnlFN7jo52lhwSc34G8Wkdado0qrbu/OfAtLF2eo7KWULBToYX9
       <md:GivenName>Antonin</md:GivenName>
     <md:SurName>Mares</md:SurName>
     <md:EmailAddress>mailto:antonin.mares@vscht.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://www.mvk.cz/auth/saml2-idp">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <ui:UIInfo>
+          <ui:DisplayName xml:lang="cs">Masarykova veřejná knihovna Vsetín</ui:DisplayName>
+        <ui:DisplayName xml:lang="en">Masaryk Public Library Vsetín</ui:DisplayName>
+        <ui:Description xml:lang="cs">Masarykova veřejná knihovna Vsetín</ui:Description>
+        <ui:Description xml:lang="en">Masaryk Public Library Vsetín</ui:Description>
+        <ui:InformationURL xml:lang="en">https://katalog.mvk.cz?locale=en</ui:InformationURL>
+        <ui:InformationURL xml:lang="cs">https://katalog.mvk.cz</ui:InformationURL>
+        <ui:Logo height="40" width="45">https://katalog.mvk.cz/auth/saml2-idp/organization-logo</ui:Logo>
+        </ui:UIInfo>
+      <shibmd:Scope regexp="false">mvk.cz</shibmd:Scope>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIEX/Nb7jANBgkqhkiG9w0BAQsFADBcMQswCQYDVQQGEwJD
+WjEXMBUGA1UECBMOQ3plY2ggUmVwdWJsaWMxEjAQBgNVBAcTCVBhcmR1YmljZTEP
+MA0GA1UEChMGS1AtU1lTMQ8wDQYDVQQDEwZLUC1TWVMwHhcNMTkwODAyMTMyMzQz
+WhcNNDYxMjE4MTMyMzQzWjBcMQswCQYDVQQGEwJDWjEXMBUGA1UECBMOQ3plY2gg
+UmVwdWJsaWMxEjAQBgNVBAcTCVBhcmR1YmljZTEPMA0GA1UEChMGS1AtU1lTMQ8w
+DQYDVQQDEwZLUC1TWVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJ
+jOfJyf0W2Xa+WHrJtfVPKHgFnkB0KcSUoJZwbuUfZws9QHjjLLoX7P+wJvlooMh/
+Fxgq42jLIwe6khw4hepw433DZ74uuffXeZwv1V60Ny8VQJWGNnCC5CrrI2Ny+RZ1
+m1OoEyktLUe9IQIijNQCHGeU4L2fIMVMYudyanP3N0c3rZV6b6TKPqCLqNJMaytO
+pw1bR+mc3CYEx9b2SmkBAymWAtRzhGcz5qNId6fwNO47skCT3BUNQfv9Ggr5WuvW
+Xm8TeXrtQi4KyJ+IdEzSK4j2xTVcuBaCLyhSYoGTj4rJ8XoZfT3UXjZnv5ivcWIp
+3DLoOT/wEiHp58hj7WnpAgMBAAGjITAfMB0GA1UdDgQWBBTczhMuvAh3s8qtN9LP
+b+D52Xw/LDANBgkqhkiG9w0BAQsFAAOCAQEAmypjHZx0uQY6OwrUKZig4ETP6vxm
+ObyFxw75pdxPYcPIzFrMh/QkRaJnWs/mYd6qPiQeluRpjrJvchZxWXl3N+juAd6S
+uJfopMvjophrR8X76av3HlBdETNXj7rf0sF26K7EaZI9OFaYRXNQQ3edLoJGdh9b
+RoHNia6Or4cCsJHiNwXoK1OQmTJQvjGMK8dlhzUXtNaDXppKUsWvdQSHiNk0THoR
+rYoBP5RH783N4PMq8EnSZztea+Dl5hCaw8ge0j3nJUl9GDZO2d4CvzL2DobkGSJt
+yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIDVzCCAj+gAwIBAgIEX/Nb7jANBgkqhkiG9w0BAQsFADBcMQswCQYDVQQGEwJD
+WjEXMBUGA1UECBMOQ3plY2ggUmVwdWJsaWMxEjAQBgNVBAcTCVBhcmR1YmljZTEP
+MA0GA1UEChMGS1AtU1lTMQ8wDQYDVQQDEwZLUC1TWVMwHhcNMTkwODAyMTMyMzQz
+WhcNNDYxMjE4MTMyMzQzWjBcMQswCQYDVQQGEwJDWjEXMBUGA1UECBMOQ3plY2gg
+UmVwdWJsaWMxEjAQBgNVBAcTCVBhcmR1YmljZTEPMA0GA1UEChMGS1AtU1lTMQ8w
+DQYDVQQDEwZLUC1TWVMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJ
+jOfJyf0W2Xa+WHrJtfVPKHgFnkB0KcSUoJZwbuUfZws9QHjjLLoX7P+wJvlooMh/
+Fxgq42jLIwe6khw4hepw433DZ74uuffXeZwv1V60Ny8VQJWGNnCC5CrrI2Ny+RZ1
+m1OoEyktLUe9IQIijNQCHGeU4L2fIMVMYudyanP3N0c3rZV6b6TKPqCLqNJMaytO
+pw1bR+mc3CYEx9b2SmkBAymWAtRzhGcz5qNId6fwNO47skCT3BUNQfv9Ggr5WuvW
+Xm8TeXrtQi4KyJ+IdEzSK4j2xTVcuBaCLyhSYoGTj4rJ8XoZfT3UXjZnv5ivcWIp
+3DLoOT/wEiHp58hj7WnpAgMBAAGjITAfMB0GA1UdDgQWBBTczhMuvAh3s8qtN9LP
+b+D52Xw/LDANBgkqhkiG9w0BAQsFAAOCAQEAmypjHZx0uQY6OwrUKZig4ETP6vxm
+ObyFxw75pdxPYcPIzFrMh/QkRaJnWs/mYd6qPiQeluRpjrJvchZxWXl3N+juAd6S
+uJfopMvjophrR8X76av3HlBdETNXj7rf0sF26K7EaZI9OFaYRXNQQ3edLoJGdh9b
+RoHNia6Or4cCsJHiNwXoK1OQmTJQvjGMK8dlhzUXtNaDXppKUsWvdQSHiNk0THoR
+rYoBP5RH783N4PMq8EnSZztea+Dl5hCaw8ge0j3nJUl9GDZO2d4CvzL2DobkGSJt
+yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://katalog.mvk.cz/auth/saml2-idp/redirect-binding-sso" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="cs">Masarykova veřejná knihovna Vsetín</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Masaryk Public Library Vsetín</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="cs">Masarykova veřejná knihovna Vsetín</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Masaryk Public Library Vsetín</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="cs">https://www.mvk.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.mvk.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Petr</md:GivenName>
+    <md:SurName>Štefan</md:SurName>
+    <md:EmailAddress>mailto:petr.stefan@kpsys.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://www.vutbr.cz/SSO/saml2/idp">

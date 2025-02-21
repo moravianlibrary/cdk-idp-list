@@ -123,7 +123,6 @@ https://knihovnatr.cz/idp/shibboleth
 https://katalog.cnb.cz/auth/saml2-idp 
 https://mkmt.cz/idp/shibboleth 
 https://knihovnachocen.cz/idp/shibboleth 
-https://katalogcentral.mvk.cz/auth/saml2-idp 
 https://knih-ck.cz/idp/shibboleth 
 https://knihovna-vm.cz/idp/shibboleth 
 https://idp.vfu.cz/idp/shibboleth 
@@ -167,3 +166,4 @@ https://rokyknih.cz/idp/shibboleth
 https://knihovnapv.cz/idp/shibboleth
 https://shibbolethidp.nzm.cz/idp/shibboleth
 https://aleph20.knihovna-pardubice.cz/idp/shibboleth
+https://www.mvk.cz/auth/saml2-idp
