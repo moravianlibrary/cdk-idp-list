@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-23T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-25T11:08:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>ecQvRNbdeBJzpuGLTmfBhHaU4KisMmyaUw1qW9J+gm4=</ds:DigestValue>
+      <ds:DigestValue>tJ6vpJ9RV/u1vVsiHNilahIF/J15vpoXstV4xutO12M=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-aiILLpXZJQGaNxwNLA9OzyYeeA2Wl4TWf/NjXr88aLFhbjlVQ2VvmZN1p9w2MZOTnIIij7urwoKV
-pTXyHT8vDsAV2N/gQ1qmhS/6SX9Zs+zF9o2DqrlLWkfy3JmedJ7VUeJxfB2r38vv7zDnwXWvlhOL
-7guiUHvVbjBTyNEK/j72609kRqHEWcGTCwPd77rk00IRhEb3mCB10lxPbHb3b4nszac2gLhqm7ak
-GAgEw6WDuE+DuQqkI3bvU8j7F467WMMUdt9LJZXbMUw704nlqaJylQyLRRWUl55MzPfcv+lxvwGo
-PNUxM3llvjSESBe7aOtcGy8Er8o7FdDm94HysA==
+65gzSD2y3bFRDvDTXjS6Uhf7BtmSUYkQ7hpKGyFYf3lfn5u1IbRbAq8y9jNNbTEkQZ4tQBh0w8gI
+NNeW5aEEsFTJ/5of8MzGBX0PCirKhA3m4VUh8+kAbEl9ikvOE4+Om0uD3XK57mV8etOvX4WyRBH1
+Cs/SBzlNvUFwHmwuCcD42uR6WBYWI7ON6WoayLJHGYdQXN+jiJM2ZxQd8aqq2rh28tnhgJ0poEvQ
+u/knGGWCoxydAsagM2RSk1xE5Hy7cVkAY3JP/lcmNMAu0vniL8peaOCvlB/yLbYs86TV53rSzDmZ
+qeFuBvX6xhJHkx438zZcywmpH+w2Z/x6Qihi7w==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -12406,7 +12406,7 @@ mcf1EdOPGmiOnOjfGiZTAsjmjXHtjsaTxkCgVb9qikfYyy52gkpMU2pm5g==</ds:X509Certificate
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:mace:shibboleth:1.0">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">cvut.cz</shibmd:Scope>
       <ui:UIInfo>
@@ -12444,9 +12444,7 @@ xo7SMEnUJU/EBynk6luMA4V47kgYFdAlYdMDzesc0gdr3aaKswB6R7ZrwWo+DfQ=</ds:X509Certifi
       </md:KeyDescriptor>
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.civ.cvut.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="1" />
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp2.civ.cvut.cz/idp/profile/Shibboleth/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp2.civ.cvut.cz/idp/profile/SAML2/POST/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp2.civ.cvut.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp2.civ.cvut.cz/idp/profile/SAML2/Redirect/SSO" />
@@ -12479,7 +12477,6 @@ xo7SMEnUJU/EBynk6luMA4V47kgYFdAlYdMDzesc0gdr3aaKswB6R7ZrwWo+DfQ=</ds:X509Certifi
         </ds:KeyInfo>
       </md:KeyDescriptor>
     <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.civ.cvut.cz:8443/idp/profile/SAML2/SOAP/AttributeQuery" />
-    <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
     </md:AttributeAuthorityDescriptor>
