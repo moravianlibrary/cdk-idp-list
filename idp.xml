@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-25T11:08:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-03-26T11:48:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>tJ6vpJ9RV/u1vVsiHNilahIF/J15vpoXstV4xutO12M=</ds:DigestValue>
+      <ds:DigestValue>UnIQBOoWtGbhd37eusqp8LjeDMNffQk1grzAJNcGzzM=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-65gzSD2y3bFRDvDTXjS6Uhf7BtmSUYkQ7hpKGyFYf3lfn5u1IbRbAq8y9jNNbTEkQZ4tQBh0w8gI
-NNeW5aEEsFTJ/5of8MzGBX0PCirKhA3m4VUh8+kAbEl9ikvOE4+Om0uD3XK57mV8etOvX4WyRBH1
-Cs/SBzlNvUFwHmwuCcD42uR6WBYWI7ON6WoayLJHGYdQXN+jiJM2ZxQd8aqq2rh28tnhgJ0poEvQ
-u/knGGWCoxydAsagM2RSk1xE5Hy7cVkAY3JP/lcmNMAu0vniL8peaOCvlB/yLbYs86TV53rSzDmZ
-qeFuBvX6xhJHkx438zZcywmpH+w2Z/x6Qihi7w==
+/RFOZt39oO4FbfwSsEjmfix1X1fcWKKpi2sSEndZ1DjWNT9coSJjp2ryLcv5FwgIkj8iyqiutBz6
+z7+2C+wibuyifbxLxar1cRTq1rfZmu2PcIfzxfjRuqxRYard0uRSZrr1m/uesOkhWWm+qK7Of85l
+cCdxG/09Tk51Sv5ShVM45JtvUyIzZ3h106uiS583qV6rAIbFosrx9G9dn1NeSMUrAUCP3tS142X1
+vdZHJWkq9DsAKWsnHomF8v7ieHR7u9uapJkgW28U0aOXKOf/xnQ3wg2T9mjZQZ27MdZj8kZSAifO
+LLbMrCP25AihtK6+WqTIJ3n32n0ITql+4ZrFNw==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -12449,37 +12449,6 @@ xo7SMEnUJU/EBynk6luMA4V47kgYFdAlYdMDzesc0gdr3aaKswB6R7ZrwWo+DfQ=</ds:X509Certifi
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp2.civ.cvut.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp2.civ.cvut.cz/idp/profile/SAML2/Redirect/SSO" />
     </md:IDPSSODescriptor>
-  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
-      <md:Extensions>
-        <shibmd:Scope regexp="false">cvut.cz</shibmd:Scope>
-      </md:Extensions>
-    <md:KeyDescriptor>
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDKzCCAhOgAwIBAgIUIwt1wtmowk/1gdrDzQIQmk8MKDUwDQYJKoZIhvcNAQEL
-BQAwGzEZMBcGA1UEAwwQaWRwMi5jaXYuY3Z1dC5jejAeFw0xODA4MzAwODQ4MTha
-Fw0yODA4MzAwODQ4MThaMBsxGTAXBgNVBAMMEGlkcDIuY2l2LmN2dXQuY3owggEi
-MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCZ6awM9fWtj5x66D9DWdrSCdMG
-qD9uRDXYCi1vWx2H2gUOKEAbEFSUpZY4QZHnF5Z7KPLkge+ZIObCtmG7hwxmNH6o
-Dl9CoxGGoqWfsztNwkL+tsQf/DAr6X0l4w8CB1mf3Y9GKmAnwLzOxpG4JlH79UIn
-LxkIZiWHdmPD7xzu5ANv/4edb718ybGuyHWJ/29rPWungQsCeMTIs6CD+nE1HmN5
-m1kbVJyMCCZPGxHQGMZQGOLU80OrkptfkO0lUAdDrRTV0/VVAarJGFeDi/paS7Wo
-XB1CgFQNCM/ExrgoebCXQLJgnIkVGNdriI5c70MCxtnkMiiDPmHOh0CA+Yd3AgMB
-AAGjZzBlMB0GA1UdDgQWBBQRBOTOZzXsSB0Aa4ObeRJ54zxKETBEBgNVHREEPTA7
-ghBpZHAyLmNpdi5jdnV0LmN6hidodHRwczovL2lkcDIuY2l2LmN2dXQuY3ovaWRw
-L3NoaWJib2xldGgwDQYJKoZIhvcNAQELBQADggEBAGRJKz1uFTlJzydOpsgiWupP
-FaJ2jDQCQOK03ydvcx09hHos+xJE3LuUCxIypgUFRm80y+O3ZVcQhcbNuJPEteNJ
-1wq+lOm9U9pLfVS4HbGVG28mL+GaYHfpnqokT713xMsz9HVGcuzqzOT/nH8Cm/pR
-sfhUb3yGYb1+ZUntAKpRTQ5cCAKGss8OFUxicfqgqEEGBXeGaimF3BilB3sNxDNc
-LDhx9i5ScYCN8tRpuf/QvMEENbeDBPOoIvaDETnkzAL6v1ke3J6dVSEaiK9NYFNR
-xo7SMEnUJU/EBynk6luMA4V47kgYFdAlYdMDzesc0gdr3aaKswB6R7ZrwWo+DfQ=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp2.civ.cvut.cz:8443/idp/profile/SAML2/SOAP/AttributeQuery" />
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    </md:AttributeAuthorityDescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="cs">ČVUT</md:OrganizationName>
     <md:OrganizationName xml:lang="en">CTU</md:OrganizationName>
@@ -18763,8 +18732,8 @@ Z2irYJ1Ang==</ds:X509Certificate>
       <md:Extensions>
         <shibmd:Scope regexp="false">nzm.cz</shibmd:Scope>
       <ui:UIInfo>
-          <ui:DisplayName xml:lang="cs">NZM IdP</ui:DisplayName>
-        <ui:DisplayName xml:lang="en">NZM IdP</ui:DisplayName>
+          <ui:DisplayName xml:lang="cs">Národní zemědělské muzeum</ui:DisplayName>
+        <ui:DisplayName xml:lang="en">National Museum of Agriculture</ui:DisplayName>
         <ui:Description xml:lang="cs">Poskytovatel identity pro NZM.</ui:Description>
         <ui:Description xml:lang="en">NZM's Identity Provider.</ui:Description>
         <ui:InformationURL xml:lang="cs">http://www.nzm.cz</ui:InformationURL>
@@ -18856,9 +18825,9 @@ MQdUiTRK8ecQnpeaL8B+uFZ7gnMvBZipUd40Th+wuKncb8fSbiwC1BdMKqLrRCTDMgtvXHP3kP5M
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibbolethidp.nzm.cz/idp/profile/SAML2/POST/SSO" />
     </md:IDPSSODescriptor>
   <md:Organization>
-      <md:OrganizationName xml:lang="en">NZM</md:OrganizationName>
-    <md:OrganizationName xml:lang="cs">NZM</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="cs">Národní zěmědělské muzeum</md:OrganizationDisplayName>
+      <md:OrganizationName xml:lang="en">National Museum of Agriculture</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Národní zemědělské muzeum</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="cs">Národní zemědělské muzeum</md:OrganizationDisplayName>
     <md:OrganizationDisplayName xml:lang="en">National Museum of Agriculture</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">http://www.nzm.cz/en/</md:OrganizationURL>
     <md:OrganizationURL xml:lang="cs">http://www.nzm.cz/</md:OrganizationURL>
