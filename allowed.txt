@@ -166,4 +166,6 @@ https://rokyknih.cz/idp/shibboleth
 https://knihovnapv.cz/idp/shibboleth
 https://shibbolethidp.nzm.cz/idp/shibboleth
 https://aleph20.knihovna-pardubice.cz/idp/shibboleth
-https://www.mvk.cz/auth/saml2-idp
+https://www.mvk.cz/auth/saml2-idp uthorized_by_idp=true
+https://mkvdf.cz/idp/shibboleth
+https://www.knihzdar.cz/auth/saml2-idp
