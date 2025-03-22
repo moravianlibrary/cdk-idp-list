@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-17T12:16:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-17T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>sM3h3XZ99MlxDA8p0Vz/52ByrlWioeYNZVAmtYJa4Yc=</ds:DigestValue>
+      <ds:DigestValue>z+8UhPxziQnnS7YUP1r5cJu7KC/W1zmUvwU8lubRS6U=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-7gp9P9tVup93YGECetJRFKrlPl+QGkduPPxwWaFTFa3p/LsVZIWr3iumtI756zztE6GffrVSlwne
-aHteAzZuIY14CqYWUxvv0jx1tLn9UaYp9E2hS6Mj+QxlVq07zMM8IG+0DpKIASqLJUoa/7bekH1L
-OBDe0mJLcHyFp4dofHI7rBv7Q3OSQxjtCw2OY6yrDHb/GZs/SAXfc9DjCCG0Ecn0aA2HowoFLNEp
-6mUI7yHzIRnqQ+Zod3Py0A2T5LAThj/QZm2mXqFgO90ddUIKgPVqNBukZ6BT7xnYgNu/UnQIAQJp
-edLhgvDOMwF4X/Tn7HfNcjch7a6nHTR79SLodg==
+8TqvhiqkpjnV2+6TkTJcEF3xPhyooWa9sFtnAwcRr2sypNit3RNtTUiXSo81uIlMom4clhNYgNSy
+11Eq6Z8mpgJnk+EPDwIwuNy9N4V9nuWQluC7PW2R0ks59xNyagXJu15AwVygUV0qjdQelzS7ZKU/
+nZ4oJ1KrVO7igbD69NupTK6nPC1iNKcfKSRblBSYYjvVYTcVJbxkf4stPWzyfVJ2pQRdxlGu+3U5
+xf5zh+ScqlX27R7sdI/gwO/32zrYHAKKLWhpqvMdPnDrSL9EQ8Tgm1QE0p0tM+sSeFEXNuXW1KAa
+JTMH/gLzcW7kxPWZgsCo+b4PW9tkojF10ICJlA==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -8784,6 +8784,9 @@ VWvF7Mq9vHA0BY9AoDSxPGXc8xANw7Pa7aMX1WOJYlgs7g05KBJ9</ds:X509Certificate>
         <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
         </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>https://myacademicid.org/entity-categories/esi</saml:AttributeValue>
+        </saml:Attribute>
       <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
           <saml:AttributeValue>http://eduid.cz/uri/idp-group/university</saml:AttributeValue>
         </saml:Attribute>
@@ -15348,7 +15351,7 @@ ttoBlccr2E1zGuP9v2S0Ei7VFn5zuiJAc9k7KBsiDcox3jI+s6RoXJKRlQ==</ds:X509Certificate
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">tul.cz</shibmd:Scope>
       <ui:UIInfo>
@@ -15388,59 +15391,16 @@ nH0Q6NVuH5v93Y3fOM0wIgosOcrB90QrXq5BpWu+XL1VxhyPnSxTf/teOIy3hw==</ds:X509Certifi
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibbo.tul.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibbo.tul.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shibbo.tul.cz/idp/profile/SAML2/Redirect/SLO" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST/SLO" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibbo.tul.cz/idp/profile/SAML2/SOAP/SLO" />
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://shibbo.tul.cz/idp/profile/Shibboleth/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shibbo.tul.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shibbo.tul.cz/idp/profile/SAML2/Redirect/SSO" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibbo.tul.cz/idp/profile/SAML2/SOAP/ECP" />
     </md:IDPSSODescriptor>
-  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:2.0:protocol">
-      <md:Extensions>
-        <shibmd:Scope regexp="false">tul.cz</shibmd:Scope>
-      </md:Extensions>
-    <md:KeyDescriptor>
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIID6jCCAtKgAwIBAgIBCjANBgkqhkiG9w0BAQsFADCBmjELMAkGA1UEBhMCQ1ox
-EDAOBgNVBAcTB0xpYmVyZWMxKDAmBgNVBAoTH1RlY2huaWNhbCBVbml2ZXJzaXR5
-IG9mIExpYmVyZWMxDjAMBgNVBAsTBUxpYW5lMSIwIAYDVQQDExlUVUwgQ2VydGlm
-aWNhdGUgQXV0aG9yaXR5MRswGQYJKoZIhvcNAQkBFgxsaWFuZUB0dWwuY3owHhcN
-MTUxMDI2MDAwMDAwWhcNMzAxMDI1MjM1OTU5WjBxMQswCQYDVQQGEwJDWjEQMA4G
-A1UEBxMHTGliZXJlYzEoMCYGA1UEChMfVGVjaG5pY2FsIFVuaXZlcnNpdHkgb2Yg
-TGliZXJlYzEOMAwGA1UECxMFTGlhbmUxFjAUBgNVBAMTDXNoaWJiby50dWwuY3ow
-ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCdUYyRY1/QVM6cuR3mTWpw
-wHdc6Aeuy/DNUcvzXUEnWZ6bhdPBScu231BBr9NCZ5wr8pZ3N4JB7n5qjScRqpz2
-D1VOtb/BLy8mFEThE/wWE6DINbAMzF1FQjGE4vLO7FWt0G1nURxqe5USZkFLIZUL
-Wqs1Fnrlfsl1hGbm2ELu/8gfXNbnKQKZ12a8qqojpwIec860+zGS+YkHyYz4IzUq
-kRHM0KQG0qcPzeB3OdQMy44nhHknLeNQ7WIpVAn1bx6g3blyAYxEhqGVjGxbm2j1
-r+FV2r/0ZrwVavM9aeOw3bX+F/M2VBPBsbimnuE/xYnjVhIN76PcsaMdtSsYR4+9
-AgMBAAGjYzBhMAsGA1UdDwQEAwIFoDAyBgNVHR8EKzApMCegJaAjhiFodHRwOi8v
-bGlhbmUudHVsLmN6L2NybC90dWxDQS5jcmwwHgYJYIZIAYb4QgENBBEWD3hjYSBj
-ZXJ0aWZpY2F0ZTANBgkqhkiG9w0BAQsFAAOCAQEAZfabkvqZVo4w4LOoLQfVtTP8
-VCI/HoJsgAsYl7Gf2RngZ76XAePhza0JNCfo0SJDJBWca0VtX91EzazFWkRR1cEO
-B0IwF0MVLQttZA8XItk0EaXi05sC/s4qeykLk31AP3mPD2SC58Vty2DbPCWJxLBQ
-31qNr9zxzVzDVAtzXkVWdfdRrgzFICDIfo9BqELUPCIcw2+/xzoy4h33NB05ZFa7
-+UqvbZl6I4Rz3ZWHt8moGUGQF04kKGI3psHS6M0hxMQccNtbb269gFcuK5vb5AZa
-nH0Q6NVuH5v93Y3fOM0wIgosOcrB90QrXq5BpWu+XL1VxhyPnSxTf/teOIy3hw==</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://shibbo.tul.cz:8443/idp/profile/SAML1/SOAP/AttributeQuery" />
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shibbo.tul.cz:8443/idp/profile/SAML2/SOAP/AttributeQuery" />
-    <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    </md:AttributeAuthorityDescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="en">Technical University of Liberec</md:OrganizationName>
     <md:OrganizationName xml:lang="cs">Technická univerzita v Liberci</md:OrganizationName>
