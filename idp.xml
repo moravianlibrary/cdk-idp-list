@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-18T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-20T12:01:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>RUOazLZ7h7G3m0H+Ehj32X1qG0Ejq8hQmT1kQ2DUq7A=</ds:DigestValue>
+      <ds:DigestValue>YnbIaLnyQ1NselYrFywAMvgIlJqhHMtPvZnWaASD82w=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-lfdJDR81mJiNu0FGpLJr8bliYQUSVTPBaIYWkxNJku2BnzGI2mnnexpbW1waAOJgFVEoFSe/JMZh
-ohK6QlLZj9DwJ2LBrrFZKbT5nkgM7BEH3DcD/DtUc39g48foXP+lLx168xxc8onAEH9K/BtGE75m
-FgxSmOKfmSiAIT8mOBQxWcVOOO0IotT2vl4LavG139IgtUdB40dMeWPOjmrCFa/l59u6uXQry8uO
-DKuHbaS5NXS3azpaMjuMR2tWDaTUUKZVUfWMFkgdUUP/1xQYngqPKGJAZ0LApQTOiJCcD3HNRtIw
-8jQNKow1SuJndQZv5mCEJVaZ6uHa763VGb3knw==
+4xD90MpRbrimS9/g5UOcM3Dty8naTYDqbbLMBAYBHD4bL8X9Ckm2HjA94GNT+t/0E6aZ7vGZeZCu
+69TennOcNWocKp0RmAzbwpa++yBRIKdEENuTeTCiEHKZAdZnT0bzpcaRMOmYRo4xBW27pL/oNmrB
+BVtuzsyXaq84omWWdVwvCXcDazrZ0vkwBxPIG1J7nb5TXP5HIPzgSvFxypBvtFPYjZavg8KG5Udy
+mGL4m+q4k+bAhzxvLPgQWnzW5SfHPFW1C1qNZiMnjhjPeIs14rVLq98oqvBsPSLDCGYh0iKDpcPM
+xeylFiQB9eusGLtJYnWATje97Sx/actiZAJ9pw==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -3701,7 +3701,7 @@ xXhns6nRQCmHfPWTerLdm01bquDJ4ocN5mCgp48=</ds:X509Certificate>
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">amu.cz</shibmd:Scope>
       <ui:UIInfo>
@@ -3718,60 +3718,17 @@ xXhns6nRQCmHfPWTerLdm01bquDJ4ocN5mCgp48=</ds:X509Certificate>
     <md:KeyDescriptor use="signing">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUcXnvXj8gWdslBmqmyE9w/Xv/wcIwDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLmFtdS5jejAeFw0yMDA2MzAwNzE2MDBaFw00MDA2
-MzAwNzE2MDBaMBUxEzARBgNVBAMMCmlkcC5hbXUuY3owggGiMA0GCSqGSIb3DQEB
-AQUAA4IBjwAwggGKAoIBgQCdiqmZIf/X1EfQ1UhDkZZwhd5RTXgyITbbjJ1L/j2s
-t8sffRpTliIyK597FU6l4J0366BxvTCRstLYJeGmZw2Qu/5bl1RDqxzIpbIOHwJl
-3uSJCTkHjbQ8MsOpZATLtiTCy5CtTlBNZudBtS/vWDiPQkzJXQW1g3AEgggS1dw7
-/gTQTUjUW95tJR1J93LA09voTZ1OZKiViyndw+LYl3xtxhjccKGpRXseDxghG/LS
-S+U7nwvbyRqX2CNynz4LNexx3GAQjFTPnqjG4YyQJdm1CQH9RqdfZb3Uq13Z1iOV
-1FME4PJvSnmbH/zDLOPbEny+aMUIxPDXPZaSmGhcfN6g+a/pzbCpfzqbaagqK91Y
-CAbRCtGAyd0xMNDPOSi5DACilObSfR1PJJIyQZv5Uc3jxpDw6niXN/aeZQIJ22eB
-Ksf7c6u1mGkL2SxQr2wwcbpv67a0yYnGc9xLBIlyyhPbMT5oLgnhLJq+/+HQwgvX
-P3qERHGqHq8cSCTkpSwW3e0CAwEAAaNbMFkwHQYDVR0OBBYEFLAraEmBYOY71uYb
-DRiYgumiN4gCMDgGA1UdEQQxMC+CCmlkcC5hbXUuY3qGIWh0dHBzOi8vaWRwLmFt
-dS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAdUyeqcQXwhfB
-7UCDzFx7Yp2TTZf5Ircpa3bo6U+QU+ru2gu9fzegmAsSm2yI8A2Cdcrddj/py7xK
-VuBTAa7lnuTplPBBoG+ZuXibT6TZjCGEdyq6jeQiJzp0mhSXI+EzBBMVX1+J4zC+
-tITkJI0JYv+tbTFOELM0tj/hTdQElBUvU2WB5utrQXIN2uL/W4p3ZKw2n64SBd0z
-EMT9PUv2DNTDV+qBW+pBCHrZr/JIcStk0oorYSbfgbHJmpxkkEniuYw9SPdnW4ww
-IPjMLxIqA1aFQrwq7qSY++pzjmYPyBYvS0J+GBQ3iFEu65xxIxITXLVH20PEzgd1
-E+OG5sLyuqZ3etLQBP2CyKlvobUAH/DtISy88Ewb0FHlO/29EBXtncOZh9xpoNlz
-9niDq5Nd048VdduVsryojAFkA3okd6knDE2grctgKhVUeJAHXyWbUyGNZCw9dXAy
-FzlLYRZKjvSCvLMevUVMuCpHAZOC2l9YxlbeIKhL/L3DB5o2WLoy</ds:X509Certificate>
+            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUcXnvXj8gWdslBmqmyE9w/Xv/wcIwDQYJKoZIhvcNAQEL BQAwFTETMBEGA1UEAwwKaWRwLmFtdS5jejAeFw0yMDA2MzAwNzE2MDBaFw00MDA2 MzAwNzE2MDBaMBUxEzARBgNVBAMMCmlkcC5hbXUuY3owggGiMA0GCSqGSIb3DQEB AQUAA4IBjwAwggGKAoIBgQCdiqmZIf/X1EfQ1UhDkZZwhd5RTXgyITbbjJ1L/j2s t8sffRpTliIyK597FU6l4J0366BxvTCRstLYJeGmZw2Qu/5bl1RDqxzIpbIOHwJl 3uSJCTkHjbQ8MsOpZATLtiTCy5CtTlBNZudBtS/vWDiPQkzJXQW1g3AEgggS1dw7 /gTQTUjUW95tJR1J93LA09voTZ1OZKiViyndw+LYl3xtxhjccKGpRXseDxghG/LS S+U7nwvbyRqX2CNynz4LNexx3GAQjFTPnqjG4YyQJdm1CQH9RqdfZb3Uq13Z1iOV 1FME4PJvSnmbH/zDLOPbEny+aMUIxPDXPZaSmGhcfN6g+a/pzbCpfzqbaagqK91Y CAbRCtGAyd0xMNDPOSi5DACilObSfR1PJJIyQZv5Uc3jxpDw6niXN/aeZQIJ22eB Ksf7c6u1mGkL2SxQr2wwcbpv67a0yYnGc9xLBIlyyhPbMT5oLgnhLJq+/+HQwgvX P3qERHGqHq8cSCTkpSwW3e0CAwEAAaNbMFkwHQYDVR0OBBYEFLAraEmBYOY71uYb DRiYgumiN4gCMDgGA1UdEQQxMC+CCmlkcC5hbXUuY3qGIWh0dHBzOi8vaWRwLmFt dS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAdUyeqcQXwhfB 7UCDzFx7Yp2TTZf5Ircpa3bo6U+QU+ru2gu9fzegmAsSm2yI8A2Cdcrddj/py7xK VuBTAa7lnuTplPBBoG+ZuXibT6TZjCGEdyq6jeQiJzp0mhSXI+EzBBMVX1+J4zC+ tITkJI0JYv+tbTFOELM0tj/hTdQElBUvU2WB5utrQXIN2uL/W4p3ZKw2n64SBd0z EMT9PUv2DNTDV+qBW+pBCHrZr/JIcStk0oorYSbfgbHJmpxkkEniuYw9SPdnW4ww IPjMLxIqA1aFQrwq7qSY++pzjmYPyBYvS0J+GBQ3iFEu65xxIxITXLVH20PEzgd1 E+OG5sLyuqZ3etLQBP2CyKlvobUAH/DtISy88Ewb0FHlO/29EBXtncOZh9xpoNlz 9niDq5Nd048VdduVsryojAFkA3okd6knDE2grctgKhVUeJAHXyWbUyGNZCw9dXAy FzlLYRZKjvSCvLMevUVMuCpHAZOC2l9YxlbeIKhL/L3DB5o2WLoy</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
     <md:KeyDescriptor use="encryption">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUeeWkJnzdzFidqc5N8h66aqKdgZkwDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLmFtdS5jejAeFw0yMDA2MzAwNzE2MDFaFw00MDA2
-MzAwNzE2MDFaMBUxEzARBgNVBAMMCmlkcC5hbXUuY3owggGiMA0GCSqGSIb3DQEB
-AQUAA4IBjwAwggGKAoIBgQC3rZ2bhUdvN+TxTgDRXVm64KdcPAAZ1PX2VfHQ/C63
-58I1YkKSXP9EbDzEjddDrO34JQjByg7+230sd2ZX88JawcytQMhnkzAa/e7o6fOA
-hEmmUXdQuMj6DbtR0rGr1vyZch7t1XQVwMId3EHoUAVBAGlELuCSmT00PbslZPyY
-o35+tjEOs6HYwQdLmD6sCy1nLaETHtqshD5vAh2o7KagYwQJIB0Rh4VenpZHjDoq
-xDboNZ2D+mac6DnJUF4jGuFwT3T2uweE6atyb/PfPxjhGPIhSHBefPoPiRU0Kt9E
-UFqCWIc+RS9eCjU789vvS39Eu8r4+5zNIUDX/KkEEofSulr5D/3J2ePTum5dQsU3
-9MqUFG9shj+XzAU9RnVf7rd0/oqhihBNqJjH5cZhBM2kxFrBQ3KBQJMmF1b+u4IG
-s0LbzH1vXkFN8QVzOOJDnSzWjY+uQRPI4a0EbwwXpVZTebhwlZs/Je9Kfc16W1xP
-KwLDWbybtB0Tjdqs+2SLYosCAwEAAaNbMFkwHQYDVR0OBBYEFBLL0LfSlDijFcym
-YF802orcouJgMDgGA1UdEQQxMC+CCmlkcC5hbXUuY3qGIWh0dHBzOi8vaWRwLmFt
-dS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAb1HMyhTzrRbC
-Dy2Ye7PouXWsNTeDpa5445mDB9lvVyIIJFK36ro+vsZWkwVNCBpKK1a1ocaipxFE
-tkolzPLW+CcZwhj/JSQrCUxpCMTBxoRM9N6O3snyoa6x1MMEPFBllZeEEw7RIBKy
-svHzZpn4LN03KkEoian9nATXvf8a5A166y+PWDVgAXVXHP0HwRNxW4He41CaobJw
-fdhXgEofT/meV4ZRI9oyjEfD8TejcLfJFZX6j+oOFK6GCYodPdWtA51gG7ii7mLL
-/KXAP9CisHlzYuh/3YpCPTrpQ+0heD5XT0Uhcw/9+KXI/tMoV67MjMwaRafCQgDQ
-15fprdoFWwYAeYn+U0v677BonPoPJz+LrGiIE3L1NZTJa5+aT2UVXwyAV1elL7lb
-1Fl8wpUbk4pewh9XxFoaDbhzWtFJn5e2m9hjfUt0xoR0IhVGLdwU9xLiX3DftYdE
-8HoJ3o1BZPJUOq2VOpX7RS+htt4SGIZY5NViu7UTNmiasMwTvAtE</ds:X509Certificate>
+            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUeeWkJnzdzFidqc5N8h66aqKdgZkwDQYJKoZIhvcNAQEL BQAwFTETMBEGA1UEAwwKaWRwLmFtdS5jejAeFw0yMDA2MzAwNzE2MDFaFw00MDA2 MzAwNzE2MDFaMBUxEzARBgNVBAMMCmlkcC5hbXUuY3owggGiMA0GCSqGSIb3DQEB AQUAA4IBjwAwggGKAoIBgQC3rZ2bhUdvN+TxTgDRXVm64KdcPAAZ1PX2VfHQ/C63 58I1YkKSXP9EbDzEjddDrO34JQjByg7+230sd2ZX88JawcytQMhnkzAa/e7o6fOA hEmmUXdQuMj6DbtR0rGr1vyZch7t1XQVwMId3EHoUAVBAGlELuCSmT00PbslZPyY o35+tjEOs6HYwQdLmD6sCy1nLaETHtqshD5vAh2o7KagYwQJIB0Rh4VenpZHjDoq xDboNZ2D+mac6DnJUF4jGuFwT3T2uweE6atyb/PfPxjhGPIhSHBefPoPiRU0Kt9E UFqCWIc+RS9eCjU789vvS39Eu8r4+5zNIUDX/KkEEofSulr5D/3J2ePTum5dQsU3 9MqUFG9shj+XzAU9RnVf7rd0/oqhihBNqJjH5cZhBM2kxFrBQ3KBQJMmF1b+u4IG s0LbzH1vXkFN8QVzOOJDnSzWjY+uQRPI4a0EbwwXpVZTebhwlZs/Je9Kfc16W1xP KwLDWbybtB0Tjdqs+2SLYosCAwEAAaNbMFkwHQYDVR0OBBYEFBLL0LfSlDijFcym YF802orcouJgMDgGA1UdEQQxMC+CCmlkcC5hbXUuY3qGIWh0dHBzOi8vaWRwLmFt dS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAb1HMyhTzrRbC Dy2Ye7PouXWsNTeDpa5445mDB9lvVyIIJFK36ro+vsZWkwVNCBpKK1a1ocaipxFE tkolzPLW+CcZwhj/JSQrCUxpCMTBxoRM9N6O3snyoa6x1MMEPFBllZeEEw7RIBKy svHzZpn4LN03KkEoian9nATXvf8a5A166y+PWDVgAXVXHP0HwRNxW4He41CaobJw fdhXgEofT/meV4ZRI9oyjEfD8TejcLfJFZX6j+oOFK6GCYodPdWtA51gG7ii7mLL /KXAP9CisHlzYuh/3YpCPTrpQ+0heD5XT0Uhcw/9+KXI/tMoV67MjMwaRafCQgDQ 15fprdoFWwYAeYn+U0v677BonPoPJz+LrGiIE3L1NZTJa5+aT2UVXwyAV1elL7lb 1Fl8wpUbk4pewh9XxFoaDbhzWtFJn5e2m9hjfUt0xoR0IhVGLdwU9xLiX3DftYdE 8HoJ3o1BZPJUOq2VOpX7RS+htt4SGIZY5NViu7UTNmiasMwTvAtE</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.amu.cz/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.amu.cz/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.amu.cz/idp/profile/SAML2/Redirect/SLO" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.amu.cz/idp/profile/SAML2/POST/SLO" />
@@ -3780,77 +3737,10 @@ fdhXgEofT/meV4ZRI9oyjEfD8TejcLfJFZX6j+oOFK6GCYodPdWtA51gG7ii7mLL
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.amu.cz/idp/profile/Shibboleth/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.amu.cz/idp/profile/SAML2/POST/SSO" req-attr:supportsRequestedAttributes="true" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.amu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" req-attr:supportsRequestedAttributes="true" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.amu.cz/idp/profile/SAML2/Redirect/SSO" req-attr:supportsRequestedAttributes="true" />
     </md:IDPSSODescriptor>
-  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol">
-      <md:Extensions>
-        <shibmd:Scope regexp="false">amu.cz</shibmd:Scope>
-      </md:Extensions>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUcXnvXj8gWdslBmqmyE9w/Xv/wcIwDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLmFtdS5jejAeFw0yMDA2MzAwNzE2MDBaFw00MDA2
-MzAwNzE2MDBaMBUxEzARBgNVBAMMCmlkcC5hbXUuY3owggGiMA0GCSqGSIb3DQEB
-AQUAA4IBjwAwggGKAoIBgQCdiqmZIf/X1EfQ1UhDkZZwhd5RTXgyITbbjJ1L/j2s
-t8sffRpTliIyK597FU6l4J0366BxvTCRstLYJeGmZw2Qu/5bl1RDqxzIpbIOHwJl
-3uSJCTkHjbQ8MsOpZATLtiTCy5CtTlBNZudBtS/vWDiPQkzJXQW1g3AEgggS1dw7
-/gTQTUjUW95tJR1J93LA09voTZ1OZKiViyndw+LYl3xtxhjccKGpRXseDxghG/LS
-S+U7nwvbyRqX2CNynz4LNexx3GAQjFTPnqjG4YyQJdm1CQH9RqdfZb3Uq13Z1iOV
-1FME4PJvSnmbH/zDLOPbEny+aMUIxPDXPZaSmGhcfN6g+a/pzbCpfzqbaagqK91Y
-CAbRCtGAyd0xMNDPOSi5DACilObSfR1PJJIyQZv5Uc3jxpDw6niXN/aeZQIJ22eB
-Ksf7c6u1mGkL2SxQr2wwcbpv67a0yYnGc9xLBIlyyhPbMT5oLgnhLJq+/+HQwgvX
-P3qERHGqHq8cSCTkpSwW3e0CAwEAAaNbMFkwHQYDVR0OBBYEFLAraEmBYOY71uYb
-DRiYgumiN4gCMDgGA1UdEQQxMC+CCmlkcC5hbXUuY3qGIWh0dHBzOi8vaWRwLmFt
-dS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAdUyeqcQXwhfB
-7UCDzFx7Yp2TTZf5Ircpa3bo6U+QU+ru2gu9fzegmAsSm2yI8A2Cdcrddj/py7xK
-VuBTAa7lnuTplPBBoG+ZuXibT6TZjCGEdyq6jeQiJzp0mhSXI+EzBBMVX1+J4zC+
-tITkJI0JYv+tbTFOELM0tj/hTdQElBUvU2WB5utrQXIN2uL/W4p3ZKw2n64SBd0z
-EMT9PUv2DNTDV+qBW+pBCHrZr/JIcStk0oorYSbfgbHJmpxkkEniuYw9SPdnW4ww
-IPjMLxIqA1aFQrwq7qSY++pzjmYPyBYvS0J+GBQ3iFEu65xxIxITXLVH20PEzgd1
-E+OG5sLyuqZ3etLQBP2CyKlvobUAH/DtISy88Ewb0FHlO/29EBXtncOZh9xpoNlz
-9niDq5Nd048VdduVsryojAFkA3okd6knDE2grctgKhVUeJAHXyWbUyGNZCw9dXAy
-FzlLYRZKjvSCvLMevUVMuCpHAZOC2l9YxlbeIKhL/L3DB5o2WLoy</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="encryption">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIEEzCCAnugAwIBAgIUeeWkJnzdzFidqc5N8h66aqKdgZkwDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLmFtdS5jejAeFw0yMDA2MzAwNzE2MDFaFw00MDA2
-MzAwNzE2MDFaMBUxEzARBgNVBAMMCmlkcC5hbXUuY3owggGiMA0GCSqGSIb3DQEB
-AQUAA4IBjwAwggGKAoIBgQC3rZ2bhUdvN+TxTgDRXVm64KdcPAAZ1PX2VfHQ/C63
-58I1YkKSXP9EbDzEjddDrO34JQjByg7+230sd2ZX88JawcytQMhnkzAa/e7o6fOA
-hEmmUXdQuMj6DbtR0rGr1vyZch7t1XQVwMId3EHoUAVBAGlELuCSmT00PbslZPyY
-o35+tjEOs6HYwQdLmD6sCy1nLaETHtqshD5vAh2o7KagYwQJIB0Rh4VenpZHjDoq
-xDboNZ2D+mac6DnJUF4jGuFwT3T2uweE6atyb/PfPxjhGPIhSHBefPoPiRU0Kt9E
-UFqCWIc+RS9eCjU789vvS39Eu8r4+5zNIUDX/KkEEofSulr5D/3J2ePTum5dQsU3
-9MqUFG9shj+XzAU9RnVf7rd0/oqhihBNqJjH5cZhBM2kxFrBQ3KBQJMmF1b+u4IG
-s0LbzH1vXkFN8QVzOOJDnSzWjY+uQRPI4a0EbwwXpVZTebhwlZs/Je9Kfc16W1xP
-KwLDWbybtB0Tjdqs+2SLYosCAwEAAaNbMFkwHQYDVR0OBBYEFBLL0LfSlDijFcym
-YF802orcouJgMDgGA1UdEQQxMC+CCmlkcC5hbXUuY3qGIWh0dHBzOi8vaWRwLmFt
-dS5jei9pZHAvc2hpYmJvbGV0aDANBgkqhkiG9w0BAQsFAAOCAYEAb1HMyhTzrRbC
-Dy2Ye7PouXWsNTeDpa5445mDB9lvVyIIJFK36ro+vsZWkwVNCBpKK1a1ocaipxFE
-tkolzPLW+CcZwhj/JSQrCUxpCMTBxoRM9N6O3snyoa6x1MMEPFBllZeEEw7RIBKy
-svHzZpn4LN03KkEoian9nATXvf8a5A166y+PWDVgAXVXHP0HwRNxW4He41CaobJw
-fdhXgEofT/meV4ZRI9oyjEfD8TejcLfJFZX6j+oOFK6GCYodPdWtA51gG7ii7mLL
-/KXAP9CisHlzYuh/3YpCPTrpQ+0heD5XT0Uhcw/9+KXI/tMoV67MjMwaRafCQgDQ
-15fprdoFWwYAeYn+U0v677BonPoPJz+LrGiIE3L1NZTJa5+aT2UVXwyAV1elL7lb
-1Fl8wpUbk4pewh9XxFoaDbhzWtFJn5e2m9hjfUt0xoR0IhVGLdwU9xLiX3DftYdE
-8HoJ3o1BZPJUOq2VOpX7RS+htt4SGIZY5NViu7UTNmiasMwTvAtE</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.amu.cz/idp/profile/SAML1/SOAP/AttributeQuery" />
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.amu.cz/idp/profile/SAML2/SOAP/AttributeQuery" />
-    <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
-    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    </md:AttributeAuthorityDescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="en">Academy of Performing Arts in Prague</md:OrganizationName>
     <md:OrganizationName xml:lang="cs">Akademie múzických umění v Praze</md:OrganizationName>
