@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-20T12:01:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-20T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>YnbIaLnyQ1NselYrFywAMvgIlJqhHMtPvZnWaASD82w=</ds:DigestValue>
+      <ds:DigestValue>7KGq9U4bnyeiJZX1VfOJtC8us/mqkIZbxnn79uwubzE=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-4xD90MpRbrimS9/g5UOcM3Dty8naTYDqbbLMBAYBHD4bL8X9Ckm2HjA94GNT+t/0E6aZ7vGZeZCu
-69TennOcNWocKp0RmAzbwpa++yBRIKdEENuTeTCiEHKZAdZnT0bzpcaRMOmYRo4xBW27pL/oNmrB
-BVtuzsyXaq84omWWdVwvCXcDazrZ0vkwBxPIG1J7nb5TXP5HIPzgSvFxypBvtFPYjZavg8KG5Udy
-mGL4m+q4k+bAhzxvLPgQWnzW5SfHPFW1C1qNZiMnjhjPeIs14rVLq98oqvBsPSLDCGYh0iKDpcPM
-xeylFiQB9eusGLtJYnWATje97Sx/actiZAJ9pw==
+WiBbXTONjzYzux54Q3yIdbl8eaSvKmfGYVo7i5/snV/OsgNsGllKasIb4ei2Gx80F/dfFfW6Z0Np
+TQZs49C4UpU2lKe3QnIm++jJb4ErFXyOJXAxH21ZF468iWGWEzekYU19JIgPcQWWj+xv5mTQ8g9w
+spC7tSMhr06RUNXuMdpDgiMH/FlSLRhtcsZnh7QAYDTOaEG3NiXx8d8fGeX9Zv3ErS2glUjEZUIQ
+RChD1YQiL8E7qAC+EtMb03BrOij6K1DxpPnPCuND5DopChlXAl4/Cj8Edqisr+WQohfgHuYBRmGK
+Ub4N02GpfG/rj9PQzTT1BWlt6PBmWIMnUSJHAg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -1038,7 +1038,7 @@ JOUuqNMefH+XEyPJWcsh5e3VSAdUTi/dkV7Q</ds:X509Certificate>
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">czu.cz</shibmd:Scope>
       <ui:UIInfo>
@@ -1126,9 +1126,7 @@ WCNEZVl5a6XE5fU+Y/PAGnWYgcTtt0iZsEneb63iWHgm8Gk++yyKDYYGQDw7H9pK</ds:X509Certifi
         </ds:KeyInfo>
       </md:KeyDescriptor>
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.czu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://eduid.czu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.czu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" req-attr:supportsRequestedAttributes="true" />
-    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://eduid.czu.cz/idp/profile/Shibboleth/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://eduid.czu.cz/idp/profile/SAML2/Redirect/SSO" req-attr:supportsRequestedAttributes="true" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eduid.czu.cz/idp/profile/SAML2/POST/SSO" req-attr:supportsRequestedAttributes="true" />
     </md:IDPSSODescriptor>
