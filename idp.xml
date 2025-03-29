@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-24T10:07:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-24T23:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>PP+Bi0JQ6VuS8pHVu4V1IlZ5Ig08mPC0KDegpMTs77M=</ds:DigestValue>
+      <ds:DigestValue>beXm3Nccc2olEdnmG2V4iVYiS6g8qkAJI3vBa7yAfdQ=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-5i5HdST6hbh6ymv9CPatHELKLZwR6lqfZ8VmF8QkF5tg4Isiau1gGIegpBncq8sOd9GiEUx7E9p6
-LLd9clKiDOUc6h7f8PGpq7KtaH+dT58TyVhf2zVDwiudhIf4Iw4ZCO2KyOZNHvpkeCKrrQrGPYQR
-06/WmGSK1Kl6v1/WVigMkS0JDr/lXyk8HixcoYPfpku0qI7iIf0l3p1f90RNESiAXGQK+pb7tnjX
-UkyQ8hMaf9iXUqpBCC+I0Py+bXwSA1Xx5VGd80zTCFpGyVjIkxqExnGgSpsvQYAmJDG/rhIxJW5x
-LEHi150HRy+kyqcJK7kE2FvCGVxGTd1N25dG3g==
+uaOdE6iHlwewEgJFzt9HDluRxu5JErul+yyFDc8x2EMgkhwkiZpTgYuYN5PX5QH441laEM32YAoW
+Ky09gvsGJFIYJs62YTWZOfzM5C9+fHpU5eN2IsfNTnw3u2hsFxvyALeOyhZoH2YDB/TmO7n9HDd1
+gf1DttE2zPpO46o04au/5NlNMNQ8R7YcADouZxLgGC3bOqlL1X4Vn9LawHZMsrkSFGOKcNpvEBUV
+eoYoAuuuBiwPKI3mRkNLYw9lwtR+dsiwnVR1mUpYaCrlsYH8wQY+x/Lst8BzC2wO0RmGWjLFNhpY
+tjGvDJyXUwUBLqVJkc2t/0jub0VdvCDLb8eDgA==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -9331,21 +9331,7 @@ JYH5NKeeBBdGOunN7KfPzfd86tveJ6kn</ds:X509Certificate>
     <md:KeyDescriptor use="signing">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIEFzCCAn+gAwIBAgIUDdS0Mzb3F8Xe8ph4PjJqKGFT6f8wDQYJKoZIhvcNAQEL BQAwFjEUMBIGA1UEAwwLaWRwLnZzZnMuY3owHhcNMjEwNzE2MDk1NDU5WhcNNDEw NzE2MDk1NDU5WjAWMRQwEgYDVQQDDAtpZHAudnNmcy5jejCCAaIwDQYJKoZIhvcN AQEBBQADggGPADCCAYoCggGBAPL3aJodOnJFrOTXcIj0AX1HrKKICwez2ejl238y FrgOAV5xbPHi95TKGBtk1gG8HOmgxnVwKAGC0yEIEHLArX/RWR0tRvo6ihZXoiyh xvEdaWTv6Tmcz+tFrgFno94LCqyhYErNI9ppE4OcOdGgswu3/R2AudQ+dVKVHP0G 1j3ZDf03rdOrwjm7MUB6+zSMd9Hr3XTFz/N0iZvDCu30vW4RID5La/bmv1e4FZAn qRnZse+LzNBqg1Jg8wOEkZeDzFTou5m4Y4Y4CMeQ5Rel8uaoPpk9HrQcNYLfm+BY Hnurlz/a+2E8eAiFNIieGUHKo0L5gXkP7SjqL828/q4fWEahDE2Re63DdaBwHb+p U8huA40YOHqxCLes60PVAHviRwAcUdOEM58wyxy3o5iHkOkH0vIUfFw33/S0Afh8 D4lMfzOvEB1xzT9ed5Mi/FtwKBJUlV+IODJGQTWpiG3J0t8n47Q7YSVlTVO51Pea yZXyAKcNaHmC80pPI3h1nFLepQIDAQABo10wWzAdBgNVHQ4EFgQUgsh7q+PuvAaS f77rLi3yTeD5WRswOgYDVR0RBDMwMYILaWRwLnZzZnMuY3qGImh0dHBzOi8vaWRw LnZzZnMuY3ovaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQELBQADggGBAI+t1Khp ewuUO0wdMim2SBEd3st50Nt3tcAPSs/HLRdGiND5EfHWbjJ0buge1kcPtR50oED9 8EedXQaxShHhKqIHTDnMRAOoLO4iCVNsCKLckpx2LGYIPxUlduB0/UDHwrBUrzZb 8OLpfOgmFNtV4yKDRBA7TzZhSsQOwcJOe8LtGdNtPSPIibHOYUkLMdqxrVbeEVmn hqeZI+Le6f+P7rmiVbDS/eZ6ySDkuQaJevVGn5Pz2Bjav2QFSay3eWfFSEzGzZ9Q qqkbxwwSel1QfZUlzuawJEo/ub67cByjOW0ABZEsdnjZXsbO4+M2IRIY1BDd1332 zPHI3DsFB3sS5TTGCO8E7XqTfDcraepMHdUK0m1Exmj8Q0g2i5KbJuLLXjhGWf8s RiiRBtTN8mTw4tpmlQ1Wfc47Fl55pWjBPsBlVOw7tMwKSGLQ3d1NUKhmxo7Y6VbC +smjFphSxxL5qAzfxGTPWLxy6oOkUEmOzXPs8Hz05Z6fRrWk3P2EHMPcEg==</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
             <ds:X509Certificate>MIIEGDCCAoCgAwIBAgIVANeq0YyY4ji3iLZAOvHfD5EWGwPlMA0GCSqGSIb3DQEB CwUAMBYxFDASBgNVBAMMC2lkcC52c2ZzLmN6MB4XDTI1MDMyNjA5MzkzNFoXDTQ1 MDMyNjA4MzkzNFowFjEUMBIGA1UEAwwLaWRwLnZzZnMuY3owggGiMA0GCSqGSIb3 DQEBAQUAA4IBjwAwggGKAoIBgQCUERBqrbjb7atT55NVvaCjaxCsFHZkSbxM38qI Ea/QrOSSwX00t1JX1nQK+QaNQxqC3PF+XMk1lRH2FYb7ptGSfCkQPEiNw9CA7tM0 tVSvZZAnIqUOR2+sWUbveaqaCjsZ2Bd8hofpKTOGfxkjEMBtcyvP50Vj8FweU2qc 2IQ1mcKigZqPzdncbDuvWmP81zLSks1JIo8WhwU5aEa9UxbpMUiu3o7fRnHhF7G/ N0lNNIWJX+tYYc5nxXuqO+faTORnRKi7nmthkdtTkKdgcJUj9SBZA+g0JgIXj4d1 XEv/Vvgpj+wxs4npQE/Zp+mWmLHl876u5uwwk/pnBHsgAC/kAd7ej0Asc26Rv+6j ipGDe0GTedRgKydDoHNBmF7zGFcnGMjRop3KddBdBHAN3UpMuiHK3F4LdQhEJi04 ZeQs5aFKms0AJ0Z5BWh1hB7VE34Ii6K0w4NPA3Ht6/w0v2dISGKgjfUGk6aYRM2q ++JpheXaP8dlyeAeuPshUxvvNdUCAwEAAaNdMFswHQYDVR0OBBYEFNmkje7dghn4 7B0i8vZB+89JBeDYMDoGA1UdEQQzMDGCC2lkcC52c2ZzLmN6hiJodHRwczovL2lk cC52c2ZzLmN6L2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQCIpern zlJ7CnGW0ykpJ99H28gIGSbAhTVEuVrqMxMx50CXOFaIcywBPGofXT3/HW9bwYW3 q9tidSXLid1YaqSaIw27uNnRGPR885UNDWy3WgmC3F9lfwEiFbws94v53m8bxUd+ SU/oF7rblr7qnwkRrO9XPfKJqeT1nuQXgqKdqPk1LsRyvRGia7I91Gh/ilTIzuw9 CxKxDI/0eCXyQzY0HTyFpWRPkl0eurG4Xi0QJTLhmOWXOUSzvZ3rSbWkN2Mx/Oaf aC0txN6/kfqEb9wUJ4unlpAhoRIZxzdTHBMT6XJiBcbfZROCz2wHr4U1A8q7Nfm5 hrjF6ln4kfJC51AAXEVwrVEuVRnieWF9wB+Mg7a/xXywmKyPZpwnZWYEGSqc37xf 8NlIOHTggV6Dm6GC8lTZ7MbpVKttKyAwkKqBiRfGOqC6CDmc9WMHdBQHlgLgzuWH N+NJqniagNv4y706/ShDLodphw3QaS8OhlhTvPWsNfxhhM/qnmsyRmGBahc=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="encryption">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIEFzCCAn+gAwIBAgIUNdEBE6CUAaHbGfLKg+szH5zmFFkwDQYJKoZIhvcNAQEL BQAwFjEUMBIGA1UEAwwLaWRwLnZzZnMuY3owHhcNMjEwNzE2MDk1NTAwWhcNNDEw NzE2MDk1NTAwWjAWMRQwEgYDVQQDDAtpZHAudnNmcy5jejCCAaIwDQYJKoZIhvcN AQEBBQADggGPADCCAYoCggGBAKpSpfelEM0TDbb9YV/1J6QmXGx50THyBAb8tFlu OCZzweO9hxQbtGc3EKjLFwYATWiNiK4I385jnegDGOcvomPpZIKPbIdEbt0Rj/yk TAU+lw4Gj1l96THK/qIiCwxzG7xA6B/hOABx13eKWU6xW5Hl+7ydRdElf6Qs8Flc T24RpRnj+HzsUnn/D7xQA6gmfMvdQAMiAYX14p+n0EJ3fxEbQoqg/JvBlfx0a+Nw YQkHGGQUMDKaXUSWNs/vDe7TplQWzoSa7DMDdSo7zPkNZ9MDLbrXVXFYLA+eBbUq tY4LPlbrADI2Qg6/q5iuXOhbIXJEAKBga1NZsiATgUHliijCQ10fF0rKxMU/ZWP2 iz9SWeUYh2ONm+f+uGjzLXQWW5efUoh3qnZhPvssDsL5QFdTzAT93CAOVvd6FO7b +HIBikWoE38chCnhkYgfTcC8iN8fDZwgPlnd5hXHVDTYF7GYiIjXRBbxrJoOX60v Eho2O1iq9qI4diiFeqPaY9LnbwIDAQABo10wWzAdBgNVHQ4EFgQU1udZ/2UzmQoK E83cE9ptdJI/e3IwOgYDVR0RBDMwMYILaWRwLnZzZnMuY3qGImh0dHBzOi8vaWRw LnZzZnMuY3ovaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQELBQADggGBAD3ewjjP KXlPM7sIYah+MGMDZKiZweJdZq4UMlJanqVfTjTyiaX9W3dmAGYiPREzx02eBhBz zuabcRtQkw90F1UmYWZ/lHQ0g75lgzeitBTDYYrGVEDLtRybB2GwE7aX+sXdE+JI p1IrU8ET1mzGFfHdgfyJX1NpI10C/XAs07jeSSqp7Czr78daqGQMSzGlMjzkhLX1 bu6igAU1B0zUZeVCQNcvV+1W0FdHBZpyjYA1Osq9+ruW8K0TbSeq055pWlSjvN1K pKtYcg1uhldThVq7KmcWNLG+YU3i15I1cVyv9ZcpePVD8zGCC61Cip0pTQefu1Ey TSpOV4C0cjgiPGP/0AePUfhcIGhoK1ErlrgkkdGM85fEP8Yc00cQd65gjucVPt6v YlgebFSuWHDL9hWefUUXfQT3NQeo7xh0VUEqwf1d2vkrm589XDZlB4MEKTY9LZ5f mcf1EdOPGmiOnOjfGiZTAsjmjXHtjsaTxkCgVb9qikfYyy52gkpMU2pm5g==</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
