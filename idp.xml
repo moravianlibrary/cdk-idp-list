@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-25T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:ui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-04-27T12:02:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>lRjIQcJKyH9Tb3iGv9U56dWa8x0AbpH+Z9oWNqkemVI=</ds:DigestValue>
+      <ds:DigestValue>TaQ4QjZJu8cKAdrXjq+0QsfmrCFJQ0L7hM1YSmbP5rI=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-le86Ww9y2U8V6paOWz6AlgupDrQkw+xxcuC9EjF5/LBpQEh8N5anTv+SM7VPUcOpNnCxUi26ZfjY
-M3D0ZuCaRE3qS4LCjSK4BtqMoJ2D+Agq0cOKnkiOCHPqziT6+FJsqCW3L5/wGZV92psTVik2xlEX
-h3paZkzOEx9N3y2YhtOOqY8FRWH9e2IvaLV1q4DY0Puh2EYvQp5iLIQ0BLM+jJ5bb+Zv/fBKQP+X
-tg12s7JSvmLTM0gepYWKzFb8n07W0zn4lZgcOPyB9tTg82Z093p7Mhcy4ER3+26tBeutoNCJfMQT
-UE6VBgW4VATQNqaZloeLky9OIKt687pkwhZ5WA==
+PLinj/+aej178DvC0rtHFoPhpBKSDQ2L0HVuOR+baBqh93Sjdu3K+WnTQGrWEXHJIPXq/QVyyLAT
+RObO//orDBv/SWR8Vm58Uc/qef/7nFl6KReALz626O/bPB0GVffg9WrrlGC4V6wdqCNCx0WD9QXw
+oNabFf0CkGUiqF9Kdt9AGOLfYOogRfnSypbbdpFUaNVkldC+o2aJQyoQCuFyyTd6f4u3wdttDj61
+cy2YVfxefYrmxx7p5HvJNzLK2HkvKqMOehb1/tZGQ8wcF2uI2/fNEvkacCRoIbeEfh3okM8dsAkm
+fba8s+wgXDxcQ15xw/35Ep5qmy5/le6gcLB+Cw==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -3243,7 +3243,7 @@ IMkPzQ==</ds:X509Certificate>
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">slu.cz</shibmd:Scope>
       <ui:UIInfo>
@@ -3326,92 +3326,15 @@ cLDQpWR2pyhtxC/jL0f5CuQPpvI9Tzw=</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp-cro.slu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp-cro.slu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp-cro.slu.cz/idp/profile/Shibboleth/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp-cro.slu.cz/idp/profile/SAML2/POST/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp-cro.slu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp-cro.slu.cz/idp/profile/SAML2/Redirect/SSO" />
     </md:IDPSSODescriptor>
-  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
-      <md:Extensions>
-        <shibmd:Scope regexp="false">slu.cz</shibmd:Scope>
-      </md:Extensions>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDFDCCAfygAwIBAgIVAL3gk4kllTneZBd1cQdt7j2XjlTWMA0GCSqGSIb3DQEB
-CwUAMBUxEzARBgNVBAMMCmlkcC5zbHUuY3owHhcNMTcwOTE0MDY1NTAzWhcNMzcw
-OTE0MDY1NTAzWjAVMRMwEQYDVQQDDAppZHAuc2x1LmN6MIIBIjANBgkqhkiG9w0B
-AQEFAAOCAQ8AMIIBCgKCAQEAsS/yqJzS4leiBwOrIl4Q2eL7jmTD7X70ocpJ04OY
-EP7b5vXJtOkWgNx8Qgblq5qXYtm7eBlGLqz3Be3R9PL1IoAlNMdmvyvbr4ig5OTA
-SagNJOUy+gYpEfFYTD5JiQycjlfpx1fqRK/H9lQx1xdq88XPIVhdyKzArqaJu6e3
-XCsq726AvvhWk2yU3Q5lycQy2wQVFDE/eVHcKa3XyHe5//pBUoJB6nSro/6YyvTc
-2IEtD0zBEJiTp5h+o4RcFsBsvtf/EYXO++tRQjxX28n0DuYV/PC5TeL9mh1MXylg
-t6M8G0CedYH47PGeP0Vxr4/m5itpKmasnBWIRLQzqToa5QIDAQABo1swWTAdBgNV
-HQ4EFgQUDjfws6M/dtlMxHIoCECZenSY03YwOAYDVR0RBDEwL4IKaWRwLnNsdS5j
-eoYhaHR0cHM6Ly9pZHAuc2x1LmN6L2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEB
-CwUAA4IBAQAMFpwfIDrAkpg4yW5HgOdtaj9ErHwxGc/n5PaLlfehUEcvaMn3KXWN
-L+wmi5cla9usMTdo1U0fAwaHAutIr2OHj64MPih4KHvUnQtGo2QyRIM7k6vXGMtt
-9lJyQbqinWvr9p2FLYQGLcchgx785rQ3IQAh5Fr2P1omXiGkx4ZkgihpoWTZ+iyf
-B82omo3lqFNrlAhbykDAXIfk5F2NfsEJUCOIItwkoTogcJavE2PpauZzNjDPaaJL
-e+PuGJB6sExlLVlYJAMUpd0pxRdWkW0hipsI9ACaxQLly6YYxoIpeLCOkmaSwxR5
-xRESqgro3MgLDhzQESgQQ0a2twd2rutJ</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDEzCCAfugAwIBAgIUSJLyuUvpTxU+Vblhr3WRfkE/Fk0wDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLnNsdS5jejAeFw0xNzA5MTQwNjU1MDJaFw0zNzA5
-MTQwNjU1MDJaMBUxEzARBgNVBAMMCmlkcC5zbHUuY3owggEiMA0GCSqGSIb3DQEB
-AQUAA4IBDwAwggEKAoIBAQCpWnFy91UEu8SGMu3VwdG9pgQunF9HP3c/MWADJ9ln
-f5amPeh1hRhJoi7mqOsDL/HAb4W1Vsz6XIUbRowRggX9MHEEpTk1ciQ8JrkIW9ZE
-x8p70cO/DrZac/A01rosBLvEXQyuRWMIqo0NhsFD+JkvS/oR/Km0R9D/JtTAJyg1
-A0swMUH8pAvs6kUr37I8utnnUZrA9g0ncCdXk+ONNbm1COMbGJGao/sGC68t/IsH
-rnT2aJpK0G1WjtUK1Jyie6boeRmxoYCv57gHxrQ8xymmlg2qWzZxXZbsU0tO/Sh8
-fOkCvVScbVfMb9ToVy6kSmINjBtXw8800e2bhMudxjg5AgMBAAGjWzBZMB0GA1Ud
-DgQWBBSfhRIKbB+Ypx88Y+wvQgQQ+Kv8azA4BgNVHREEMTAvggppZHAuc2x1LmN6
-hiFodHRwczovL2lkcC5zbHUuY3ovaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQEL
-BQADggEBAJ0B+DYofui6aYq2aLuGG9KrraGc56OeH93VnWqRB3kWiSkIObYCA1C3
-QkoLQEWPpqfYodLstUBlggCa/Kxoxe8h+S1H/t4aqzFJxiECUP98px9YOrl5uhJB
-JToPCQKxwzqD/7ymS5nPRiH9Kx9w3dGwah3UUVyXsQKfVHwkZ3rCr0oXDaplK2rS
-u3QphVplXRSxZpLY/FR1CBx9clL8tUIPwq3TwvEICrMq9OwSDSjFlSPnWV71AR3e
-teGPEzBdZg7ALFTxZQHYehOz+kJ5UIev9mJrUm9pHUZNKASI8TjN6jItPaL135Rf
-qtwdm8DlFnyRZJ3nqy2PlgzN508yEvk=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="encryption">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDEzCCAfugAwIBAgIUNkBRBa5hNN9y0tGmIcjnJM+zwGYwDQYJKoZIhvcNAQEL
-BQAwFTETMBEGA1UEAwwKaWRwLnNsdS5jejAeFw0xNzA5MTQwNjU1MDJaFw0zNzA5
-MTQwNjU1MDJaMBUxEzARBgNVBAMMCmlkcC5zbHUuY3owggEiMA0GCSqGSIb3DQEB
-AQUAA4IBDwAwggEKAoIBAQCH3HZR+/s1MtztRDBvDV3NKNtPBoOzl1/N7i8kKOJz
-IS/iz8j2MoEeg/hPiHnR1wiT2awvX6NjGXiftm45yL4dvINaOsutJd50kF3ORvoA
-EzdNYxN57A2xXOqeJ/NF9V/LmJycSwaH5Uov82GBcUyyJp7pyALnURiVtnrr7KSA
-A3vYhCS1HZEB+hENLcAIjENx6NvT+lHq4uB3xMXpATzQzqPSkVmR3go6ttWwcAlt
-/hvv55xeEvHY87dzSB7yIyBc+sFKfUDKDZMZ+X+N02JRQn7YcZ9PHEkvhry4xXIc
-3s+fEtLa+PcpmMPAvrfDNVwogYdWUpFENk8DA/McyIENAgMBAAGjWzBZMB0GA1Ud
-DgQWBBRnrwihdgBjVHIfk4DqJBgYzleJHDA4BgNVHREEMTAvggppZHAuc2x1LmN6
-hiFodHRwczovL2lkcC5zbHUuY3ovaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQEL
-BQADggEBACX0aNF289pgx5yzRMoQ8+gnStiv+DaZXK5MSld9ueCT4GXRQoYaIBur
-p5nHnnSqE8mV9Px2Y2WWriROl+Ez23GMsdKe5hJ4hnGKXgTXOfBsg1saNiy7hwlc
-53Q77UG/c2lX+HJre1Fe6EtkKsYValz8FBd8Ol4ZRfqqFPDz7LE6s/iOsU4l6NmQ
-ZHmIUo1tMkq8tI2+YbFOQvt1NaQC9AebMkSpCCDxbd2oE6BPKgusAG5txaduRsYd
-q2orTQn5Ui96royjiZ1ea31UvjtVyvEC/cTgn/m3SXKAhb6PVDshZJw/N10Jgyf/
-cLDQpWR2pyhtxC/jL0f5CuQPpvI9Tzw=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp-cro.slu.cz:8443/idp/profile/SAML1/SOAP/AttributeQuery" />
-    </md:AttributeAuthorityDescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="en">Silesian University in Opava</md:OrganizationName>
     <md:OrganizationName xml:lang="cs">Slezská univerzita v Opavě</md:OrganizationName>
