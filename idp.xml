@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-06-03T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-06-05T11:23:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>4BZVhO+ScSvGsxoU8uIKz4D1iL1YfuaygfeOWZuxY10=</ds:DigestValue>
+      <ds:DigestValue>+RimThnD8jueW4sJEnLWGLZKmGlRQGgLS0/vK0bF29M=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-aEq97Cj6ystvJisnwEcC8L+tUE77wxscilhcmhoEQVqFykkvm4QRESEbVwb6dw0f0LI3hBsUDAd/
-gH4rIPSi7CdFQHNxmKVZ/oG7PJ7PqgqWOjOf0t8Qk+jPMSaaEPdLYNVtDL9jLYDIX9AxrJB8Xdv9
-mlOFLkcvi5CL3gw4wMHbSxqt7IxTJdTn0a+3PG5WoBwbtD8Xixpy9xmjbHzESB8oP87qQq9lcYFn
-UBBHvZ4eQ5mSy1keODs4RSZXXUEwz6CVGf4izJJHha7gYA4/LpwCRiOFvzWeWEMGP8ZY5iruaLLC
-0lJwiMtLup40DLAJr96I8gU4scbjYOYfac7UkQ==
+neblhSg8z0ui0I1FZkKW6KOD35el5GveX8McKQfDMjju0nxx5cQpvj1RPxpLk1iszNdAr6c8mDqJ
+tn0zQAPBmBHOXl6fQuC9Ax9zcAv4plwb8IcUkCLSm7quWLIwfASukVoQ2HQoqhZaZ0n9DSiWvdSS
+TLXz5TiMt5FAEQ4jd6l6jh5vJOojCY4VLAyEehnpx+ZzF47trWHEA0EiwHSRW00Y1Gn/BZzCz58w
+TL3TZ5siH+wV7cpZd+g5rLDMXU9KZyFdT6GIH0kqctyyw3u4GzuWP+yCnBdSzor/pq4nRsk8phVb
+qVU3jGQnAZiiPj/R7cdWhAbq2/gMj5v2+BGfOQ==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -2735,7 +2735,7 @@ dEJo3NfnYEq1mm7NJTrrweoGWle3If4szwZarBlxhkd2iItON4XVPqlxosEk8iWQ
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">jcu.cz</shibmd:Scope>
       <mdui:UIInfo>
@@ -2817,101 +2817,22 @@ FcCuzEOMSqDr2DwNtwLU1t+o7IUndlfTGRBD+LfXQBWxuEo=</ds:X509Certificate>
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://helium.jcu.cz:8443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://helium.jcu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://helium.jcu.cz/idp/profile/SAML2/Redirect/SLO" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://helium.jcu.cz/idp/profile/SAML2/POST/SLO" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://helium.jcu.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
     <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://helium.jcu.cz:8443/idp/profile/SAML2/SOAP/SLO" />
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:NameIDFormat>urn:mace:shibboleth:1.0:nameIdentifier</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://helium.jcu.cz/idp/profile/Shibboleth/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://helium.jcu.cz/idp/profile/SAML2/POST/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://helium.jcu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://helium.jcu.cz/idp/profile/SAML2/Redirect/SSO" />
     </md:IDPSSODescriptor>
-  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
-      <md:Extensions>
-        <shibmd:Scope regexp="false">jcu.cz</shibmd:Scope>
-      </md:Extensions>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDHzCCAgegAwIBAgIUT352/cuSCyIoBXXvytfYj0l2xeAwDQYJKoZIhvcNAQEF
-BQAwGDEWMBQGA1UEAxMNaGVsaXVtLmpjdS5jejAeFw0xMDA1MDMwOTQ1MDZaFw0z
-MDA1MDMwOTQ1MDZaMBgxFjAUBgNVBAMTDWhlbGl1bS5qY3UuY3owggEiMA0GCSqG
-SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCVeR3QqDjqBUa8PvQHUCAYk16vc/tCuGH0
-330jNRPCXp4/OBBH8Z/jNe1ikVgzYXnN8qgf8ZqVXMDhdZD4T2Ewhhg1ZoqasCIV
-8lGFGCdGkQlTfM1NZWLcXtC/aB99EtV9yXowIHWZiggW5PLB2ggGxn4hk7EMEywa
-IKJ+rUSzx0cXgxNQMrHTcYtCVOlwKWbAk8l9ZlKllSgekwyhXknx9kXAIkr12N3h
-wHixnVqaMNAHkb4Ghcx66HTByRQhvh5g5mDcGV9ZhwSTPrXsfRyD06P7fVzCZjV8
-FiuNxgdNQ9Q+PvZcy/sH5Gxdu1i4VaJvPK9Gk3jCnDaXmBTT/UwlAgMBAAGjYTBf
-MD4GA1UdEQQ3MDWCDWhlbGl1bS5qY3UuY3qGJGh0dHBzOi8vaGVsaXVtLmpjdS5j
-ei9pZHAvc2hpYmJvbGV0aDAdBgNVHQ4EFgQUl6GU8/XvLl9I4+OaJjqAEW22yY8w
-DQYJKoZIhvcNAQEFBQADggEBAC5Rgn6IZByCrNOSqggl7j1T254ZzUKauG7joWW8
-HvrPcYWQsl4OU+FHErx4GAwOq9YpKpoJzcLGX3XBCJyo+Pw9ohbqWAgyBCYyBTQh
-mWV8+7BTWEZ6RCnGKcWfNRGg8mEMB6y+7YNdm+60YdCrbVasOstlDKoqTOa1gwD8
-fKpd1AzFldX7PwxwagGWYycYkSDXoS7nADEFzgn3cGlU9QnW4YtBBp30sOJjGgTj
-Qm2JkTDk/UKsYKYDrHoZ4vk71XTFLAgsCfBE2/2VJpIkOutXtqz78E07C4y2+4O3
-FcCuzEOMSqDr2DwNtwLU1t+o7IUndlfTGRBD+LfXQBWxuEo=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDHzCCAgegAwIBAgIUT352/cuSCyIoBXXvytfYj0l2xeAwDQYJKoZIhvcNAQEF
-BQAwGDEWMBQGA1UEAxMNaGVsaXVtLmpjdS5jejAeFw0xMDA1MDMwOTQ1MDZaFw0z
-MDA1MDMwOTQ1MDZaMBgxFjAUBgNVBAMTDWhlbGl1bS5qY3UuY3owggEiMA0GCSqG
-SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCVeR3QqDjqBUa8PvQHUCAYk16vc/tCuGH0
-330jNRPCXp4/OBBH8Z/jNe1ikVgzYXnN8qgf8ZqVXMDhdZD4T2Ewhhg1ZoqasCIV
-8lGFGCdGkQlTfM1NZWLcXtC/aB99EtV9yXowIHWZiggW5PLB2ggGxn4hk7EMEywa
-IKJ+rUSzx0cXgxNQMrHTcYtCVOlwKWbAk8l9ZlKllSgekwyhXknx9kXAIkr12N3h
-wHixnVqaMNAHkb4Ghcx66HTByRQhvh5g5mDcGV9ZhwSTPrXsfRyD06P7fVzCZjV8
-FiuNxgdNQ9Q+PvZcy/sH5Gxdu1i4VaJvPK9Gk3jCnDaXmBTT/UwlAgMBAAGjYTBf
-MD4GA1UdEQQ3MDWCDWhlbGl1bS5qY3UuY3qGJGh0dHBzOi8vaGVsaXVtLmpjdS5j
-ei9pZHAvc2hpYmJvbGV0aDAdBgNVHQ4EFgQUl6GU8/XvLl9I4+OaJjqAEW22yY8w
-DQYJKoZIhvcNAQEFBQADggEBAC5Rgn6IZByCrNOSqggl7j1T254ZzUKauG7joWW8
-HvrPcYWQsl4OU+FHErx4GAwOq9YpKpoJzcLGX3XBCJyo+Pw9ohbqWAgyBCYyBTQh
-mWV8+7BTWEZ6RCnGKcWfNRGg8mEMB6y+7YNdm+60YdCrbVasOstlDKoqTOa1gwD8
-fKpd1AzFldX7PwxwagGWYycYkSDXoS7nADEFzgn3cGlU9QnW4YtBBp30sOJjGgTj
-Qm2JkTDk/UKsYKYDrHoZ4vk71XTFLAgsCfBE2/2VJpIkOutXtqz78E07C4y2+4O3
-FcCuzEOMSqDr2DwNtwLU1t+o7IUndlfTGRBD+LfXQBWxuEo=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="encryption">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDHzCCAgegAwIBAgIUT352/cuSCyIoBXXvytfYj0l2xeAwDQYJKoZIhvcNAQEF
-BQAwGDEWMBQGA1UEAxMNaGVsaXVtLmpjdS5jejAeFw0xMDA1MDMwOTQ1MDZaFw0z
-MDA1MDMwOTQ1MDZaMBgxFjAUBgNVBAMTDWhlbGl1bS5qY3UuY3owggEiMA0GCSqG
-SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCVeR3QqDjqBUa8PvQHUCAYk16vc/tCuGH0
-330jNRPCXp4/OBBH8Z/jNe1ikVgzYXnN8qgf8ZqVXMDhdZD4T2Ewhhg1ZoqasCIV
-8lGFGCdGkQlTfM1NZWLcXtC/aB99EtV9yXowIHWZiggW5PLB2ggGxn4hk7EMEywa
-IKJ+rUSzx0cXgxNQMrHTcYtCVOlwKWbAk8l9ZlKllSgekwyhXknx9kXAIkr12N3h
-wHixnVqaMNAHkb4Ghcx66HTByRQhvh5g5mDcGV9ZhwSTPrXsfRyD06P7fVzCZjV8
-FiuNxgdNQ9Q+PvZcy/sH5Gxdu1i4VaJvPK9Gk3jCnDaXmBTT/UwlAgMBAAGjYTBf
-MD4GA1UdEQQ3MDWCDWhlbGl1bS5qY3UuY3qGJGh0dHBzOi8vaGVsaXVtLmpjdS5j
-ei9pZHAvc2hpYmJvbGV0aDAdBgNVHQ4EFgQUl6GU8/XvLl9I4+OaJjqAEW22yY8w
-DQYJKoZIhvcNAQEFBQADggEBAC5Rgn6IZByCrNOSqggl7j1T254ZzUKauG7joWW8
-HvrPcYWQsl4OU+FHErx4GAwOq9YpKpoJzcLGX3XBCJyo+Pw9ohbqWAgyBCYyBTQh
-mWV8+7BTWEZ6RCnGKcWfNRGg8mEMB6y+7YNdm+60YdCrbVasOstlDKoqTOa1gwD8
-fKpd1AzFldX7PwxwagGWYycYkSDXoS7nADEFzgn3cGlU9QnW4YtBBp30sOJjGgTj
-Qm2JkTDk/UKsYKYDrHoZ4vk71XTFLAgsCfBE2/2VJpIkOutXtqz78E07C4y2+4O3
-FcCuzEOMSqDr2DwNtwLU1t+o7IUndlfTGRBD+LfXQBWxuEo=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://helium.jcu.cz:8443/idp/profile/SAML1/SOAP/AttributeQuery" />
-    </md:AttributeAuthorityDescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="en">University of South Bohemia</md:OrganizationName>
     <md:OrganizationName xml:lang="cs">Jihočeská univerzita v Českých Budějovicích</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">University of South Bohemia</md:OrganizationDisplayName>
     <md:OrganizationDisplayName xml:lang="cs">Jihočeská univerzita v Českých Budějovicích</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="en">http://www.jcu.cz/?set_language=en</md:OrganizationURL>
-    <md:OrganizationURL xml:lang="cs">http://www.jcu.cz/?set_language=cs</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://www.jcu.cz/en/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">http://www.jcu.cz/cs/</md:OrganizationURL>
     </md:Organization>
   <md:ContactPerson contactType="technical">
       <md:GivenName>Jan</md:GivenName>
