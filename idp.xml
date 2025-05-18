@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-06-12T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-06-14T09:25:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>2Y+3sLuJJ06tXXHw7EhnVPL974g6qFy6DWihOP6YAUc=</ds:DigestValue>
+      <ds:DigestValue>SXUu1Wa2JLGhpKWPsxZ9mWtH0diCwZennQw3GSpQvVA=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-f5vNWAx7Aysxrf9lfjzr2wqo1wrWePoFSjzY/DOElgzJsNj88S/lDd9EStw0F1/wEhH8jnW2wz92
-Oxa8rQXmZ7zF4hsgVNoVrz4nCv96WBj70V2s+e7yJ1/fLkuv0+yKYrB/9+MuGdjxL7hcm7V2Tm1X
-v8I/+Jrj1awIw3RGAwU+WdM8VGvdFb32KBMy1HU0Xux/xwQuiU5xYscUZuFxMSMqZAfS02PYz1Pj
-gy1pS9W+1v1kwM58ToUIeidd/TRCl5QnCAPzSqwozakGIoKkJ8jOKAkh0aX8fsNZDVqJOeeHskhB
-aSb6SBB1UGWgTf2W6Dzv/8ztfqA3PlX2xpxK/g==
+CV9ykKdq58Vxg0Zrw7dFxf3iWPS/kGPE2nUG8YwB1NeigFLAqj7BNOu5VmxG3UqHjxpOfer7eFcl
++FCT6cojhTNIJ13ZXS9uoZXyxHpOAok1BsfHogxba4BD8jh3mTlnqgHQDmy1hg2nmkuYBZ0JEI88
+9tEs02wIXUClK23czq45HtA/rNPTbi8UneWYJe5pWVk45p0WgvI/2nWSIqMFhK3LxSKwHQImdmRA
+Ehs+mE0bLa6vWBrEv7L/7GgLSaGXI1RGSAoH2UIo9PHB3KItg9GItbsE4vaQKeAcxM0NjpHNTHpY
+KQIrBnfsDQUIpPc4UpNKFiWieDgUxMFzoFzqcQ==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -6131,7 +6131,7 @@ F11YVpxSs4xF2g3FevRd2pBLky9g8bZjTvTRVV5NYkdkr8EtaR8YXvisYG/9xsBq
         </saml:Attribute>
       </mdattr:EntityAttributes>
     </md:Extensions>
-  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:mace:shibboleth:1.0">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <shibmd:Scope regexp="false">mendelu.cz</shibmd:Scope>
       <mdui:UIInfo>
@@ -6197,73 +6197,13 @@ eBFJcQNHXyofYwsQlK2LyCnlOlpQUtbXe5/BcXKA9pp+RnjZAB9dVpY/KJ6hy6BQ
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.mendelu.cz:443/idp/profile/SAML1/SOAP/ArtifactResolution" index="1" />
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://idp.mendelu.cz:443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
-    <md:SingleSignOnService Binding="urn:mace:shibboleth:1.0:profiles:AuthnRequest" Location="https://idp.mendelu.cz/idp/profile/Shibboleth/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.mendelu.cz/idp/profile/SAML2/POST/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.mendelu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.mendelu.cz/idp/profile/SAML2/Redirect/SSO" />
     </md:IDPSSODescriptor>
-  <md:AttributeAuthorityDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:1.1:protocol">
-      <md:Extensions>
-        <shibmd:Scope regexp="false">mendelu.cz</shibmd:Scope>
-      </md:Extensions>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDlzCCAn+gAwIBAgIJAJDI3wy+XpHDMA0GCSqGSIb3DQEBBQUAMBkxFzAVBgNV
-BAMTDmlkcC5tZW5kZWx1LmN6MB4XDTE2MDMyOTEwNDE0MFoXDTM2MDMyNDEwNDE0
-MFowGTEXMBUGA1UEAxMOaWRwLm1lbmRlbHUuY3owggEiMA0GCSqGSIb3DQEBAQUA
-A4IBDwAwggEKAoIBAQDZVvr0rRSzqYtQwJFLlnemOD8otdNMGZvQg3wMF+iiasJH
-zRvjQSK/faikBr4bg4srewOUW0dPAmB5tQWxRAs/Nm2v9vwalHktD97ccZ8J9oHo
-VMsm7JKiGFozkVRHXD//EHzD+UwtuwNZvrwTysGSnIFMg7GVFSpi0ByvLu+To5gl
-5mjNppiMqRXDnKiNtbUncwD2U+0/h5/GN0flI4mNZocR2DY2qyYGXF41MMxbsUjI
-cIghx2H2vWdF5G1YTY6qye6E8m9xVClQc/KNm00YqrjIElFwxeP0zi5GV6mO8PEP
-Ex99Q1yyos8lyQpmM37MvLnX2B8g/fD1cYdowDEDAgMBAAGjgeEwgd4wgbwGA1Ud
-EQSBtDCBsYIOaWRwLm1lbmRlbHUuY3qGJWh0dHBzOi8vaWRwLm1lbmRlbHUuY3ov
-aWRwL3NoaWJib2xldGiCEmFsaWJhYmEubWVuZGVsdS5jeoYpaHR0cHM6Ly9hbGli
-YWJhLm1lbmRlbHUuY3ovaWRwL3NoaWJib2xldGiCEG1iZGV2Lm1lbmRlbHUuY3qG
-J2h0dHBzOi8vbWJkZXYubWVuZGVsdS5jei9pZHAvc2hpYmJvbGV0aDAdBgNVHQ4E
-FgQU1I2Hy25eKS9D3EIf+kjHt+7tbwgwDQYJKoZIhvcNAQEFBQADggEBANgEHcEi
-l6c+DVsixfpPKloIAaGTnd6rk3VrEoW22zhPmEYh8TZiZl1Ie2Ldbpbql/b7C8iK
-T/QyVEayGDuyLgehZTfLshC+EWtxsWT82QONdmhVutLYc5HEMBEvuiHYuQwqX3FS
-jJNONzPvn6QsiC5LevJmX9I3vgIeEF3wbOgwdqnfzIl5k4DuGhDNdpv9iy3zwM+H
-ly0Ky8TPxWhwkcZo83muhNJk5LuZG8VblckmvsGR27bt9wty60PqE1Wb4zlguTzY
-eBFJcQNHXyofYwsQlK2LyCnlOlpQUtbXe5/BcXKA9pp+RnjZAB9dVpY/KJ6hy6BQ
-/9z9n5iDjFjm8dk=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="encryption">
-        <ds:KeyInfo>
-          <ds:X509Data>
-            <ds:X509Certificate>MIIDlzCCAn+gAwIBAgIJAJDI3wy+XpHDMA0GCSqGSIb3DQEBBQUAMBkxFzAVBgNV
-BAMTDmlkcC5tZW5kZWx1LmN6MB4XDTE2MDMyOTEwNDE0MFoXDTM2MDMyNDEwNDE0
-MFowGTEXMBUGA1UEAxMOaWRwLm1lbmRlbHUuY3owggEiMA0GCSqGSIb3DQEBAQUA
-A4IBDwAwggEKAoIBAQDZVvr0rRSzqYtQwJFLlnemOD8otdNMGZvQg3wMF+iiasJH
-zRvjQSK/faikBr4bg4srewOUW0dPAmB5tQWxRAs/Nm2v9vwalHktD97ccZ8J9oHo
-VMsm7JKiGFozkVRHXD//EHzD+UwtuwNZvrwTysGSnIFMg7GVFSpi0ByvLu+To5gl
-5mjNppiMqRXDnKiNtbUncwD2U+0/h5/GN0flI4mNZocR2DY2qyYGXF41MMxbsUjI
-cIghx2H2vWdF5G1YTY6qye6E8m9xVClQc/KNm00YqrjIElFwxeP0zi5GV6mO8PEP
-Ex99Q1yyos8lyQpmM37MvLnX2B8g/fD1cYdowDEDAgMBAAGjgeEwgd4wgbwGA1Ud
-EQSBtDCBsYIOaWRwLm1lbmRlbHUuY3qGJWh0dHBzOi8vaWRwLm1lbmRlbHUuY3ov
-aWRwL3NoaWJib2xldGiCEmFsaWJhYmEubWVuZGVsdS5jeoYpaHR0cHM6Ly9hbGli
-YWJhLm1lbmRlbHUuY3ovaWRwL3NoaWJib2xldGiCEG1iZGV2Lm1lbmRlbHUuY3qG
-J2h0dHBzOi8vbWJkZXYubWVuZGVsdS5jei9pZHAvc2hpYmJvbGV0aDAdBgNVHQ4E
-FgQU1I2Hy25eKS9D3EIf+kjHt+7tbwgwDQYJKoZIhvcNAQEFBQADggEBANgEHcEi
-l6c+DVsixfpPKloIAaGTnd6rk3VrEoW22zhPmEYh8TZiZl1Ie2Ldbpbql/b7C8iK
-T/QyVEayGDuyLgehZTfLshC+EWtxsWT82QONdmhVutLYc5HEMBEvuiHYuQwqX3FS
-jJNONzPvn6QsiC5LevJmX9I3vgIeEF3wbOgwdqnfzIl5k4DuGhDNdpv9iy3zwM+H
-ly0Ky8TPxWhwkcZo83muhNJk5LuZG8VblckmvsGR27bt9wty60PqE1Wb4zlguTzY
-eBFJcQNHXyofYwsQlK2LyCnlOlpQUtbXe5/BcXKA9pp+RnjZAB9dVpY/KJ6hy6BQ
-/9z9n5iDjFjm8dk=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:AttributeService Binding="urn:oasis:names:tc:SAML:1.0:bindings:SOAP-binding" Location="https://idp.mendelu.cz:443/idp/profile/SAML1/SOAP/AttributeQuery" />
-    </md:AttributeAuthorityDescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="en">Mendel University in Brno</md:OrganizationName>
     <md:OrganizationName xml:lang="cs">Mendelova univerzita v Brně</md:OrganizationName>
