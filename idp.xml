@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-06-25T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-06-26T23:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>/sg4i4lnSL2Fi6j44rv9nz/kTU4MgavlS4dyF/7ghJ4=</ds:DigestValue>
+      <ds:DigestValue>/m/QbUtMeazICaL9g1BzlvlOQrsLnYSiYJ4M6mbKvIw=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-0FiKv9Mhx7CM1agUjUy2uRhsoGMGS6gvfsC9XD1ksmxQ2eId7EnEKbesZsrh8ZXZNH6VfbTPfNBA
-KFyLoZnFTh+RNK9IHgxN+McYvNLnuqd5zOI/cHoVPg4u31Prx/Lya/1l/bUqUJ1Tf6/mBtVqIp2Q
-wf+YiWQ2puSLjoNQO7CdQLsFi5yquxcvo6ObHpiJiohmGoYwrSVyMrhRLNvs8IvHl8UuvEfVisqx
-E1EBhuygv20nhOPwSt6j1EuKYTOUk68vnolHF5ZUfP58mFrpSzMbA96TnurS2Z+4QmaU9/iXKkY+
-RpPLDgrggh7y7z60xiHYstqNlstQXRbWSnu5aA==
+6oBXGGUZjWU1Wy9JX3KQHC8aCcExZCB9HfHZQs386lNZF40aBJ3Co07+H8BDsHXm3OkNfPgIft4X
+nB74pHvYky3NPp6nkOjMBRtNI7gUqsuKE3IDq/cNkrXm9cACTfQmDKIxaEihOeu1+dflDhsMVRay
+bOJKTXzzKvk5LqQJ3FxlE01K0tf5Cr2rQLpV+tdb+BXnOA++/Dxeano788fsBqPEiflZwh+RFVzG
+CzSV4PbDVj7ObCIOEWnqEb3q2Me9ngLQQxYlJdExoRA+k+/XXoWJPcY/PckA6JCcpSiCkgPF6FRH
+WxpFC09VR7lUvHJH8ZhFVMwjiqxbC+tpg79hEQ==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -7276,6 +7276,63 @@ Xv3M/2eX67h4EZHblw1NqkB8DRJe6t3ksKXjB255G2g=</ds:X509Certificate>
       <md:GivenName>Stanislav</md:GivenName>
     <md:SurName>Teplik</md:SurName>
     <md:EmailAddress>mailto:teplik.stanislav@svkpk.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://idp.ucl.cas.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/avcr</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">ucl.cas.cz</shibmd:Scope>
+      <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Institute of Czech Literature of the CAS</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="cs">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Identity Provider (IdP) for Institute of Czech Literature of the CAS.</mdui:Description>
+        <mdui:Description xml:lang="cs">Poskytovatel identity (IdP) pro zaměstnance Ústavu pro českou literaturu AV ČR</mdui:Description>
+        <mdui:InformationURL xml:lang="en">https://www.ucl.cas.cz/en/</mdui:InformationURL>
+        <mdui:InformationURL xml:lang="cs">https://www.ucl.cas.cz/</mdui:InformationURL>
+        <mdui:Logo height="336" width="1053">https://idp.ucl.cas.cz/idp/images/idp.ucl.cas.cz.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEJDCCAoygAwIBAgIVAIKj/Ku2rYS5bJOYghq3z0/AIkZeMA0GCSqGSIb3DQEB CwUAMBkxFzAVBgNVBAMMDmlkcC51Y2wuY2FzLmN6MB4XDTI1MDUxNTA4MjA1MloX DTQ1MDUxNTA4MjA1MlowGTEXMBUGA1UEAwwOaWRwLnVjbC5jYXMuY3owggGiMA0G CSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDcHnHcpikWmVoaNdnM0tPAJgfho2Uv gaIjKvSrM/qNzAnN+H+cwWptKFTSKKOL1pqGPSIJHHb17z3cv5Td0E9UfBwXBhmo PxEJ7F4zCAUodOks8o3j6qnt5wmpS7QojXCQm0NeH3HqTavuBh3DUIbJP2ZDqtkB eRYCHVCS5O77EyYez/Dy/bEbEhasQsnB6yDZXbAr74PtUMyuJ6wT2WZvScI1emA+ b34LPCu9eBXqyCqZoEjnzChxtyUlAsFHCoMDLRFWZhW4+9l6VdU6yIl3YMcud7b+ 4kDtcsYwEhGanEG1TUy417Of+Ighy1vfuaJvcokXl8YccJhx6naqgVwjhFKt4Kr8 G9yRgQmXIywzZBUjT4bSDu2CR6XMWNzUZ0qXx56GwfncTv97mvsoPsVXghFA6wWs GA5FZmLlHjXjKmqsy7mUdI+qcOkvoyK8niIb5CQZyfEa5/ktXSUB2x5zwQXEz3BV DbAH32uQlZ/lwmZz+gTUGi24a2HJHwGEJJkCAwEAAaNjMGEwHQYDVR0OBBYEFKHX KKyTkHcAyDsMyxFJeNhqy6C9MEAGA1UdEQQ5MDeCDmlkcC51Y2wuY2FzLmN6hiVo dHRwczovL2lkcC51Y2wuY2FzLmN6L2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEB CwUAA4IBgQBVhP6Uw32DyVBSB2On5A6B814C6SjxoLuVpHT69yB3z/Nb9Ul85Bi+ iRPMJ9Jb2otGPR7g44IEE99PZmXhAtx8kx7oKxFOCp+WJjvRokLjmjeb6TIywANI mtK6DKWGHZyaiMZDGJ2pXS9zdFmjcEQlLVhs+pBYbz+7B9OBPRPtJElRhJ9llqXt HLqMJeDqhc0QgaCooIFT9tHFIsHUJmxQrxMauJEMAlvkeKoUM+vfJU5MWwuQhUmw APTJog/IY8oR2sifl3qqQ7+dosPKkhZjY53HfNdt0OhXIF1BetXqDkq1y50gy2lO DciPGWJDt0219avUV/IxgCfFQYiXqGIk8vFBDvaaWjYRpDU/GASy7ZlS59KRZazp AamPn6cxm42pFNK9VPJJM8KgNqiuX2xb/r+139jJ18qjQ4ZNprRcJX5E/CKxZFib +d7MLevrzYWUdJzkNavYrdo8rDpIH9GJmYGXsiSN41BBjgLXO/wUGhsZxVkiKu1Q UD/7gk9favQ=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEIzCCAougAwIBAgIUK4Cz05QZoM+5isCLaBi5AUIV5LUwDQYJKoZIhvcNAQEL BQAwGTEXMBUGA1UEAwwOaWRwLnVjbC5jYXMuY3owHhcNMjUwNTE1MDgyMDUzWhcN NDUwNTE1MDgyMDUzWjAZMRcwFQYDVQQDDA5pZHAudWNsLmNhcy5jejCCAaIwDQYJ KoZIhvcNAQEBBQADggGPADCCAYoCggGBAKbs/6olNNK7J6QXjb6UN9CTjYvvHQXe c2wzyL158dGJTsu21WeDF2cPFL65VE6UuNqzUB/SWcWpS0jGP1Tzj5XV0UolTphI T+k5EbI1kyUbhyXeqG2eh3KrZZOP8Vn364YgUvdmS6bpoYrAYCP85+HLxbjxNSlD ENefKqZd1pyHDWvfLHjhxQIemKtBAYdLlHipk9Dbt0c25a7Nnco/IW2zZE5EqLjG GdgriJGKYOHu0xBCQ+CCqHAk3ckQ+1RAqRmQhdEWDA6UbJUu+fpUhwL5a6FaEeOq w18m/OiUDo/qK3sVp5/IvNAGwHvHLCnOfoSCkPPVdNf+KISHLWAJN7WBdZGuoXNA 14t8rZQKaDABuqAun6vqEKgBx2hA+9XPBX3/hvWY7Qi/58s2TIPkPC9Afe+HssWc us54oM6wNWMPVeqf0Yyez/YoHk+0iHeNMwkBsmRZ8QEcBE0/AHUw7HtSDd4MGVqn oo8LSoTS8a2SHQfC64yzdVSDoZERZQYcPQIDAQABo2MwYTAdBgNVHQ4EFgQUFn1x KBqE9xP0532M8BwYOhQQtIUwQAYDVR0RBDkwN4IOaWRwLnVjbC5jYXMuY3qGJWh0 dHBzOi8vaWRwLnVjbC5jYXMuY3ovaWRwL3NoaWJib2xldGgwDQYJKoZIhvcNAQEL BQADggGBAEEhjPgP2CrwvEuSoCYCFfMLK0wE9tUMRivErAgnBLpALAi7g6ER5XaQ zdMynjq3wexsydWv9uILsUSF9COQu2d+gYz2L4m5oP8X4IBpT6FxbU6ZwdsYRvlv 4nmT7bLt7dooVTR46AtXU+P74euKsBJeeYXml8c03A9NoEXCa5+IK80p5i5Oi1mr qgC9ZVS4jvpC130wa9vdqsR6wUXxT/2nwIUx7h92r25G2ChBh+cnRsstESO7o+Pb Zd680OtBUQFmsh2IAFVmibSVg1odM40WRG2Bg4IfPxnsi2hRecpglaeeBO7RLFzP 9/+csSjqGI+dU/zMTK3Y0I89jmbo6Fh3h+dCLcANX0vEIxv0c/Gq7pM+DzaTOnva UNKxmCJc73IDnZB8VpdcvFsKJKT7x1Qa8Ks63yhyVmD2m2fPbmfyiVLtqPx/BlBf dlsSxO4Mo1WVPbojMpXojPOdI4knUame61Uj9oc23yze9NugTkPMoxP1Li/4oBt1 9G5yJVZOBw==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ucl.cas.cz/idp/profile/SAML2/Redirect/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ucl.cas.cz/idp/profile/SAML2/POST/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.ucl.cas.cz/idp/profile/SAML2/POST-SimpleSign/SSO" req-attr:supportsRequestedAttributes="true" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Institute of Czech Literature of the CAS</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Institute of Czech Literature of the CAS</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Ústav pro českou literaturu Akademie věd České republiky, v. v. i.</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.ucl.cas.cz/en/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.ucl.cas.cz/</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Jan</md:GivenName>
+    <md:SurName>Oppolzer</md:SurName>
+    <md:EmailAddress>mailto:jan.oppolzer@cesnet.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://idp.udu.cas.cz/idp/shibboleth">
