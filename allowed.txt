@@ -170,3 +170,4 @@ https://www.mvk.cz/auth/saml2-idp
 https://mkvdf.cz/idp/shibboleth
 https://www.knihzdar.cz/auth/saml2-idp
 https://idp.ucl.cas.cz/idp/shibboleth
+https://knihovnamilin.cz/idp/shibboleth
