@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-09-10T09:44:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-09-10T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>aLu5YgC6JRchfGi08A933mjFwjUveQzDPuJobpEw8+w=</ds:DigestValue>
+      <ds:DigestValue>+PW1b0FiN4qnz1937StqTsr0ue/e7gXAlFKwTjrQDgc=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-21cQqGdTcSZHrTRk0H2ktC4Z6jbMKkhyR120KIvS6NotOyI8J/DmZkoZVcm92Di23byTaZDn7v0X
-RTEnoLoPvHCIRVXDjQuw0ih3w59sDd97tOmWFf5IiT/G24dR6fHjvu2kz9Hpax+jLTOsF+ebT2wJ
-3OcJvx6UG5LQhVk2pZEac0FZMgT9Y++zOsKac/4lwC8Tc4c5KGkMkgpYy0hpCQqMTAmyDHhXutF4
-POa9KCVrwjNZa0O9/RsKpz4SnqKwEat6mAvaKOotgf7Z0cB85WkDg9Nj4s/vmQ4HhkBklU2Xw2ba
-xf+R/PrE7w37pIEf9naMFqtOad/kp1Lx3Ta1FA==
+XxmcjjjBkl6DSmCKfhbmbV0c4VbpMBCKWxUWgPOZsaWIf7EBlUT0cHC5Aw8RhgncFXdaWmQFl9FU
+Wav4jgE67S7xaKH/nddXHZqKlWbtPLhh/XFOggyeQBpM4H3cpa0zLwLI35kQSndv5s8dYEHrz+gH
+aIggXewHO1yxLRK3EC8BmuKTOgi6wadlBc1C3pHRy/rxciMusStCoVyAOLImaRWpTDdU13vKR5mg
+eYnwby1udrmIiUzXt/NJ/L1zoAuNYUFsaSLKD9d4lpW/a3NcZqxCl91sInPcztUvnBelwhzquzaj
+jrQ3kJ5i38JhdCDkX/OlDLsm0f/+m37GnXkjRg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -14835,8 +14835,8 @@ nH0Q6NVuH5v93Y3fOM0wIgosOcrB90QrXq5BpWu+XL1VxhyPnSxTf/teOIy3hw==</ds:X509Certifi
         <mdui:DisplayName xml:lang="cs">Národní knihovna České republiky</mdui:DisplayName>
         <mdui:InformationURL xml:lang="en">http://www.en.nkp.cz/</mdui:InformationURL>
         <mdui:InformationURL xml:lang="cs">http://www.nkp.cz/</mdui:InformationURL>
-        <mdui:Logo height="45" width="205" xml:lang="en">https://www.en.nkp.cz/++resource++plonetheme.nkp.images/nkp_logo_en.png</mdui:Logo>
-        <mdui:Logo height="45" width="187" xml:lang="cs">https://www.nkp.cz/++resource++plonetheme.nkp.images/nkp_logo.png</mdui:Logo>
+        <mdui:Logo height="40" width="200" xml:lang="en">https://prx01.nkp.cz/images/nk-logo-en.svg</mdui:Logo>
+        <mdui:Logo height="40" width="175" xml:lang="cs">https://prx01.nkp.cz/images/nk-logo-cz.svg</mdui:Logo>
         </mdui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
