@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-11-02T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-11-04T00:35:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>fDimC7N4VSJg85E+ZNjx/i8HOkNEmO7Rn6H6RFsuTU8=</ds:DigestValue>
+      <ds:DigestValue>7VkE1OaNCY+dUZUr73SeBS4qWL6Vmr4Tk5fTEYBzBFk=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-AMkEZ0lw+F4zy2DW7MTsJ4By1WyV19caVBv/fML+NAoYKm3juKP0XfBnSAS/4gh/vcqD3eAvGLHg
-r93KxbLG1AtKIxRAO6DvcyzjWEN82lYbINByfnj1u7F0RFsOOJ7ZwDSyKLq37X+L+5jhgV9m5W8m
-looDXiX1T/PjPxPCkcXMYXIt0U9AU/eL5wc9b43TL8B5807d/vv6teHAksOSVGQcDHAJ4j38cpVY
-c4/P5VXTgQ5QkNL2UOqNjPzr9e+ws5Zi/w9daLo8ALdvrwFFUUOckr+Lwo5LnFySK78MA2w0QPOo
-HONpXsgdKU5t8IYzUfYkjaTKfV5oqsGkAayE5A==
+Ns3P8ekeEZGiD6NkHrwKIyHe6b/FEvJVJ/LVbbeUF+Cbci/qGWSi5Pi8Y4KJmpEhIBaKL/QVIDOS
+KKdbytNYgBUdHmlK6MKwZURh3pUAZF2hiqMNG+MzMeaSDao24JQw6vMcr/qo3D3vQNLqbjGlpC2E
+kZ5BDHwTHOOwIIp0A4tdTS++PLxwfFZLIgFNj3uWE4pmdGpW7Iml6ZCjZU3NfU2UY2Pd94fIPkHD
+pCtLxBwIszBSkpe/DkKvFatK6WnVBj3lpT7TEA8DOAROF/TLyNb7W4SGcpE1H6ft42a642kxjmXn
+zSlkcQA/Oz5jZ5lTMPzOpwduG4YCOY7f4aFXyw==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -14555,34 +14555,6 @@ E7CdvjS4vXIcL+O2rA/y+ATtX1Kqj5agbq1QRd2AbPW5q+KU733P</ds:X509Certificate>
     <md:KeyDescriptor use="signing">
         <ds:KeyInfo>
           <ds:X509Data>
-            <ds:X509Certificate>MIIEGDCCAoCgAwIBAgIVAOvUEYcOaRjKHXAPvdHsbdnoI6OsMA0GCSqGSIb3DQEB
-CwUAMBYxFDASBgNVBAMMC3NoaWIuemN1LmN6MB4XDTIwMDcwOTE1MTg1NVoXDTQw
-MDcwOTE1MTg1NVowFjEUMBIGA1UEAwwLc2hpYi56Y3UuY3owggGiMA0GCSqGSIb3
-DQEBAQUAA4IBjwAwggGKAoIBgQDVZ805RS4QM55lykdgZKC1Sz9sM199s0bcn6Sy
-xSYLyugr0BKB1Xr0PbY3coC4PMEwFxcaSvq3gg8xYCWZb5QOr3pCfFY1dxkeTwnY
-OAXLawf+NuxYM1k/kXS4jrxaN0L0rewjL0BSq35Lf5DLHwWOhACbebB+PE335/jj
-S18kxvFUI/8CA+mshp+G7Mh+fXup9v9CWEEhp4F7AQpbP589D7UdhEuyTUBpj2mB
-VEf7zyQkdF2FmIVGk/aVeDJuJ3ngYALkpKJSNdEpKmVdm8g5skvgc+ozKASf+92f
-DkZrZFIPa+UhlRidqLTQryxj4z70/qOlLN7aqioSZ4wHAMhnrr8/IiOPhNutj+sX
-JFwo9opPZZfncFNkTQ3tmDisYCX13WNJCEdTJY3UxYRpZfqd9NEgVrXPTEMh7nyM
-Llp2YniFlqUSXFejZI2+gkAqoziVisTdodAYK7DqJN6gAxo8j0wd14I7FPSEyIUP
-Omv+sWnXLxacfRf92maCoWYQxVsCAwEAAaNdMFswHQYDVR0OBBYEFIpYleRVSiX/
-fl4IUAt7HxLlxYDOMDoGA1UdEQQzMDGCC3NoaWIuemN1LmN6hiJodHRwczovL3No
-aWIuemN1LmN6L2lkcC9zaGliYm9sZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQBg/6xf
-hyyakGE4o+C6+JWISfip/uETZSIYm9HLjHphUs5N3chHfMPiTcoKMhYq5Rf+CL1p
-2i3qtZXvKF576GKEEkSbPuoA5F03sxXPr1PU+F2iQGiuLPwwANUD7uXoy4j6eTvn
-8MNrnX2LdUpbTQAE6zeUhJIojwWn9uxxt+85x/p+yuwc1eIq7HOAp9yzHmciA6lX
-E8r/XVGpclOOuXQ9HrP1AvT5bWv7LBKF7KxJAmxtoA37+13qFBC0hSTDoZiHJn1/
-jXjnNIy3jttGaj9w5qJirZWA0EyJDdH8BqRLN5ZFjOys2p3aXKvIBOGK3SLLqRYf
-lE2e0tZFmd/BXlky4MAH9DBLFEGbn0PgBMboqh8CvoUU4I9P+slAB8YrLE/csLU8
-8iGs0kFvDfGNv7GqgPJUf8s9B1JvPpD6CmW69HY1Ier3ly0LngSiPKzShPbuVlVB
-jyWcriD3Vh0RIEFDtfVx32wA4lgQguigbO0Vi7dhOHCqTC+earGCWvGUF+I=</ds:X509Certificate>
-          </ds:X509Data>
-        </ds:KeyInfo>
-      </md:KeyDescriptor>
-    <md:KeyDescriptor use="signing">
-        <ds:KeyInfo>
-          <ds:X509Data>
             <ds:X509Certificate>MIIDFzCCAf+gAwIBAgIUCDrOzILCIUYr3TrnUQPEsHWa+wMwDQYJKoZIhvcNAQEF
 BQAwFjEUMBIGA1UEAxMLc2hpYi56Y3UuY3owHhcNMTIwNjE1MTIwNzE1WhcNMzIw
 NjE1MTIwNzE1WjAWMRQwEgYDVQQDEwtzaGliLnpjdS5jejCCASIwDQYJKoZIhvcN
@@ -14631,10 +14603,12 @@ ttoBlccr2E1zGuP9v2S0Ei7VFn5zuiJAc9k7KBsiDcox3jI+s6RoXJKRlQ==</ds:X509Certificate
           </ds:X509Data>
         </ds:KeyInfo>
       </md:KeyDescriptor>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://shib.zcu.cz/idp/profile/SAML2/SOAP/ArtifactResolution" />
-    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib.zcu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" />
-    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib.zcu.cz/idp/profile/SAML2/Redirect/SSO" />
-    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib.zcu.cz/idp/profile/SAML2/POST/SSO" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib.zcu.cz/idp/profile/SAML2/Redirect/SLO" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib.zcu.cz/idp/profile/SAML2/POST/SLO" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib.zcu.cz/idp/profile/SAML2/POST-SimpleSign/SLO" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://shib.zcu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://shib.zcu.cz/idp/profile/SAML2/Redirect/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://shib.zcu.cz/idp/profile/SAML2/POST/SSO" req-attr:supportsRequestedAttributes="true" />
     </md:IDPSSODescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="cs">Západočeská univerzita v Plzni</md:OrganizationName>
