@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-11-29T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2025-11-30T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>DP72BiczZm31D53q0CMkQ9V+yCWZNrOalI7QpEM+A+s=</ds:DigestValue>
+      <ds:DigestValue>0gGwB1Bw0lgzctZt6lOvhKc2nWj5Pe0YW+FCGUZeQgc=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-hqgyz4ncrn8qiIhpc8bfmrIMYRlcigUNypfW12kvHrvw4vE4R3BC26uN9OuU/P+hr1MIFBZECBB7
-La20Ozj0o0AS+9Us9QGOBDHffWJI/Mpyblm/P2und9VwN/fOapwiSLBOPjGFpb82WMoEt8NPdFzU
-NZbKxD379b3p0Me/GW6a6FREohufJKKjlceDyXaPRzE+TtQNBvD/4MPHRRy/gwYH9eGxLh82IUAP
-Y1QffLtsuYZH7qp46TTkLguiqnQlbszjh0jjWGKtBgSjRCMm9q7vzjDJ+8GYOGbSl/V110LECDhv
-hjinuTr+I2hdTnMBPSHWziSpXYYkGR6gvcpU0w==
+53mY/1EMUHYhpPRFIAj6ayKeoUVfYyRywv77dlBGRGvKLGdpOFCO4PGJqCk9e8Xde+JOhAUQK7C9
+h85VROVEGvckwSE1qQsaOvWusaatVZec0GwBypQHNTMtRJ2Up8a4flU3Qu9eGmTBy2gWstgAoG5L
+IWRfPHGg1BOE2NxL6AiKdVJtijqFaO/ma3neW/w/S4Ncdk9BIFCX3H5flYuqbepp1b9wZYrW/OCa
+rEZc6+5sEICQTJ61d2UpSIrMq+BZGhjGV7rZsLT61HyA32YgPcTjnh4vOlfI+t0ct8cM7BzfdPvV
+rhtLfX9vqBnWu9U7+vgr/IY174Ve85+EaAshHg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -6282,6 +6282,63 @@ eBFJcQNHXyofYwsQlK2LyCnlOlpQUtbXe5/BcXKA9pp+RnjZAB9dVpY/KJ6hy6BQ
     <md:EmailAddress>mailto:michal.denar@ceska-trebova.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://idp.muzeumprahy.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        <saml:AttributeValue>http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/other</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">muzeumprahy.cz</shibmd:Scope>
+      <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">The City of Prague Museum</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="cs">Muzeum hlavního města Prahy</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Identity Provider (IdP) for The City of Prague Museum.</mdui:Description>
+        <mdui:Description xml:lang="cs">Poskytovatel identity (IdP) pro zaměstnance Muzea hlavního města Prahy.</mdui:Description>
+        <mdui:InformationURL xml:lang="en">https://www.muzeumprahy.cz/</mdui:InformationURL>
+        <mdui:InformationURL xml:lang="cs">https://www.muzeumprahy.cz/</mdui:InformationURL>
+        <mdui:Logo height="1070" width="2560">https://idp.muzeumprahy.cz/idp/images/idp.muzeumprahy.cz.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIENDCCApygAwIBAgIVAO43z5uzLu8n3+mIbkXqN1iM8lAtMA0GCSqGSIb3DQEB CwUAMB0xGzAZBgNVBAMMEmlkcC5tdXpldW1wcmFoeS5jejAeFw0yNTA3MjIxNDU5 MDVaFw00NTA3MjIxNDU5MDVaMB0xGzAZBgNVBAMMEmlkcC5tdXpldW1wcmFoeS5j ejCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBANk6idmjH09Y1O38LMa3 Mm4+hB0RWdS8MsxuNczIMGl00W3YuffJe4AgpicI8iPRscmV+N0zfn/j9g8TQ94r aOBrlSBuBEZ+SCAj0qeQDW4P27QeZC3igs3j+5r8DsoB5Va8q6qvOhfzQpEV3L7u eg9ZbVmkVuqjhqGEaHOtF4IsFDYcuvPpIxhs17v+u6B5vEsJ/KJnc579GAPr/pWo p5PwQquPOO9yG7Gj/q/Bx6+Iqt+gjNyRLX6FS164COanzKQT5+HV/BL5RYZqMfdI D7hSRurrmPDDn5psy/Lb9gbrcIsRbB7AIZTu9pshG9AUZbntJES1CzSu6qKv6jMV bnpuHiAZoVJ2xX5D9UVBc4TMh/cER2d8NLxSwExf4tKRD9KFz1Z8nMvECYT+Dsoi +mE9F+q5AE+HsTfCmbUgL3OsCw9iWws3TvCfxenIWQnCKMi8MhTQCGgjBUwED0q7 1vzy1HqpwfNIV9ent6iIHNigGaBqkRtHbeljzH7Pkl7zXQIDAQABo2swaTAdBgNV HQ4EFgQULr58GraJAANn/88EHhps80kJ6wswSAYDVR0RBEEwP4ISaWRwLm11emV1 bXByYWh5LmN6hilodHRwczovL2lkcC5tdXpldW1wcmFoeS5jei9pZHAvc2hpYmJv bGV0aDANBgkqhkiG9w0BAQsFAAOCAYEABk3iA7ul1uyFEt0ZNK/I6d4lncvaGMti 9fGzcQGB+tyOqp9kGT/Cxe1NwtRYIuFVnEgzeYMnPmfC66exE25/CEVoOJVTnzB4 2ZC97c30oYX7bQIKY2o4L4YWbMQT2TZfA90Z/HcL6kkBwSjYf4SnjWmjDwUmSOQU +hyT7sQmd3YN6Heb+7R+Czv2QHOQnODcN5jPIvhZQAZyBVD+JZzrle9FZx/mmrFa 5FIdBlzAT0WLEh1SOQWzoNtL+Rzg4Zae02KNHG9DenosF9ZFRQLqO0MGBEWxN1me OLWYNios4PfYTkOgetrqbwyZhC069OsBom+ULhB8n6rbzDU1uQOm3UhseqTK+sIq x6F2hnkQ97dml8c1rTZX+ANKJI78NnfVvrO7jdmiCRpWku+bXq3nKLdsxtd1MLxS 23tsjBBDcyVktOeaK0z43B2JsxEiUnYm2L6HIhrhDJRklOoaupaxtVcgx7Kmk1/l iFyebDk9+7/EftiHh0c2wwojPEGu9nPf</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIEMzCCApugAwIBAgIUF196Yx5oxvtljmF6kaV7r8zZOqkwDQYJKoZIhvcNAQEL BQAwHTEbMBkGA1UEAwwSaWRwLm11emV1bXByYWh5LmN6MB4XDTI1MDcyMjE0NTkw NVoXDTQ1MDcyMjE0NTkwNVowHTEbMBkGA1UEAwwSaWRwLm11emV1bXByYWh5LmN6 MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAk4D6EDZS3Bt+5W1j/1Hi BY8lEej/WdCvyUVsN9vAKmxwm+V732+DPSjZaGMkDHgAA5Km9xUazKFRyDG2Ta4L S5iq61JUHiWrP2tg9fq6mGWLr2NbhFM2kwddoI/abIm1J3ocfAIfsmTk1rBnrB8w qkUoO1NwqsaYr4KTTCMvZMWfif0zCV8nX7nvJdAcqMdq1LYapJW+AbcoqjNXp/OW tLvm43mJmgkNKM4OSXIejTUgkrNReFV1fMlW2PIY4BIYwOAurtNT+UW7uZVoBUIe Lrec/rL+E9CwXgQN7TzkHphA/GGUG2CeG6S3Fu7A88M2l4uIW30k6K7LcnxS+/SA onRBI1LY7zOUcfWMtdcZ76DzLDcXEyhyx60k00nB+/+YjqD0cIZGs6M2PhdoXYqY ccXSfuHaABDovGsv3f4pXpTDLd9vzsJQu9FX5HovILcOljSeTj7I+dT9JzwAnhOf W5OP6tmHbZYl/AxKAatHwAlB9brjMbqifvp5WQU7HN+BAgMBAAGjazBpMB0GA1Ud DgQWBBST/2No/Ni5EcF8r6cED5SHY3ZPwzBIBgNVHREEQTA/ghJpZHAubXV6ZXVt cHJhaHkuY3qGKWh0dHBzOi8vaWRwLm11emV1bXByYWh5LmN6L2lkcC9zaGliYm9s ZXRoMA0GCSqGSIb3DQEBCwUAA4IBgQAC5VoQ5QrjxdyBKotHKSbgeyzMVVRb91uB 76L5tqZp+sEAhJTf2DOk1EzLcYxy7aYEuRIK80wd1NWir00Kd4KKAPkRXKnkjDBv 2ixRybl6Hd2Qyy+q+Lt1wbbYoagc9yncA4z91WUqFbdQebDn4//9ELl/1DdFPRsn w2PhnS40TYwqVCtpT1bRllNHU0IyDYCQabPYS+ztb9z8Lz6/+Uu4gJ8vxh65nXGk mmE4KDgFGCEd1hJu6EE9/BYbeKFXuqPXy7FbTD6+1MSTxrkPY1i4xNuxIajVzkD4 A8DNpW4pCFkbKm7wkhe+JmCHwVtNHfXFTJ8ewgulf2W30+EqdRkJRtre/YV9CSSc O4dCwZpCdLhjpVicP8PCMCy6jp03nNBP8b/3lCQkm8jod3UDvquqte2mPfef0pIS WbAdBbVOMcKWhavTSy8TpVPlmEzoR8WWUgzmia11RQ1M++TubcHMU1QctdgxWzb4 Xpj+FKTR+KfxRx6fBPhdHi0zJNbt35k=</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.muzeumprahy.cz/idp/profile/SAML2/Redirect/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.muzeumprahy.cz/idp/profile/SAML2/POST/SSO" req-attr:supportsRequestedAttributes="true" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://idp.muzeumprahy.cz/idp/profile/SAML2/POST-SimpleSign/SSO" req-attr:supportsRequestedAttributes="true" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">The City of Prague Museum</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Muzeum hlavního města Prahy</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">The City of Prague Museum</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Muzeum hlavního města Prahy</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.muzeumprahy.cz/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.muzeumprahy.cz/</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Jan</md:GivenName>
+    <md:SurName>Oppolzer</md:SurName>
+    <md:EmailAddress>mailto:jan.oppolzer@cesnet.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://idp.npu.cz/idp/shibboleth">
     <md:Extensions>
       <eduidmd:RepublishRequest>
@@ -11138,6 +11195,70 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
     <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Kyjov</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">https://www.knihovna-kyjov.cz</md:OrganizationURL>
     <md:OrganizationURL xml:lang="cs">https://www.knihovna-kyjov.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Radek</md:GivenName>
+    <md:SurName>Šiman</md:SurName>
+    <md:EmailAddress>mailto:rbit@rbit.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://knihovna-litomysl.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    <eduidmd:RepublishRequest>
+        <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
+      </eduidmd:RepublishRequest>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">knihovna-litomysl.cz</shibmd:Scope>
+      <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Municipal Library Litomyšl</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="cs">Městská knihovna Litomyšl</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Litomyšl</mdui:Description>
+        <mdui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Litomyšl</mdui:Description>
+        <mdui:InformationURL xml:lang="en">https://knihovna.litomysl.cz</mdui:InformationURL>
+        <mdui:InformationURL xml:lang="cs">https://knihovna.litomysl.cz</mdui:InformationURL>
+        <mdui:Logo height="40" width="39">https://litomysl.idp.rbit.cz/logo.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUI7CV0gT2bDgfL7lGKExyLqAT7NswDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUbGl0b215c2wuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNTA2MDExNzU1MjVaFw0zNTA2MDIxNzU1MjVaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFGxpdG9teXNsLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChCfK2gFea/zus6XB1sDs5tkzg4l6TwFzBKjZ/jwiw7wo7LtS33+elCHCPNdyZoVu0FtWpUCj7z/XOQ62CdPUfh3UGfUv4XgGFUfncRIXnFqtzJpG5x+rk/b0BZxEc7NRzVCLVSJExgkT+uJtUmsMGhelB04Bur7KnSFF7d3AdmCm5Wb1XWD6kl+oeQHvfO24Gh7C2/qQubqCrOhQCTvjGSpioBrBqz2XedYO5VeNbPAETfvqvsRHAhaknZ48xTrjCShwhkteythsdfFR76eMy4QHEPbsvnu/PI02xhTouzV/FQ7lRfy15tPT6furYFGuUS7P9gPb3XdOeOV82rUA/AgMBAAGjUzBRMB0GA1UdDgQWBBQWvxLfl20aYXZj5A316Ne8OK1YsDAfBgNVHSMEGDAWgBQWvxLfl20aYXZj5A316Ne8OK1YsDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBgNCFFKRt8u9Jb8/AhWnNjTFXcjG3UXPYbgiaGGbZRBwf9HrS3vY0rDhaI+LcpqEQUuhVuhZMZBnyUEyFX16GVSjXzetvQXpGxsh3nsqOQ51AiE+fo1Jj44KOcyfZcwfl9NCZupYuhk1u/F0nnMGsxSehOQQYKIHMV3cpsFDVs8CH/Ej2K5poK8FSNM77i4yhIQkkTCcN17qC4KVZq+NKT5CX4VSop5gHwDuNGNLFeOTz9HIpNNqP8VwkNa6yqDNu+yaDVzZquNKPzSuh1rHPTdTQycLktQcGk8c2jRWqEcpLo7Mno3xilkFo7pMRJgIepa1xZr/M8a/8NqUZzqNc4</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID+zCCAuOgAwIBAgIUI7CV0gT2bDgfL7lGKExyLqAT7NswDQYJKoZIhvcNAQELBQAwgYwxCzAJBgNVBAYTAkNaMRcwFQYDVQQIDA5DemVjaCBSZXB1YmxpYzENMAsGA1UEBwwETW9zdDEZMBcGA1UECgwQUi1CaXQgVGVjaG5vbG9neTEdMBsGA1UEAwwUbGl0b215c2wuaWRwLnJiaXQuY3oxGzAZBgkqhkiG9w0BCQEWDHJiaXRAcmJpdC5jejAeFw0yNTA2MDExNzU1MjVaFw0zNTA2MDIxNzU1MjVaMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBE1vc3QxGTAXBgNVBAoMEFItQml0IFRlY2hub2xvZ3kxHTAbBgNVBAMMFGxpdG9teXNsLmlkcC5yYml0LmN6MRswGQYJKoZIhvcNAQkBFgxyYml0QHJiaXQuY3owggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChCfK2gFea/zus6XB1sDs5tkzg4l6TwFzBKjZ/jwiw7wo7LtS33+elCHCPNdyZoVu0FtWpUCj7z/XOQ62CdPUfh3UGfUv4XgGFUfncRIXnFqtzJpG5x+rk/b0BZxEc7NRzVCLVSJExgkT+uJtUmsMGhelB04Bur7KnSFF7d3AdmCm5Wb1XWD6kl+oeQHvfO24Gh7C2/qQubqCrOhQCTvjGSpioBrBqz2XedYO5VeNbPAETfvqvsRHAhaknZ48xTrjCShwhkteythsdfFR76eMy4QHEPbsvnu/PI02xhTouzV/FQ7lRfy15tPT6furYFGuUS7P9gPb3XdOeOV82rUA/AgMBAAGjUzBRMB0GA1UdDgQWBBQWvxLfl20aYXZj5A316Ne8OK1YsDAfBgNVHSMEGDAWgBQWvxLfl20aYXZj5A316Ne8OK1YsDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBgNCFFKRt8u9Jb8/AhWnNjTFXcjG3UXPYbgiaGGbZRBwf9HrS3vY0rDhaI+LcpqEQUuhVuhZMZBnyUEyFX16GVSjXzetvQXpGxsh3nsqOQ51AiE+fo1Jj44KOcyfZcwfl9NCZupYuhk1u/F0nnMGsxSehOQQYKIHMV3cpsFDVs8CH/Ej2K5poK8FSNM77i4yhIQkkTCcN17qC4KVZq+NKT5CX4VSop5gHwDuNGNLFeOTz9HIpNNqP8VwkNa6yqDNu+yaDVzZquNKPzSuh1rHPTdTQycLktQcGk8c2jRWqEcpLo7Mno3xilkFo7pMRJgIepa1xZr/M8a/8NqUZzqNc4</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://litomysl.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://litomysl.idp.rbit.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://litomysl.idp.rbit.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://litomysl.idp.rbit.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal Library Litomyšl</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna Litomyšl</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal Library Litomyšl</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Litomyšl</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://knihovna.litomysl.cz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://knihovna.litomysl.cz</md:OrganizationURL>
     </md:Organization>
   <md:ContactPerson contactType="technical">
       <md:GivenName>Radek</md:GivenName>
