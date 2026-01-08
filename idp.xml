@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-02-02T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-02-03T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>zH78y3hPt/qagy5gTO7hrSEuuW/HUjJXcQ3Hxc3eCFo=</ds:DigestValue>
+      <ds:DigestValue>D09JoS4QkaUlTTxkKSd0Wj9JGwZaomWhS5sP7R7huFc=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-sgHb/vA+9B4sM8NqATJWBDQxceheG7MjtaEWszZyPzf5h3Yl3Bq46mfuIUQI/SBS/rTXJDvJXKCz
-ycfzvIkUxVa+haZiAgZCrSi6CRkeiqgbU7zkyZ3OHhJJTz5mwFwrA0qsniFILRf9GnYOy2lhH97j
-O3XQ2+x3VI1xuDbn3dB3S/l++AvVckY8cyM55LN/SxguwUPqzai15D3SgBG6PGAYosU9UH1e37SD
-D35huY8KWzetC53+9MwJra/mcvbjvhxvjM+rCRAtrqWDjXE7A6XobT/N8ApKEU0oQHTYUFSMhVOC
-tfzkQhvonJeVdPfvKMpH1t2HF09NQVoGJy+acA==
+MboVdLvwpOmsUtMfu+j4tCzrlDHqyJZYyLpfCfU9cYtwSknceRdJ+9jr4S0Zw086ZChMhQ2Azf7E
+r6tCcLLs9dYd6nTmMNhpFQTpLUQtQhlkGijA5h2aea38Qjz8jiu01FgYQ7EQxYh4DjV8e3XiEvt1
+61sO4HSiuJ698z6sE3CZ4ckJE8qXEosMMjtf+zqEjDjVTMJX5SAToufq40189EYCCS3mfjFPUBiH
+0Ot6uE92+svYJcNa/Yc0YdkMEOR/RJa4b5MPh7qk9HwxBvAhTKioz5T1FTAySg+Sm2ZLUTZqAFss
+1qT6JZ3bZn62Y4EgiUeG3TlbnkuWV1VogvgWng==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -12798,6 +12798,70 @@ and readers of the Huss' Library Ricany</mdui:Description>
     <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Mariánské Lázně</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">https://knihovnaml.cz</md:OrganizationURL>
     <md:OrganizationURL xml:lang="cs">https://knihovnaml.cz</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Petr</md:GivenName>
+    <md:SurName>Žabička</md:SurName>
+    <md:EmailAddress>mailto:zabak@mzk.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://knihovnamost.cz/idp/shibboleth">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category-support" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue xsi:type="xs:string">http://www.geant.net/uri/dataprotection-code-of-conduct/v1</saml:AttributeValue>
+        <saml:AttributeValue xsi:type="xs:string">http://refeds.org/category/research-and-scholarship</saml:AttributeValue>
+        </saml:Attribute>
+      <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    <eduidmd:RepublishRequest>
+        <eduidmd:RepublishTarget>http://edugain.org/</eduidmd:RepublishTarget>
+      </eduidmd:RepublishRequest>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">knihovnamost.cz</shibmd:Scope>
+      <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Municipal Library in Most</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="cs">Městská knihovna Most</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library in Most</mdui:Description>
+        <mdui:Description xml:lang="cs">Identity Provider pro zaměstnance a čtenáře Městské knihovny Most</mdui:Description>
+        <mdui:InformationURL xml:lang="en">http://www.knihovnamost.cz/</mdui:InformationURL>
+        <mdui:InformationURL xml:lang="cs">http://www.knihovnamost.cz/</mdui:InformationURL>
+        <mdui:Logo height="40" width="91">https://mkmost.knihovny.cz/logo.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID7TCCAtWgAwIBAgIJAPuCPfMU167EMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBEJybm8xGTAXBgNVBAoMEE1vcmF2aWFuIExpYnJhcnkxGzAZBgNVBAMMEm1rbW9zdC5rbmlob3ZueS5jejEdMBsGCSqGSIb3DQEJARYOY3BrLWlkcEBtemsuY3owHhcNMTkwOTI1MDkwMzA0WhcNMjkwOTI1MDkwMzA0WjCBjDELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ0wCwYDVQQHDARCcm5vMRkwFwYDVQQKDBBNb3JhdmlhbiBMaWJyYXJ5MRswGQYDVQQDDBJta21vc3Qua25paG92bnkuY3oxHTAbBgkqhkiG9w0BCQEWDmNway1pZHBAbXprLmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA02fv/PR+ewEBkJsVq9deu0sYashAp9G/+XTYCDxe56g9gKZ39fbM9XjkTaRpAwSILC9bG1q0xBVD3V+7k3uGLAkgIZrkcgWFGvnRLUra9jdegRlvplSELuQ/3HS5uMOvap2HrhUylYIFVPOuyNBZkdy8Z5eolHadqeUZjfLJP5q7hDa3GWmG/c1mFPS79EFyQOP0KwLSlvIp9PmuuO8jChAK6V3tnxnUsLrtiAr/NKWhOWDDZQ2s7nCcGh5LvE4yuP3NkBhLhvPct2l32II3aw+ziahXW5ER6UAtqtbbI4aENUS0Sr56gzK60I8mNr94tbftAW5V1bgZsbXKgm9DHQIDAQABo1AwTjAdBgNVHQ4EFgQU156OnVgN0MC7cx40cwDcdYWadpcwHwYDVR0jBBgwFoAU156OnVgN0MC7cx40cwDcdYWadpcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZto3m2NaC6JxHJhHp6L+PpyVFDzPPruRWxWisDuIKdPK+Ybfrk/X3EchzrkEfgH8VMmh+k7WS6M4ZfOywz+cwaz0n3mFYbG9b2RExcSmf69gNbPKBH1LzjpvsdSToSnWJKuvwxy/YLxTbIy9gBuw+GhrFysfpUNbna3mrdmtw+4zCx7ZDqBaezO/6BTmZoCtR8Yk93fFUuZE197eTP4sxSMVNs9dcsaHiUvatVpZip8RMQv2anMMlZCGYNIjGPrkJ4ml9qr2/hbPleHb63dBzriXAee3q4e+miPEhY4CQ5haN6pS2PhgdOB5POLPSy5Vcmuvehnbpi4nRVSbpkt70g==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIID7TCCAtWgAwIBAgIJAPuCPfMU167EMA0GCSqGSIb3DQEBCwUAMIGMMQswCQYDVQQGEwJDWjEXMBUGA1UECAwOQ3plY2ggUmVwdWJsaWMxDTALBgNVBAcMBEJybm8xGTAXBgNVBAoMEE1vcmF2aWFuIExpYnJhcnkxGzAZBgNVBAMMEm1rbW9zdC5rbmlob3ZueS5jejEdMBsGCSqGSIb3DQEJARYOY3BrLWlkcEBtemsuY3owHhcNMTkwOTI1MDkwMzA0WhcNMjkwOTI1MDkwMzA0WjCBjDELMAkGA1UEBhMCQ1oxFzAVBgNVBAgMDkN6ZWNoIFJlcHVibGljMQ0wCwYDVQQHDARCcm5vMRkwFwYDVQQKDBBNb3JhdmlhbiBMaWJyYXJ5MRswGQYDVQQDDBJta21vc3Qua25paG92bnkuY3oxHTAbBgkqhkiG9w0BCQEWDmNway1pZHBAbXprLmN6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA02fv/PR+ewEBkJsVq9deu0sYashAp9G/+XTYCDxe56g9gKZ39fbM9XjkTaRpAwSILC9bG1q0xBVD3V+7k3uGLAkgIZrkcgWFGvnRLUra9jdegRlvplSELuQ/3HS5uMOvap2HrhUylYIFVPOuyNBZkdy8Z5eolHadqeUZjfLJP5q7hDa3GWmG/c1mFPS79EFyQOP0KwLSlvIp9PmuuO8jChAK6V3tnxnUsLrtiAr/NKWhOWDDZQ2s7nCcGh5LvE4yuP3NkBhLhvPct2l32II3aw+ziahXW5ER6UAtqtbbI4aENUS0Sr56gzK60I8mNr94tbftAW5V1bgZsbXKgm9DHQIDAQABo1AwTjAdBgNVHQ4EFgQU156OnVgN0MC7cx40cwDcdYWadpcwHwYDVR0jBBgwFoAU156OnVgN0MC7cx40cwDcdYWadpcwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAZto3m2NaC6JxHJhHp6L+PpyVFDzPPruRWxWisDuIKdPK+Ybfrk/X3EchzrkEfgH8VMmh+k7WS6M4ZfOywz+cwaz0n3mFYbG9b2RExcSmf69gNbPKBH1LzjpvsdSToSnWJKuvwxy/YLxTbIy9gBuw+GhrFysfpUNbna3mrdmtw+4zCx7ZDqBaezO/6BTmZoCtR8Yk93fFUuZE197eTP4sxSMVNs9dcsaHiUvatVpZip8RMQv2anMMlZCGYNIjGPrkJ4ml9qr2/hbPleHb63dBzriXAee3q4e+miPEhY4CQ5haN6pS2PhgdOB5POLPSy5Vcmuvehnbpi4nRVSbpkt70g==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://mkmost.knihovny.cz/saml2/idp/SingleLogoutService.php" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://mkmost.knihovny.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://mkmost.knihovny.cz/saml2/idp/SSOService.php" />
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://mkmost.knihovny.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal Library in Most</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna Most</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal Library in Most</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Most</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.knihovnamost.cz/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">http://www.knihovnamost.cz/</md:OrganizationURL>
     </md:Organization>
   <md:ContactPerson contactType="technical">
       <md:GivenName>Petr</md:GivenName>
