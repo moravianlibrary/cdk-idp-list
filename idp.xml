@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-02-23T07:14:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-02-23T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>0gYhUt/wxOhES2VxNCYrM2aL83Zo8zMWSslgX7LPf0Q=</ds:DigestValue>
+      <ds:DigestValue>khbtZtypO/G5hJ26oLAFEzL3GZU4KIG/fP+DtICGd9k=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-b/GsNS9G/6EfeZuX+ZMK++QGswUgDSlZ4KolfZbi8YVIa+xj+cyXgIWrLmqIagow8yjzfCPr8ytj
-e0sFJfkAE/xNIEQpe5K29//vWl+FVMZHClruEQlcaChxiv2iZofxLk+m4sWsXZS4e7Za3GIpqNP4
-ixei5tBSwt74LeFb80M+O5S+WpN4Zv3WBgH7Nt3J6TajCwA/ZRTJmXRawE65jojrl/h91nNrvrFW
-HJmUtCYgaA0kCLlSOBpupRu/LOk2y6jif7YaBL/byQ/EmSYsyGfpCjrNfn1rynAq5ncLvMoAZVds
-GnSY61qw89PCfet4mt9y2n2I8gCqFhTLnWVoHQ==
+Cyj0/eYbaivy3Cu8erTk/fC9iWVLeJZvmfI7AcbEa+ThQMFiKCLjWLHDb4DRIuIUlcQ5903ZU4n7
+PPEzNzdX4hMz0eoRNdsaQMzdZgeci4QzXX4lmX0xPveehGKBHH6rj7RzPn6iXTCdF+6Ru/jTelHs
+K9+STJ8g9OYu2Fp6NWP8Ht9MKKg93GLvAxeUYu6Vdpr0lZQywoQSoraGSNtHXfUwW+mFqfy/GjUb
+t0jdp5bZbKqoGimh64shyZfp5V/oe6QQcNbqBGESkxJQjB3r8++4gx3/EYtEaKCV2gpKINDuNeIb
+RyTaFlW6cQQprpw6+32VhVPt6vx8HbdISSMLBQ==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -6830,7 +6830,7 @@ tIQiavthGA2SJgidAFEtV/h8foZv/A8OmyZCNkLzPtzbA+HHwNMh9g==</ds:X509Certificate>
         <mdui:Description xml:lang="cs">Poskytovatel identit pro zaměstnance a studenty Škoda Auto Vysoká škola.</mdui:Description>
         <mdui:InformationURL xml:lang="en">https://www.savs.cz/en</mdui:InformationURL>
         <mdui:InformationURL xml:lang="cs">https://www.savs.cz</mdui:InformationURL>
-        <mdui:Logo height="212" width="400">https://idp.savs.cz/idp/images/idp.savs.cz.png</mdui:Logo>
+        <mdui:Logo height="122" width="400">https://idp.savs.cz/idp/images/idp.savs.cz.png</mdui:Logo>
         </mdui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
