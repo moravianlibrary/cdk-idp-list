@@ -175,3 +175,4 @@ https://idp.muzeumprahy.cz/idp/shibboleth
 https://knihovna-litomysl.cz/idp/shibboleth
 https://knihovna.libochovice.cz/idp/shibboleth
 https://knihovnamost.cz/idp/shibboleth
+https://knihovnabrtnice.cz/idp/shibboleth
