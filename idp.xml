@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-04-26T23:53:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-04-28T11:41:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>rp0+Gi/5VrcuofMhw4pJSoxZsjXg5sYFPAYR73DC2Fo=</ds:DigestValue>
+      <ds:DigestValue>hvvOCnxxK6lS7h4ajOu9R2A8wzNtprGnsW/HSw4v2mY=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-xJARkQyLm/Muz8zWiTBigsNYJ25Y8Z514fw4P3AmBc3AxetEVRv2QlyI28bXPA4eJ0B0E5gXeAIc
-lFXqM+59aC2xparWHKHWiutzk5Bk2CgNvt/FDKmWP2+RC0+OrI8Zdo2YFDgG8kE8IO0wbD1ewenG
-FTw6yxQRWEkKmCcwDjjdX3B3pDWMW/7eO6cliX0cdjKDRzIAzaq2AaKCwIWpbN76pEexn96FBcpW
-/g6Q24XAjg58bFsPpzMlpEXbqBeBWlsUUBkB0oK7EaAWa5aVMZe1c8rzvGGz+t6t5CThUWnWuVHv
-uZWtI/aWjYCY5CxlShpy6N5UzqfhaD4w/iD2qw==
+v+VjUs049ZnGjzUUtnMmerMmHtmyrW8pF9cZ6/H/5Q943wArnZ0ah9iVG1JQ4ZbU60I880yDODwg
+8YK2lq+0HRutHKg8bFlXfCno5JVB3sMuE/0fthU7ysSiHKpRu8xPniJG+JRYR9nq26aIt0pjLutj
+kJBUYzsXv7tP2izohPbREtYd3pBfozynnXX7CHwrfUH4kmBujBuJIEHeyVdDfbREvNLpSoJOGTT3
+p5x0K1d4P4NTb38vSM4ABCdQj5x/LypQUhMf0/eC9ueAbeyE/+pku5zD8EQO3YhKa7wKU5AQfAQb
+r8SHNmq0KGyhkVBUmFnjsfO9jMir2oNjZ5vGhw==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -16558,11 +16558,6 @@ zFAqLcxs7apHvItdRCAPnA==</ds:X509Certificate>
       <md:GivenName>Jan</md:GivenName>
     <md:SurName>Oppolzer</md:SurName>
     <md:EmailAddress>mailto:jan.oppolzer@cesnet.cz</md:EmailAddress>
-    </md:ContactPerson>
-  <md:ContactPerson contactType="technical">
-      <md:GivenName>Viktor</md:GivenName>
-    <md:SurName>Jahodík</md:SurName>
-    <md:EmailAddress>mailto:viktor.jahodik@cesnet.cz</md:EmailAddress>
     </md:ContactPerson>
   <md:ContactPerson contactType="other" remd:contactType="http://refeds.org/metadata/contactType/security">
       <md:GivenName>CESNET-CERTS</md:GivenName>
