@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-06-18T11:43:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-06-18T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>bNuAdvQMLTmVPyfddKJ3rqWb8MoSD6EJUdERNMNj+VY=</ds:DigestValue>
+      <ds:DigestValue>7FPU4KTNWFIqJ/eAG55AQuPayvab2sbugvTTDFznLxU=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-jYLx6WS0nIWP7FSBNlQn3SelS/m/Ngz7yRrqO8gO11h+NaJlfpCaW0m7doT4JxudKXThbLi+QJg8
-oM5imsTtZgUmKW+nTAG7jO55isjZbA/w0tfHOYomH2dFmKRTtnxBBPB+MCCd17SYRInD18NVswZS
-HKj5mG6oRMAA47yml6ZGtMGsx+mctUntGNdRsjQBWHs9XefRpaG0/Ohnze8oqvq9k9TFuYf2+548
-HfzBg1Armr9BbMGiG91aMNTe4fpqTD7urVEVS2cvhu2rruTv7hV5cvnRmKR4jRCjy165QfkSWgxq
-Sir9jFTdAaVKeA7g02zp5kzE1Vx8ouxMy9Cv4Q==
+sS6rW42MCo4BIGghh86vg2AAGJIVpV4HEaQFghQXGGcsYyzwcsmvMvHwTw8OVND37CZwx8Vai41B
+GNqygRTI4Uq44/ua6V6i9ZzkWp4/pDY6h3rrhNqT9FviuGN0bEdAAmz2L7GhoNvfY8C5SnFiH9Wd
+vJVVvHf2ek/kBTEeYmIV6HoGlXuhudvoSREuq4LQmqv0ALU+nRXHxbVfIUCXzsYju3fbscBqzM5R
+863ffezmWUsr/9HhVQt1YYu+hFlhItw1aPdh/AaGMJyDmB1HZDTJTnybj/kmnNqtWSfyjd4TyHOI
+ucwGv7ZzW/mJXSdkrqEJ3FiWeWZ7qfpCynkjvQ==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -3283,12 +3283,12 @@ cLDQpWR2pyhtxC/jL0f5CuQPpvI9Tzw=</ds:X509Certificate>
         <shibmd:Scope regexp="false">ambis.cz</shibmd:Scope>
       <mdui:UIInfo>
           <mdui:DisplayName xml:lang="en">Ambis University</mdui:DisplayName>
-        <mdui:DisplayName xml:lang="cs">Ambis Univerzita, a.s.</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="cs">Ambis Univerzita</mdui:DisplayName>
         <mdui:Description xml:lang="en">Identity Provider (IdP) for AMBIS University staff and students.</mdui:Description>
-        <mdui:Description xml:lang="cs">Poskytovatel identity (IdP) pro zaměstnance a studenty AMBIS vysoká škola.</mdui:Description>
+        <mdui:Description xml:lang="cs">Poskytovatel identity (IdP) pro zaměstnance a studenty Ambis Univerzity.</mdui:Description>
         <mdui:InformationURL xml:lang="en">https://www.ambisuniversity.com/eduid</mdui:InformationURL>
         <mdui:InformationURL xml:lang="cs">https://www.ambis.cz/eduid</mdui:InformationURL>
-        <mdui:Logo height="585" width="586">https://www.ambis.cz/files/ambis-symbol-clr.png</mdui:Logo>
+        <mdui:Logo height="586" width="586">https://www.ambis.cz/files/ambis-symbol-clr.png</mdui:Logo>
         </mdui:UIInfo>
       </md:Extensions>
     <md:KeyDescriptor use="signing">
@@ -3373,7 +3373,7 @@ xXhns6nRQCmHfPWTerLdm01bquDJ4ocN5mCgp48=</ds:X509Certificate>
     </md:IDPSSODescriptor>
   <md:Organization>
       <md:OrganizationName xml:lang="en">Ambis Univeristy</md:OrganizationName>
-    <md:OrganizationName xml:lang="cs">Ambis Univerzita, a.s.</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Ambis Univerzita</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Ambis University</md:OrganizationDisplayName>
     <md:OrganizationDisplayName xml:lang="cs">Ambis Univerzita</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">https://www.ambisuniversity.com/</md:OrganizationURL>
