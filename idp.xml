@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-09-27T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-09-29T12:20:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>8nM32FYOk92bZrEyP2dVaTyBBXl6dlUX+iGekhylBTM=</ds:DigestValue>
+      <ds:DigestValue>+sdl71j5UKBjRjYkExe+Cvb7FH6WSpPoN0/jp3vHjZQ=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-aBTKTw6MCk29dIYowuGm7COIjSwKYShG20Ztws7uHmOJztDYgYJcK2/Z2r5mNwFEaGdQhrHc3RP6
-NX9SzTqL74B3grEDs7RJ6rkFhMLfGdkhkHL3qORKWVmh3ckROQcV9jYLON08seznB+Od0M4dOWQS
-Ywy+mGrT+of1qNRGVV6MCGu81YuWL503FaESGAWiKC5vmaFkpKP3b19gMzktkjE2DDIa0QQ25FVl
-5zqDntGOOy+liN7nhT5Nl5rDDXgzsN+lzL+pxenQWkEZpz3EBvVSL0U0UrwdDRP9HN3P/Sk+XWKO
-ZYuiODJ0eJdvMlsrbQitf1RwNFHmRYqp47DTVg==
+9vEI0wpBBTmlkOgQdp+TuKv88b7VqAR1vEXRinVj8NC808fP57yBjvomua1zk2PO3VlZ7je16SAo
+6PsBI9d5zp+2ffP9afBIoaxfsW6vorXrlLIpYqO8RJXytv6HbYNAwW6g2IFbxPOZ4jrYXVR3PiGt
+T1r/83/VlvPCylGuGfsJctQ0RppCMQHfHlptd4/9RhOxfrhKuSPSEzxX5h0VEsoanmROnR4J1cnT
+VdW7uOBCeCfBsD9maeA1IAo7CmgEeJwKLdnhnDc4P9akHy23Squb5hBMjqceAqwwY8thSbtJOd+v
+y2gGvTO8DgmWT6h3OCygH+Rjl8SLzB8t2WFFdg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -13957,13 +13957,13 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
   <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
       <md:Extensions>
         <mdui:UIInfo>
-          <mdui:DisplayName xml:lang="cs">Institut umění – Divadelní ústav</mdui:DisplayName>
-        <mdui:DisplayName xml:lang="en">Arts and Theatre Institute</mdui:DisplayName>
-        <mdui:Description xml:lang="cs">Institut umění – Divadelní ústav</mdui:Description>
-        <mdui:Description xml:lang="en">Arts and Theatre Institute</mdui:Description>
+          <mdui:DisplayName xml:lang="cs">Národní institut pro kulturu</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="en">Czech Cultural Institute</mdui:DisplayName>
+        <mdui:Description xml:lang="cs">Národní institut pro kulturu</mdui:Description>
+        <mdui:Description xml:lang="en">Czech Cultural Institute</mdui:Description>
         <mdui:InformationURL xml:lang="en">https://ldh.idu.cz?locale=en</mdui:InformationURL>
         <mdui:InformationURL xml:lang="cs">https://ldh.idu.cz</mdui:InformationURL>
-        <mdui:Logo height="40" width="64">https://ldh.idu.cz/auth/saml2-idp/organization-logo</mdui:Logo>
+        <mdui:Logo height="40" width="88">https://ldh.idu.cz/auth/saml2-idp/organization-logo</mdui:Logo>
         </mdui:UIInfo>
       <shibmd:Scope regexp="false">ldh.idu.cz</shibmd:Scope>
       </md:Extensions>
@@ -14018,10 +14018,10 @@ yMzare/MvieEWcoF72/DBneOiu9YOsd163FCZbyBEIFdFeEnJ4abiON4UA==</ds:X509Certificate
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ldh.idu.cz/auth/saml2-idp/redirect-binding-sso" />
     </md:IDPSSODescriptor>
   <md:Organization>
-      <md:OrganizationName xml:lang="cs">Institut umění – Divadelní ústav</md:OrganizationName>
-    <md:OrganizationName xml:lang="en">Arts and Theatre Institute</md:OrganizationName>
-    <md:OrganizationDisplayName xml:lang="cs">Institut umění – Divadelní ústav</md:OrganizationDisplayName>
-    <md:OrganizationDisplayName xml:lang="en">Arts and Theatre Institute</md:OrganizationDisplayName>
+      <md:OrganizationName xml:lang="cs">Národní institut pro kulturu</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Czech Cultural Institute</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="cs">Národní institut pro kulturu</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Czech Cultural Institute</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="cs">https://www.idu.cz</md:OrganizationURL>
     <md:OrganizationURL xml:lang="en">https://www.idu.cz</md:OrganizationURL>
     </md:Organization>
