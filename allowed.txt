@@ -2,7 +2,6 @@ https://idp.amu.cz/idp/shibboleth
 https://idp.arub.cas.cz/idp/shibboleth
 https://idp.arup.cas.cz/idp/shibboleth
 https://idp.ibp.cas.cz/idp/shibboleth
-https://idp.bc.cas.cz/idp/shibboleth
 https://idp.ibot.cas.cz/idp/shibboleth
 https://eduid.czu.cz/idp/shibboleth
 https://idp2.civ.cvut.cz/idp/shibboleth
@@ -49,7 +48,6 @@ https://idp.ujc.cas.cz/idp/shibboleth
 https://eduid.irsm.cas.cz/idp/shibboleth
 https://idp.itam.cas.cz/idp/shibboleth
 https://idp.utia.cas.cz/idp/shibboleth
-https://idp.cvgz.cas.cz/idp/shibboleth
 https://aleph.uzei.cz/idp/shibboleth
 https://idp.iapg.cas.cz/idp/shibboleth
 https://idp.vsb.cz/idp/shibboleth
@@ -67,8 +65,6 @@ https://kfbz.cz/idp/shibboleth
 https://aleph.svkhk.cz/idp/shibboleth
 https://svkkl.cz/idp/shibboleth
 https://kjd.pb.cz/idp/shibboleth
-https://idp.moderniknihovna.cz/saml2/idp/metadata.php
-https://katalog.svkos.cz/idp/profile/SAML2/Redirect/SLO
 https://cbvk.cz/idp/shibboleth
 https://kvkli.cz/idp/shibboleth
 https://knihovnahk.cz/idp/shibboleth
@@ -96,7 +92,6 @@ https://knih-pi.cz/idp/shibboleth
 https://knihovnatabor.cz/idp/shibboleth
 https://knihovna.plzen.eu/idp/shibboleth
 https://knihovna-cl.cz/idp/shibboleth
-https://eduid.prigo.cz/idp/shibboleth
 https://eris.avu.cz/idp/shibboleth
 https://idp.ilaw.cas.cz/idp/shibboleth
 https://knir.cz/idp/shibboleth
@@ -125,7 +120,6 @@ https://mkmt.cz/idp/shibboleth
 https://knihovnachocen.cz/idp/shibboleth 
 https://knih-ck.cz/idp/shibboleth 
 https://knihovna-vm.cz/idp/shibboleth 
-https://idp.vfu.cz/idp/shibboleth 
 https://chomutovskaknihovna.cz/idp/shibboleth 
 https://idp.czechglobe.cz/idp/shibboleth 
 https://katalog.mekvalmez.cz/auth/saml2-idp 
@@ -177,3 +171,6 @@ https://knihovna.libochovice.cz/idp/shibboleth
 https://knihovnamost.cz/idp/shibboleth
 https://knihovnabrtnice.cz/idp/shibboleth
 https://idp.ih.cas.cz/idp/shibboleth
+https://knihovna-cr.cz/idp/shibboleth
+https://idp.mzm.cz/idp/shibboleth
+https://knihovnachodov.cz/idp/shibboleth
