@@ -110,7 +110,6 @@ https://knihovna.ricany.cz/idp/shibboleth
 https://knihovnaberoun.cz/idp/shibboleth 
 https://katalog.npmk.cz/auth/saml2-idp 
 https://kpwin.knih-cheb.cz/auth/saml2-idp 
-https://milevsko-eduid.koha-system.cz/saml2/idp/metadata.php 
 https://kmol.cz/idp/shibboleth 
 https://ldh.idu.cz/auth/saml2-idp 
 https://idp.ntm.cz/idp/shibboleth 
@@ -174,3 +173,4 @@ https://idp.ih.cas.cz/idp/shibboleth
 https://knihovna-cr.cz/idp/shibboleth
 https://idp.mzm.cz/idp/shibboleth
 https://knihovnachodov.cz/idp/shibboleth
+https://knihmil.cz/idp/shibboleth
