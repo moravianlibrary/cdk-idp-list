@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-10-26T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-10-28T07:52:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>FlPHo8iDa6vikk3g6qh38wTq6UBthdFVWEadwFfUrkE=</ds:DigestValue>
+      <ds:DigestValue>4n2sajcfEpyiB3CZ5XlGTXdijBnJQyDLmgAhvggd6WQ=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-Qt7VfcJlasyPt1ZZQx2vcUHv2Oj+YvQRF3yLpb0jD+X/COh8NlpqFWim1OKXBpGSbzHxKc0I6IIH
-vOKIZZiqR+0kwUd38VJewEe+995+Fxi5xclpw+yN+tlU6d+4hz8tvnFcwfYt80PrYy+ExZtFT2of
-y/0ANoJgzedlrybmQE4dXtk/5l9ZWOvBv/kUb5sjzJjNJPcDOGrQn7Tp7tSBTrRMJBkoc1XLYJHg
-lFciKCvajHKdLbfJ42/X62C22SvXEefQCrQlsa1hEfN+tLEyorNWKaSz1HcsTsfgWO88SubEgKpl
-zRRjm75q9aW4Tt49clvu9QC2ZHPwpG9KG1ZzOQ==
++yPpOkUBs6L49H1o5eyGte7wd0eXSfzRNUupt8qCWaUZ6b2yI7ZuBtgPrn8UKyy07TAKqIDvZbVB
+GOekhaoSbMtQAoBBHdrjMB1otr8dnHqSgu3vejozPY7yJUSXwjYLH6QVrpHI8ZvAyBCzfcxZglLy
+RrRkvwZXmfpfeNXpK/Al/qY9TwkHNGv9O7XV1z458Gd1/KOZAqYBzzIK4J/ZBeiilcHWtJ18sFFk
+LSKOCxNNkWHx5eaN1alPM15ARzUr4lVqeGisWUkH1A1FCmEm1xdeW6GLjoSo5CaVyMMIaINLvIfb
+6Wly1RN3iD+Sp37KUEkkPRKKqv5T7e49D7ecHg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -1440,6 +1440,7 @@ LUUNkw==</ds:X509Certificate>
         </ds:KeyInfo>
       </md:KeyDescriptor>
     <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://eduid.jamu.cz:8443/idp/profile/SAML2/SOAP/ArtifactResolution" index="2" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://eduid.jamu.cz/idp/profile/SAML2/Redirect/SSO" req-attr:supportsRequestedAttributes="true" />
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://eduid.jamu.cz/idp/profile/SAML2/POST-SimpleSign/SSO" req-attr:supportsRequestedAttributes="true" />
