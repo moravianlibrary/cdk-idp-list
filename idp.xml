@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-12-06T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-12-07T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>xw8ailNslChA1x1+4ThfJuqBrKG0HEBbxla2nThxMbc=</ds:DigestValue>
+      <ds:DigestValue>KNAuWvqsD1E8jozaMXUqH/wB4aSqdUUjSjZP3rxnuT8=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-3txbFJuOsTegpG2z+ljgtL9NSQo3YRP6WmM7Lb8PEeW0+mQ0zuh9kNIBPf56OW71L6avPktiNzeB
-egPNM7aZxDqzCFtevgo2zvS+UGqXqX7wJ6LbwxHXpw4fM0ID7Jtx6Sl7ZotuIskomVajUO0pvoR4
-BvbtxVvvON4zzhBXFnoKJ20peGM9gqEDc8kgbtwkxtWJVFC9GwSWI9+oQheu+uUx71gDUVUAIKWI
-aEVthon7AqC0+/Lnqpari4oelfbxlTxMCveH2GBRcFQj+hYDNiR33jW8k3Z64rD6gu8I/+x3YeGt
-zqZN8V6HGC4gVXZCTQnPiTw9dckcEuh/CGb1Tw==
+KkxZn5NcdfhXy+gCyGJTfDImTmOQaiuobW9AdCGhCWAm/iejek2K50IS0bCdXdHfwS1BTpnvnsYi
+D1WPV1xOhHZd+2Pov22JWpdLjDb+jmeG/vhk/mh5EB3cIO0OXP/lJfWjifrGSWTPBJU+vURF5QDg
+2b0nZPZNe6buYQ+aXCYxX7Et1agiuaz/zn5QixgEzu9N3uAzkTL/iFmfREaREK+YlXFgb953tc0N
+awWlpK42lKAnmHt6qhfxTEvX6IP3n3wKUN5vpfpae+qCBKme6WhDmjxWIqCDjRHJq82cSfhgvFHj
+6J2CyZ43DicaB/N1VDcd64MQfZFWW3P8KdRLtg==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
@@ -5984,6 +5984,65 @@ eBFJcQNHXyofYwsQlK2LyCnlOlpQUtbXe5/BcXKA9pp+RnjZAB9dVpY/KJ6hy6BQ
       <md:GivenName>Michael</md:GivenName>
     <md:SurName>Banzet</md:SurName>
     <md:EmailAddress>mailto:michael.banzet@mendelu.cz</md:EmailAddress>
+    </md:ContactPerson>
+  </md:EntityDescriptor>
+<md:EntityDescriptor entityID="https://idp.moderniknihovna.cz/saml2/idp/metadata.php">
+    <md:Extensions>
+      <mdattr:EntityAttributes>
+        <saml:Attribute Name="http://macedir.org/entity-category" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri">
+          <saml:AttributeValue>http://eduid.cz/uri/idp-group/library</saml:AttributeValue>
+        </saml:Attribute>
+      </mdattr:EntityAttributes>
+    </md:Extensions>
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:Extensions>
+        <shibmd:Scope regexp="false">moderniknihovna.cz</shibmd:Scope>
+      <mdui:UIInfo>
+          <mdui:DisplayName xml:lang="en">Municipal Library Česká Třebová</mdui:DisplayName>
+        <mdui:DisplayName xml:lang="cs">Městská knihovna Česká Třebová</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Identity Provider for employees and readers of the Municipal Library Česká Třebová</mdui:Description>
+        <mdui:Description xml:lang="cs">Poskytovatel identit pro zaměstnance a čtenáře Městské knihovny Česká Třebová</mdui:Description>
+        <mdui:InformationURL xml:lang="en">https://moderniknihovna.cz</mdui:InformationURL>
+        <mdui:InformationURL xml:lang="cs">https://moderniknihovna.cz</mdui:InformationURL>
+        <mdui:Logo height="75" width="75">https://moderniknihovna.cz/images/logo/logo_mkct_small.png</mdui:Logo>
+        <mdui:Logo height="42" width="260">https://moderniknihovna.cz/images/logo/mkct_logo_white.png</mdui:Logo>
+        </mdui:UIInfo>
+      </md:Extensions>
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIFOjCCA6KgAwIBAgIJAOKaMMxBqMO/MA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJDWjETMBEGA1UECAwKUGFyZHViaWNreTEWMBQGA1UEBwwNQ2Vza2EgVHJlYm92YTEoMCYGA1UECgwfTXVuaWNpcGFsIExpYnJhcnkgQ2Vza2EgVHJlYm92YTEbMBkGA1UEAwwSbW9kZXJuaWtuaWhvdm5hLmN6MS4wLAYJKoZIhvcNAQkBFh9taWNoYWwuZGVuYXJAbW9kZXJuaWtuaWhvdm5hLmN6MB4XDTE5MDkxMzA4MTgwOVoXDTI5MDkxMjA4MTgwOVowgbExCzAJBgNVBAYTAkNaMRMwEQYDVQQIDApQYXJkdWJpY2t5MRYwFAYDVQQHDA1DZXNrYSBUcmVib3ZhMSgwJgYDVQQKDB9NdW5pY2lwYWwgTGlicmFyeSBDZXNrYSBUcmVib3ZhMRswGQYDVQQDDBJtb2Rlcm5pa25paG92bmEuY3oxLjAsBgkqhkiG9w0BCQEWH21pY2hhbC5kZW5hckBtb2Rlcm5pa25paG92bmEuY3owggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDgdprQQd/RsEDU6oSFrz8IZBAkAcacIxY51cljHq3zolmkPEWt5XdKR+DrBQFw6bsuxZSncJ0Z1e2PNmlbVgWM92ecPrtxafKf39vaA3t6gWbYWX6wSvBoYvKGpKAUK+nqyDYuc/kcyj6opKlzZtdjeZYfLMDNCDtTL0EGyggKS7qFEuIoz1amw0NwMw5UrOTehyPGHjxyiiitBWDAvMhaPZX3qOYsfRJXjvpJoizVs4UzOVlQzBOmvG/RX+6DG8ozfoqeGqaXZBEYZHRczbzX84I+wSrg8hgC0UWWnJ+xF6bq4Fv9EZ+A2YGlbF4+Rk3UH3bfReF/Pfe8oxXKLzkJFbTTX81eZMrjPNIV6MU7zAHj/snkA20vrLEKAXK7kWYVAwoJBJFfhEy1jCsBUJ9KiAB05qkiH88AHmhPAqw7YHoH1hSwpXz2fYLcbpJXkCEr78Y3rl8RRdbkSu49E+Jivv9zCWbSfeRC6JpzduFcb1BLCa2PiQmpsSPP6l6vG8sCAwEAAaNTMFEwHQYDVR0OBBYEFLtz6OC72EBpE1cJFOrzIYqWJzTlMB8GA1UdIwQYMBaAFLtz6OC72EBpE1cJFOrzIYqWJzTlMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggGBAHp266F4z3d9U/llhiHQMHmRWPFxN08sGopvpu4rqBNiVYClxVH4flbZyzItsIY7/qfnhPUKzVhRkCp65dPjghTGOt03SwN85GlVV0AWTOXSf0e5Z7D/g3fmTJDU0OfTTJLWWMGTRUI/Ev9mVKkY2zBVsPUKO+KmxtBa5vQBKOM+bxbd+e59SSWiIK3swh0f8JKJW1aGQ+9Jnu4JaBY+4XzCB0A9i2XKpgqMbVhaXYffQjD836DrRtNqECzpsye55oigsBm+fCVBTlWTwcP0ao2pnFVqXSz0nX58wyYIRCR168BbJptNf6aWTGn+YdEXvGQFZkCcee2KZF0wGVZY2TPQbgI8PX0Omt3modPianAcUZzkz2Ik0C7G2/2ArBLstuGP57Fb9S/Lx3nhTxW9aHyT4E52Oayvo5ZmYk/LFtRj1uHGMh1UIwrDPqS9cdlH6KtSitjrIhvIQ0jszN/knV6v7aIHJMJF3SHXy5pkG2BcM2U8dbVwfQ2hP+7JJAlNqQ==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+        <ds:KeyInfo>
+          <ds:X509Data>
+            <ds:X509Certificate>MIIFOjCCA6KgAwIBAgIJAOKaMMxBqMO/MA0GCSqGSIb3DQEBCwUAMIGxMQswCQYDVQQGEwJDWjETMBEGA1UECAwKUGFyZHViaWNreTEWMBQGA1UEBwwNQ2Vza2EgVHJlYm92YTEoMCYGA1UECgwfTXVuaWNpcGFsIExpYnJhcnkgQ2Vza2EgVHJlYm92YTEbMBkGA1UEAwwSbW9kZXJuaWtuaWhvdm5hLmN6MS4wLAYJKoZIhvcNAQkBFh9taWNoYWwuZGVuYXJAbW9kZXJuaWtuaWhvdm5hLmN6MB4XDTE5MDkxMzA4MTgwOVoXDTI5MDkxMjA4MTgwOVowgbExCzAJBgNVBAYTAkNaMRMwEQYDVQQIDApQYXJkdWJpY2t5MRYwFAYDVQQHDA1DZXNrYSBUcmVib3ZhMSgwJgYDVQQKDB9NdW5pY2lwYWwgTGlicmFyeSBDZXNrYSBUcmVib3ZhMRswGQYDVQQDDBJtb2Rlcm5pa25paG92bmEuY3oxLjAsBgkqhkiG9w0BCQEWH21pY2hhbC5kZW5hckBtb2Rlcm5pa25paG92bmEuY3owggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDgdprQQd/RsEDU6oSFrz8IZBAkAcacIxY51cljHq3zolmkPEWt5XdKR+DrBQFw6bsuxZSncJ0Z1e2PNmlbVgWM92ecPrtxafKf39vaA3t6gWbYWX6wSvBoYvKGpKAUK+nqyDYuc/kcyj6opKlzZtdjeZYfLMDNCDtTL0EGyggKS7qFEuIoz1amw0NwMw5UrOTehyPGHjxyiiitBWDAvMhaPZX3qOYsfRJXjvpJoizVs4UzOVlQzBOmvG/RX+6DG8ozfoqeGqaXZBEYZHRczbzX84I+wSrg8hgC0UWWnJ+xF6bq4Fv9EZ+A2YGlbF4+Rk3UH3bfReF/Pfe8oxXKLzkJFbTTX81eZMrjPNIV6MU7zAHj/snkA20vrLEKAXK7kWYVAwoJBJFfhEy1jCsBUJ9KiAB05qkiH88AHmhPAqw7YHoH1hSwpXz2fYLcbpJXkCEr78Y3rl8RRdbkSu49E+Jivv9zCWbSfeRC6JpzduFcb1BLCa2PiQmpsSPP6l6vG8sCAwEAAaNTMFEwHQYDVR0OBBYEFLtz6OC72EBpE1cJFOrzIYqWJzTlMB8GA1UdIwQYMBaAFLtz6OC72EBpE1cJFOrzIYqWJzTlMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggGBAHp266F4z3d9U/llhiHQMHmRWPFxN08sGopvpu4rqBNiVYClxVH4flbZyzItsIY7/qfnhPUKzVhRkCp65dPjghTGOt03SwN85GlVV0AWTOXSf0e5Z7D/g3fmTJDU0OfTTJLWWMGTRUI/Ev9mVKkY2zBVsPUKO+KmxtBa5vQBKOM+bxbd+e59SSWiIK3swh0f8JKJW1aGQ+9Jnu4JaBY+4XzCB0A9i2XKpgqMbVhaXYffQjD836DrRtNqECzpsye55oigsBm+fCVBTlWTwcP0ao2pnFVqXSz0nX58wyYIRCR168BbJptNf6aWTGn+YdEXvGQFZkCcee2KZF0wGVZY2TPQbgI8PX0Omt3modPianAcUZzkz2Ik0C7G2/2ArBLstuGP57Fb9S/Lx3nhTxW9aHyT4E52Oayvo5ZmYk/LFtRj1uHGMh1UIwrDPqS9cdlH6KtSitjrIhvIQ0jszN/knV6v7aIHJMJF3SHXy5pkG2BcM2U8dbVwfQ2hP+7JJAlNqQ==</ds:X509Certificate>
+          </ds:X509Data>
+        </ds:KeyInfo>
+      </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.moderniknihovna.cz/saml2/idp/SingleLogoutService.php" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.moderniknihovna.cz/saml2/idp/SSOService.php" />
+    </md:IDPSSODescriptor>
+  <md:Organization>
+      <md:OrganizationName xml:lang="en">Municipal Library Česká Třebová</md:OrganizationName>
+    <md:OrganizationName xml:lang="cs">Městská knihovna Česká Třebová</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Municipal Library Česká Třebová</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="cs">Městská knihovna Česká Třebová</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://www.moderniknihovna.cz/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="cs">https://www.moderniknihovna.cz/</md:OrganizationURL>
+    </md:Organization>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Michal</md:GivenName>
+    <md:SurName>Denár</md:SurName>
+    <md:EmailAddress>mailto:michal.denar@ceska-trebova.cz</md:EmailAddress>
+    </md:ContactPerson>
+  <md:ContactPerson contactType="technical">
+      <md:GivenName>Michal</md:GivenName>
+    <md:SurName>Denár</md:SurName>
+    <md:EmailAddress>mailto:michal.denar@ceska-trebova.cz</md:EmailAddress>
     </md:ContactPerson>
   </md:EntityDescriptor>
 <md:EntityDescriptor entityID="https://idp.muzeumprahy.cz/idp/shibboleth">

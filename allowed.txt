@@ -174,3 +174,4 @@ https://knihovna-cr.cz/idp/shibboleth
 https://idp.mzm.cz/idp/shibboleth
 https://knihovnachodov.cz/idp/shibboleth
 https://knihmil.cz/idp/shibboleth
+https://idp.moderniknihovna.cz/saml2/idp/metadata.php
