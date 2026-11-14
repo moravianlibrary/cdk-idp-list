@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-12-10T09:58:02Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+<md:EntitiesDescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:eduidmd="http://eduid.cz/schema/metadata/1.0" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" xmlns:remd="http://refeds.org/metadata" xmlns:req-attr="urn:oasis:names:tc:SAML:protocol:ext:req-attr" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="eduid_idp" Name="https://eduid.cz/metadata" validUntil="2026-12-10T23:53:01Z" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
   <ds:Signature>
     <ds:SignedInfo>
       <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
@@ -10,15 +10,15 @@
         <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
         </ds:Transforms>
       <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
-      <ds:DigestValue>UtnpXO4luh1v0iLaU+uvntV9/v+elTqIGzrTa1m8DKI=</ds:DigestValue>
+      <ds:DigestValue>gVc/m5dSYHxg3ztC4U2PSppHIsR7wJznYJWjKp5jx08=</ds:DigestValue>
       </ds:Reference>
     </ds:SignedInfo>
   <ds:SignatureValue>
-6q6/fUAM98CSA9f7NqGHUVcXnaUj7acj8ySqikSKCvFSdysmZ4cvyl6KPIUf+4AG+PSjC/saFY4A
-/M3rChcqvW8JjvFcLwslJgtzgGv7pJgCcfled4TmBrlfrz2ZVLGNNXiLsShz9lH0H0+C3YNV8sQa
-TEotXe56SAhoQ7K4luRxcg+IvnPevoIXQYLwHzMPROgkE0tecRQpYa7TFfEG2Ahtc+2Si7BZ0qta
-AejDPEWSJ4EZYurIcli7sBn4qH59UMzf3kAWQdNGYJ1zGKs5hkG05yx/WAS4yWEyG7yKxJd/l9zp
-QDUvVp8nUEmXYAlI/qSTUtKB2kcX6GLb3dKO3w==
+9Nd+WixHLPL3KP81H9naBaiYlKz7Gdr9HgR1P+8eGQas6l+i/2cm6hwLNtAkBoZq6LTVMP1cXwox
+yCpHOWijDEqeVy/P77EhSUYGsLn1eIwZ0k1mp+1pEd8fVz6Pk+5kte70hZFq13uPZNbKiUR0ng/8
+YqMHYp9EK4FHFHSCwkRRavIJZDby769QVUuDR32l+04OQMNeslmKySF4vyhU7GBYKwKk7yZ8Ar5F
+PWvMcUKC2HjCLHork6KK09jAAyLamtCuSOlNfwHraRB+QdD02XDfMwYJ80JgWv+1Exmzc4gRlIHS
+K9yNFblutZaGCwTZfpERKIEiEYW8cehKN5pNAw==
 </ds:SignatureValue>
   <ds:KeyInfo>
       <ds:KeyValue>
